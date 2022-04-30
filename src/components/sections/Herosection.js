@@ -60,7 +60,7 @@ function Herosection(props) {
               to="section-contact"
               spy={true}
               smooth={true}
-              duration={9000}
+              duration={12000}
             >
               Hire me / us
             </Link>
