@@ -1,0 +1,80 @@
+import React from "react";
+import Pagetitle from "../elements/Pagetitle";
+import Pricebox from "../elements/Pricebox";
+import { Link } from "react-scroll";
+
+const priceboxData = [
+  {
+    id: 1,
+    title: "Web Development",
+    icon: "images/reactjs.png",
+    content: [
+      {
+        id: 0,
+        text: "Reliable and Outstanding Landings Websites, starting at:",
+      },
+    ],
+    price: 1500,
+    best: false,
+    badge: false,
+  },
+  {
+    id: 2,
+    title: "Unlocking Data Value",
+    icon: "images/graphql.png",
+    content: [
+      {
+        id: 1,
+        text: "We unlock the value of data for your competitive advantage wit GraphQL Techs and DBs",
+      },
+    ],
+    price: "Contact",
+    best: true,
+    badge: "Recommended",
+  },
+  {
+    id: 3,
+    title: "Smart Contract Development",
+    icon: "images/polygon.png",
+    content: [
+      { id: 1, text: "Focus on Ethereum and Polygon and We are available for other blockchains, starting at:" },
+    ],
+    price: 4000,
+    best: false,
+    badge: false,
+  },
+];
+
+function Pricing() {
+  return (
+    <section id="section-services">
+      <div className="container">
+        <Pagetitle title="Pricing Plans" />
+        <div className="row align-items-center">
+          {priceboxData.map((pricebox) => (
+            <div key={pricebox.id} className="col-md-4">
+              <Pricebox priceboxItem={pricebox} />
+            </div>
+          ))}
+        </div>
+        <div className="mt-5 text-center">
+          <p className="mb-0">
+            Looking for a custom job?{" "}
+            <Link
+              className="colorpink pointer"
+              to="section-contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Click here
+            </Link>{" "}
+            to contact me! 👋
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Pricing;
