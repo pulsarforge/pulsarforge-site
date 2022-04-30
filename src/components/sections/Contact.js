@@ -24,10 +24,10 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <p>
+                <h2>
                   Send me an{" "}
                   <a href="mailto:servicios@inursites.com">email</a>. 👋
-                </p>
+                </h2>
               </ScrollAnimation>
             </div>
           </div>
