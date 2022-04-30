@@ -17,7 +17,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>Let's talk about Collabs and Business!</h3>
+                <h3>Let's talk about Collabs and Business.</h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
