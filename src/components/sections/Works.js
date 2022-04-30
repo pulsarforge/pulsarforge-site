@@ -10,15 +10,15 @@ const filters = [
   },
   {
     id: 2,
-    text: "OpenSource",
+    text: "open-source",
   },
   {
     id: 3,
-    text: "Bounties-Done",
+    text: "bounties-done",
   },
   {
     id: 4,
-    text: "Works-Completed",
+    text: "works-completed",
   },
 ];
 
@@ -26,21 +26,21 @@ const allData = [
   {
     id: 1,
     title: "BlockverseKit",
-    category: "OpenSource",
+    category: "open-source",
     image: "images/works/Blockversekit.png",
     link: ["https://blockversekit.pages.dev/"],
   },
   {
     id: 2,
     title: "Inursites",
-    category: "OpenSource",
+    category: "open-source",
     image: "images/works/Inursites.webp",
     link: ["https://inursites.com/"],
   },
   {
     id: 3,
     title: "PulsarForge",
-    category: "OpenSource",
+    category: "open-source",
     image: "images/works/PulsarForge.png",
     link: ["https://github.com/pulsarforge"],
   },
