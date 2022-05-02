@@ -25,7 +25,7 @@ const priceboxData = [
     content: [
       {
         id: 1,
-        text: "We unlock the value of data for your competitive advantage wit GraphQL Techs and DBs",
+        text: "We unlock the value of data for your competitive advantage with GraphQL Techs and DBs",
       },
     ],
     price: "Contact",
