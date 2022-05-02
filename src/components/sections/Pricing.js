@@ -58,7 +58,7 @@ function Pricing() {
           ))}
         </div>
         <div className="mt-5 text-center">
-          <p className="mb-0">
+          <h4 className="mb-0">
             Looking for a custom job?{" "}
             <Link
               className="colorpink pointer"
@@ -70,7 +70,7 @@ function Pricing() {
               Click here
             </Link>{" "}
             to contact me! 👋
-          </p>
+          </h4>
         </div>
       </div>
     </section>
