@@ -9,7 +9,7 @@ function Pagetitle({ title }) {
         animateOut="fadeInOut"
         animateOnce={true}
       >
-        <h2 className="section-title">{title}</h2>
+        <h2 className="section-title" style={{color: "white"}}>{title}</h2>
       </ScrollAnimation>
       <div className="spacer" data-height="60"></div>
     </>

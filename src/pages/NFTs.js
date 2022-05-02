@@ -166,7 +166,7 @@ const filters = [
     },
     {
       id: 18,
-      title: "Electrical-Way",
+      title: "Electrical Way",
       category: "1 to 108",
       image: "images/works/V0018-Electrical-Way.png",
       popupLink: ["images/works/V0018-Electrical-Way.png"],
@@ -229,13 +229,16 @@ function NFTs() {
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="works">
           <div className="container">
-            <Pagetitle title="NFTs Collections" />
+            <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
+          <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="1050" height="320" style={{border:1}} frameborder="0" scrolling="no"></iframe>
+            <Pagetitle title="Near Voxelverse NFTs Collection" />
             {/* Start Portfolio Filters */}
             <ScrollAnimation
               animateIn="fadeInUp"
               animateOut="fadeInOut"
               animateOnce={true}
             >
+              
               <ul className="portfolio-filter list-inline">
                 {filters.map((filter) => (
                   <li className="list-inline-item" key={filter.id}>
@@ -280,9 +283,6 @@ function NFTs() {
                 )}
               </button>
             </div>
-          </div>
-          <div className="container">
-            
           </div>
         </section>
         <Footer />
