@@ -230,7 +230,7 @@ function NFTs() {
         <section id="works">
           <div className="container">
             <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
-          <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="1050" height="320" style={{border:1}} frameborder="0" scrolling="no"></iframe>
+          <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="480" height="320" style={{border:1, alignContent: "center"}} frameborder="0" scrolling="no"></iframe>
             <Pagetitle title="Near Voxelverse NFTs Collection" />
             {/* Start Portfolio Filters */}
             <ScrollAnimation
