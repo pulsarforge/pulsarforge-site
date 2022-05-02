@@ -229,8 +229,10 @@ function NFTs() {
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="works">
           <div className="container">
-            <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
-          <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="380" height="320" style={{border:1, alignContent: "center"}} frameborder="0" scrolling="no"></iframe>
+            <div>
+              <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
+              <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="100%" height="320" frameborder="0" scrolling="no"></iframe>
+            </div>
             <Pagetitle title="Near Voxelverse NFTs Collection" />
             {/* Start Portfolio Filters */}
             <ScrollAnimation
