@@ -20,9 +20,11 @@ function Pricebox({ priceboxItem }) {
         <em>$</em>
         {price}
       </h3>
-      <a href="!#" className="btn btn-default">
-        Get Started
-      </a>
+      <div className="mt-4">
+        <h2 className="btn btn-default">
+          <a href="mailto:servicios@inursites.com" style={{fontSize: 25, color:"white", textDecoration: "none"}}>Get Started</a>
+        </h2>
+          </div>
     </div>
   );
 }
