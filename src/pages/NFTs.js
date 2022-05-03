@@ -297,6 +297,25 @@ function NFTs() {
             <div>
               <Experiences />
             </div>
+            <div>
+              <ul className="social-icons light list-inline mb-0 mt-4">
+                <li className="list-inline-item">
+                  <a href="https://discord.com/invite/frYAsD2DjT">
+                    Civilizations Voxelverse <i className="fab fa-discord"></i>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://twitter.com/reymlgz">
+                    Rey M. <i className="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://twitter.com/pulsarforge">
+                    PulsarForge <i className="fab fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <div style={{marginTop: 70}}>
               <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
               <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="100%" height="320" frameborder="0" scrolling="no"></iframe>
