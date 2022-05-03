@@ -238,6 +238,9 @@ function NFTs() {
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="works">
           <div className="container">
+              <h2 style={{color: "white", width: "100%", marginTop: 100, marginBottom: 100}}>
+               For You to: Earn, Collect, Discover, Build, Explore
+              </h2>
             <div style={{marginTop: 40}}>
               <Pagetitle title="Voxelverse Exoplanets NFTs Collection" />
             </div>{/* Start Portfolio Filters */}
