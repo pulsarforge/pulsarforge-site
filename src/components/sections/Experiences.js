@@ -36,10 +36,10 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
-    title: "Merchandise Line",
-    years: "2022 - Q3",
+    title: "Merchandise Line & 3D Prints",
+    years: "2022 Q3 - Beyond",
     content:
-      "Fine high quality prints, and outstanding clothing.",
+      "Fine prints, outstanding clothing, 3D toys.",
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ const experienceData = [
     title: "Increase Ecosystem and Initiatives",
     years: "2024 Q3 - Beyond",
     content:
-      "Here for the long marathon.",
+      "Here for the long marathon. Real Life Events.",
   },
 ];
 
