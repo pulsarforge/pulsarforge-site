@@ -22,7 +22,7 @@ const educationData = [
     title: "1º Batch Voxelverse Exoplanets",
     years: "2022 - Q2",
     content:
-      "On Endemic.app, Aurora, Ethereum.",
+      "On ParasID, NEAR.",
   },
   {
     id: 4,
