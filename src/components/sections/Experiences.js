@@ -43,7 +43,7 @@ const experienceData = [
   },
   {
     id: 2,
-    title: "Augmented reality experiences",
+    title: "Augmented Reality Experiences",
     years: "2023 - Q1",
     content:
       "On sketchfab, for all to enjoy.",
@@ -57,7 +57,7 @@ const experienceData = [
   },  
   {
     id: 4,
-    title: "Increase ecosystem and initiatives",
+    title: "Increase Ecosystem and Initiatives",
     years: "2024 Q3 - Beyond",
     content:
       "Here for the long marathon.",
