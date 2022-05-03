@@ -3,44 +3,53 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../components/elements/Pagetitle";
 import Portfolio from "../components/elements/Portfolio";
 import Header3 from "../components/layouts/Header3";
+import Experiences from "../components/sections/Experiences";
 import Footer from "../components/layouts/Footer";
 
 const filters = [
     {
       id: 1,
-      text: "Voxelverse All In",
+      text: "Voxelverse Exoplanets",
     },
     {
       id: 2,
-      text: "1 to 108",
+      text: "1000",
     },
     {
       id: 3,
-      text: "109 to 217",
+      text: "2000",
     },
     {
       id: 4,
-      text: "218 to 326",
+      text: "3000",
     },
     {
       id: 5,
-      text: "327 to 435",
+      text: "4000",
     },
     {
       id: 6,
-      text: "436 to 544",
+      text: "5000",
     },
     {
       id: 7,
-      text: "545 to 653",
+      text: "6000",
     },
     {
       id: 8,
-      text: "654 to 762",
+      text: "7000",
     },
     {
       id: 9,
-      text: "763 to 871",
+      text: "8000",
+    },
+    {
+      id: 10,
+      text: "9000",
+    },
+    {
+      id:11,
+      text: "10000",
     }
   ];
   
@@ -48,126 +57,126 @@ const filters = [
     {
       id: 1,
       title: "The Gathering",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/The-Gathering.png",
       popupLink: ["images/works/The-Gathering.png"],
     },
     {
       id: 2,
       title: "Cube Growth Chamber",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Cube-Growth-Chamber.png",
       popupLink: ["images/works/Cube-Growth-Chamber.png"],
     },
     {
       id: 3,
       title: "Spring",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Spring.png",
       popupLink: ["images/works/Spring.png"],
     },
     {
       id: 4,
       title: "Claws",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Bio-Portal.png",
       popupLink: ["images/works/Bio-Portal.png"],
     },
     {
       id: 5,
       title: "Magnetical Landing",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Magnetical-Landing.png",
       popupLink: ["images/works/Magnetical-Landing.png"],
     },
     {
       id: 6,
       title: "Energy Integrator",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Energy-Integrator.png",
       popupLink: ["images/works/Energy-Integrator.png"],
     },
     {
       id: 7,
       title: "Claws",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Claws.png",
       popupLink: ["images/works/Claws.png"],
     },
     {
       id: 8,
       title: "Concentration",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Concentration.png",
       popupLink: ["images/works/Concentration.png"],
     },
     {
       id: 9,
       title: "Risks",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Risks.png",
       popupLink: ["images/works/Risks.png"],
     },
     {
       id: 10,
       title: "Vitamins Receptor",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Vitamins-Receptor.png",
       popupLink: ["images/works/Vitamins-Receptor.png"],
     },
     {
       id: 11,
       title: "The Ascension",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/The-Ascension.png",
       popupLink: ["images/works/The-Ascension.png"],
     },
     {
       id: 12,
       title: "Union Motor",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Union-Motor.png",
       popupLink: ["images/works/Union-Motor.png"],
     },
     {
       id: 13,
       title: "Max Security",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Max-Security.png",
       popupLink: ["images/works/Max-Security.png"],
     },
     {
       id: 14,
       title: "Energy Spreader",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Energy-Spreader.png",
       popupLink: ["images/works/Energy-Spreader.png"],
     },
     {
       id: 15,
       title: "Getting Sun",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/Getting-Sun.png",
       popupLink: ["images/works/Getting-Sun.png"],
     },
     {
       id: 16,
       title: "Volcano Phase",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/V0016-Volcano-Phase.png",
       popupLink: ["images/works/V0016-Volcano-Phase.png"],
     },
     {
       id: 17,
       title: "Growth Diet",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/V0017-Growth-Diet.png",
       popupLink: ["images/works/V0017-Growth-Diet.png"],
     },
     {
       id: 18,
       title: "Electrical Way",
-      category: "1 to 108",
+      category: "1000",
       image: "images/works/V0018-Electrical-Way.png",
       popupLink: ["images/works/V0018-Electrical-Way.png"],
     },
@@ -229,12 +238,9 @@ function NFTs() {
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="works">
           <div className="container">
-            <div>
-              <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
-              <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="100%" height="320" frameborder="0" scrolling="no"></iframe>
-            </div>
-            <Pagetitle title="Near Voxelverse NFTs Collection" />
-            {/* Start Portfolio Filters */}
+            <div style={{marginTop: 40}}>
+              <Pagetitle title="Voxelverse Exoplanets NFTs Collection" />
+            </div>{/* Start Portfolio Filters */}
             <ScrollAnimation
               animateIn="fadeInUp"
               animateOut="fadeInOut"
@@ -284,6 +290,13 @@ function NFTs() {
                   </span>
                 )}
               </button>
+            </div>
+            <div>
+              <Experiences />
+            </div>
+            <div style={{marginTop: 70}}>
+              <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
+              <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="100%" height="320" frameborder="0" scrolling="no"></iframe>
             </div>
           </div>
         </section>

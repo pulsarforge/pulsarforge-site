@@ -34,7 +34,7 @@ const allData = [
     id: 2,
     title: "Inursites",
     category: "open-source",
-    image: "images/works/Inursites.webp",
+    image: "images/works/Inursites.png",
     link: ["https://inursites.com/"],
   },
   {

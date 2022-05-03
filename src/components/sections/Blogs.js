@@ -22,6 +22,15 @@ const allBlogs = [
     author: "PulsarForge",
     category: "Metaverse",
   },
+  {
+    id: 3,
+    title: "Estonia dream travel",
+    image: "images/blog/Estonia.png",
+    filesource: "../../blogs/estonia.md",
+    date: "03 May, 2022",
+    author: "PulsarForge",
+    category: "Estonia",
+  },
 ];
 
 function Blogs() {

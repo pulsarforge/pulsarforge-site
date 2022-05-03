@@ -48,6 +48,11 @@ function Herosection(props) {
               </a>
             </li>
             <li className="list-inline-item">
+              <a href="https://github.com/pulsarforge">
+                <i className="fab fa-github"></i>
+              </a>
+            </li>
+            <li className="list-inline-item">
               <a href="https://www.twitch.tv/pulsarforge">
                 <i className="fab fa-twitch"></i>
               </a>
