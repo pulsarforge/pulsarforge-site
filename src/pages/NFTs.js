@@ -77,7 +77,7 @@ const filters = [
     },
     {
       id: 4,
-      title: "Claws",
+      title: "Bio Portal",
       category: "1000",
       image: "images/works/Bio-Portal.png",
       popupLink: ["images/works/Bio-Portal.png"],
