@@ -34,7 +34,7 @@ const priceboxData = [
   },
   {
     id: 3,
-    title: "Smart Contract Development",
+    title: "Smart Contract",
     icon: "images/polygon.png",
     content: [
       { id: 1, text: "Focus on Ethereum and Polygon and We are available for other blockchains" },
