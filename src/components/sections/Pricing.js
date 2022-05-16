@@ -14,7 +14,7 @@ const priceboxData = [
         text: "Reliable and Outstanding Landings Websites, starting at:",
       },
     ],
-    price: 1500,
+    price: "Contact",
     best: false,
     badge: false,
   },
@@ -39,7 +39,7 @@ const priceboxData = [
     content: [
       { id: 1, text: "Focus on Ethereum and Polygon and We are available for other blockchains, starting at:" },
     ],
-    price: 4000,
+    price: "Contact",
     best: false,
     badge: false,
   },
@@ -49,7 +49,7 @@ function Pricing() {
   return (
     <section id="section-services">
       <div className="container">
-        <Pagetitle title="Pricing Plans" />
+        <Pagetitle title="Main Plans" />
         <div className="row align-items-center">
           {priceboxData.map((pricebox) => (
             <div key={pricebox.id} className="col-md-4">
