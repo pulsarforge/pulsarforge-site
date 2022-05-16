@@ -11,7 +11,7 @@ const priceboxData = [
     content: [
       {
         id: 0,
-        text: "Reliable and Outstanding Landings Websites, starting at:",
+        text: "Reliable and Outstanding Websites",
       },
     ],
     price: "Contact",
@@ -37,7 +37,7 @@ const priceboxData = [
     title: "Smart Contract Development",
     icon: "images/polygon.png",
     content: [
-      { id: 1, text: "Focus on Ethereum and Polygon and We are available for other blockchains, starting at:" },
+      { id: 1, text: "Focus on Ethereum and Polygon and We are available for other blockchains." },
     ],
     price: "Contact",
     best: false,
