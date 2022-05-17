@@ -6,9 +6,9 @@ const educationData = [
   {
     id: 1,
     title: "Art Stream",
-    years: "2022 Q2 - 2023 Q2",
+    years: "2022 Q2 - 2025 Q2",
     content:
-      "Releasing in batches, 10.000  Voxelverse Exoplanets",
+      "Releasing in batches, Nº ??.000 Exoplanets",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const educationData = [
     title: "1º Batch Voxelverse Exoplanets",
     years: "2022 - Q2",
     content:
-      "On ParasID, NEAR.",
+      "On ParasID, NEAR. Metadata for evolutions & collabs",
   },
   {
     id: 4,
