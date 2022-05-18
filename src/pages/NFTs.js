@@ -35,8 +35,11 @@ const filters = [
       id: 7,
       text: "???...",
     },
+    {
+      id: 7,
+      text: "Droid-Squads...",
+    },
   ];
-  
   const allData = [
     {
       id: 1,
@@ -70,8 +73,8 @@ const filters = [
       id: 5,
       title: "Magnetical Landing",
       category: "near",
-      image: "images/works/Magnetical-Landing.png",
-      popupLink: ["images/works/Magnetical-Landing.png"],
+      image: "images/works/V0005-Magnetical-Landing-Colour-V1.png",
+      popupLink: ["images/works/V0005-Magnetical-Landing-Colour-V1.png","images/works/Magnetical-Landing.png"],
     },
     {
       id: 6,
@@ -222,19 +225,26 @@ function NFTs() {
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="works">
           <div className="container">
-              <h2 style={{color: "white", width: "100%", marginTop: 100, marginBottom: 100}}>
-               For You to: Earn, Collect, Discover, Build, Explore
+              <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
+               Voxelverse for You to: Earn, Collect, Discover, Build, Explore
               </h2>
-              <h3 style={{color: "white", width: "100%", marginTop: 100, marginBottom: 100}}> Voxelverse: interdimensional NFTs connected to different blockchains and ecosystems. </h3>
               <ul className="social-icons light list-inline mb-0 mt-4">
                 <li className="list-inline-item">
+                    <h3 style={{color: "white", width: "100%"}}>NEAR collection soon buy on paras.id</h3>
+                </li>
+                <li className="list-inline-item">
                   <a href="https://discord.com/invite/frYAsD2DjT">
-                    Civilizations Voxelverse <i className="fab fa-discord"></i>
+                    Join to Civilizations Voxelverse Discord <i className="fab fa-discord"></i>
                   </a>
                 </li>
               </ul>
+              <h3 style={{color: "white", width: "100%", marginTop: 30, marginBottom: 10}}> Interdimensional NFTs connected to different blockchains and ecosystems</h3>
+              <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace </h3>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Phases: Own exoplanets conquer galaxies / Command droid squads, PFP NFTs / Clash of dimensions, cross the portals </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>  </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>  </h4>
             <div style={{marginTop: 40}}>
-              <Pagetitle title="Voxelverse Exoplanets NFTs Collection" />
+              <Pagetitle title="Voxelverse Exoplanets and Droid Squads NFTs Collections" />
             </div>{/* Start Portfolio Filters */}
             <ScrollAnimation
               animateIn="fadeInUp"
@@ -270,7 +280,7 @@ function NFTs() {
               ))}
             </div>
             {/* End Portfolio Items */}
-    
+
             <div className="load-more text-center mt-4">
               <button
                 className="btn btn-default"
