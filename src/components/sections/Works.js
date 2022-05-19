@@ -27,7 +27,7 @@ const allData = [
     id: 1,
     title: "BlockverseKit",
     category: "open-source",
-    image: "images/works/Blockversekit.png",
+    image: "images/works/BlockverseKit.png",
     link: ["https://blockversekit.pages.dev/"],
   },
   {
