@@ -307,11 +307,6 @@ function NFTs() {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://twitter.com/reymlgz">
-                    Rey M. <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
                   <a href="https://twitter.com/pulsarforge">
                     PulsarForge <i className="fab fa-twitter"></i>
                   </a>
