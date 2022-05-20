@@ -5,6 +5,7 @@ import Portfolio from "../components/elements/Portfolio";
 import Header3 from "../components/layouts/Header3";
 import Experiences from "../components/sections/Experiences";
 import Footer from "../components/layouts/Footer";
+import { Helmet } from "react-helmet";
 
 const filters = [
     {
@@ -222,6 +223,10 @@ function NFTs() {
   
     return (
       <>
+        <Helmet>
+          <title>Civilizations Voxelverse NFTs</title>
+          <meta name="description" content="Interdimensional NFTs connected to different blockchains and ecosystems. Exoplanets and Droid Squad Collections. Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace" />
+        </Helmet>
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="works">
           <div className="container">

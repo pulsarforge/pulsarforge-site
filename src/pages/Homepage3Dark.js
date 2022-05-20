@@ -10,11 +10,16 @@ import Contact from "../components/sections/Contact";
 import Herosection from "../components/sections/Herosection";
 import Pricing from "../components/sections/Pricing";
 import Works from "../components/sections/Works";
+import { Helmet } from "react-helmet";
 
 function Homepage3() {
   document.body.classList.add("dark");
   return (
     <>
+      <Helmet>
+        <title> PulsarForge software engineer, unlocking data value, web3</title>
+        <meta name="description" content="Developers team in web3, coding multichain tools, unlocking data value with APIs REST and GraphQL, Fron-End Developments, and smart contracts" />
+      </Helmet>
       <Header3 logoSource="/images/PulsarForge-1.png" />
       <main className="content-3">
         <Element name="section-home">

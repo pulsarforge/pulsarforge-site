@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header3 from "../components/layouts/Header3";
 import Blog from "../components/elements/Blog";
 import Pagination from "../components/elements/Pagination";
+import { Helmet } from "react-helmet";
 
 const allBlogs = [
   {
@@ -69,6 +70,10 @@ function Bloglist() {
 
   return (
     <>
+      <Helmet>
+        <title>Blog, Software Engineer team, Showcasing Developments, Web3, Metaverse.</title>
+        <meta name="description" content="Key updates on developments, about Software Engineering, Web3, Metaverse, showcase place for the developer team, coding internal tools and case studies of clients" />
+      </Helmet>
       <Header3
         logoSource="/images/PulsarForge-1.png"
         toggleMenu={toggleMenu}

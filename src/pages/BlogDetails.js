@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import Header3 from "../components/layouts/Header3";
+import { Helmet } from "react-helmet";
 
 function BlogDetails(props) {
   const [content, setContent] = useState("");
@@ -34,6 +35,10 @@ function BlogDetails(props) {
 
   return (
     <>
+      <Helmet>
+        <title>Blog Articles of Software Engineering, Web3, Metaverse.</title>
+        <meta name="description" content="Key updates on developments, about Software Engineering, Web3, Metaverse, showcase place for the developer team, coding internal tools and  programming for clients" />
+      </Helmet>
       <Header3
         logoSource="/images/PulsarForge-1.png"
         toggleMenu={toggleMenu}
