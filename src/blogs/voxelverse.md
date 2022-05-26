@@ -1,4 +1,4 @@
-![Voxelverse](/images/blog/Magnetical-Landing.png)
+![Voxelverse](/images/blog/V00001-The-Gathering-V1.png)
 
 ### Voxelverse
 

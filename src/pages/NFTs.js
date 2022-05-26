@@ -44,10 +44,10 @@ const filters = [
   const allData = [
     {
       id: 1,
-      title: "The Gathering",
+      title: "Magnetical Landing",
       category: "near",
-      image: "images/works/The-Gathering.png",
-      popupLink: ["images/works/The-Gathering.png"],
+      image: "images/works/Magnetical-Landing.png",
+      popupLink: ["images/works/Magnetical-Landing.png"],
     },
     {
       id: 2,
@@ -72,10 +72,10 @@ const filters = [
     },
     {
       id: 5,
-      title: "Magnetical Landing",
+      title: "The Gathering",
       category: "near",
-      image: "images/works/V0005-Magnetical-Landing-Colour-V1.png",
-      popupLink: ["images/works/V0005-Magnetical-Landing-Colour-V1.png","images/works/Magnetical-Landing.png"],
+      image: "images/works/V00001-The-Gathering-V1.png",
+      popupLink: ["images/works/V00001-The-Gathering-V1.png","images/works/The-Gathering.png"],
     },
     {
       id: 6,
