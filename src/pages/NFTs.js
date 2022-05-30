@@ -235,11 +235,13 @@ function NFTs() {
               </h2>
               <ul className="social-icons light list-inline mb-0 mt-4">
                 <li className="list-inline-item">
-                    <h3 style={{color: "white", width: "100%"}}>NEAR collection soon buy on paras.id</h3>
-                </li>
-                <li className="list-inline-item">
                   <a href="https://discord.com/invite/frYAsD2DjT">
                     Join to Civilizations Voxelverse Discord <i className="fab fa-discord"></i>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://paras.id/es/collection/voxelverse-exoplanets-by-pulsarforgenear">
+                    Voxelverse Exoplanets First Launch on NEAR / ParasID
                   </a>
                 </li>
               </ul>
