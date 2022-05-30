@@ -22,7 +22,7 @@ function Pricebox({ priceboxItem }) {
       </h3>
       <div className="mt-4">
         <h2 className="btn btn-default">
-          <a href="mailto:servicios@inursites.com" style={{fontSize: 20, color:"white", textDecoration: "none"}}>Get Started</a>
+          <a href="mailto:omgworkshopfire@gmail.com" style={{fontSize: 20, color:"white", textDecoration: "none"}}>Get Started</a>
         </h2>
           </div>
     </div>

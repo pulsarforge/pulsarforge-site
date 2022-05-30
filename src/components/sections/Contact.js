@@ -26,7 +26,7 @@ function Contact() {
               >
                 <h2>
                   Send me an{" "}
-                  <a href="mailto:servicios@inursites.com">email</a>. 👋
+                  <a href="mailto:omgworkshopfire@gmail.com">email</a>. 👋
                 </h2>
               </ScrollAnimation>
             </div>
