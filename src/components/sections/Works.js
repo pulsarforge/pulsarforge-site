@@ -32,10 +32,10 @@ const allData = [
   },
   {
     id: 2,
-    title: "Inursites",
+    title: "Civilizations Voxelverse",
     category: "open-source",
-    image: "images/works/Inursites.png",
-    link: ["https://inursites.com/"],
+    image: "images/works/V00001-The-Gathering-V1.png",
+    link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
   {
     id: 3,

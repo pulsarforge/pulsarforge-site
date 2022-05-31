@@ -15,8 +15,7 @@ function About() {
       <div className="container">
         <Pagetitle title="About" />
         <h2>CoFounder of:</h2>
-        <h3>blockversekit.pages.dev Web3 Developer Team</h3>
-        <h3>inursites.com Digital Agency</h3>
+        <h3>blockversekit.pages.dev Multi chain analytics DApp, and Web3 Developer Team.</h3>
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left">
