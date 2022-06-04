@@ -259,7 +259,7 @@ function NFTs() {
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>  </h4>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>  </h4>
             <div style={{marginTop: 40}}>
-              <Pagetitle title="Voxelverse Exoplanets and Droid Squads NFTs Collections" />
+              <Pagetitle title="Civilizations Voxelverse" />
             </div>{/* Start Portfolio Filters */}
             <ScrollAnimation
               animateIn="fadeInUp"
