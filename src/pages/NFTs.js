@@ -37,8 +37,16 @@ const filters = [
       text: "???...",
     },
     {
-      id: 7,
-      text: "Droid-Squads...",
+      id: 8,
+      text: "Voxel-Towers",
+    },
+    {
+      id: 9,
+      text: "Droid-Squads",
+    },
+    {
+      id: 10,
+      text: "Space-Pets",
     },
   ];
   const allData = [
