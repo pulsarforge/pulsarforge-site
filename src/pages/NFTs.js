@@ -14,39 +14,39 @@ const filters = [
     },
     {
       id: 2,
-      text: "near",
-    },
-    {
-      id: 3,
-      text: "Aurora",
-    },
-    {
-      id: 4,
-      text: "Polygon",
-    },
-    {
-      id: 5,
-      text: "?...",
-    },
-    {
-      id: 6,
-      text: "??...",
-    },
-    {
-      id: 7,
-      text: "???...",
-    },
-    {
-      id: 8,
       text: "Voxel-Towers",
     },
     {
-      id: 9,
+      id: 3,
       text: "Droid-Squads",
     },
     {
-      id: 10,
+      id: 4,
       text: "Space-Pets",
+    },
+    {
+      id: 5,
+      text: "near",
+    },
+    {
+      id: 6,
+      text: "Aurora",
+    },
+    {
+      id: 7,
+      text: "Polygon",
+    },
+    {
+      id: 8,
+      text: "?...",
+    },
+    {
+      id: 9,
+      text: "??...",
+    },
+    {
+      id: 10,
+      text: "???...",
     },
   ];
   const allData = [
