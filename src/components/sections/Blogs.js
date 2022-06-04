@@ -36,7 +36,7 @@ const allBlogs = [
 function Blogs() {
   return (
     <section id="blog">
-      <div className="container">
+      <div className="container" style={{marginTop: "200px"}}>
         <Pagetitle title="Latest Posts" />
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (

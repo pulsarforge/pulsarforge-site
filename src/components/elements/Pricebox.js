@@ -11,7 +11,7 @@ function Pricebox({ priceboxItem }) {
       }
     >
       {badge && <span className="badge">{badge}</span>}
-      <img src={icon} alt="Regular" />
+      <img src={icon} alt="Regular" style={{width: "70%"}}/>
       <h2 className="plan">{title}</h2>
       {content.map((singleContent) => (
         <p key={singleContent.id}>{singleContent.text}</p>

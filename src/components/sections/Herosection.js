@@ -38,22 +38,22 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="https://discord.com/invite/frYAsD2DjT">
+              <a href="https://discord.com/invite/frYAsD2DjT" target="_blank" rel="noreferrer">
                 <i className="fab fa-discord"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://twitter.com/pulsarforge">
+              <a href="https://twitter.com/pulsarforge" target="_blank"rel="noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://github.com/pulsarforge">
+              <a href="https://github.com/pulsarforge" target="_blank" rel="noreferrer">
                 <i className="fab fa-github"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.twitch.tv/pulsarforge">
+              <a href="https://www.twitch.tv/pulsarforge" target="_blank" rel="noreferrer">
                 <i className="fab fa-twitch"></i>
               </a>
             </li>

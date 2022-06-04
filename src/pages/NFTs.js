@@ -14,7 +14,7 @@ const filters = [
     },
     {
       id: 2,
-      text: "Voxel-Towers",
+      text: "Head-Quarters",
     },
     {
       id: 3,
@@ -255,7 +255,7 @@ function NFTs() {
               </ul>
               <h3 style={{color: "white", width: "100%", marginTop: 30, marginBottom: 10}}> Interdimensional NFTs connected to different blockchains and ecosystems</h3>
               <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace </h3>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Phases: Own exoplanets conquer galaxies / Command droid squads, PFP NFTs / Clash of dimensions, cross the portals </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Phases: Own exoplanets conquer galaxies / Command droid squads, PFP NFTs, from your HQ / Clash of dimensions, cross the portals </h4>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>  </h4>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>  </h4>
             <div style={{marginTop: 40}}>
@@ -317,12 +317,12 @@ function NFTs() {
             <div>
               <ul className="social-icons light list-inline mb-0 mt-4">
                 <li className="list-inline-item">
-                  <a href="https://discord.com/invite/frYAsD2DjT">
+                  <a href="https://discord.com/invite/frYAsD2DjT" target="_blank" rel="noreferrer">
                     Civilizations Voxelverse <i className="fab fa-discord"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://twitter.com/pulsarforge">
+                  <a href="https://twitter.com/pulsarforge" target="_blank" rel="noreferrer">
                     PulsarForge <i className="fab fa-twitter"></i>
                   </a>
                 </li>

@@ -14,8 +14,8 @@ function About() {
     <section id="about">
       <div className="container">
         <Pagetitle title="About" />
-        <h2>CoFounder of:</h2>
-        <h3>blockversekit.pages.dev Multi chain analytics DApp, and Web3 Developer Team.</h3>
+        <h2>CoFounder of: <a href="https://blockversekit.pages.dev/" target="_blank" rel="noreferrer">Blockversekit</a></h2>
+        <h3>Multi chain analytics DApp, and Web3 Developer Team.</h3>
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left">
