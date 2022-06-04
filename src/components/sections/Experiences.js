@@ -53,7 +53,7 @@ const experienceData = [
     title: "Expanse Voxelverse",
     years: "2023  Q2 - 2024 Q2",
     content:
-      "Each Exoplanet is a ecosystem.",
+      "Each Exoplanet is an ecosystem, hold One for rewards.",
   },  
   {
     id: 4,
