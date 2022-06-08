@@ -6,175 +6,181 @@ import Header3 from "../components/layouts/Header3";
 import Experiences from "../components/sections/Experiences";
 import Footer from "../components/layouts/Footer";
 import { Helmet } from "react-helmet";
+import BrandlogosDarkNFTs from "../components/sections/BrandlogosDarkNFTs";
 
 const filters = [
     {
       id: 1,
-      text: "Voxelverse-Exoplanets",
+      text: "All-In",
     },
     {
       id: 2,
-      text: "Head-Quarters",
+      text: "voxelverse-exoplanets",
     },
     {
       id: 3,
-      text: "Droid-Squads",
+      text: "head-quarters",
     },
     {
       id: 4,
-      text: "Space-Pets",
+      text: "droid-squads",
     },
     {
       id: 5,
-      text: "near",
+      text: "space-pets",
     },
     {
       id: 6,
-      text: "Aurora",
-    },
-    {
-      id: 7,
-      text: "Polygon",
-    },
-    {
-      id: 8,
-      text: "?...",
-    },
-    {
-      id: 9,
-      text: "??...",
-    },
-    {
-      id: 10,
-      text: "???...",
-    },
+      text: "?",
+    }
   ];
   const allData = [
     {
       id: 1,
       title: "Magnetical Landing",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Magnetical-Landing.png",
       popupLink: ["images/works/Magnetical-Landing.png"],
     },
     {
       id: 2,
       title: "Cube Growth Chamber",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Cube-Growth-Chamber.png",
       popupLink: ["images/works/Cube-Growth-Chamber.png"],
     },
     {
       id: 3,
       title: "Spring",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Spring.png",
       popupLink: ["images/works/Spring.png"],
     },
     {
       id: 4,
       title: "Bio Portal",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Bio-Portal.png",
       popupLink: ["images/works/Bio-Portal.png"],
     },
     {
       id: 5,
       title: "The Gathering",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/V00001-The-Gathering-V1.png",
       popupLink: ["images/works/V00001-The-Gathering-V1.png","images/works/The-Gathering.png"],
     },
     {
       id: 6,
       title: "Energy Integrator",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Energy-Integrator.png",
       popupLink: ["images/works/Energy-Integrator.png"],
     },
     {
       id: 7,
       title: "Claws",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Claws.png",
       popupLink: ["images/works/Claws.png"],
     },
     {
       id: 8,
       title: "Concentration",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Concentration.png",
       popupLink: ["images/works/Concentration.png"],
     },
     {
       id: 9,
       title: "Risks",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Risks.png",
       popupLink: ["images/works/Risks.png"],
     },
     {
       id: 10,
       title: "Vitamins Receptor",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Vitamins-Receptor.png",
       popupLink: ["images/works/Vitamins-Receptor.png"],
     },
     {
       id: 11,
       title: "The Ascension",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/The-Ascension.png",
       popupLink: ["images/works/The-Ascension.png"],
     },
     {
       id: 12,
       title: "Union Motor",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Union-Motor.png",
       popupLink: ["images/works/Union-Motor.png"],
     },
     {
       id: 13,
       title: "Max Security",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Max-Security.png",
       popupLink: ["images/works/Max-Security.png"],
     },
     {
       id: 14,
       title: "Energy Spreader",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Energy-Spreader.png",
       popupLink: ["images/works/Energy-Spreader.png"],
     },
     {
       id: 15,
       title: "Getting Sun",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/Getting-Sun.png",
       popupLink: ["images/works/Getting-Sun.png"],
     },
     {
       id: 16,
       title: "Volcano Phase",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/V0016-Volcano-Phase.png",
       popupLink: ["images/works/V0016-Volcano-Phase.png"],
     },
     {
       id: 17,
       title: "Growth Diet",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/V0017-Growth-Diet.png",
       popupLink: ["images/works/V0017-Growth-Diet.png"],
     },
     {
       id: 18,
       title: "Electrical Way",
-      category: "near",
+      category: "voxelverse-exoplanets",
       image: "images/works/V0018-Electrical-Way.png",
       popupLink: ["images/works/V0018-Electrical-Way.png"],
+    },    
+    {
+      id: 19,
+      title: "Wise Tower Replicants",
+      category: "head-quarters",
+      image: "images/works/Head-Quarters.jpg",
+      popupLink: ["images/works/Head-Quarters.jpg"],
+    },
+    {
+      id: 20,
+      title: "The Ceremony",
+      category: "droid-squads",
+      image: "images/works/Droid-Squads.jpg",
+      popupLink: ["images/works/Droid-Squads.jpg"],
+    },
+    {
+      id: 21,
+      title: "Barking Dogs",
+      category: "space-pets",
+      image: "images/works/Space-Pets.jpg",
+      popupLink: ["images/works/Space-Pets.jpg"],
     },
   ];
   
@@ -255,9 +261,10 @@ function NFTs() {
               </ul>
               <h3 style={{color: "white", width: "100%", marginTop: 30, marginBottom: 10}}> Interdimensional NFTs connected to different blockchains and ecosystems</h3>
               <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace </h3>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Phases: Own exoplanets conquer galaxies / Command droid squads, PFP NFTs, from your HQ / Clash of dimensions, cross the portals </h4>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>  </h4>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>  </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Phases: Own exoplanets conquer galaxies / Command droid squads, PFP NFTs, from your HQ </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Clash of dimensions, cross the portals / Don't forget to feed your space pets! </h4>
+              <BrandlogosDarkNFTs />
+              <div style={{paddingTop: 100}}></div>
             <div style={{marginTop: 40}}>
               <Pagetitle title="Civilizations Voxelverse" />
             </div>{/* Start Portfolio Filters */}
@@ -332,6 +339,9 @@ function NFTs() {
               <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
               <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="100%" height="320" frameborder="0" scrolling="no"></iframe>
             </div>
+            <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
+            Story Mode On, Guide your Civilizations through the Voxelverse, their fate is in your hands
+            </h3>
           </div>
         </section>
         <Footer />
