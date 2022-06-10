@@ -340,7 +340,7 @@ function NFTs() {
               <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="100%" height="320" frameborder="0" scrolling="no"></iframe>
             </div>
             <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
-            Story Mode On, Guide your Civilizations through the Voxelverse, their fate is in your hands
+            Story Mode On, Guide your Civilizations through the Voxelverse, their fate are in your hands
             </h3>
           </div>
         </section>
