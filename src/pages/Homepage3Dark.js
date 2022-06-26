@@ -8,7 +8,7 @@ import Blogs from "../components/sections/Blogs";
 import BrandlogosDark from "../components/sections/BrandlogosDark";
 import Contact from "../components/sections/Contact";
 import Herosection from "../components/sections/Herosection";
-import Pricing from "../components/sections/Pricing";
+import Services from "../components/sections/Services";
 import Works from "../components/sections/Works";
 import { Helmet } from "react-helmet";
 
@@ -33,8 +33,8 @@ function Homepage3() {
         <Element name="section-works">
           <Works />
         </Element>
-        <Element name="section-pricing">
-          <Pricing />
+        <Element name="section-services">
+          <Services />
         </Element>
         <Element name="section-brandlogos">
           <BrandlogosDark />

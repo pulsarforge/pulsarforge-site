@@ -45,7 +45,7 @@ const priceboxData = [
   },
 ];
 
-function Pricing() {
+function Services() {
   return (
     <section id="section-services">
       <div className="container">
@@ -77,4 +77,4 @@ function Pricing() {
   );
 }
 
-export default Pricing;
+export default Services;

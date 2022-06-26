@@ -62,10 +62,9 @@ function Herosection(props) {
           <div className="mt-4">
             <Link
               className="btn btn-default"
-              to="section-contact"
+              to="section-services"
               spy={true}
-              smooth={true}
-              duration={9000}
+              duration={2000}
             >
               Hire us
             </Link>

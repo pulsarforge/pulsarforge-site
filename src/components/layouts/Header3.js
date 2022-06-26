@@ -52,7 +52,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/"
                 >
-                  Software Engineer
+                  Software Engineers
                 </a>
               </li>
               <li className="nav-item">
