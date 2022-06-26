@@ -11,7 +11,7 @@ const priceboxData = [
     content: [
       {
         id: 0,
-        text: "Reliable and Outstanding Websites, with the faster technologies and frameworks",
+        text: "Reliable and Outstanding Websites, with the fastest technologies and frameworks",
       },
     ],
     price: "Contact",
@@ -20,12 +20,12 @@ const priceboxData = [
   },
   {
     id: 2,
-    title: "Unlocking Data Value",
+    title: "APIs Unlocking Data Value",
     icon: "images/graphql.png",
     content: [
       {
         id: 1,
-        text: "We unlock the value of data for your competitive advantage with GraphQL Techs and DBs",
+        text: "We unlock the value of data for your competitive advantage through harness the power of APIs, GraphQL & Rest, integration with Front-End, DBs",
       },
     ],
     price: "Contact",
@@ -35,9 +35,9 @@ const priceboxData = [
   {
     id: 3,
     title: "Smart Contract",
-    icon: "images/polygon.png",
+    icon: "images/ethereum.png",
     content: [
-      { id: 1, text: "Focus on Ethereum and Polygon and We are available for other blockchains" },
+      { id: 1, text: "Focus on Ethereum and We are available for other blockchains" },
     ],
     price: "Contact",
     best: false,
@@ -69,7 +69,7 @@ function Pricing() {
             >
               Click here
             </Link>{" "}
-            to contact me! 👋
+            to contact us! 👋
           </h4>
         </div>
       </div>
