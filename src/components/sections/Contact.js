@@ -7,7 +7,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <Pagetitle title="Get in Touch" />
+        <Pagetitle title="Get in touch" />
 
         <div className="row">
           <div className="col-md-10">

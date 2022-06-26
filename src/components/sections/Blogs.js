@@ -37,7 +37,7 @@ function Blogs() {
   return (
     <section id="blog">
       <div className="container" style={{marginTop: "200px"}}>
-        <Pagetitle title="Latest Posts" />
+        <Pagetitle title="Latest posts" />
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
             <div className="col-md-4" key={blogItem.id}>

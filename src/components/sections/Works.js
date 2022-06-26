@@ -6,18 +6,22 @@ import Portfolio from "../elements/Portfolio";
 const filters = [
   {
     id: 1,
-    text: "All In",
+    text: "all-in",
   },
   {
     id: 2,
-    text: "open-source",
+    text: "devs-collabs",
   },
   {
     id: 3,
-    text: "bounties-done",
+    text: "open-source",
   },
   {
     id: 4,
+    text: "bounties-done",
+  },
+  {
+    id: 5,
     text: "works-completed",
   },
 ];
@@ -98,7 +102,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Open Source and Works Done" />
+        <Pagetitle title="Dev team and contributors. Open source and works done" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"

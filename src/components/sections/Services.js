@@ -49,7 +49,7 @@ function Services() {
   return (
     <section id="section-services">
       <div className="container">
-        <Pagetitle title="Main Plans" />
+        <Pagetitle title="Main plans" />
         <div className="row align-items-center">
           {priceboxData.map((pricebox) => (
             <div key={pricebox.id} className="col-md-4">
