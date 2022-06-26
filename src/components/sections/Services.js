@@ -34,10 +34,10 @@ const priceboxData = [
   },
   {
     id: 3,
-    title: "Smart Contract",
+    title: "Smart Contracts",
     icon: "images/ethereum.png",
     content: [
-      { id: 1, text: "Focus on Ethereum and We are available for other blockchains" },
+      { id: 1, text: "Focus on Ethereum. We are available for other blockchains" },
     ],
     price: "Contact",
     best: false,
