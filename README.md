@@ -1,2 +1,3 @@
-PulsarForge Path Registry.
-Unlocking data value throught graphql.
+# Web3 Devs Lab & Civilizations Voxelverse NFTs
+## PulsarForge Path Registry.
+Unlocking data value.
