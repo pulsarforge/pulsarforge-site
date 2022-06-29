@@ -189,7 +189,6 @@ function NFTsOnFlow() {
                 <div>
                   <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>Flow Collection Testnet</h2>
                   {user && user.addr ? <RenderMint /> : <RenderLogin />}
-                  <h2 style={{color: "white", width: "100%"}}>Incoming integrations: NEAR</h2>
                 </div>
               </div>
             </div>
