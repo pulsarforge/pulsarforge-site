@@ -193,12 +193,12 @@ function NFTs() {
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
     const [noMorePost, setNoMorePost] = useState(false);
-  
+
     useEffect(() => {
       setActiveFilter(filters[0].text.toLowerCase());
       setVisibleItems(getAllItems.filter((item) => item.id <= 9));
     }, [getAllItems]);
-  
+
     const handleChange = (e) => {
       e.preventDefault();
       setActiveFilter(e.target.textContent.toLowerCase());
@@ -234,7 +234,7 @@ function NFTs() {
         }
       }
     };
-  
+
     return (
       <>
         <Helmet>
@@ -335,9 +335,19 @@ function NFTs() {
                 </li>
               </ul>
             </div>
+            <div className="row">
+              <div>
+                <div>
+                  <a href="https://pulsarforge.io/voxelverse-onflow-mint">
+                    <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>Flow Collection on testnet</h2>
+                  </a>
+                  <h2 style={{color: "white", width: "100%"}}>Incoming integrations: NEAR</h2>
+                </div>
+              </div>
+            </div>
             <div style={{marginTop: 70}}>
               <h2 style={{color: "white"}}> Subscribe for Voxelverse News. </h2>
-              <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="100%" height="320" frameborder="0" scrolling="no"></iframe>
+              <iframe title="Voxel Times Newsletter" src="https://pulsarforge.substack.com/embed" width="100%" height="320" scrolling="no"></iframe>
             </div>
             <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
             Story Mode On, Guide your Civilizations through the Voxelverse, their fate are in your hands

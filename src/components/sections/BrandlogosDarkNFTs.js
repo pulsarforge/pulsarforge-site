@@ -13,6 +13,10 @@ const brandlogoData = [
   {
     id: 3,
     image: "images/solana.png",
+  },
+  {
+    id: 4,
+    image: "images/flow.png",
   }
 ];
 
