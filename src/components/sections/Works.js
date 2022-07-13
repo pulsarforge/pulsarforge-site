@@ -6,23 +6,23 @@ import Portfolio from "../elements/Portfolio";
 const filters = [
   {
     id: 1,
-    text: "all-in",
+    text: "all",
   },
   {
     id: 2,
-    text: "devs-collabs",
+    text: "collabs",
   },
   {
     id: 3,
-    text: "open-source",
+    text: "projects",
   },
   {
     id: 4,
-    text: "bounties-done",
+    text: "bounties",
   },
   {
     id: 5,
-    text: "works-completed",
+    text: "completed",
   },
 ];
 
@@ -30,21 +30,21 @@ const allData = [
   {
     id: 1,
     title: "BlockverseKit",
-    category: "open-source",
+    category: "projects",
     image: "images/works/blockversekitv1.png",
     link: ["https://blockversekit.pages.dev/"],
   },
   {
     id: 2,
     title: "Civilizations Voxelverse",
-    category: "open-source",
-    image: "images/works/V00001-The-Gathering-V1.png",
+    category: "projects",
+    image: "images/works/The_Gathering_V1.png",
     link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
   {
     id: 3,
     title: "PulsarForge",
-    category: "open-source",
+    category: "projects",
     image: "images/works/PulsarForge.png",
     link: ["https://github.com/pulsarforge"],
   },
@@ -102,7 +102,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Dev team and contributors. Open source and works done" />
+        <Pagetitle title="Works, previous and on going" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
