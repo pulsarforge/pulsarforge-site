@@ -67,8 +67,8 @@ const filters = [
       id: 5,
       title: "The Gathering",
       category: "voxelverse-exoplanets",
-      image: "images/works/V00001-The-Gathering-V1.png",
-      popupLink: ["images/works/V00001-The-Gathering-V1.png","images/works/The-Gathering.png"],
+      image: "images/works/The_Gathering_V1.png",
+      popupLink: ["images/works/The_Gathering_V1.png","images/works/The-Gathering.png"],
     },
     {
       id: 6,
