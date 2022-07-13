@@ -16,7 +16,7 @@ function About() {
         <Pagetitle title="About" />
         <h2>Web3 Devs Labs, NFTs and Community. <a href="https://discord.com/invite/frYAsD2DjT" target="_blank" rel="noreferrer">Join here Discord</a></h2>
         <h3>Working in a descentralized way, DAO path.</h3>
-        <h2>CoFounder of: <a href="https://blockversekit.pages.dev/" target="_blank" rel="noreferrer">Blockversekit</a></h2>
+        <h2>Contributing to Open Source. CoFounder of: <a href="https://blockversekit.pages.dev/" target="_blank" rel="noreferrer">Blockversekit</a></h2>
         <h3>Multi chain analytics DApp, and Web3 Developer Team.</h3>
         <div className="row">
           <div className="col-md-3">
