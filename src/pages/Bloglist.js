@@ -17,7 +17,7 @@ const allBlogs = [
   {
     id: 2,
     title: "Voxelverse NFTs",
-    image: "images/blog/V00001-The-Gathering-V1.png",
+    image: "images/blog/The_Gathering_V1.png",
     filesource: "../../blogs/voxelverse.md",
     date: "30 April, 2022",
     author: "PulsarForge",
