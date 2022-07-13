@@ -100,10 +100,10 @@ const filters = [
     },
     {
       id: 10,
-      title: "Vitamins Receptor",
+      title: "Energy Spreader",
       category: "voxelverse-exoplanets",
-      image: "images/works/Vitamins-Receptor.png",
-      popupLink: ["images/works/Vitamins-Receptor.png"],
+      image: "images/works/Energy-Spreader.png",
+      popupLink: ["images/works/Energy-Spreader.png"],
     },
     {
       id: 11,
@@ -128,10 +128,10 @@ const filters = [
     },
     {
       id: 14,
-      title: "Energy Spreader",
+      title: "Vitamins Receptor",
       category: "voxelverse-exoplanets",
-      image: "images/works/Energy-Spreader.png",
-      popupLink: ["images/works/Energy-Spreader.png"],
+      image: "images/works/Vitamins-Receptor.png",
+      popupLink: ["images/works/Vitamins-Receptor.png"],
     },
     {
       id: 15,
