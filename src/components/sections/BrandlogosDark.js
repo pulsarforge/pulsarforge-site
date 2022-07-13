@@ -16,15 +16,11 @@ const brandlogoData = [
   },
   {
     id: 4,
-    image: "images/ethereum.png",
-  },
-  {
-    id: 5,
     image: "images/timescale.png",
   },
   {
-    id: 6,
-    image: "images/aws.png",
+    id: 5,
+    image: "images/ethereum.png",
   },
 ];
 
@@ -35,10 +31,10 @@ function BrandlogosDark() {
         <Pagetitle title="Techs" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
-            <div className="col-md-2 col-6" key={brandlogo.id} style={{width: "16%", height: 100}}>
+            <div className="col-md-2 col-6" key={brandlogo.id} style={{width: "20%"}}>
               <div className="client-item">
                 <div className="inner">
-                  <img src={brandlogo.image} alt="client-name" />
+                  <img src={brandlogo.image} alt="Techs" style={{height: "160px"}}/>
                 </div>
               </div>
             </div>
