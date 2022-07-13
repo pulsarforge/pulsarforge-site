@@ -13,7 +13,7 @@ fcl.config({
   "flow.network": "testnet",
   "app.detail.title": "Civilizations Voxelverse",
   "accessNode.api": "https://rest-testnet.onflow.org",
-  "app.detail.icon": "https://pulsarforge.io/images/works/V00001-The-Gathering-V1.png",
+  "app.detail.icon": "https://pulsarforge.io/images/works/The_Gathering_V1.png",
   "discovery.wallet": "https://fcl-discovery.onflow.org/testnet/authn",
 });
 
