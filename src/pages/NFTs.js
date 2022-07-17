@@ -261,8 +261,8 @@ function NFTs() {
               </ul>
               <h3 style={{color: "white", width: "100%", marginTop: 30, marginBottom: 10}}> Interdimensional NFTs connected to different blockchains and ecosystems</h3>
               <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace </h3>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Phases: Own exoplanets conquer galaxies / Command droid squads, PFP NFTs, from your HQ </h4>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Clash of dimensions, cross the portals / Don't forget to feed your space pets! </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Phases: Own exoplanets and conquer galaxies + Command droid squads, PFP NFTs, from your Head Quarters </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Clash of dimensions, cross the portals + Don't forget to feed your space pets! </h4>
               <BrandlogosDarkNFTs />
               <div style={{paddingTop: 100}}></div>
             <div style={{marginTop: 40}}>

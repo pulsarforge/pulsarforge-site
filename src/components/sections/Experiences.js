@@ -6,61 +6,41 @@ const educationData = [
   {
     id: 1,
     title: "Art Stream",
-    years: "2022 Q2 - 2025 Q2",
     content:
-      "Releasing in batches, Nº ??.000 Exoplanets",
+      "Delivering self organized voxels, Nº ???? ",
   },
   {
     id: 2,
     title: "NEAR DAO",
-    years: "2022 - Q2",
     content:
-      "On Astrodao, first class experience.",
+      "On Astrodao",
   },
   {
     id: 3,
-    title: "1º Batch Voxelverse Exoplanets",
-    years: "2022 - Q2",
-    content:
-      "On ParasID, NEAR. Metadata for evolutions & collabs",
-  },
-  {
-    id: 4,
     title: "Partnerships",
-    years: "2022 - Beyond",
     content:
-      "Always ongoing, contact us for collabs.",
+      "Contact us for collabs",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Merchandise Line & 3D Prints",
-    years: "2022 Q3 - Beyond",
+    title: "Merchandise Line",
     content:
-      "Fine prints, outstanding clothing, 3D toys.",
+      "Fine prints, outstanding clothing",
   },
   {
     id: 2,
-    title: "Augmented Reality Experiences",
-    years: "2023 - Q1",
+    title: "Augmented Reality",
     content:
-      "On sketchfab, for all to enjoy.",
+      "For all to take pics",
   },
   {
     id: 3,
-    title: "Expanse Voxelverse",
-    years: "2023  Q2 - 2024 Q2",
+    title: "Story Mode On",
     content:
-      "Each Exoplanet is an ecosystem, hold One for rewards.",
-  },  
-  {
-    id: 4,
-    title: "Increase Ecosystem and Initiatives",
-    years: "2024 Q3 - Beyond",
-    content:
-      "Here for the long marathon. Real Life Events.",
+      "Each Exoplanet is an ecosystem",
   },
 ];
 
