@@ -23,7 +23,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
           : "desktop-header-3 fixed-top"
       } style={{height: 100}}
     >
-      <div className="container" style={{width: "50%"}}>
+      <div className="container" style={{width: "57%"}}>
         <nav className="navbar navbar-expand-lg navbar-dark">
           <Logo logoSource={logoSource} bootstrapNav={bootstrapNav} />
           <button
@@ -59,7 +59,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 <a
                   className="nav-link"
                   href="/civilizations-voxelverse-nfts">
-                  Voxelverse NFTs
+                  Civilizations Voxelverse
                 </a>
               </li>
               <li className="nav-item">
