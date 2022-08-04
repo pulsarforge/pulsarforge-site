@@ -15,7 +15,7 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/PulsarForge.png" alt="PulsarForge" className="mb-4" style={{width: 300, paddingTop: 100}}/>
+          <img src="images/PulsarForge.png" alt="PulsarForge" className="mb-4" style={{width: 300, borderRadius: "35%"}}/>
           <h1 className="mb-2 mt-0">Web3 Devs Lab</h1>
           <h2 className="mb-2 mt-0">PulsarForge</h2>
           <h2>
@@ -36,15 +36,10 @@ function Herosection(props) {
             </Typed>
           </h2>
 
-          <ul className="social-icons light list-inline mb-0 mt-4">
+          <ul className="social-icons light list-inline mb-0 mt-4" style={{paddingRight: 20}}>
             <li className="list-inline-item">
               <a href="https://discord.com/invite/frYAsD2DjT" target="_blank" rel="noreferrer">
                 <i className="fab fa-discord adjust-social-icons"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="https://twitter.com/pulsarforge" target="_blank"rel="noreferrer">
-                <i className="fab fa-twitter adjust-social-icons"></i>
               </a>
             </li>
             <li className="list-inline-item">
@@ -53,8 +48,8 @@ function Herosection(props) {
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.twitch.tv/pulsarforge" target="_blank" rel="noreferrer">
-                <i className="fab fa-twitch adjust-social-icons"></i>
+              <a href="https://twitter.com/pulsarforge" target="_blank"rel="noreferrer">
+                <i className="fab fa-twitter adjust-social-icons"></i>
               </a>
             </li>
           </ul>
