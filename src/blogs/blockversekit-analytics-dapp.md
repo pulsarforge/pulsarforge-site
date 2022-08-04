@@ -2,7 +2,7 @@
 
 # BlockverseKit, discovering patterns at web3.
 
-In today's news We are going to deep dive into, my usual day building.
+In today's news We are going to dive into, my usual day building.
 
 ## The best analytics dAPP, Blockversekit.
 
@@ -19,4 +19,6 @@ My tasks start:
 
     I take care of twitter (loving it), organize the work to do (management) across the different areas, design figma mockups (quite an obsession) to have a reference before develop, write blog post (It feels as a corner stone) as this one.
 
-... To continue...
+Visit us at [BlockverseKit.io](https://blockversekit.io)
+
+You are early.
