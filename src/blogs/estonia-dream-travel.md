@@ -1,4 +1,4 @@
-![Voxelverse](/images/blog/Estonia.png)
+![Estonia](/images/blog/Estonia.png)
 
 # Estonia Dream Travel
 
