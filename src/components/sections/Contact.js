@@ -35,18 +35,13 @@ function Contact() {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://twitter.com/pulsarforge" target="_blank"rel="noreferrer">
-                      <i className="fab fa-twitter adjust-social-icons"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
                     <a href="https://github.com/pulsarforge" target="_blank" rel="noreferrer">
                       <i className="fab fa-github adjust-social-icons"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://www.twitch.tv/pulsarforge" target="_blank" rel="noreferrer">
-                      <i className="fab fa-twitch adjust-social-icons"></i>
+                    <a href="https://twitter.com/pulsarforge" target="_blank"rel="noreferrer">
+                      <i className="fab fa-twitter adjust-social-icons"></i>
                     </a>
                   </li>
                 </ul>
