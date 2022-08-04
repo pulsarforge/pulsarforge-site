@@ -7,12 +7,12 @@ import { Helmet } from "react-helmet";
 const allBlogs = [
   {
     id: 1,
-    title: "Montly Report April 2022",
-    image: "images/blog/Flower-Camera.jpg",
-    filesource: "../../blogs/monthly-report-april-2022.md",
+    title: "BlockverseKit analytics dAPP",
+    image: "images/blog/blockversekitv1.png",
+    filesource: "../../blogs/blockversekit.md",
     date: "25 April, 2022",
     author: "PulsarForge",
-    category: "Montly Report",
+    category: "BlockverseKit",
   },
   {
     id: 2,

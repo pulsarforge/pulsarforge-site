@@ -32,7 +32,7 @@ const allData = [
     title: "BlockverseKit",
     category: "projects",
     image: "images/works/blockversekitv1.png",
-    link: ["https://blockversekit.pages.dev/"],
+    link: ["https://blockversekit.io/"],
   },
   {
     id: 2,
