@@ -34,7 +34,7 @@ function BrandlogosDark() {
             <div className="col-md-2 col-6" key={brandlogo.id} style={{width: "20%"}}>
               <div className="client-item">
                 <div className="inner">
-                  <img src={brandlogo.image} alt="Techs" style={{height: "160px"}}/>
+                  <img src={brandlogo.image} alt="Techs" style={{height: "100%"}}/>
                 </div>
               </div>
             </div>
