@@ -3,7 +3,6 @@ import ReactCursorPosition from "react-cursor-position";
 import { Element } from "react-scroll";
 import Header3 from "../components/layouts/Header3";
 import Footer from "../components/layouts/Footer";
-import About from "../components/sections/About";
 import Blogs from "../components/sections/Blogs";
 import BrandlogosDark from "../components/sections/BrandlogosDark";
 import Contact from "../components/sections/Contact";
@@ -17,7 +16,7 @@ function Homepage3() {
   return (
     <>
       <Helmet>
-        <title> PulsarForge. Software engineers. Web3 devs lab. NFTs. Community.</title>
+        <title> PulsarForge. Web3 devs lab. Community. Software engineers.</title>
         <meta name="description" content="Developers working in a descentralized way in web3, coding multichain tools, unlocking data value with APIs REST and GraphQL, Fron-End Developments, and smart contracts. Streaming Civilizations Voxelverse NFTs. Joins us." />
       </Helmet>
       <Header3 logoSource="/images/PulsarForge-1.png" />
@@ -26,9 +25,6 @@ function Homepage3() {
           <ReactCursorPosition>
             <Herosection />
           </ReactCursorPosition>
-        </Element>
-        <Element name="section-about">
-          <About />
         </Element>
         <Element name="section-works">
           <Works />
