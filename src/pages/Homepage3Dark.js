@@ -17,7 +17,7 @@ function Homepage3() {
     <>
       <Helmet>
         <title> PulsarForge. Web3 devs lab. Community. Software engineers.</title>
-        <meta name="description" content="Developers working in a descentralized way in web3, coding multichain tools, unlocking data value with APIs REST and GraphQL, Fron-End Developments, and smart contracts. Streaming Civilizations Voxelverse NFTs. Joins us." />
+        <meta name="description" content="Developers at web3, coding multichain tools, open source labs, unlocking data value with APIs graphql, front-end react, and smart contracts. Community. Joins us." />
       </Helmet>
       <Header3 logoSource="/images/PulsarForge-1.png" />
       <main className="content-3">
