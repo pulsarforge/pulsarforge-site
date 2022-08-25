@@ -25,4 +25,4 @@ Space Pets, Does it need a definition? Friendly pets.
 Enjoy this travel of discovering the connections and misteries of The Voxelverse.
 
 
-"Their fate is in your hands".
+"Their fate are in your hands".
