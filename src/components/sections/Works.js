@@ -29,30 +29,37 @@ const filters = [
 const allData = [
   {
     id: 1,
-    title: "BlockverseKit",
+    title: "BlockverseKit, Multi Chain Analytics Dapp",
     category: "projects",
     image: "images/works/blockversekitv1.png",
     link: ["https://blockversekit.io/"],
   },
   {
     id: 2,
-    title: "Civilizations Voxelverse",
+    title: "Civilizations Voxelverse, NFTs",
     category: "projects",
     image: "images/works/The_Gathering_V1.png",
     link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
   {
     id: 3,
-    title: "PulsarForge",
+    title: "PulsarForge, GitHub",
     category: "projects",
     image: "images/works/PulsarForge.png",
     link: ["https://github.com/pulsarforge"],
+  },
+  {
+    id: 4,
+    title: "Blocks Labs, Newsletter & Podcast",
+    category: "projects",
+    image: "images/works/BlocksLabs.png",
+    link: ["https://pulsarforge.substack.com/"],
   },
 ];
 
 function Works() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(6);
+  const [dataVisibleCount, setDataVisibleCount] = useState(3);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -60,7 +67,7 @@ function Works() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 6));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 3));
   }, [getAllItems]);
 
   const handleChange = (e) => {
