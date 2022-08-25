@@ -29,7 +29,8 @@
     "react-typed": "^1.2.0",
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.35.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "yaml-front-matter": "^4.1.1"
   },
   "scripts": {
     "start": "craco start",
@@ -41,7 +42,7 @@
     "extends": "react-app"
   },
   "resolutions": {
-    "autoprefixer": "10.4.5"
+    "autoprefixer": "10.4.7"
   },
   "browserslist": {
     "production": [
