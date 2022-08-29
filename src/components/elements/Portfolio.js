@@ -43,7 +43,7 @@ function Portfolio({ portfolio }) {
             <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb">
-            <img src={image} alt="Portfolio-title" />
+            <img src={image} style={{width: '100%'}} alt="Portfolio-title" />
             <div className="mask"></div>
           </div>
         </div>
