@@ -172,7 +172,7 @@ function NFTsOnFlow() {
       if (user && user.addr) {
         fetchNFTs();
       }
-    }, [user]);
+    }, [user]); // eslint-disable-line react-hooks/exhaustive-deps
 
     return (
       <>
