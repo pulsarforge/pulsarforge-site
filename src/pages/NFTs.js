@@ -387,6 +387,8 @@ function NFTs() {
                     Explore the Voxelverse <i className="fab fa-discord"></i>
                   </a>
                 </li>
+              </ul>
+              <ul className="social-icons light list-inline mb-0 mt-4">
                 <li className="list-inline-item">
                   <a href="https://twitter.com/pulsarforge" target="_blank" rel="noreferrer">
                     PulsarForge <i className="fab fa-twitter"></i>
