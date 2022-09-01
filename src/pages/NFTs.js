@@ -12,18 +12,22 @@ const filters = [
     {
       id: 1,
       text: "All-In",
+      status: "Status: "
     },
     {
       id: 2,
       text: "exoplanets",
+      status: "Big Bang",
     },
     {
       id: 3,
       text: "homes",
+      status: "Incoming",
     },
     {
       id: 4,
       text: "party-animals",
+      status: "Coming Soon",
     }
   ];
   /* const extraData = [
@@ -324,6 +328,15 @@ function NFTs() {
                     >
                       {filter.text}
                     </button>
+                    <p
+                      className={
+                        filter.text.toLowerCase() === activeFilter
+                          ? "text-capitalize current"
+                          : "text-capitalize"
+                      } style={{color: "orange"}}
+                    >
+                      {filter.status}
+                    </p>
                   </li>
                 ))}
               </ul>
