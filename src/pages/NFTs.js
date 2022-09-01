@@ -15,172 +15,230 @@ const filters = [
     },
     {
       id: 2,
-      text: "voxelverse-exoplanets",
+      text: "exoplanets",
     },
     {
       id: 3,
-      text: "head-quarters",
+      text: "homes",
     },
     {
       id: 4,
-      text: "droid-squads",
-    },
-    {
-      id: 5,
-      text: "space-pets",
-    },
-    {
-      id: 6,
-      text: "?",
+      text: "party-animals",
     }
   ];
-  const allData = [
+  /* const extraData = [
     {
-      id: 1,
-      title: "Magnetical Landing",
-      category: "voxelverse-exoplanets",
-      image: "images/works/Magnetical-Landing.png",
-      popupLink: ["images/works/Magnetical-Landing.png"],
-    },
-    {
-      id: 2,
-      title: "Cube Growth Chamber",
-      category: "voxelverse-exoplanets",
-      image: "images/works/Cube-Growth-Chamber.png",
-      popupLink: ["images/works/Cube-Growth-Chamber.png"],
-    },
-    {
-      id: 3,
-      title: "Spring",
-      category: "voxelverse-exoplanets",
-      image: "images/works/Spring.png",
-      popupLink: ["images/works/Spring.png"],
-    },
-    {
-      id: 4,
-      title: "Bio Portal",
-      category: "voxelverse-exoplanets",
-      image: "images/works/Bio-Portal.png",
-      popupLink: ["images/works/Bio-Portal.png"],
-    },
-    {
-      id: 5,
-      title: "The Gathering",
-      category: "voxelverse-exoplanets",
-      image: "images/works/The_Gathering_V1.png",
-      popupLink: ["images/works/The_Gathering_V1.png","images/works/The-Gathering.png"],
-    },
-    {
-      id: 6,
-      title: "Energy Integrator",
-      category: "voxelverse-exoplanets",
-      image: "images/works/Energy-Integrator.png",
-      popupLink: ["images/works/Energy-Integrator.png"],
-    },
-    {
-      id: 7,
-      title: "Claws",
-      category: "voxelverse-exoplanets",
-      image: "images/works/Claws.png",
-      popupLink: ["images/works/Claws.png"],
-    },
-    {
-      id: 8,
-      title: "Concentration",
-      category: "voxelverse-exoplanets",
-      image: "images/works/Concentration.png",
-      popupLink: ["images/works/Concentration.png"],
-    },
-    {
-      id: 9,
-      title: "Risks",
-      category: "voxelverse-exoplanets",
-      image: "images/works/Risks.png",
-      popupLink: ["images/works/Risks.png"],
-    },
-    {
-      id: 10,
+      id: 13,
       title: "Energy Spreader",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/Energy-Spreader.png",
       popupLink: ["images/works/Energy-Spreader.png"],
     },
     {
       id: 11,
       title: "The Ascension",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/The-Ascension.png",
       popupLink: ["images/works/The-Ascension.png"],
     },
     {
       id: 12,
       title: "Union Motor",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/Union-Motor.png",
       popupLink: ["images/works/Union-Motor.png"],
     },
     {
       id: 13,
       title: "Max Security",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/Max-Security.png",
       popupLink: ["images/works/Max-Security.png"],
     },
     {
       id: 14,
       title: "Vitamins Receptor",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/Vitamins-Receptor.png",
       popupLink: ["images/works/Vitamins-Receptor.png"],
     },
     {
       id: 15,
       title: "Getting Sun",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/Getting-Sun.png",
       popupLink: ["images/works/Getting-Sun.png"],
     },
     {
       id: 16,
       title: "Volcano Phase",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/V0016-Volcano-Phase.png",
       popupLink: ["images/works/V0016-Volcano-Phase.png"],
     },
     {
       id: 17,
       title: "Growth Diet",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/V0017-Growth-Diet.png",
       popupLink: ["images/works/V0017-Growth-Diet.png"],
     },
     {
       id: 18,
       title: "Electrical Way",
-      category: "voxelverse-exoplanets",
+      category: "exoplanets",
       image: "images/works/V0018-Electrical-Way.png",
       popupLink: ["images/works/V0018-Electrical-Way.png"],
-    },    
+    },
     {
       id: 19,
-      title: "Wise Tower Replicants",
-      category: "head-quarters",
-      image: "images/works/Head-Quarters.jpg",
-      popupLink: ["images/works/Head-Quarters.jpg"],
+      title: "Magnetical Landing",
+      category: "exoplanets",
+      image: "images/works/Magnetical-Landing.png",
+      popupLink: ["images/works/Magnetical-Landing.png"],
     },
     {
       id: 20,
-      title: "The Ceremony",
-      category: "droid-squads",
-      image: "images/works/Droid-Squads.jpg",
-      popupLink: ["images/works/Droid-Squads.jpg"],
+      title: "Cube Growth Chamber",
+      category: "exoplanets",
+      image: "images/works/Cube-Growth-Chamber.png",
+      popupLink: ["images/works/Cube-Growth-Chamber.png"],
     },
     {
       id: 21,
-      title: "Barking Dogs",
-      category: "space-pets",
-      image: "images/works/Space-Pets.jpg",
-      popupLink: ["images/works/Space-Pets.jpg"],
+      title: "Spring",
+      category: "exoplanets",
+      image: "images/works/Spring.png",
+      popupLink: ["images/works/Spring.png"],
+    },
+    {
+      id: 22,
+      title: "Bio Portal",
+      category: "exoplanets",
+      image: "images/works/Bio-Portal.png",
+      popupLink: ["images/works/Bio-Portal.png"],
+    },
+    {
+      id: 23,
+      title: "The Gathering",
+      category: "exoplanets",
+      image: "images/works/The-Gathering.png",
+      popupLink: ["images/works/The-Gathering.png"],
+    },
+    {
+      id: 24,
+      title: "Energy Integrator",
+      category: "exoplanets",
+      image: "images/works/Energy-Integrator.png",
+      popupLink: ["images/works/Energy-Integrator.png"],
+    },
+    {
+      id: 25,
+      title: "Claws",
+      category: "exoplanets",
+      image: "images/works/Claws.png",
+      popupLink: ["images/works/Claws.png"],
+    },
+    {
+      id: 26,
+      title: "Concentration",
+      category: "exoplanets",
+      image: "images/works/Concentration.png",
+      popupLink: ["images/works/Concentration.png"],
+    },
+    {
+      id: 27,
+      title: "Risks",
+      category: "exoplanets",
+      image: "images/works/Risks.png",
+      popupLink: ["images/works/Risks.png"],
+    },
+  ]
+  */
+  const allData = [
+    {
+      id: 1,
+      title: "Blocks Labs",
+      category: "exoplanets",
+      image: "images/works/block-labs-9.jpg",
+      popupLink: ["images/works/block-labs-9.jpg"],
+    },
+    {
+      id: 2,
+      title: "Energy integrator",
+      category: "exoplanets",
+      image: "images/works/00002-energy-integrator.jpg",
+      popupLink: ["images/works/00002-energy-integrator.jpg"],
+    },
+    {
+      id: 3,
+      title: "Concentration",
+      category: "exoplanets",
+      image: "images/works/00003-concentration.jpg",
+      popupLink: ["images/works/00003-concentration.jpg"],
+    },
+    {
+      id: 4,
+      title: "Bio Portal",
+      category: "exoplanets",
+      image: "images/works/00004-bio-portal-4.jpg",
+      popupLink: ["images/works/00004-bio-portal-4.jpg"],
+    },
+    {
+      id: 5,
+      title: "The Gathering",
+      category: "exoplanets",
+      image: "images/works/The_Gathering_V1.png",
+      popupLink: ["images/works/The_Gathering_V1.png"],
+    },
+    {
+      id: 6,
+      title: "Tribal",
+      category: "exoplanets",
+      image: "images/works/00005-tribal.jpg",
+      popupLink: ["images/works/00005-tribal.jpg"],
+    },
+    {
+      id: 7,
+      title: "Light Notebook",
+      category: "exoplanets",
+      image: "images/works/00008-light-notebook.jpg",
+      popupLink: ["images/works/00008-light-notebook.jpg"],
+    },
+    {
+      id: 8,
+      title: "Honey Ice",
+      category: "exoplanets",
+      image: "images/works/00007-honey-ice.jpg",
+      popupLink: ["images/works/00007-honey-ice.jpg"],
+    },
+    {
+      id: 9,
+      title: "One Stop Shot",
+      category: "exoplanets",
+      image: "images/works/one-stop-shot.png",
+      popupLink: ["images/works/one-stop-shot.png"],
+    },
+    {
+      id: 10,
+      title: "Motor growth",
+      category: "exoplanets",
+      image: "images/works/motor-growth-9.png",
+      popupLink: ["images/works/motor-growth-9.png"],
+    },
+    {
+      id: 11,
+      title: "Entry Point",
+      category: "exoplanets",
+      image: "images/works/entry-point.png",
+      popupLink: ["images/works/entry-point.png"],
+    },
+    {
+      id: 12,
+      title: "Cloud Gum",
+      category: "exoplanets",
+      image: "images/works/00006-cloud-gum.jpg",
+      popupLink: ["images/works/00006-cloud-gum.jpg"],
     },
   ];
   
@@ -188,7 +246,7 @@ const filters = [
   
 function NFTs() {
     const [getAllItems] = useState(allData);
-    const [dataVisibleCount, setDataVisibleCount] = useState(9);
+    const [dataVisibleCount, setDataVisibleCount] = useState(12);
     const [dataIncrement] = useState(9);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
@@ -196,7 +254,7 @@ function NFTs() {
 
     useEffect(() => {
       setActiveFilter(filters[0].text.toLowerCase());
-      setVisibleItems(getAllItems.filter((item) => item.id <= 9));
+      setVisibleItems(getAllItems.filter((item) => item.id <= 12));
     }, [getAllItems]);
 
     const handleChange = (e) => {
@@ -238,35 +296,14 @@ function NFTs() {
     return (
       <>
         <Helmet>
-          <title>Civilizations Voxelverse NFTs</title>
-          <meta name="description" content="Interdimensional NFTs connected to different blockchains and ecosystems. Exoplanets and Droid Squad Collections. Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace" />
+          <title>Explore the Voxelverse</title>
+          <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and... Starting the party!" />
         </Helmet>
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="works">
           <div className="container">
-              <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
-               Voxelverse for You to: Earn, Collect, Discover, Build, Explore
-              </h2>
-              <ul className="social-icons light list-inline mb-0 mt-4">
-                <li className="list-inline-item">
-                  <a href="https://discord.com/invite/frYAsD2DjT">
-                    Join to Civilizations Voxelverse Discord <i className="fab fa-discord"></i>
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a href="https://paras.id/es/collection/voxelverse-exoplanets-by-pulsarforgenear">
-                    Voxelverse Exoplanets First Launch on NEAR / ParasID
-                  </a>
-                </li>
-              </ul>
-              <h3 style={{color: "white", width: "100%", marginTop: 30, marginBottom: 10}}> Interdimensional NFTs connected to different blockchains and ecosystems</h3>
-              <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace </h3>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Phases: Own exoplanets and conquer galaxies + Command droid squads, PFP NFTs, from your Head Quarters </h4>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Clash of dimensions, cross the portals + Don't forget to feed your space pets! </h4>
-              <BrandlogosDarkNFTs />
-              <div style={{paddingTop: 100}}></div>
-            <div style={{marginTop: 40}}>
-              <Pagetitle title="Civilizations Voxelverse" />
+          <div style={{marginTop: 40}}>
+              <Pagetitle title="Explore the Voxelverse" />
             </div>{/* Start Portfolio Filters */}
             <ScrollAnimation
               animateIn="fadeInUp"
@@ -296,7 +333,7 @@ function NFTs() {
             {/* Start Portfolio Items */}
             <div className="row portfolio-wrapper">
               {visibleItems.map((item) => (
-                <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
+                <div className="col-md-3 col-sm-6 grid-item" key={item.id}>
                   <Portfolio portfolio={item} />
                 </div>
               ))}
@@ -318,6 +355,25 @@ function NFTs() {
                 )}
               </button>
             </div>
+              <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
+               Voxelverse for You to: Earn, Collect, Discover, Build, Explore
+              </h2>
+              <ul className="social-icons light list-inline mb-0 mt-4">
+                <li className="list-inline-item">
+                  <a href="https://discord.com/invite/frYAsD2DjT">
+                    Explore Voxelverse Discord <i className="fab fa-discord"></i>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="https://paras.id/es/collection/voxelverse-exoplanets-by-pulsarforgenear">
+                    Voxelverse Exoplanets First Launch on NEAR / ParasID
+                  </a>
+                </li>
+              </ul>
+              <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and... Starting the party! </h3>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Own exoplanets and discover the local celebrations at the home quarters, break the dance floor in the parties, next to your party animals. </h4>
+              <BrandlogosDarkNFTs />
+              <div style={{paddingTop: 100}}></div>
             <div>
               <Experiences />
             </div>
@@ -325,7 +381,7 @@ function NFTs() {
               <ul className="social-icons light list-inline mb-0 mt-4">
                 <li className="list-inline-item">
                   <a href="https://discord.com/invite/frYAsD2DjT" target="_blank" rel="noreferrer">
-                    Civilizations Voxelverse <i className="fab fa-discord"></i>
+                    Explore the Voxelverse <i className="fab fa-discord"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
@@ -337,7 +393,7 @@ function NFTs() {
             </div>
             <div className="row">
             <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
-            Story Mode On, Guide your Civilizations through the Voxelverse, their fate are in your hands
+            Story Mode On, Guide your Party animals through the Voxelverse, their fate are in your hands.
             </h3>
             </div>
           </div>

@@ -66,7 +66,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 <a
                   className="nav-link"
                   href="/civilizations-voxelverse-nfts">
-                  Civilizations Voxelverse
+                  Explore the Voxelverse
                 </a>
               </li>
               <li className="nav-item">

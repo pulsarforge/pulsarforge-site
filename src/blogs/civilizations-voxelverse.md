@@ -16,11 +16,7 @@ There aren't dates set on stone but there is will to create and delight with art
 
 Topics & Explorations:
 
-Voxelverse Exoplanets, Habitats. /
-Head Quarters, Home & Architecture.
-
-Droid Squads, Characters. /
-Space Pets, Does it need a definition? Friendly pets.
+Voxelverse Exoplanets, Homes, Party Animals
 
 Enjoy this travel of discovering the connections and misteries of The Voxelverse.
 
