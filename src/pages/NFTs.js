@@ -301,8 +301,8 @@ function NFTs() {
         </Helmet>
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="works">
-          <div className="container">
-          <div style={{marginTop: 40}}>
+          
+          <div style={{marginTop: 40, textAlign: "center"}}>
               <Pagetitle title="Explore the Voxelverse" />
             </div>{/* Start Portfolio Filters */}
             <ScrollAnimation
@@ -311,7 +311,7 @@ function NFTs() {
               animateOnce={true}
             >
               
-              <ul className="portfolio-filter list-inline">
+              <ul className="portfolio-filter list-inline" style={{textAlign: "center"}}>
                 {filters.map((filter) => (
                   <li className="list-inline-item" key={filter.id}>
                     <button
@@ -355,6 +355,7 @@ function NFTs() {
                 )}
               </button>
             </div>
+            <div className="container" style={{textAlign: "center"}}>
               <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
                Voxelverse for You to: Earn, Collect, Discover, Build, Explore
               </h2>
@@ -364,6 +365,8 @@ function NFTs() {
                     Explore Voxelverse Discord <i className="fab fa-discord"></i>
                   </a>
                 </li>
+              </ul>
+              <ul className="social-icons light list-inline mb-0 mt-4">
                 <li className="list-inline-item">
                   <a href="https://paras.id/es/collection/voxelverse-exoplanets-by-pulsarforgenear">
                     Voxelverse Exoplanets First Launch on NEAR / ParasID

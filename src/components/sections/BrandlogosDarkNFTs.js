@@ -27,7 +27,7 @@ function BrandlogosDarkNFTs() {
         <Pagetitle title="Leveraging MultiChain, in Phases" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
-            <div className="col-md-3 col-6" key={brandlogo.id} style={{width: "12.5%", height: 100}}>
+            <div className="col-md-2 col-6" key={brandlogo.id} style={{width: "20%", margin: "auto"}}>
               <div className="client-item">
                 <div className="inner">
                   <img src={brandlogo.image} alt="client-name" />
