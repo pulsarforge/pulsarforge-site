@@ -3,6 +3,7 @@ import Header3 from "../components/layouts/Header3";
 import Blog from "../components/elements/Blog";
 import Pagination from "../components/elements/Pagination";
 import { Helmet } from "react-helmet";
+import Footer from "../components/layouts/Footer";
 
 const allBlogs = [
   {
@@ -103,6 +104,7 @@ function Bloglist() {
         </div>
         <div className="spacer" data-height="96"></div>
       </main>
+      <Footer />
     </>
   );
 }

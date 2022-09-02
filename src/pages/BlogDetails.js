@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import Header3 from "../components/layouts/Header3";
 import { Helmet } from "react-helmet";
+import Footer from "../components/layouts/Footer";
 
 function BlogDetails(props) {
   const [content, setContent] = useState("");
@@ -55,6 +56,7 @@ function BlogDetails(props) {
         </div>
         <div className="spacer" data-height="96"></div>
       </main>
+      <Footer />
     </>
   );
 }
