@@ -181,7 +181,7 @@ function NFTsOnFlow() {
           <meta name="description" content="Interdimensional NFTs connected to different blockchains and ecosystems. Exoplanets and Droid Squad Collections. Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace" />
         </Helmet>
         <Header3 logoSource="/images/PulsarForge-1.png" />
-        <section id="works">
+        <section id="onflow" style={{backgroundColor: "rgb(24, 24, 24)"}}>
           <div className="container">
           {user && user.addr ? <RenderLogout /> : <p>You should log in first</p>}
             <div className="row">

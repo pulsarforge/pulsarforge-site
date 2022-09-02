@@ -79,9 +79,9 @@ function Bloglist() {
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
-      <main>
+      <main style={{backgroundColor: "rgb(24, 24, 24)"}}>
         <div className="spacer" data-height="96"></div>
-        <div className="blog-page-section">
+        <div className="blog-page-section" style={{backgroundColor: "rgb(24, 24, 24)"}}>
           <div className="container">
             <div className="row blog-wrapper fix-spacing" style={{paddingTop: 170}}>
               {currentPosts.map((blogItem) => (

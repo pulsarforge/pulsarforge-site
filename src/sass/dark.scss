@@ -3,7 +3,7 @@
 /*=================================================================*/
 body.dark {
   color: #fff;
-  background-color: black;
+  background-color: $colordarkback;
 
   .section-title {
     color: #fff;
@@ -14,7 +14,7 @@ body.dark {
   }
 
   .bg-dark {
-    background: black !important;
+    background: $colordarkback !important;
   }
 
   h1,
@@ -73,7 +73,7 @@ body.dark {
 
   .content-blog,
   .blog-page-section {
-    background: black;
+    background: $colordarkback;
   }
 
   .bg-white {

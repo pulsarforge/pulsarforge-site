@@ -15,7 +15,7 @@ function AwesomeXR() {
           <meta name="description" content="Awesome XR, Use the resources and release you from 9 to 5 jobs or at least get an extra xp, Now you have the tools, up to you how to use them and solve the puzzle." />
         </Helmet>
         <Header3 logoSource="/images/PulsarForge-1.png" />
-        <section id="works">
+        <section id="awesome-x-r" style={{backgroundColor: "rgb(24, 24, 24)"}}>
           <div className="container">
             <div style={{marginTop: 40}}>
               <Pagetitle title="Awesome X_Name Resources" />

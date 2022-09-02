@@ -304,7 +304,7 @@ function NFTs() {
           <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and... Starting the party!" />
         </Helmet>
         <Header3 logoSource="/images/PulsarForge-1.png" />
-        <section id="works">
+        <section id="Voxelverse" style={{backgroundColor: "rgb(24, 24, 24)"}}>
           
           <div style={{marginTop: 40, textAlign: "center"}}>
               <Pagetitle title="Explore the Voxelverse" />
