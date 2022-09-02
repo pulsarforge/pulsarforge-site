@@ -16,16 +16,18 @@ function Herosection(props) {
       <div className="container">
         <div className="intro">
           <img src="images/PulsarForge.png" alt="PulsarForge" className="mb-4" style={{width: "80%", borderRadius: "35%", marginTop: "120px"}}/>
-          <h1 className="mb-2 mt-0">Web3 Devs Lab</h1>
-          <h2 className="mb-2 mt-0">PulsarForge</h2>
+          <h1 className="mb-2 mt-0">Web3 Labs</h1>
           <h2>
-          Oliver M. {" "}
+          We are {" "}
             <Typed
               strings={[
-                "Software Engineer",
-                "Software Engineer",
-                "Bounty Hunter",
-                "Digital Creator",
+                "software engineers",
+                "software engineers",
+                "designers",
+                "bounty hunters",
+                "badass people",
+                "doing inspiring projects",
+                "a welcoming community",
               ]}
               typeSpeed={80}
               backSpeed={40}
