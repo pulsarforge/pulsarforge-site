@@ -388,7 +388,8 @@ function CivilizationsVoxelverse() {
               </ul>
               <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened... </h3>
               <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Breaking the Voxelverse peace, and Starting the party! </h3>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Own exoplanets and discover the local celebrations at the home quarters, break the dance floor, next to your party animals. </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Own exoplanets and discover the local celebrations at the home quarters. </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Break the dance floor, next to your party animals. </h4>
               <BrandlogosDarkNFTs />
               <div style={{paddingTop: 100}}></div>
             <div>
