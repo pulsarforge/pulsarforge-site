@@ -386,31 +386,16 @@ function NFTs() {
                   </a>
                 </li>
               </ul>
-              <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and... Starting the party! </h3>
+              <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened... </h3>
+              <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Breaking the Voxelverse peace, and Starting the party! </h3>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Own exoplanets and discover the local celebrations at the home quarters, break the dance floor, next to your party animals. </h4>
               <BrandlogosDarkNFTs />
               <div style={{paddingTop: 100}}></div>
             <div>
               <Experiences />
             </div>
-            <div>
-              <ul className="social-icons light list-inline mb-0 mt-4">
-                <li className="list-inline-item">
-                  <a href="https://discord.com/invite/frYAsD2DjT" target="_blank" rel="noreferrer">
-                    Explore the Voxelverse <i className="fab fa-discord"></i>
-                  </a>
-                </li>
-              </ul>
-              <ul className="social-icons light list-inline mb-0 mt-4">
-                <li className="list-inline-item">
-                  <a href="https://twitter.com/pulsarforge" target="_blank" rel="noreferrer">
-                    PulsarForge <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
             <div className="row">
-            <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
+            <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 100}}>
             Story Mode On, Guide your Party animals through the Voxelverse, their fate are in your hands.
             </h3>
             </div>
