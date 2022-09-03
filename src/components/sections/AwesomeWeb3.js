@@ -15,6 +15,10 @@ const filters = [
   {
     id: 3,
     text: "DAOs",
+  },
+  {
+    id: 4,
+    text: "web3-jobs",
   }
 ];
 
@@ -130,7 +134,7 @@ function AwesomeBounties() {
         </div>
         {/* End Portfolio Items */}
 
-        <div className="load-more text-center mt-4">
+        <div className="load-more text-center mt-4" style={{paddingBottom: '100px'}}>
           <button
             className="btn btn-default"
             onClick={handleLoadmore}
