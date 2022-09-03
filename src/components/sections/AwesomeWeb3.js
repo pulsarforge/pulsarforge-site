@@ -14,7 +14,7 @@ const filters = [
   },
   {
     id: 3,
-    text: "DAOs",
+    text: "daos",
   },
   {
     id: 4,
@@ -43,12 +43,57 @@ const allData = [
     category: "bounty-boards",
     image: "images/awesomexr/dework.png",
     link: ["https://dework.xyz/"],
+  },
+  {
+    id: 4,
+    title: "AstroDAO",
+    category: "daos",
+    description: "AstroDAO",
+    text: "Infrastructure / NEAR",
+    link: ["https://astrodao.com/"],
+  },
+  {
+    id: 5,
+    title: "Aragon DAO",
+    category: "daos",
+    description: "Aragon DAO",
+    text: "Infrastructure / Ethereum",
+    link: ["https://aragon.org/"],
+  },
+  {
+    id: 6,
+    title: "Tribeca",
+    category: "daos",
+    description: "Tribeca",
+    text: "Infrastructure / Solana",
+    link: ["https://tribeca.so/"],
+  },
+  {
+    id: 7,
+    title: "Web3 Career",
+    category: "web3-jobs",
+    description: "Web3 Career",
+    link: ["https://web3.career/"],
+  },
+  {
+    id: 8,
+    title: "Crypto Jobs",
+    category: "web3-jobs",
+    description: "Crypto Jobs",
+    link: ["https://crypto.jobs/"],
+  },
+  {
+    id: 9,
+    title: "Crypto Jobs List",
+    category: "web3-jobs",
+    description: "Crypto Jobs List",
+    link: ["https://cryptojobslist.com/"],
   }
 ];
 
 function AwesomeWeb3() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(3);
+  const [dataVisibleCount, setDataVisibleCount] = useState(9);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -56,7 +101,7 @@ function AwesomeWeb3() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 3));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 9));
   }, [getAllItems]);
 
   const handleChange = (e) => {

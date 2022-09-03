@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 
 function Portfolio({ portfolio }) {
-  const { category, title, image, popupLink, link, description } = portfolio;
+  const { category, title, image, popupLink, link, description, text } = portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -45,8 +45,9 @@ function Portfolio({ portfolio }) {
             <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb">
-            <img src={image} style={{width: '100%'}} alt="Portfolio-title" />
-            <p style={{color: 'white', margin: '20px'}}>{description}</p>
+            <img src={image} style={{width: '100%'}}/>
+            <h2 style={{color: 'white', margin: '50px', textAlign: 'center'}}>{description}</h2>
+            <p style={{color: 'white', margin: '20px', textAlign: 'center'}}>{text}</p>
             <div className="mask"></div>
           </div>
         </div>
