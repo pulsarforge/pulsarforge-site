@@ -241,8 +241,36 @@ const filters = [
       id: 12,
       title: "Cloud Gum",
       category: "exoplanets",
-      image: "images/works/00006-cloud-gum.jpg",
-      popupLink: ["images/works/00006-cloud-gum.jpg"],
+      image: "images/works/cloud-gum.jpg",
+      popupLink: ["images/works/cloud-gum.jpg"],
+    },
+    {
+      id: 13,
+      title: "Laser Flower",
+      category: "exoplanets",
+      image: "images/works/laser-flower-13.jpg",
+      popupLink: ["images/works/laser-flower-13.jpg"],
+    },
+    {
+      id: 14,
+      title: "Energy Travel",
+      category: "exoplanets",
+      image: "images/works/energy-travel-14.png",
+      popupLink: ["images/works/energy-travel-14.png"],
+    },
+    {
+      id: 15,
+      title: "Magnetical Landing",
+      category: "exoplanets",
+      image: "images/works/0015-magnetical-landing.jpg",
+      popupLink: ["images/works/0015-magnetical-landing.jpg"],
+    },
+    {
+      id: 16,
+      title: "Once a Time",
+      category: "exoplanets",
+      image: "images/works/once-a-time-12.jpg",
+      popupLink: ["images/works/once-a-time-12.jpg"],
     },
   ];
   
