@@ -18,7 +18,7 @@ Topics & Explorations:
 
 Voxelverse Exoplanets, Homes, Party Animals
 
-Enjoy this travel of discovering the connections and misteries of The Voxelverse.
+Enjoy this travel of discovering the connections and misteries of the local celebrations and parties at the Voxelverse.
 
 
 "Their fate are in your hands".
