@@ -46,7 +46,7 @@ const allData = [
   }
 ];
 
-function AwesomeBounties() {
+function AwesomeWeb3() {
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(3);
   const [dataIncrement] = useState(3);
@@ -154,4 +154,4 @@ function AwesomeBounties() {
   );
 }
 
-export default AwesomeBounties;
+export default AwesomeWeb3;

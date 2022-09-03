@@ -248,7 +248,7 @@ const filters = [
   
   
   
-function NFTs() {
+function CivilizationsVoxelverse() {
     const [getAllItems] = useState(allData);
     const [dataVisibleCount, setDataVisibleCount] = useState(12);
     const [dataIncrement] = useState(9);
@@ -406,4 +406,4 @@ function NFTs() {
     );
   }
 
-export default NFTs;
+export default CivilizationsVoxelverse;

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Homepage3Dark from "./pages/Homepage3Dark";
-import NFTs from "./pages/NFTs";
+import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
 import NFTsOnFlow from "./pages/NFTsOnFlow";
 import Bloglist from "./pages/Bloglist";
 import BlogDetails from "./pages/BlogDetails";
@@ -19,7 +19,7 @@ function App() {
           <AwesomeXR />
         </Route>
         <Route path="/civilizations-voxelverse-nfts" exact>
-          <NFTs />
+          <CivilizationsVoxelverse />
         </Route>
         <Route path="/voxelverse-onflow-mint" exact>
           <NFTsOnFlow />
