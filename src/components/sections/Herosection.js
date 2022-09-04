@@ -14,8 +14,8 @@ function Herosection(props) {
       }
     >
       <div className="container">
-        <div className="intro">
-          <img src="images/PulsarForge.png" alt="PulsarForge" className="mb-4" style={{width: "80%", borderRadius: "35%", marginTop: "120px"}}/>
+        <div className="intro" style={{paddingTop: "150px"}}>
+          <img src="images/PulsarForge.png" alt="PulsarForge" className="mb-4" style={{width: "80%", borderRadius: "40%"}}/>
           <h1 className="mb-2 mt-0">Web3 Labs</h1>
           <h2>
           We are {" "}
@@ -56,7 +56,7 @@ function Herosection(props) {
             </li>
           </ul>
 
-          <div className="mt-4">
+          <div className="mt-4" style={{paddingBottom: "150px"}}>
             <Link
               className="btn btn-default"
               to="section-services"
