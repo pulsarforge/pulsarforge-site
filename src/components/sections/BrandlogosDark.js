@@ -8,11 +8,11 @@ const brandlogoData = [
   },
   {
     id: 2,
-    image: "images/graphql.png",
+    image: "images/thegraph.png",
   },
   {
     id: 3,
-    image: "images/thegraph.png",
+    image: "images/graphql.png",
   },
   {
     id: 4,
