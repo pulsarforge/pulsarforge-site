@@ -30,7 +30,7 @@ function Homepage3() {
         <Element name="section-works">
           <Works />
         </Element>
-        <Element name="section-services">
+        <Element name="section-services" style={{marginBottom: '50px'}}>
           <Services />
         </Element>
         <Element name="section-brandlogos">

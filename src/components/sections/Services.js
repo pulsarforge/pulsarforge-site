@@ -59,6 +59,9 @@ function Services() {
         </div>
         <div className="mt-5 text-center">
           <h4 className="mb-0">
+            We also creates: UIs with Figma & collection NFTs generation.
+          </h4>
+          <h4 className="mb-0">
             Looking for a custom job?{" "}
             <Link
               className="colorpink pointer"
