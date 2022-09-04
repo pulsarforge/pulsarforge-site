@@ -11,7 +11,7 @@ const priceboxData = [
     content: [
       {
         id: 0,
-        text: "Reliable and Outstanding Websites, with the fastest technologies and frameworks",
+        text: "Reliable and Outstanding Websites, with the fastest technologies and frameworks, bringing your business to life",
       },
     ],
     price: "Contact",
@@ -37,7 +37,7 @@ const priceboxData = [
     title: "Smart Contracts",
     icon: "images/ethereum.png",
     content: [
-      { id: 1, text: "Focus on Ethereum. We are available for other blockchains" },
+      { id: 1, text: "Focus on Ethereum and NFTs. We are available for other blockchains, Avalanche, Polygon, Fantom, and so on." },
     ],
     price: "Contact",
     best: false,
