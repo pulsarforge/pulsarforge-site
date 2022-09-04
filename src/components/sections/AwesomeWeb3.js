@@ -19,29 +19,33 @@ const filters = [
   {
     id: 4,
     text: "web3-jobs",
+  },
+  {
+    id: 5,
+    text: "learn-ship",
   }
 ];
 
 const allData = [
   {
     id: 1,
-    title: "GITCOIN",
+    title: "Gitcoin",
     category: "bounty-boards",
-    image: "images/awesomexr/gitcoin.jpg",
+    description: "Gitcoin",
     link: ["https://gitcoin.co/"],
   },
   {
     id: 2,
-    title: "CODE4RENA",
+    title: "Code4rena",
     category: "bounty-boards",
-    image: "images/awesomexr/code4rena.png",
+    description: "Code4rena",
     link: ["https://code4rena.com/"],
   },
   {
     id: 3,
-    title: "DEWORK",
+    title: "Dework",
     category: "bounty-boards",
-    image: "images/awesomexr/dework.png",
+    description: "Dework",
     link: ["https://dework.xyz/"],
   },
   {
@@ -88,12 +92,33 @@ const allData = [
     category: "web3-jobs",
     description: "Crypto Jobs List",
     link: ["https://cryptojobslist.com/"],
+  },
+  {
+    id: 10,
+    title: "Buildspace",
+    category: "learn-ship",
+    description: "Buildspace",
+    link: ["https://buildspace.so/"],
+  },
+  {
+    id: 11,
+    title: "Figment",
+    category: "learn-ship",
+    description: "Figment",
+    link: ["https://learn.figment.io/"],
+  },
+  {
+    id: 12,
+    title: "Encode Club",
+    category: "learn-ship",
+    description: "Encode Club",
+    link: ["https://www.encode.club/"],
   }
 ];
 
 function AwesomeWeb3() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(9);
+  const [dataVisibleCount, setDataVisibleCount] = useState(12);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -101,7 +126,7 @@ function AwesomeWeb3() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 9));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 12));
   }, [getAllItems]);
 
   const handleChange = (e) => {
