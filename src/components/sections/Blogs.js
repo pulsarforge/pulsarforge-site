@@ -45,7 +45,7 @@ function Blogs() {
             </div>
           ))}
         </div>
-        <div className="text-center">
+        <div className="text-center" style={{marginBottom: "100px"}}>
           <div className="spacer" data-height="30"></div>
           <Link to="/blogs" className="btn btn-default">
             Show all blogs
