@@ -28,7 +28,7 @@ function BrandlogosDark() {
   return (
     <div id="branglogos">
       <div className="container">
-        <Pagetitle title="Techs" />
+        <Pagetitle title="Main Techs" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
             <div className="col-md-2 col-6" key={brandlogo.id} style={{width: "20%"}}>
