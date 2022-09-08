@@ -65,7 +65,7 @@ function Services() {
             Looking for a custom job?{" "}
             <Link
               className="colorpink pointer"
-              to="section-newsletter"
+              to="section-contact"
               spy={true}
               smooth={true}
               duration={500}
