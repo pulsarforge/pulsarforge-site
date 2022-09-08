@@ -402,18 +402,26 @@ function CivilizationsVoxelverse() {
               </h2>
               <ul className="social-icons light list-inline mb-0 mt-4">
                 <li className="list-inline-item">
-                  <a href="https://discord.com/invite/frYAsD2DjT">
-                    Explore Voxelverse Discord <i className="fab fa-discord"></i>
-                  </a>
-                </li>
-              </ul>
-              <ul className="social-icons light list-inline mb-0 mt-4">
-                <li className="list-inline-item">
                   <a href="https://paras.id/es/collection/voxelverse-exoplanets-by-pulsarforgenear">
                     Voxelverse Exoplanets First Launch on NEAR / ParasID
                   </a>
                 </li>
               </ul>
+              <ul className="social-icons light list-inline mb-0 mt-4">
+                <li className="list-inline-item">
+                  <a href="https://discord.com/invite/frYAsD2DjT">
+                    Explore Voxelverse Labs Discord
+                  </a>
+                </li>
+              </ul>
+              <ul className="social-icons light list-inline mb-0 mt-4">
+                <li className="list-inline-item">
+                  <a href="https://www.artstation.com/pulsarforge">
+                    ArtStation
+                  </a>
+                </li>
+              </ul>
+              
               <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened... </h3>
               <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Breaking the Voxelverse peace, and Starting the party! </h3>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Own exoplanets and discover the local celebrations at the home quarters. </h4>
