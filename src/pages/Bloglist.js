@@ -33,6 +33,15 @@ const allBlogs = [
     author: "PulsarForge",
     category: "Estonia",
   },
+  {
+    id: 4,
+    title: "DAO onboarding process, guide, smooth as silk",
+    image: "images/blog/dao-onboarding.jpg",
+    filesource: "../../blogs/dao-onboarding-process-guide-smooth-as-silk.md",
+    date: "08 September, 2022",
+    author: "PulsarForge",
+    category: "DAOs",
+  },
 ];
 
 function Bloglist() {
@@ -86,7 +95,7 @@ function Bloglist() {
           <div className="container">
             <div className="row blog-wrapper fix-spacing" style={{paddingTop: 170}}>
               {currentPosts.map((blogItem) => (
-                <div className="col-md-4" key={blogItem.id}>
+                <div className="col-md-3" key={blogItem.id}>
                   <Blog blogData={blogItem} />
                 </div>
               ))}
