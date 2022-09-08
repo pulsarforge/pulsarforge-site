@@ -5,6 +5,9 @@
 It is a celebrations of voxel art, exploring sci-fi shapes that together form exoplanets, that's the first phase.
 
 Travel into the voxelverse exoplanets:
+[Explore the Voxelverse](https://pulsarforge.io/civilizations-voxelverse-nfts)
+
+On NEAR Protocol, ParasId:
 [Collection at ParasId](https://paras.id/es/collection/voxelverse-exoplanets-by-pulsarforgenear)
 
 Discover More:
