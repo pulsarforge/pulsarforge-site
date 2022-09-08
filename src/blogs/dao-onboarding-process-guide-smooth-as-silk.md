@@ -60,7 +60,8 @@ The checklist to have in mind:
 
 Once you have gone through this checklist to have in mind and applied the concepts, matching your case and context with the parts are useful to the DAO, team and individuals, You are ready to go.
 
-## How does it look like a real onboarding process? Hands on, full walkthrought, practical example.
+## How does it look like a real onboarding process? 
+### Hands on, full walkthrought, practical example.
 
 Our practical example we will use the fictional name of:
 DAO_Z.
