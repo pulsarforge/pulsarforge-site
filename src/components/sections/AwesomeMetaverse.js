@@ -50,9 +50,9 @@ const allData = [
   },
   {
     id: 3,
-    title: "Meta Architect sHub",
+    title: "MetaArchitects sHub",
     category: "metaverse",
-    description: "Meta Architects Hub",
+    description: "MetaArchitects Hub",
     text: "Community & Discord",
     link: ["https://linktr.ee/metaarchitectshub"],
   },
