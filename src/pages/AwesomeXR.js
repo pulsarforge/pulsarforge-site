@@ -4,6 +4,7 @@ import Header3 from "../components/layouts/Header3";
 import Footer from "../components/layouts/Footer";
 import { Helmet } from "react-helmet";
 import AwesomeWeb3 from "../components/sections/AwesomeWeb3";
+import AwesomeMetaverese from "../components/sections/AwesomeMetaverse";
 
 
 function AwesomeXR() {
@@ -24,6 +25,12 @@ function AwesomeXR() {
               
             </div>{/* Start Portfolio Filters */}
             <AwesomeWeb3 />
+            <div style={{marginTop: 40}}>
+              <Pagetitle title="Awesome Fun" />
+              <h3 style={{color: 'white'}}>Explore the Metaverse and NFTs.</h3>
+              
+            </div>{/* Start Portfolio Filters */}
+            <AwesomeMetaverese />
           </div>
         </section>
         <Footer />

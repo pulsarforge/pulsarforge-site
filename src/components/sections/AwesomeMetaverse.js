@@ -10,124 +10,105 @@ const filters = [
   },
   {
     id: 2,
-    text: "bounty-boards",
+    text: "metaverse",
   },
   {
     id: 3,
-    text: "daos",
+    text: "near-nfts",
   },
   {
     id: 4,
-    text: "web3-jobs",
+    text: "solana-nfts",
   },
   {
     id: 5,
-    text: "learn-ship",
+    text: "ethereum-nfts",
+  },
+  {
+    id: 6,
+    text: "flow-nfts",
   }
+
 ];
 
 const allData = [
   {
     id: 1,
-    title: "Gitcoin",
-    category: "bounty-boards",
-    description: "Gitcoin",
-    text: "Bounties",
-    link: ["https://gitcoin.co/"],
+    title: "The Sandbox",
+    category: "metaverse",
+    description: "The Sandbox",
+    text: "Game & Experiences",
+    link: ["https://www.sandbox.game/en/"],
   },
   {
     id: 2,
-    title: "Code4rena",
-    category: "bounty-boards",
-    description: "Code4rena",
-    text: "Bounties",
-    link: ["https://code4rena.com/"],
+    title: "SkyWeaver",
+    category: "metaverse",
+    description: "SkyWeaver",
+    text: "Game & Experiences",
+    link: ["https://www.skyweaver.net/"],
   },
   {
     id: 3,
-    title: "Dework",
-    category: "bounty-boards",
-    description: "Dework",
-    text: "Bounties",
-    link: ["https://dework.xyz/"],
+    title: "Meta Architect sHub",
+    category: "metaverse",
+    description: "Meta Architects Hub",
+    text: "Community & Discord",
+    link: ["https://linktr.ee/metaarchitectshub"],
   },
   {
     id: 4,
-    title: "AstroDAO",
-    category: "daos",
-    description: "AstroDAO",
-    text: "Infrastructure / NEAR",
-    link: ["https://astrodao.com/"],
+    title: "Blankos",
+    category: "metaverse",
+    description: "Blankos",
+    text: "Game & Experiences",
+    link: ["https://blankos.com/"],
   },
   {
     id: 5,
-    title: "Aragon DAO",
-    category: "daos",
-    description: "Aragon DAO",
-    text: "Infrastructure / Ethereum",
-    link: ["https://aragon.org/"],
+    title: "Illuvium",
+    category: "metaverse",
+    description: "Illuvium",
+    text: "Game & Experiences",
+    link: ["https://www.illuvium.io/"],
   },
   {
     id: 6,
-    title: "Tribeca",
-    category: "daos",
-    description: "Tribeca",
-    text: "Infrastructure / Solana",
-    link: ["https://tribeca.so/"],
+    title: "Nomad Club",
+    category: "near-nfts",
+    description: "Nomad Club",
+    text: "Long time building, on NEAR",
+    link: ["https://linktr.ee/nearnomad"],
   },
   {
     id: 7,
-    title: "Web3 Career",
-    category: "web3-jobs",
-    description: "Web3 Career",
-    text: "Jobs",
-    link: ["https://web3.career/"],
+    title: "Alien Bear Crew",
+    category: "near-nfts",
+    description: "Alien Bear Crew",
+    text: "Long time building, on NEAR",
+    link: ["https://alienbearcrew.com/"],
   },
   {
     id: 8,
-    title: "Crypto Jobs",
-    category: "web3-jobs",
-    description: "Crypto Jobs",
-    text: "Jobs",
-    link: ["https://crypto.jobs/"],
+    title: "N1NGENz",
+    category: "near-nfts",
+    description: "N1NGENz",
+    text: "Medium time building, on NEAR",
+    link: ["https://twitter.com/N1NGENz"],
   },
   {
     id: 9,
-    title: "Crypto Jobs List",
-    category: "web3-jobs",
-    description: "Crypto Jobs List",
-    text: "Jobs",
-    link: ["https://cryptojobslist.com/"],
-  },
-  {
-    id: 10,
-    title: "Buildspace",
-    category: "learn-ship",
-    description: "Buildspace",
-    text: "Coding",
-    link: ["https://buildspace.so/"],
-  },
-  {
-    id: 11,
-    title: "Figment",
-    category: "learn-ship",
-    description: "Figment",
-    text: "Coding",
-    link: ["https://learn.figment.io/"],
-  },
-  {
-    id: 12,
-    title: "Encode Club",
-    category: "learn-ship",
-    description: "Encode Club",
-    text: "Coding",
-    link: ["https://www.encode.club/"],
+    title: "Meta Strongest Neko",
+    category: "near-nfts",
+    description: "Meta Strongest Neko",
+    text: "Long time building, on NEAR",
+    link: ["https://twitter.com/yodchat"],
   }
 ];
 
-function AwesomeWeb3() {
+function AwesomeMetaverese() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(12);
+  const [dataVisibleCount, setDataVisibleCount] = useState(9);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -135,7 +116,7 @@ function AwesomeWeb3() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 12));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 9));
   }, [getAllItems]);
 
   const handleChange = (e) => {
@@ -177,7 +158,7 @@ function AwesomeWeb3() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Web3" />
+        <Pagetitle title="Metaverse & NFTs" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
@@ -233,4 +214,4 @@ function AwesomeWeb3() {
   );
 }
 
-export default AwesomeWeb3;
+export default AwesomeMetaverese;
