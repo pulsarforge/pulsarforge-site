@@ -10,18 +10,22 @@ const filters = [
   },
   {
     id: 2,
-    text: "collabs",
-  },
-  {
-    id: 3,
     text: "projects",
   },
   {
+    id: 3,
+    text: "partnerships",
+  },
+  {
     id: 4,
-    text: "bounties",
+    text: "collabs",
   },
   {
     id: 5,
+    text: "bounties",
+  },
+  {
+    id: 6,
     text: "completed",
   },
 ];
