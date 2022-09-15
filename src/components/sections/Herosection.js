@@ -54,6 +54,11 @@ function Herosection(props) {
                 <i className="fab fa-twitter adjust-social-icons"></i>
               </a>
             </li>
+            <li className="list-inline-item">
+              <a href="https://www.twitch.tv/pulsarforge" target="_blank"rel="noreferrer">
+                <i className="fab fa-twitch adjust-social-icons"></i>
+              </a>
+            </li>
           </ul>
 
           <div className="mt-4" style={{paddingBottom: "150px"}}>
