@@ -98,11 +98,11 @@ const allData = [
   },
   {
     id: 9,
-    title: "Meta Strongest Neko",
+    title: "Gimme fooooood!!",
     category: "near-nfts",
-    description: "Meta Strongest Neko",
-    text: "Long time building, on NEAR",
-    link: ["https://twitter.com/yodchat"],
+    description: "Gimme fooooood!!",
+    text: "Medium time building, on NEAR",
+    link: ["https://twitter.com/mp_artlady"],
   }
 ];
 
