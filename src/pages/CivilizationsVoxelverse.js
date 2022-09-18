@@ -272,6 +272,13 @@ const filters = [
       image: "images/works/once-a-time-12.jpg",
       popupLink: ["images/works/once-a-time-12.jpg"],
     },
+    {
+      id: 17,
+      title: "Bear Time Head",
+      category: "party-animals",
+      image: "images/works/bear-time-party-head.jpg",
+      popupLink: ["images/works/bear-time-party-head.jpg"],
+    },
   ];
   
   
