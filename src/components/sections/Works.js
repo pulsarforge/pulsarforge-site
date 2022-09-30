@@ -33,37 +33,57 @@ const filters = [
 const allData = [
   {
     id: 1,
-    title: "BlockverseKit, Multi Chain Analytics Dapp",
+    title: "BlockverseKit",
     category: "projects",
+    description: "Multi Chain Analytics Dapp",
     image: "images/works/blockversekitv1.png",
     link: ["https://blockversekit.io/"],
   },
   {
     id: 2,
-    title: "Civilizations Voxelverse, NFTs",
+    title: "Civilizations Voxelverse",
     category: "projects",
+    description: "Hand Made Art, Collectibles NFTs",
     image: "images/works/The_Gathering_V1.png",
     link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
   {
     id: 3,
-    title: "PulsarForge, GitHub",
+    title: "Inursites",
     category: "projects",
+    description: "Web3 Development Agency",
+    image: "images/works/inursites-logo.png",
+    link: ["https://inursites.pages.dev"],
+  },
+  {
+    id: 4,
+    title: "Blocks Labs",
+    category: "projects",
+    description: "Newsletter & Podcast, High signal content",
+    image: "images/works/BlocksLabs.png",
+    link: ["https://pulsarforge.substack.com/"],
+  },
+  {
+    id: 5,
+    title: "PulsarForge",
+    category: "projects",
+    description: "GitHub, Leveling Mind Abstractions",
     image: "images/works/PulsarForge.png",
     link: ["https://github.com/pulsarforge"],
   },
   {
-    id: 4,
-    title: "Blocks Labs, Newsletter & Podcast",
+    id: 6,
+    title: "Registry",
     category: "projects",
-    image: "images/works/BlocksLabs.png",
-    link: ["https://pulsarforge.substack.com/"],
-  },
+    description: "A look into the full life time line",
+    image: "images/works/space-walk.jpg",
+    link: ["https://pulsarforge.io/timeline"],
+  }
 ];
 
 function Works() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(3);
+  const [dataVisibleCount, setDataVisibleCount] = useState(6);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -71,7 +91,7 @@ function Works() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 3));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 6));
   }, [getAllItems]);
 
   const handleChange = (e) => {

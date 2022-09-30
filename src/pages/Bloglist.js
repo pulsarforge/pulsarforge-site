@@ -41,7 +41,7 @@ const allBlogs = [
     date: "08 September, 2022",
     author: "PulsarForge",
     category: "DAOs",
-  },
+  }
 ];
 
 function Bloglist() {
