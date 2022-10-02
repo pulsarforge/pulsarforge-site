@@ -73,11 +73,11 @@ const allData = [
   },
   {
     id: 6,
-    title: "Registry",
+    title: "World Wiki Code",
     category: "projects",
-    description: "A look into the full life time line",
+    description: "Software Engineering Notes",
     image: "images/works/space-walk.jpg",
-    link: ["https://pulsarforge.io/timeline"],
+    link: ["https://hqnotes.pulsarforge.io/"],
   }
 ];
 
