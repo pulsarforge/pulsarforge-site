@@ -42,7 +42,7 @@ function Homepage3() {
         <Element name="section-newsletter">
           <div className="container">
             <Pagetitle title="Newsletter" />
-            <iframe src="https://pulsarforge.substack.com/embed" width="70%" height="300px" style={{border:"1px solid #EEE", background:"white", margin:"auto", display:"block", borderRadius:"25px",}} frameborder="0"></iframe>
+            <iframe src="https://pulsarforge.substack.com/embed" width="70%" height="300px" title="Newsletter Blocks Labs" style={{border:"1px solid #EEE", background:"white", margin:"auto", display:"block", borderRadius:"25px",}}></iframe>
           </div>
         </Element>
         <Element name="section-contact">
