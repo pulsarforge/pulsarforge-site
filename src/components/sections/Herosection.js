@@ -23,10 +23,9 @@ function Herosection(props) {
               strings={[
                 "software engineers",
                 "software engineers",
-                "designers",
                 "bounty hunters",
                 "badass people",
-                "doing inspiring projects",
+                "developing inspirational projects",
                 "a welcoming community",
               ]}
               typeSpeed={80}
