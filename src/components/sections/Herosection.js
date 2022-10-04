@@ -25,7 +25,7 @@ function Herosection(props) {
                 "software engineers",
                 "bounty hunters",
                 "badass people",
-                "developing inspirational projects",
+                "developing/scaling projects",
                 "a welcoming community",
               ]}
               typeSpeed={80}
