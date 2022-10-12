@@ -41,11 +41,11 @@ const allData = [
   },
   {
     id: 2,
-    title: "Civilizations Voxelverse",
+    title: "PulsarForge",
     category: "projects",
-    description: "Hand Made Art, Collectibles NFTs",
-    image: "images/works/The_Gathering_V_1.jpg",
-    link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
+    description: "GitHub, Leveling Mind Abstractions",
+    image: "images/works/PulsarForge.png",
+    link: ["https://github.com/pulsarforge"],
   },
   {
     id: 3,
@@ -65,11 +65,11 @@ const allData = [
   },
   {
     id: 5,
-    title: "PulsarForge",
+    title: "Civilizations Voxelverse",
     category: "projects",
-    description: "GitHub, Leveling Mind Abstractions",
-    image: "images/works/PulsarForge.png",
-    link: ["https://github.com/pulsarforge"],
+    description: "Hand Made Art, Collectibles NFTs",
+    image: "images/works/The_Gathering_V_1.jpg",
+    link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
   {
     id: 6,
