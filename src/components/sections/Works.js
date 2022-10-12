@@ -33,18 +33,18 @@ const filters = [
 const allData = [
   {
     id: 1,
-    title: "BlockverseKit",
+    title: "World Wiki Code",
     category: "projects",
-    description: "Multi Chain Analytics Dapp",
-    image: "images/works/blockversekitv1.png",
-    link: ["https://blockversekit.io/"],
+    description: "Software Engineering Notes",
+    image: "images/works/space-walk.jpg",
+    link: ["https://hqnotes.pulsarforge.io/"],
   },
   {
     id: 2,
     title: "Civilizations Voxelverse",
     category: "projects",
     description: "Hand Made Art, Collectibles NFTs",
-    image: "images/works/The_Gathering_V1.png",
+    image: "images/works/The_Gathering_V_1.jpg",
     link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
   {
@@ -60,7 +60,7 @@ const allData = [
     title: "Blocks Labs",
     category: "projects",
     description: "Newsletter & Podcast, High signal content",
-    image: "images/works/BlocksLabs.png",
+    image: "images/works/BlocksLabs.jpg",
     link: ["https://pulsarforge.substack.com/"],
   },
   {
@@ -73,11 +73,11 @@ const allData = [
   },
   {
     id: 6,
-    title: "World Wiki Code",
+    title: "BlockverseKit",
     category: "projects",
-    description: "Software Engineering Notes",
-    image: "images/works/space-walk.jpg",
-    link: ["https://hqnotes.pulsarforge.io/"],
+    description: "Multi Chain Analytics Dapp",
+    image: "images/works/blockversekitv1.png",
+    link: ["https://blockversekit.io/"],
   }
 ];
 
