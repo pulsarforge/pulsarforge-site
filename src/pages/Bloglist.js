@@ -8,12 +8,12 @@ import Footer from "../components/layouts/Footer";
 const allBlogs = [
   {
     id: 1,
-    title: "BlockverseKit analytics dAPP",
+    title: "Cryptoracle analytics dAPP",
     image: "images/blog/blockversekitv1.png",
-    filesource: "../../blogs/blockversekit-analytics-dapp.md",
+    filesource: "../../blogs/cryptoracle-analytics-dapp.md",
     date: "25 April, 2022",
     author: "PulsarForge",
-    category: "BlockverseKit",
+    category: "Cryptoracle",
   },
   {
     id: 2,
