@@ -31,13 +31,13 @@ const filters = [
 ];
 
 const allData = [
-  {
+    {
     id: 1,
-    title: "World Wiki Code",
+    title: "Inursites",
     category: "projects",
-    description: "Software Engineering Notes",
-    image: "images/works/space-walk.jpg",
-    link: ["https://hqnotes.pulsarforge.io/"],
+    description: "Web3 Development Agency",
+    image: "images/works/inursites-logo.png",
+    link: ["https://inursites.pages.dev"],
   },
   {
     id: 2,
@@ -49,11 +49,11 @@ const allData = [
   },
   {
     id: 3,
-    title: "Inursites",
+    title: "Cryptoracle",
     category: "projects",
-    description: "Web3 Development Agency",
-    image: "images/works/inursites-logo.png",
-    link: ["https://inursites.pages.dev"],
+    description: "Multi Chain Analytics Dapp",
+    image: "images/works/blockversekitv1.png",
+    link: ["https://app.cryptoracle.io/"],
   },
   {
     id: 4,
@@ -73,12 +73,13 @@ const allData = [
   },
   {
     id: 6,
-    title: "BlockverseKit",
+    title: "World Wiki Code",
     category: "projects",
-    description: "Multi Chain Analytics Dapp",
-    image: "images/works/blockversekitv1.png",
-    link: ["https://blockversekit.io/"],
+    description: "Software Engineering Notes",
+    image: "images/works/space-walk.jpg",
+    link: ["https://hqnotes.pulsarforge.io/"],
   }
+  
 ];
 
 function Works() {
