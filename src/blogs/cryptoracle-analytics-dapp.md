@@ -1,10 +1,10 @@
-![BlockverseKit](/images/blog/blockversekitv1.png)
+![Cryptoracle](/images/blog/blockversekitv1.png)
 
-# BlockverseKit, discovering patterns at web3.
+# Cryptoracle, discovering patterns at web3.
 
 In today's news We are going to dive into, my usual day building.
 
-## The best analytics dAPP, Blockversekit.
+## The best analytics dAPP, Cryptoracle.
 
 Since We are a small but great team, You will see a myriad of tasks related to different fields.
 
@@ -19,6 +19,6 @@ My tasks start:
 
     I take care of twitter (loving it), organize the work to do (management) across the different areas, design figma mockups (quite an obsession) to have a reference before develop, write blog post (It feels as a corner stone) as this one.
 
-Visit us at [BlockverseKit.io](https://blockversekit.io)
+Visit us at [Cryptoracle](https://app.cryptoracle.io)
 
 You are early.
