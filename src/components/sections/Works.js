@@ -37,7 +37,7 @@ const allData = [
     category: "projects",
     description: "Web3 Development Agency",
     image: "images/works/inursites-logo.png",
-    link: ["https://inursites.pages.dev"],
+    link: ["https://inursites.io"],
   },
   {
     id: 2,
