@@ -39,7 +39,7 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4" style={{paddingRight: 20}}>
             <li className="list-inline-item">
-              <a href="https://discord.com/invite/frYAsD2DjT" target="_blank" rel="noreferrer">
+              <a href="https://discord.com/invite/PvRCtNeBVg" target="_blank" rel="noreferrer">
                 <i className="fab fa-discord adjust-social-icons"></i>
               </a>
             </li>

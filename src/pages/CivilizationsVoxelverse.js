@@ -416,7 +416,7 @@ function CivilizationsVoxelverse() {
               </ul>
               <ul className="social-icons light list-inline mb-0 mt-4">
                 <li className="list-inline-item">
-                  <a href="https://discord.com/invite/frYAsD2DjT">
+                  <a href="https://discord.com/invite/PvRCtNeBVg">
                     Explore Voxelverse Labs Discord
                   </a>
                 </li>
