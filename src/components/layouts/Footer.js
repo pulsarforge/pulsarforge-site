@@ -5,7 +5,7 @@ function Footer({ light }) {
     <footer className={light ? "footer light" : "footer"}>
       <div className="container">
         <span className="copyright">
-          &copy; 2017-2022 PulsarForge all rights reserved.
+          &copy; 2017-2023 Pulsarforge all rights reserved.
         </span>
       </div>
       <ul className="social-icons light list-inline mb-0 mt-4">

@@ -15,7 +15,7 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro" style={{paddingTop: "150px"}}>
-          <img src="images/works/BlocksLabs.jpg" alt="PulsarForge" className="mb-4" style={{width: "80%", borderRadius: "100%"}}/>
+          <img src="images/logo.png" alt="PulsarForge" className="mb-4" style={{width: "80%", borderRadius: "100%"}}/>
           <h1 className="mb-2 mt-0">Web3 Labs</h1>
           <h2>
           We are {" "}
@@ -24,11 +24,11 @@ function Herosection(props) {
                 "software engineers",
                 "software engineers",
                 "bounty hunters",
-                "badass people",
-                "developing/scaling projects",
+                "creating and exploring",
+                "developing & scaling projects",
                 "a welcoming community",
               ]}
-              typeSpeed={80}
+              typeSpeed={90}
               backSpeed={40}
               attr="value"
               loop
@@ -61,14 +61,6 @@ function Herosection(props) {
           </ul>
 
           <div className="mt-4" style={{paddingBottom: "150px"}}>
-            <Link
-              className="btn btn-default"
-              to="section-services"
-              spy={true}
-              duration={2000}
-            >
-              Hire us
-            </Link>
           </div>
         </div>
 

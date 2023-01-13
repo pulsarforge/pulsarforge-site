@@ -6,28 +6,8 @@ import Portfolio from "../elements/Portfolio";
 const filters = [
   {
     id: 1,
-    text: "all",
-  },
-  {
-    id: 2,
-    text: "projects",
-  },
-  {
-    id: 3,
-    text: "partnerships",
-  },
-  {
-    id: 4,
-    text: "collabs",
-  },
-  {
-    id: 5,
-    text: "bounties",
-  },
-  {
-    id: 6,
-    text: "completed",
-  },
+    text: "Highligthed",
+  }
 ];
 
 const allData = [
@@ -35,7 +15,7 @@ const allData = [
     id: 1,
     title: "Inursites",
     category: "projects",
-    description: "Web3 Development Agency",
+    description: "Web3 team",
     image: "images/works/inursites-logo.png",
     link: ["https://inursites.io"],
   },
@@ -43,7 +23,7 @@ const allData = [
     id: 2,
     title: "PulsarForge",
     category: "projects",
-    description: "GitHub, Leveling Mind Abstractions",
+    description: "GitHub",
     image: "images/works/PulsarForge.png",
     link: ["https://github.com/pulsarforge"],
   },
@@ -51,7 +31,7 @@ const allData = [
     id: 3,
     title: "Cryptoracle",
     category: "projects",
-    description: "Multi Chain Analytics Dapp",
+    description: "Analytics Dapp",
     image: "images/works/blockversekitv1.png",
     link: ["https://app.cryptoracle.io/"],
   },
@@ -59,7 +39,7 @@ const allData = [
     id: 4,
     title: "Blocks Labs",
     category: "projects",
-    description: "Newsletter & Podcast, High signal content",
+    description: "Newsletter & Podcast",
     image: "images/works/BlocksLabs.jpg",
     link: ["https://pulsarforge.substack.com/"],
   },
@@ -67,7 +47,7 @@ const allData = [
     id: 5,
     title: "Civilizations Voxelverse",
     category: "projects",
-    description: "Hand Made Art, Collectibles NFTs",
+    description: "Hand Made Art",
     image: "images/works/The_Gathering_V_1.jpg",
     link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
@@ -75,7 +55,7 @@ const allData = [
     id: 6,
     title: "World Wiki Code",
     category: "projects",
-    description: "Software Engineering Notes",
+    description: "Engineering Notes",
     image: "images/works/space-walk.jpg",
     link: ["https://hqnotes.pulsarforge.io/"],
   }
@@ -134,7 +114,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Works, previous and on going" />
+        <Pagetitle title="Highligthed Works" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"

@@ -11,14 +11,15 @@ function Pricebox({ priceboxItem }) {
       }
     >
       {badge && <span className="badge">{badge}</span>}
-      { icon ? 
-        <img src={icon} alt="Regular" style={{width: "70%"}}/> :
-        <></>
-      }
+      <img src={icon} alt="Regular" style={{width: "70%"}}/>
       <h2 className="plan">{title}</h2>
       {content.map((singleContent) => (
         <p key={singleContent.id}>{singleContent.text}</p>
       ))}
+      <h3 className="price">
+        <em>$</em>
+        {price}
+      </h3>
       <div className="mt-4">
         <h2 className="btn btn-default">
           <a href="mailto:omgworkshopfire@gmail.com" style={{fontSize: 20, color:"white", textDecoration: "none"}}>Get Started</a>

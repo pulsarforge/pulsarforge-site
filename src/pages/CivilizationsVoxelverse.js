@@ -405,42 +405,17 @@ function CivilizationsVoxelverse() {
             </div>
             <div className="container" style={{textAlign: "center"}}>
               <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
-               Voxelverse for You to: Earn, Collect, Discover, Build, Explore
+               Voxelverse for You to: Discover, Build, Explore
               </h2>
-              <ul className="social-icons light list-inline mb-0 mt-4">
-                <li className="list-inline-item">
-                  <a href="https://paras.id/es/collection/voxelverse-exoplanets-by-pulsarforgenear">
-                    Voxelverse Exoplanets First Launch on NEAR / ParasID
-                  </a>
-                </li>
-              </ul>
-              <ul className="social-icons light list-inline mb-0 mt-4">
-                <li className="list-inline-item">
-                  <a href="https://discord.com/invite/PvRCtNeBVg">
-                    Explore Voxelverse Labs Discord
-                  </a>
-                </li>
-              </ul>
-              <ul className="social-icons light list-inline mb-0 mt-4">
-                <li className="list-inline-item">
-                  <a href="https://www.artstation.com/pulsarforge">
-                    ArtStation
-                  </a>
-                </li>
-              </ul>
               
-              <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened... </h3>
-              <h3 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Breaking the Voxelverse peace, and Starting the party! </h3>
+              <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Each dimension was living in their own space and time, until the portals were opened... </h4>
+              <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Breaking the Voxelverse peace, and Starting the party! </h4>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Own exoplanets and discover the local celebrations at the home quarters. </h4>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Break the dance floor, next to your party animals. </h4>
-              <BrandlogosDarkNFTs />
               <div style={{paddingTop: 100}}></div>
-            <div>
-              <Experiences />
-            </div>
             <div className="row">
             <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 100}}>
-            Story Mode On, Guide your Party animals through the Voxelverse, their fate are in your hands.
+            Story Mode On, Guide your party animals through the Voxelverse, their fate are in your hands.
             </h3>
             </div>
           </div>

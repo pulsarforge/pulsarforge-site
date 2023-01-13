@@ -56,17 +56,17 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a
+              <a
                   className="nav-link"
-                  href="/awesome-x-name-resources">
-                  Awesome X. R.
+                  href="/">
+                  Strategic & Action  
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
                   href="/civilizations-voxelverse-nfts">
-                  Explore the Voxelverse
+                  Voxelverse
                 </a>
               </li>
               <li className="nav-item">
@@ -74,7 +74,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/blogs"
                 >
-                  Path Registry
+                  Blog
                 </a>
               </li>
             </ul>

@@ -6,12 +6,11 @@ import { Link } from "react-scroll";
 const priceboxData = [
   {
     id: 1,
-    title: "Web Development",
-    icon: "images/reactjs.png",
+    title: "User Friendly Experiences",
     content: [
       {
-        id: 0,
-        text: "Reliable and Outstanding Websites, with the fastest technologies and frameworks, bringing your business to life",
+        id: 1,
+        text: "I will craft a guide to enhance your existing project and make it user friendly, engaging, an enjoyable experience",
       },
     ],
     price: "Contact",
@@ -20,12 +19,12 @@ const priceboxData = [
   },
   {
     id: 2,
-    title: "APIs Unlocking Data Value",
-    icon: "images/graphql.png",
+    title: "React Web Development",
+    icon: "images/reactjs.png",
     content: [
       {
-        id: 1,
-        text: "We unlock the value of data for your competitive advantage through harness the power of APIs, GraphQL & Rest, integration with Front-End, DBs",
+        id: 0,
+        text: "Reliable and outstanding websites, that connects with the users while reflecting the essence of your project and its culture.",
       },
     ],
     price: "Contact",
@@ -34,10 +33,9 @@ const priceboxData = [
   },
   {
     id: 3,
-    title: "Smart Contracts",
-    icon: "images/ethereum.png",
+    title: "Integrations",
     content: [
-      { id: 1, text: "Focus on Ethereum and NFTs. We are available for other blockchains, Avalanche, Polygon, Fantom, and so on." },
+      { id: 1, text: "APIs REST / Swagger or GraphQL && Databases as PostgreSQL or MongoDB && Wallets && Smart Contract specially in EVM" },
     ],
     price: "Contact",
     best: false,
@@ -56,21 +54,6 @@ function Services() {
               <Pricebox priceboxItem={pricebox} />
             </div>
           ))}
-        </div>
-        <div className="mt-5 text-center">
-          <h4 className="mb-0">
-            Looking for a custom job?{" "}
-            <Link
-              className="colorpink pointer"
-              to="section-contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              Click here
-            </Link>{" "}
-            to contact us! 👋
-          </h4>
         </div>
       </div>
     </section>
