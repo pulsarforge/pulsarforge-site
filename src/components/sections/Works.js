@@ -15,7 +15,7 @@ const allData = [
     id: 1,
     title: "Inursites",
     category: "projects",
-    description: "Web3 team",
+    description: "Web3 Team",
     image: "images/works/inursites-logo.png",
     link: ["https://inursites.io"],
   },
