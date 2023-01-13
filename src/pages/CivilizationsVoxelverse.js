@@ -3,10 +3,8 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../components/elements/Pagetitle";
 import Portfolio from "../components/elements/Portfolio";
 import Header3 from "../components/layouts/Header3";
-import Experiences from "../components/sections/Experiences";
 import Footer from "../components/layouts/Footer";
 import { Helmet } from "react-helmet";
-import BrandlogosDarkNFTs from "../components/sections/BrandlogosDarkNFTs";
 
 const filters = [
     {

@@ -1,7 +1,6 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 import Pricebox from "../elements/Pricebox";
-import { Link } from "react-scroll";
 
 const priceboxData = [
   {

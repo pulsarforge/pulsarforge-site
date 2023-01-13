@@ -3,7 +3,6 @@ import ReactCursorPosition from "react-cursor-position";
 import { Element } from "react-scroll";
 import Header3 from "../components/layouts/Header3";
 import Footer from "../components/layouts/Footer";
-import Blogs from "../components/sections/Blogs";
 import Contact from "../components/sections/Contact";
 import Herosection from "../components/sections/Herosection";
 import Services from "../components/sections/Services";

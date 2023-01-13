@@ -1,7 +1,7 @@
 import React from "react";
 
 function Pricebox({ priceboxItem }) {
-  const { icon, title, content, price, badge, best } = priceboxItem;
+  const { icon, title, content, badge, best } = priceboxItem;
   return (
     <div
       className={
