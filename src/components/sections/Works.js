@@ -53,7 +53,7 @@ const allData = [
   },
   {
     id: 6,
-    title: "World Wiki Code",
+    title: "Digital Garden",
     category: "projects",
     description: "Engineering Notes",
     image: "images/works/space-walk.jpg",
