@@ -71,7 +71,7 @@ const allData = [
     id: 8,
     title: "Board",
     category: "Incoming Product",
-    description: "On the Board",
+    description: "On The Board",
     image: "images/works/on-the-board-v1.png",
     link: ["https://pulsarforge.io/"],
   }
