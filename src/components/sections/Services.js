@@ -5,7 +5,7 @@ import Pricebox from "../elements/Pricebox";
 const priceboxData = [
   {
     id: 1,
-    title: "User Friendly Consulting",
+    title: "User Experience Consulting",
     content: [
       {
         id: 1,
