@@ -21,7 +21,7 @@ function Herosection(props) {
               <h4>Software engineers and bounty hunters</h4>
             </li>
             <li className="list-inline-item">
-              <h4>Exploring the world while developing and scaling projects</h4>
+              <h4>Exploring the world and scaling projects</h4>
             </li>
             <li className="list-inline-item">
               <h4></h4>
@@ -53,6 +53,7 @@ function Herosection(props) {
 
           <div className="mt-4" style={{paddingBottom: "100px"}}>
               <h2>Playground by Pulsarforge</h2>
+              <h4>Five years at the craft and adding skills along the path</h4>
           </div>
         </div>
 
