@@ -24,7 +24,7 @@ const allData = [
     title: "PulsarForge",
     category: "Coding",
     description: "GitHub",
-    image: "images/works/PulsarForgev2.png",
+    image: "images/works/pulsar-forge-v2.png",
     link: ["https://github.com/pulsarforge"],
   },
   {
