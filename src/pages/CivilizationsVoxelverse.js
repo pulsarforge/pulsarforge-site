@@ -410,7 +410,7 @@ function CivilizationsVoxelverse() {
               <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}> Breaking the Voxelverse peace, and Starting the party! </h4>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Own exoplanets and discover the local celebrations at the home quarters. </h4>
               <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}> Break the dance floor, next to your party animals. </h4>
-              <div style={{paddingTop: 100}}></div>
+              <div style={{paddingTop: 20}}></div>
             <div className="row">
             <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 100}}>
             Story Mode On, Guide your party animals through the Voxelverse, their fate are in your hands.

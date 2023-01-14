@@ -48,7 +48,9 @@ section.home {
     text-align: center;
     position: relative;
     z-index: 1;
-
+    @media (min-width: 720px) {
+      margin-top: 150px;
+    }
     h1 {
       color: #fff;
       font-size: 36px;
