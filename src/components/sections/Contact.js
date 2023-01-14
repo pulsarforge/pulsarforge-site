@@ -17,7 +17,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>Let's talk about Collabs and Business.</h3>
+                <h3>For collabs and business</h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
@@ -25,8 +25,8 @@ function Contact() {
                 animateOnce={true}
               >
                 <h3>
-                  Let your message{" "}
-                  <a href="mailto:omgworkshopfire@gmail.com">email travel</a>. 👋
+                  Let your message: {" "}
+                  <a href="mailto:omgworkshopfire@gmail.com">Travel</a> 👋
                 </h3>
               </ScrollAnimation>
             </div>

@@ -19,11 +19,6 @@ function Pricebox({ priceboxItem }) {
       {content.map((singleContent) => (
         <p key={singleContent.id}>{singleContent.text}</p>
       ))}
-      <div className="mt-4">
-        <h2 className="btn btn-default">
-          <a href="mailto:omgworkshopfire@gmail.com" style={{fontSize: 20, color:"white", textDecoration: "none"}}>Get Started</a>
-        </h2>
-          </div>
     </div>
   );
 }

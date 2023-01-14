@@ -93,6 +93,10 @@ section.home {
     }
   }
 
+  .icons-social{
+    margin-right: 20px;
+  }
+
   &.light {
     background: #f9f9ff;
 
@@ -957,7 +961,6 @@ select.portfolio-filter-mobile {
 /*                      CONTACT                              
 /*=================================================================*/
 .contact-info {
-  background-image: url("/images/map.svg");
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 200px;
@@ -1172,5 +1175,9 @@ footer.footer {
   &.light {
     background: #f9f9ff;
     border-top: solid 1px rgba(0, 0, 0, 0.05);
+  }
+
+  .icons-social-footer{
+    margin-right: 30px;
   }
 }

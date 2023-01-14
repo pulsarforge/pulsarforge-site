@@ -8,7 +8,7 @@ function Footer({ light }) {
           &copy; 2023 Pulsarforge all rights reserved.
         </span>
       </div>
-      <ul className="social-icons light list-inline mb-0 mt-4">
+      <ul className="social-icons light list-inline mb-0 mt-4 icons-social-footer">
         <li className="list-inline-item">
           <a href="https://discord.com/invite/PvRCtNeBVg" target="_blank" rel="noreferrer">
             <i className="fab fa-discord adjust-social-icons"></i>
