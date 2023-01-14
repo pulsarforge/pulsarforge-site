@@ -11,21 +11,21 @@ const filters = [
 ];
 
 const allData = [
-    {
+  {
     id: 1,
+    title: "PulsarForge",
+    category: "Coding / GitHub",
+    description: "Shaping Environments",
+    image: "images/works/pulsar-forge-v2.png",
+    link: ["https://github.com/pulsarforge"],
+  },
+  {
+    id: 2,
     title: "Inursites",
     category: "Services",
     description: "Web3 Team",
     image: "images/works/inursites-logo.png",
     link: ["https://inursites.io"],
-  },
-  {
-    id: 2,
-    title: "PulsarForge",
-    category: "Coding",
-    description: "GitHub",
-    image: "images/works/pulsar-forge-v2.png",
-    link: ["https://github.com/pulsarforge"],
   },
   {
     id: 3,
