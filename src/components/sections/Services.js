@@ -9,7 +9,7 @@ const priceboxData = [
     content: [
       {
         id: 1,
-        text: "I will craft a guide, a set of steps You can follow to enhance your existing project and make it user friendly, engaging, an enjoyable experience",
+        text: "I will craft a guide, a set of steps, to enhance your existing project and make it user friendly, engaging, an enjoyable experience",
       },
     ],
     price: "Contact",
