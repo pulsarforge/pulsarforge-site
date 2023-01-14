@@ -23,7 +23,7 @@ const priceboxData = [
     content: [
       {
         id: 0,
-        text: "Reliable and outstanding websites, that connects with the users while reflecting the essence of your project and its culture",
+        text: "Reliable and outstanding websites, connecting with the users while reflecting the essence of your project and its culture",
       },
     ],
     price: "Contact",
