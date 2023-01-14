@@ -1,5 +1,4 @@
 import React from "react";
-import Typed from "react-typed";
 
 function Herosection(props) {
 
@@ -23,12 +22,9 @@ function Herosection(props) {
             <li className="list-inline-item">
               <h4>Exploring the world and scaling projects</h4>
             </li>
-            <li className="list-inline-item">
-              <h4></h4>
-            </li>
           </ul>
 
-          <ul className="social-icons light list-inline mb-0 mt-4">
+          <ul className="light list-inline mb-0 mt-4">
             <li className="list-inline-item">
               <a href="https://discord.com/invite/PvRCtNeBVg" target="_blank" rel="noreferrer">
                 <i className="fab fa-discord adjust-social-icons"></i>
@@ -42,11 +38,6 @@ function Herosection(props) {
             <li className="list-inline-item">
               <a href="https://twitter.com/pulsarforge" target="_blank"rel="noreferrer">
                 <i className="fab fa-twitter adjust-social-icons"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="https://www.twitch.tv/pulsarforge" target="_blank"rel="noreferrer">
-                <i className="fab fa-twitch adjust-social-icons"></i>
               </a>
             </li>
           </ul>
