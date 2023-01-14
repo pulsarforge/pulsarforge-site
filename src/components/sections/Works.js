@@ -30,7 +30,7 @@ const allData = [
   {
     id: 3,
     title: "Cryptoracle",
-    category: "Data Dapps",
+    category: "Data Dapp",
     description: "Analytics Dapp",
     image: "images/works/cryptoracle.png",
     link: ["https://app.cryptoracle.io/"],
