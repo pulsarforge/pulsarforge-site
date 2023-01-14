@@ -6,7 +6,7 @@ import Portfolio from "../elements/Portfolio";
 const filters = [
   {
     id: 1,
-    text: "Highligthed",
+    text: "Enjoy the Journey",
   }
 ];
 
