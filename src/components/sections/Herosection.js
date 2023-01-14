@@ -13,17 +13,8 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/logo.png" alt="PulsarForge" className="mb-4" style={{width: "80%"}}/>
+          <img src="images/logo.png" alt="PulsarForge" className="mb-4" style={{width: "70%"}}/>
           <h1 className="mb-2 mt-0">Web3 Labs</h1>
-          <ul className="social-icons light list-inline mb-0 mt-4">
-            <li className="list-inline-item">
-              <h4>Software engineers and bounty hunters</h4>
-            </li>
-            <li className="list-inline-item">
-              <h4>Exploring the world and scaling projects</h4>
-            </li>
-          </ul>
-
           <ul className="light list-inline mb-0 mt-4 icons-social">
             <li className="list-inline-item">
               <a href="https://discord.com/invite/PvRCtNeBVg" target="_blank" rel="noreferrer">
@@ -42,9 +33,12 @@ function Herosection(props) {
             </li>
           </ul>
 
+
+          
           <div className="mt-4" style={{paddingBottom: "100px"}}>
-              <h2>Playground by Pulsarforge</h2>
+              <h3>Playground by Pulsarforge</h3>
               <h4>Five years at the craft and adding skills along the path</h4>
+              <h4>Exploring the world and scaling projects</h4>
           </div>
         </div>
 
