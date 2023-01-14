@@ -1,6 +1,6 @@
 import React from "react";
 
-function Pricebox({ priceboxItem }) {
+function ServicesBox({ priceboxItem }) {
   const { icon, title, content, badge, best } = priceboxItem;
   return (
     <div
@@ -23,4 +23,4 @@ function Pricebox({ priceboxItem }) {
   );
 }
 
-export default Pricebox;
+export default ServicesBox;

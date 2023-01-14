@@ -1,6 +1,6 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
-import Pricebox from "../elements/Pricebox";
+import ServicesBox from "../elements/ServicesBox";
 
 const priceboxData = [
   {
@@ -50,7 +50,7 @@ function Services() {
         <div className="row align-items-center">
           {priceboxData.map((pricebox) => (
             <div key={pricebox.id} className="col-md-4">
-              <Pricebox priceboxItem={pricebox} />
+              <ServicesBox priceboxItem={pricebox} />
             </div>
           ))}
         </div>

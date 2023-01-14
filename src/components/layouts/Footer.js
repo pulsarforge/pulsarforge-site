@@ -10,7 +10,7 @@ function Footer({ light }) {
       </div>
       <ul className="social-icons light list-inline mb-0 mt-4 icons-social-footer">
         <li className="list-inline-item">
-          <a href="https://discord.com/invite/PvRCtNeBVg" target="_blank" rel="noreferrer">
+          <a href="https://discord.com/invite/4mXg6QSyY8" target="_blank" rel="noreferrer">
             <i className="fab fa-discord adjust-social-icons"></i>
           </a>
         </li>
