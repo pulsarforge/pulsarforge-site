@@ -82,7 +82,7 @@ function Bloglist() {
     <>
       <Helmet>
         <title>Blog, Software Engineer team, Showcasing Developments, Web3, Metaverse.</title>
-        <meta name="description" content="Key updates on developments, about Software Engineering, Web3, Metaverse, showcase place for the developer team, coding internal tools and case studies of clients" />
+        <meta name="description" content="Writing for fun about, dev, web3, projects, user experince and more." />
       </Helmet>
       <Header3
         logoSource="/images/PulsarForge-1.png"
