@@ -1,4 +1,4 @@
-![Cryptoracle](/images/blog/blockversekitv1.png)
+![Cryptoracle](/images/blog/cryptoracle.png)
 
 # Cryptoracle, discovering patterns at web3.
 

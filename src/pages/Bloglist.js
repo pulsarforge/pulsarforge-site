@@ -9,7 +9,7 @@ const allBlogs = [
   {
     id: 1,
     title: "Cryptoracle analytics dAPP",
-    image: "images/blog/blockversekitv1.png",
+    image: "images/blog/cryptoracle.png",
     filesource: "../../blogs/cryptoracle-analytics-dapp.md",
     date: "25 April, 2022",
     author: "PulsarForge",

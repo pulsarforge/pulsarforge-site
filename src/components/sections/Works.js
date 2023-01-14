@@ -14,7 +14,7 @@ const allData = [
     {
     id: 1,
     title: "Inursites",
-    category: "projects",
+    category: "Services",
     description: "Web3 Team",
     image: "images/works/inursites-logo.png",
     link: ["https://inursites.io"],
@@ -22,49 +22,64 @@ const allData = [
   {
     id: 2,
     title: "PulsarForge",
-    category: "projects",
+    category: "Coding",
     description: "GitHub",
-    image: "images/works/PulsarForge.png",
+    image: "images/works/PulsarForgev2.png",
     link: ["https://github.com/pulsarforge"],
   },
   {
     id: 3,
     title: "Cryptoracle",
-    category: "projects",
+    category: "Data Dapps",
     description: "Analytics Dapp",
-    image: "images/works/blockversekitv1.png",
+    image: "images/works/cryptoracle.png",
     link: ["https://app.cryptoracle.io/"],
   },
   {
     id: 4,
     title: "Blocks Labs",
-    category: "projects",
+    category: "Writing & Speaking",
     description: "Newsletter & Podcast",
-    image: "images/works/BlocksLabs.jpg",
+    image: "images/works/blocks-labs.png",
     link: ["https://pulsarforge.substack.com/"],
   },
   {
     id: 5,
     title: "Civilizations Voxelverse",
-    category: "projects",
+    category: "Crafting Art",
     description: "Hand Made Art",
-    image: "images/works/The_Gathering_V_1.jpg",
+    image: "images/works/the-gathering-v2.png",
     link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
   {
     id: 6,
-    title: "Digital Garden",
-    category: "projects",
-    description: "Engineering Notes",
-    image: "images/works/space-walk.jpg",
+    title: "Knowledge Base",
+    category: "Product",
+    description: "Digital Garden",
+    image: "images/works/digital-garden.png",
     link: ["https://hqnotes.pulsarforge.io/"],
+  },
+  {
+    id: 7,
+    title: "Tech & Web3 Radar",
+    category: "Product",
+    description: "Trends Radar",
+    image: "images/works/tech-radar.png",
+    link: ["https://web3radar.pulsarforge.io/"],
+  },
+  {
+    id: 8,
+    title: "Board",
+    category: "Incoming Product",
+    description: "On the Board",
+    image: "images/works/on-the-board-v1.png",
+    link: ["https://pulsarforge.io/"],
   }
-  
 ];
 
 function Works() {
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(6);
+  const [dataVisibleCount, setDataVisibleCount] = useState(8);
   const [dataIncrement] = useState(3);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -72,7 +87,7 @@ function Works() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 6));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 8));
   }, [getAllItems]);
 
   const handleChange = (e) => {
@@ -143,7 +158,7 @@ function Works() {
         {/* Start Portfolio Items */}
         <div className="row portfolio-wrapper">
           {visibleItems.map((item) => (
-            <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
+            <div className="col-md-3 col-sm-6 grid-item" key={item.id}>
               <Portfolio portfolio={item} />
             </div>
           ))}
