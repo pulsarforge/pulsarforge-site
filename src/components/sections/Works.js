@@ -30,7 +30,7 @@ const allData = [
   {
     id: 3,
     title: "Cryptoracle",
-    category: "Data Dapp",
+    category: "Data Dapp, Dev.",
     description: "Analytics Dapp",
     image: "images/works/cryptoracle.png",
     link: ["https://app.cryptoracle.io/"],
@@ -54,7 +54,7 @@ const allData = [
   {
     id: 6,
     title: "Knowledge Base",
-    category: "Product",
+    category: "Product & Service",
     description: "Digital Garden",
     image: "images/works/digital-garden.png",
     link: ["https://hqnotes.pulsarforge.io/"],
@@ -62,17 +62,33 @@ const allData = [
   {
     id: 7,
     title: "Tech & Web3 Radar",
-    category: "Product",
+    category: "Product & Service",
     description: "Trends Radar",
     image: "images/works/tech-radar.png",
     link: ["https://web3radar.pulsarforge.io/"],
   },
   {
     id: 8,
-    title: "Board",
+    title: "Hackatons Board",
     category: "Incoming Product",
-    description: "On The Board",
+    description: "Board Hacks",
     image: "images/works/on-the-board-v1.png",
+    link: ["https://pulsarforge.io/"],
+  },
+  {
+    id: 9,
+    title: "DAOs Board",
+    category: "Incoming Product",
+    description: "DAO It Board",
+    image: "images/works/dao-it-board.png",
+    link: ["https://pulsarforge.io/"],
+  },
+  {
+    id: 10,
+    title: "Incoming",
+    category: "Fun Stuff",
+    description: "Strategic & Action",
+    image: "images/works/strategic-and-action.png",
     link: ["https://pulsarforge.io/"],
   }
 ];
@@ -129,7 +145,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Highligthed Works" />
+        <Pagetitle title="Highlighted Works" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
