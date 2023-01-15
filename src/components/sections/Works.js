@@ -70,10 +70,10 @@ const allData = [
   {
     id: 8,
     title: "Hackatons Board",
-    category: "Incoming Product",
+    category: "Product",
     description: "Board Hacks",
-    image: "images/works/on-the-board-v1.png",
-    link: ["https://pulsarforge.io/"],
+    image: "images/works/board-hacks.png",
+    link: ["https://board-hacks.pages.dev/"],
   },
   {
     id: 9,
