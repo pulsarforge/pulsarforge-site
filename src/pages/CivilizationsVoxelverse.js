@@ -318,7 +318,6 @@ function CivilizationsVoxelverse() {
       } else {
         setDataVisibleCount(tempCount);
         if (activeFilter === filters[0].text.toLowerCase()) {
-          console.log("they are same");
           setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
         } else {
           setVisibleItems(
