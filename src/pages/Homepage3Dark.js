@@ -14,7 +14,7 @@ function Homepage3() {
   return (
     <>
       <Helmet>
-        <title> PulsarForge. Web3 Labs.</title>
+        <title> PulsarForge Web3 Labs</title>
         <meta name="description" content="Web3 Labs. Playground. Shipping Projects." />
       </Helmet>
       <Header3 logoSource="/images/PulsarForge-1.png" />

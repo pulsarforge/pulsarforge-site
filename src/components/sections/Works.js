@@ -77,6 +77,14 @@ const allData = [
   },
   {
     id: 9,
+    title: "Smoothies House",
+    category: "Tasty & Healthy",
+    description: "Tasty Smoothies",
+    image: "images/works/tasty-smoothies.png",
+    link: ["https://tasty-smoothies.pages.dev/"],
+  },
+  {
+    id: 10,
     title: "Achievements on Chain",
     category: "Showcase your Profile",
     description: "Well Done Flow",
@@ -84,7 +92,7 @@ const allData = [
     link: ["https://well-done-flow.pages.dev/"],
   },
   {
-    id: 10,
+    id: 11,
     title: "DAOs Board",
     category: "Incoming Product",
     description: "DAO It Board",
@@ -92,9 +100,9 @@ const allData = [
     link: ["https://pulsarforge.io/"],
   },
   {
-    id: 11,
-    title: "Incoming",
-    category: "Fun Stuff",
+    id: 12,
+    title: "Playing on the Field",
+    category: "Incoming",
     description: "Strategic & Action",
     image: "images/works/strategic-and-action.png",
     link: ["https://pulsarforge.io/"],
@@ -104,7 +112,7 @@ const allData = [
 function Works() {
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(8);
-  const [dataIncrement] = useState(3);
+  const [dataIncrement] = useState(4);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
   const [noMorePost, setNoMorePost] = useState(false);
