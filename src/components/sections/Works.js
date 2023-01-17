@@ -65,7 +65,7 @@ const allData = [
     category: "Product & Service",
     description: "Web3 Radar",
     image: "images/works/trends-web3-radar.png",
-    link: ["https://web3radar.pulsarforge.io/"],
+    link: ["https://trends-web3-radar.pages.dev/"],
   },
   {
     id: 8,
