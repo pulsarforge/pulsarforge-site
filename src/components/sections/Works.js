@@ -97,7 +97,7 @@ const allData = [
     category: "Incoming Product",
     description: "DAO It Board",
     image: "images/works/dao-it-board.png",
-    link: ["https://pulsarforge.io/"],
+    link: ["https://dao-it-board.pages.dev"],
   },
   {
     id: 12,
