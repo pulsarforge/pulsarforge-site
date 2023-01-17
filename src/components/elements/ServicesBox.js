@@ -15,9 +15,9 @@ function ServicesBox({ priceboxItem }) {
         <img src={icon} alt="Regular" style={{width: "70%"}}/> :
         <></>
       }
-      <h2 className="plan">{title}</h2>
+      <h2 className="plan" style={{fontSize: 25}}>{title}</h2>
       {content.map((singleContent) => (
-        <p key={singleContent.id}>{singleContent.text}</p>
+        <p key={singleContent.id} style={{fontSize: 19}}>{singleContent.text}</p>
       ))}
     </div>
   );

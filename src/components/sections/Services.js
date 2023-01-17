@@ -34,7 +34,7 @@ const priceboxData = [
     id: 3,
     title: "Integrations",
     content: [
-      { id: 1, text: "APIs REST / Swagger or GraphQL && Databases as PostgreSQL or MongoDB && Wallets && Smart Contracts specially in EVM" },
+      { id: 1, text: "APIs REST Swagger or GraphQL. Databases as PostgreSQL or MongoDB. Payments, Wallets, and Smart Contracts, specially in EVM" },
     ],
     price: "Contact",
     best: false,

@@ -61,10 +61,10 @@ const allData = [
   },
   {
     id: 7,
-    title: "Tech & Web3 Radar",
+    title: "Trends Web3 Radar",
     category: "Product & Service",
-    description: "Trends Radar",
-    image: "images/works/tech-radar.png",
+    description: "Web3 Radar",
+    image: "images/works/trends-web3-radar.png",
     link: ["https://web3radar.pulsarforge.io/"],
   },
   {
@@ -94,7 +94,7 @@ const allData = [
   {
     id: 11,
     title: "DAOs Board",
-    category: "Incoming Product",
+    category: "Product",
     description: "DAO It Board",
     image: "images/works/dao-it-board.png",
     link: ["https://dao-it-board.pages.dev"],
@@ -106,13 +106,29 @@ const allData = [
     description: "Strategic & Action",
     image: "images/works/strategic-and-action.png",
     link: ["https://pulsarforge.io/"],
+  },
+  {
+    id: 13,
+    title: "Trends Substack Radar",
+    category: "Incoming Product & Service",
+    description: "Substack Radar",
+    image: "images/works/trends-substack-radar.png",
+    link: ["https://pulsarforge.io/"],
+  },
+  {
+    id: 14,
+    title: "NFTs Rarity Insider",
+    category: "Incoming Product",
+    description: "NFTs Rarity",
+    image: "images/works/nfts-rarity-insider.png",
+    link: ["https://pulsarforge.io/"],
   }
 ];
 
 function Works() {
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(8);
-  const [dataIncrement] = useState(4);
+  const [dataIncrement] = useState(8);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
   const [noMorePost, setNoMorePost] = useState(false);

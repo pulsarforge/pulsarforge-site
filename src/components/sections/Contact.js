@@ -17,17 +17,17 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>For collabs, business and products related talk</h3>
+                <h2>For collabs, business, products, and services related talk</h2>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>
-                  Let your message: {" "}
-                  <a href="mailto:pulsarforgelabs@gmail.com">Travel</a> 👋
-                </h3>
+                <h2>
+                  
+                  <a href="mailto:pulsarforgelabs@gmail.com">Let your message travel 👋</a> 
+                </h2>
               </ScrollAnimation>
             </div>
           </div>
