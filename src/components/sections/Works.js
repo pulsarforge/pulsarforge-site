@@ -101,10 +101,10 @@ const allData = [
   },
   {
     id: 12,
-    title: "Playing on the Field",
-    category: "Incoming",
-    description: "Strategic & Action",
-    image: "images/works/strategic-and-action.png",
+    title: "Web3 Connected Notifications",
+    category: "Incoming Product",
+    description: "Notify Rules",
+    image: "images/works/notify-rules.png",
     link: ["https://pulsarforge.io/"],
   },
   {
@@ -121,6 +121,14 @@ const allData = [
     category: "Incoming Product",
     description: "NFTs Rarity",
     image: "images/works/nfts-rarity-insider.png",
+    link: ["https://pulsarforge.io/"],
+  },  
+  {
+    id: 15,
+    title: "Playing on the Field",
+    category: "Incoming XYZ?",
+    description: "Strategic & Action",
+    image: "images/works/strategic-and-action.png",
     link: ["https://pulsarforge.io/"],
   }
 ];
