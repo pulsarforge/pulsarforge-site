@@ -14,7 +14,7 @@ function Herosection(props) {
       <div className="container">
         <div className="intro">
           <img src="images/logo.png" alt="PulsarForge" className="mb-4" style={{width: "70%"}}/>
-          <h1 className="mb-2 mt-0" style={{fontSize: 65}}>Web3 Labs</h1>
+          <h1 className="mb-2 mt-0" style={{fontSize: 70}}>Web3 Labs</h1>
           <div className="text-center mt-4">
           <a href="https://discord.com/invite/4mXg6QSyY8" target="_blank" rel="noreferrer"> 
             <button
