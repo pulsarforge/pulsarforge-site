@@ -138,6 +138,14 @@ const allData = [
     description: "Strategic & Action",
     image: "images/works/strategic-and-action.png",
     link: ["https://pulsarforge.io/"],
+  },
+  {
+    id: 17,
+    title: "Take Screenshots",
+    category: "Having Fun",
+    description: "Mappings Earnings",
+    image: "images/works/mapping-earnings.png",
+    link: ["https://mapping-earnings.pages.dev/"],
   }
 ];
 
