@@ -52,21 +52,21 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/"
                 >
-                  Web3 Labs
+                  Web3 Labs 🤠
                 </a>
               </li>
               <li className="nav-item">
               <a
                   className="nav-link"
                   href="/">
-                  Strategic & Action  
+                  Strategic & Action ⌛ 
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
                   href="/civilizations-voxelverse-nfts">
-                  Voxelverse
+                  Voxelverse ✨
                 </a>
               </li>
               <li className="nav-item">
@@ -74,8 +74,13 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/blogs"
                 >
-                  Blog
+                  Blog ✍
                 </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="mailto:pulsarforgelabs@gmail.com">
+                  Contact 👋
+                </a> 
               </li>
             </ul>
           </div>
