@@ -200,7 +200,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Highlighted Works" />
+        <Pagetitle title="Works Garden" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
