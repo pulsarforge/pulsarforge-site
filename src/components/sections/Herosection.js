@@ -14,20 +14,20 @@ function Herosection(props) {
       <div className="container">
         <div className="intro">
           <img src="images/logo.png" alt="PulsarForge" className="mb-4" style={{width: "70%"}}/>
-          <h1 className="mb-2 mt-0">Web3 Labs</h1>
+          <h1 className="mb-2 mt-0" style={{fontSize: 65}}>Web3 Labs</h1>
           <div className="text-center mt-4">
           <a href="https://discord.com/invite/4mXg6QSyY8" target="_blank" rel="noreferrer"> 
             <button
-              className="btn btn-default"
+              className="btn btn-default" style={{fontSize: 25}}
             >
               Join us at discord Party
             </button>
           </a>
         </div>
         <div className="mt-4" style={{paddingBottom: "100px"}}>
-              <h3>Playground by Pulsarforge</h3>
-              <h4>Five years at the craft and adding skills along the path</h4>
-              <h4>Exploring the world and scaling projects</h4>
+              <h3 style={{fontSize: 35}}>Playground by Pulsarforge</h3>
+              <h4 style={{fontSize: 20}}>Five years at the craft and adding skills along the path</h4>
+              <h4 style={{fontSize: 20}}>Exploring the world and scaling projects</h4>
           </div>
         </div>
 
