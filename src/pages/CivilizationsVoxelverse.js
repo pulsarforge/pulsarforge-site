@@ -311,15 +311,15 @@ const filters = [
   
 function CivilizationsVoxelverse() {
     const [getAllItems] = useState(allData);
-    const [dataVisibleCount, setDataVisibleCount] = useState(20);
-    const [dataIncrement] = useState(8);
+    const [dataVisibleCount, setDataVisibleCount] = useState(8);
+    const [dataIncrement] = useState(12);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
     const [noMorePost, setNoMorePost] = useState(false);
 
     useEffect(() => {
       setActiveFilter(filters[0].text.toLowerCase());
-      setVisibleItems(getAllItems.filter((item) => item.id <= 20));
+      setVisibleItems(getAllItems.filter((item) => item.id <= 8));
     }, [getAllItems]);
 
     const handleChange = (e) => {
