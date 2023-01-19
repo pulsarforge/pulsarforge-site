@@ -206,7 +206,7 @@ function Works() {
   };
 
   return (
-    <section id="works" style={{margin: 200}}>
+    <section id="works" >
       <div className="container">
         <Pagetitle title="Works Garden" />
         {/* Start Portfolio Filters */}

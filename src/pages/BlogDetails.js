@@ -51,7 +51,7 @@ function BlogDetails(props) {
       <br/>
       <main>
         <div className="spacer" data-height="96"></div>
-        <div className="blog-page-section" style={{margin: 100}}>
+        <div className="blog-page-section">
           <div className="container">
             <div className="blog-single shadow-dark p-30">
               <Markdown>{content}</Markdown>

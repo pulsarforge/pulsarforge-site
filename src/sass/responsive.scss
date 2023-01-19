@@ -223,12 +223,11 @@ only screen and (min-device-pixel-ratio: 1.5){
 	}
 }
 
-@media (min-width: 1920px) {
-	.container {
-		max-width: 1920px;
+@media (min-width: 100%) {
+	.container-fluid {
+		max-width: 100%;
 	}
 }
-
 
 // height
 @media only screen and (max-height: 500px) {

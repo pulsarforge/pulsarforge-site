@@ -44,7 +44,7 @@ const priceboxData = [
 
 function Services() {
   return (
-    <section id="section-services" style={{margin: 200}}>
+    <section id="section-services" >
       <div className="container">
         <Pagetitle title="Main Services" />
         <div className="row align-items-center">
