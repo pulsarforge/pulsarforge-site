@@ -25,7 +25,7 @@ const filters = [
     {
       id: 4,
       text: "party-animals",
-      status: "Coming Soon",
+      status: "Living",
     }
   ];
   /* const extraData = [
@@ -190,8 +190,8 @@ const filters = [
       id: 5,
       title: "The Gathering",
       category: "exoplanets",
-      image: "images/works/The_Gathering_V1.png",
-      popupLink: ["images/works/The_Gathering_V1.png"],
+      image: "images/works/The_Gathering_V_1.jpg",
+      popupLink: ["images/works/The_Gathering_V_1.jpg"],
     },
     {
       id: 6,
@@ -218,22 +218,22 @@ const filters = [
       id: 9,
       title: "One Stop Shot",
       category: "exoplanets",
-      image: "images/works/one-stop-shot.png",
-      popupLink: ["images/works/one-stop-shot.png"],
+      image: "images/works/one-stop-shot.jpg",
+      popupLink: ["images/works/one-stop-shot.jpg"],
     },
     {
       id: 10,
       title: "Motor growth",
       category: "exoplanets",
-      image: "images/works/motor-growth-9.png",
-      popupLink: ["images/works/motor-growth-9.png"],
+      image: "images/works/motor-growth-9.jpg",
+      popupLink: ["images/works/motor-growth-9.jpg"],
     },
     {
       id: 11,
       title: "Entry Point",
       category: "exoplanets",
-      image: "images/works/entry-point.png",
-      popupLink: ["images/works/entry-point.png"],
+      image: "images/works/entry-point.jpg",
+      popupLink: ["images/works/entry-point.jpg"],
     },
     {
       id: 12,
@@ -253,8 +253,8 @@ const filters = [
       id: 14,
       title: "Energy Travel",
       category: "exoplanets",
-      image: "images/works/energy-travel-14.png",
-      popupLink: ["images/works/energy-travel-14.png"],
+      image: "images/works/energy-travel-14.jpg",
+      popupLink: ["images/works/energy-travel-14.jpg"],
     },
     {
       id: 15,
@@ -262,16 +262,44 @@ const filters = [
       category: "exoplanets",
       image: "images/works/0015-magnetical-landing.jpg",
       popupLink: ["images/works/0015-magnetical-landing.jpg"],
-    },    
+    },
     {
       id: 16,
+      title: "Fountain Raw",
+      category: "exoplanets",
+      image: "images/works/fountain-raw.jpg",
+      popupLink: ["images/works/fountain-raw.jpg"],
+    },
+    {
+      id: 17,
+      title: "Beauty Rose",
+      category: "exoplanets",
+      image: "images/works/beauty-rose.jpg",
+      popupLink: ["images/works/beauty-rose.jpg"],
+    },
+    {
+      id: 18,
+      title: "Rock Face",
+      category: "exoplanets",
+      image: "images/works/rock-face.jpg",
+      popupLink: ["images/works/rock-face.jpg"],
+    },
+    {
+      id: 19,
+      title: "Rising Hammer",
+      category: "exoplanets",
+      image: "images/works/rising-hammer.jpg",
+      popupLink: ["images/works/rising-hammer.jpg"],
+    },    
+    {
+      id: 20,
       title: "Light Travel",
       category: "exoplanets",
       image: "images/works/light-travel.jpg",
       popupLink: ["images/works/light-travel.jpg"],
     },
     {
-      id: 17,
+      id: 21,
       title: "Bear Time Head",
       category: "party-animals",
       image: "images/works/bear-time-party-head.jpg",
@@ -283,7 +311,7 @@ const filters = [
   
 function CivilizationsVoxelverse() {
     const [getAllItems] = useState(allData);
-    const [dataVisibleCount, setDataVisibleCount] = useState(16);
+    const [dataVisibleCount, setDataVisibleCount] = useState(20);
     const [dataIncrement] = useState(8);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
@@ -291,7 +319,7 @@ function CivilizationsVoxelverse() {
 
     useEffect(() => {
       setActiveFilter(filters[0].text.toLowerCase());
-      setVisibleItems(getAllItems.filter((item) => item.id <= 16));
+      setVisibleItems(getAllItems.filter((item) => item.id <= 20));
     }, [getAllItems]);
 
     const handleChange = (e) => {
