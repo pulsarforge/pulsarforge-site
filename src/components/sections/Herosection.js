@@ -20,7 +20,7 @@ function Herosection(props) {
             <button
               className="btn btn-default" style={{fontSize: 25}}
             >
-              Join us at discord Party
+              Join us at discord
             </button>
           </a>
         </div>
