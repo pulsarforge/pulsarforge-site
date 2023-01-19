@@ -237,10 +237,10 @@ const filters = [
     },
     {
       id: 12,
-      title: "Cloud Gum",
+      title: "Once a Time",
       category: "exoplanets",
-      image: "images/works/cloud-gum.jpg",
-      popupLink: ["images/works/cloud-gum.jpg"],
+      image: "images/works/once-a-time.jpg",
+      popupLink: ["images/works/once-a-time.jpg"],
     },
     {
       id: 13,
@@ -262,13 +262,13 @@ const filters = [
       category: "exoplanets",
       image: "images/works/0015-magnetical-landing.jpg",
       popupLink: ["images/works/0015-magnetical-landing.jpg"],
-    },
+    },    
     {
       id: 16,
-      title: "Once a Time",
+      title: "Light Travel",
       category: "exoplanets",
-      image: "images/works/once-a-time-12.jpg",
-      popupLink: ["images/works/once-a-time-12.jpg"],
+      image: "images/works/light-travel.jpg",
+      popupLink: ["images/works/light-travel.jpg"],
     },
     {
       id: 17,
@@ -283,15 +283,15 @@ const filters = [
   
 function CivilizationsVoxelverse() {
     const [getAllItems] = useState(allData);
-    const [dataVisibleCount, setDataVisibleCount] = useState(12);
-    const [dataIncrement] = useState(9);
+    const [dataVisibleCount, setDataVisibleCount] = useState(16);
+    const [dataIncrement] = useState(8);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
     const [noMorePost, setNoMorePost] = useState(false);
 
     useEffect(() => {
       setActiveFilter(filters[0].text.toLowerCase());
-      setVisibleItems(getAllItems.filter((item) => item.id <= 12));
+      setVisibleItems(getAllItems.filter((item) => item.id <= 16));
     }, [getAllItems]);
 
     const handleChange = (e) => {

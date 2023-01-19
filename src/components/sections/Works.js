@@ -146,6 +146,14 @@ const allData = [
     description: "Mappings Earnings",
     image: "images/works/mapping-earnings.png",
     link: ["https://mapping-earnings.pages.dev/"],
+  },
+  {
+    id: 18,
+    title: "Curated AI Art",
+    category: "Service",
+    description: "AI Consistent Art",
+    image: "images/works/ai-consistent-art.png",
+    link: ["https://www.figma.com/file/WGsXFnz9kVSadSUeLPxXwX/AI-Consistent-Art---Service?node-id=0%3A1&t=SUtFATmVScTkxrvP-1"],
   }
 ];
 
