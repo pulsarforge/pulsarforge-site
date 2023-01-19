@@ -14,8 +14,11 @@ function Homepage3() {
   return (
     <>
       <Helmet>
-        <title> PulsarForge Web3 Labs</title>
-        <meta name="description" content="Web3 Labs. Playground. Shipping Projects." />
+        <meta charSet="utf-8" />
+        <title>PulsarForge Web3 Labs</title>
+        <meta name="description" content="Web3 Labs. Code. Playground. Community. Shipping Projects." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://pulsarforge.io/logo.png"></meta>
       </Helmet>
       <Header3 logoSource="/images/PulsarForge-1.png" />
       <main className="content-3">
