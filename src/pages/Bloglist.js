@@ -11,7 +11,7 @@ const allBlogs = [
     title: "Civilizations Voxelverse",
     image: "images/blog/The_Gathering_V1.jpg",
     filesource: "../../blogs/civilizations-voxelverse.md",
-    date: "30 April, 2022",
+    date: "18 February, 2022",
     author: "Pulsarforge",
     category: "Metaverse - 😎",
   },
