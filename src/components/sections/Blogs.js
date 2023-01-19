@@ -10,7 +10,7 @@ const allBlogs = [
     image: "images/blog/The_Gathering_V1.png",
     filesource: "../../blogs/civilizations-voxelverse.md",
     date: "30 April, 2022",
-    author: "PulsarForge",
+    author: "Pulsarforge",
     category: "Metaverse",
   },
   {
@@ -19,7 +19,7 @@ const allBlogs = [
     image: "images/blog/cryptoracle.png",
     filesource: "../../blogs/cryptoracle-analytics-dapp.md",
     date: "25 April, 2022",
-    author: "PulsarForge",
+    author: "Pulsarforge",
     category: "Cryptoracle",
   },
   {
@@ -28,7 +28,7 @@ const allBlogs = [
     image: "images/blog/Estonia.png",
     filesource: "../../blogs/estonia-dream-travel.md",
     date: "03 May, 2022",
-    author: "PulsarForge",
+    author: "Pulsarforge",
     category: "Estonia",
   },
   {
@@ -37,7 +37,7 @@ const allBlogs = [
     image: "images/blog/dao-onboarding.jpg",
     filesource: "../../blogs/dao-onboarding-process-guide-smooth-as-silk.md",
     date: "08 September, 2022",
-    author: "PulsarForge",
+    author: "Pulsarforge",
     category: "DAOs",
   },
   {
@@ -46,7 +46,7 @@ const allBlogs = [
     image: "images/blog/dumb-ideas-with-potential-v1.jpg",
     filesource: "../../blogs/dumb-ideas-with-potential-v1.md",
     date: "19 January, 2023",
-    author: "PulsarForge",
+    author: "Pulsarforge",
     category: "Experiments - 👏👏👏",
   },
 ];

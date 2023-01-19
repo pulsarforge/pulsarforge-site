@@ -13,7 +13,7 @@ const filters = [
 const allData = [
   {
     id: 1,
-    title: "PulsarForge",
+    title: "Pulsarforge",
     category: "Coding / GitHub",
     description: "Shaping Environments",
     image: "images/works/pulsar-forge-v2.png",
