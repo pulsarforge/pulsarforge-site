@@ -37,8 +37,8 @@ function BlogDetails(props) {
   return (
     <>
       <Helmet>
-        <title>Blog Articles of Software Engineering, Web3, UX, and Beyond.</title>
-        <meta name="description" content="Writing for fun about, dev, web3, projects, user experience and more." />
+        <title>Blog Articles of Software Engineering, Web3, UX, and Beyond</title>
+        <meta name="description" content="Writing for fun about, dev, web3, projects, user experience and more" />
         <meta property="og:type" content="article" />
       </Helmet>
       <Header3
