@@ -63,7 +63,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 @media only screen and (max-width: 768px) {
 	section.home {
-		padding: 300px 0;
+		padding: 100px 0;
 	}
 	.portfolio-filter {
 		display: none;
@@ -220,6 +220,12 @@ only screen and (min-device-pixel-ratio: 1.5){
 @media (min-width: 1600px) {
 	.container {
 		max-width: 1500px;
+	}
+}
+
+@media (min-width: 1920px) {
+	.container {
+		max-width: 1920px;
 	}
 }
 

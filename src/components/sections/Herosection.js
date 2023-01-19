@@ -11,9 +11,9 @@ function Herosection(props) {
           : "home d-flex align-items-center"
       }
     >
-      <div className="container">
+      <div className="container" style={{ background: "url('/images/hero-background-v2.jpg')", backgroundRepeat: "no-repeat", height: "100%", width: "100%", padding: "0", minHeight: "100%"}}>
         <div className="intro">
-          <img src="images/logo.png" alt="Pulsarforge" className="mb-4" style={{width: "90%"}}/>
+          <img src="images/logo.png" alt="Pulsarforge" className="mb-4" style={{width: "100%", marginTop: 10}}/>
           <h1 className="mb-2 mt-0" style={{fontSize: 65, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Web3 Labs</h1>
 
           <div className="mt-4">
