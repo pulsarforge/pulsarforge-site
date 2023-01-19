@@ -5,7 +5,7 @@ import Pagetitle from "../elements/Pagetitle";
 function Contact() {
 
   return (
-    <section id="contact">
+    <section id="contact" style={{marginLeft: 200}}>
       <div className="container">
         <Pagetitle title="Get in touch" />
 
