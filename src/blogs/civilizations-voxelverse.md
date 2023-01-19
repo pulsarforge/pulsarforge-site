@@ -1,5 +1,3 @@
-![Voxelverse](/images/blog/The_Gathering_V1.png)
-
 # Civilizations Voxelverse
 
 It is a celebrations of voxel art, exploring sci-fi shapes that together form exoplanets, that's the first phase.

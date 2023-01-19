@@ -1,6 +1,4 @@
-![DAO Onboarding](/images/blog/dao-onboarding.jpg)
-
-# DAO onboarding process, guide, smooth as silk.
+# DAO onboarding process, guide, smooth as silk
 
 ## Table of content
 * What is an onboarding process?
@@ -20,7 +18,7 @@ Here We will find how a successful onboarding process makes the difference when 
 
 A good DAO culture, usually have an onboarding process able to integrate new teammates in the flow as smooth as possible and getting them on the day today flow, however this is not always the case but where there is something needed and missed there is opportunity, this means It is your time to build an onboarding process or enhanced it.
 
-## Flipping established concepts.
+## Flipping established concepts
 
 Whether You have a traditional or unconventional background, You could find that in the web3 land, everything is being built from scratch and this process involves experimentation.
 
@@ -29,7 +27,7 @@ All of these experiments have their success or failure depending on a thoughtful
 
 
 
-# How to build a DAO onboarding process.
+# How to build a DAO onboarding process
 You usually start by running a set of questions to meditate about:
 
 Which is the vision of the DAO?
@@ -61,7 +59,7 @@ The checklist to have in mind:
 Once you have gone through this checklist to have in mind and applied the concepts, matching your case and context with the parts are useful to the DAO, team and individuals, You are ready to go.
 
 ## How does it look like a real onboarding process? 
-### Hands on, full walkthrought, practical example.
+### Hands on, full walkthrought, practical example
 
 Our practical example we will use the fictional name of:
 DAO_Z.
@@ -93,5 +91,5 @@ Based on their experience after two weeks, with all the ins and outs plus the fe
 Claire decides to make a pull request in the docs in combination with the assigned buddy, a developer, and the docs get a new improvement.
 
 
-### Conclusion:
+### Conclusion
 Now you have the tools, build and ship it.

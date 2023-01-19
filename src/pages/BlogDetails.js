@@ -37,7 +37,7 @@ function BlogDetails(props) {
   return (
     <>
       <Helmet>
-        <title>Blog Articles of Software Engineering, Web3, Metaverse.</title>
+        <title>Blog Articles of Software Engineering, Web3, UX, and Beyond.</title>
         <meta name="description" content="Writing for fun about, dev, web3, projects, user experince and more." />
       </Helmet>
       <Header3
@@ -45,11 +45,14 @@ function BlogDetails(props) {
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
+      <br/>
+      <br/>
+      <br/>
       <main>
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section">
           <div className="container">
-            <div className="blog-single shadow-dark p-30"style={{paddingTop: 100}}>
+            <div className="blog-single shadow-dark p-30">
               <Markdown>{content}</Markdown>
             </div>
           </div>

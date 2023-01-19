@@ -6,21 +6,21 @@ import Pagetitle from "../elements/Pagetitle";
 const allBlogs = [
   {
     id: 1,
-    title: "Cryptoracle analytics dAPP",
-    image: "images/blog/cryptoracle.png",
-    filesource: "../../blogs/cryptoracle-analytics-dapp.md",
-    date: "25 April, 2022",
-    author: "PulsarForge",
-    category: "Cryptoracle",
-  },
-  {
-    id: 2,
     title: "Civilizations Voxelverse",
     image: "images/blog/The_Gathering_V1.png",
     filesource: "../../blogs/civilizations-voxelverse.md",
     date: "30 April, 2022",
     author: "PulsarForge",
     category: "Metaverse",
+  },
+  {
+    id: 2,
+    title: "Cryptoracle analytics dAPP",
+    image: "images/blog/cryptoracle.png",
+    filesource: "../../blogs/cryptoracle-analytics-dapp.md",
+    date: "25 April, 2022",
+    author: "PulsarForge",
+    category: "Cryptoracle",
   },
   {
     id: 3,
@@ -39,6 +39,15 @@ const allBlogs = [
     date: "08 September, 2022",
     author: "PulsarForge",
     category: "DAOs",
+  },
+  {
+    id: 5,
+    title: "Dumb Ideas with Potential",
+    image: "images/blog/dumb-ideas-with-potential-v1.jpg",
+    filesource: "../../blogs/dumb-ideas-with-potential-v1.md",
+    date: "19 January, 2023",
+    author: "PulsarForge",
+    category: "Experiments - 👏👏👏",
   },
 ];
 

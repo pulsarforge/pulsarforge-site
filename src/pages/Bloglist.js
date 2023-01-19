@@ -8,30 +8,30 @@ import Footer from "../components/layouts/Footer";
 const allBlogs = [
   {
     id: 1,
-    title: "Cryptoracle analytics dAPP",
+    title: "Civilizations Voxelverse",
+    image: "images/blog/The_Gathering_V1.jpg",
+    filesource: "../../blogs/civilizations-voxelverse.md",
+    date: "30 April, 2022",
+    author: "PulsarForge",
+    category: "Metaverse - 😎",
+  },
+  {
+    id: 2,
+    title: "Cryptoracle analytics Dapp",
     image: "images/blog/cryptoracle.png",
     filesource: "../../blogs/cryptoracle-analytics-dapp.md",
     date: "25 April, 2022",
     author: "PulsarForge",
-    category: "Cryptoracle",
-  },
-  {
-    id: 2,
-    title: "Civilizations Voxelverse",
-    image: "images/blog/The_Gathering_V1.png",
-    filesource: "../../blogs/civilizations-voxelverse.md",
-    date: "30 April, 2022",
-    author: "PulsarForge",
-    category: "Metaverse",
+    category: "Cryptoracle - 📈",
   },
   {
     id: 3,
     title: "Estonia dream travel",
-    image: "images/blog/Estonia.png",
+    image: "images/blog/Estonia.jpg",
     filesource: "../../blogs/estonia-dream-travel.md",
     date: "03 May, 2022",
     author: "PulsarForge",
-    category: "Estonia",
+    category: "Estonia - 🦄",
   },
   {
     id: 4,
@@ -40,8 +40,17 @@ const allBlogs = [
     filesource: "../../blogs/dao-onboarding-process-guide-smooth-as-silk.md",
     date: "08 September, 2022",
     author: "PulsarForge",
-    category: "DAOs",
-  }
+    category: "DAOs - 🔮",
+  },
+  {
+    id: 5,
+    title: "Dumb Ideas with Potential V1",
+    image: "images/blog/dumb-ideas-with-potential-v1.jpg",
+    filesource: "../../blogs/dumb-ideas-with-potential-v1.md",
+    date: "19 January, 2023",
+    author: "PulsarForge",
+    category: "Code Labs - 💻",
+  },
 ];
 
 function Bloglist() {
@@ -50,7 +59,7 @@ function Bloglist() {
 
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(9);
+  const [postsPerPage] = useState(16);
 
   useEffect(() => {
     setPosts(allBlogs);
@@ -81,7 +90,7 @@ function Bloglist() {
   return (
     <>
       <Helmet>
-        <title>Blog, Software Engineer team, Showcasing Developments, Web3, Metaverse.</title>
+        <title>Blog of Software Engineering, Web3, UX, and Beyond.</title>
         <meta name="description" content="Writing for fun about, dev, web3, projects, user experince and more." />
       </Helmet>
       <Header3

@@ -1,10 +1,8 @@
-![Cryptoracle](/images/blog/cryptoracle.png)
-
-# Cryptoracle, discovering patterns at web3.
+# Cryptoracle, discovering patterns at web3
 
 In today's news We are going to dive into, my usual day building.
 
-## The best analytics dAPP, Cryptoracle.
+## The best analytics Dapp, Cryptoracle
 
 Since We are a small but great team, You will see a myriad of tasks related to different fields.
 
