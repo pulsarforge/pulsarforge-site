@@ -149,7 +149,7 @@ const allData = [
   },
   {
     id: 18,
-    title: "Curated AI Art",
+    title: "Curated Assets Creation",
     category: "Service",
     description: "AI Consistent Art",
     image: "images/works/ai-consistent-art.png",
