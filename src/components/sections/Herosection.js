@@ -25,9 +25,8 @@ function Herosection(props) {
           </a>
         </div>
         <div className="mt-4" style={{paddingBottom: "100px"}}>
-              <h3 style={{fontSize: 35}}>Playground by Pulsarforge</h3>
-              <h4 style={{fontSize: 20}}>Five years at the craft and adding skills along the path</h4>
-              <h4 style={{fontSize: 20}}>Exploring the world and scaling projects</h4>
+              <h2 style={{fontSize: 35}}>Playground by Pulsarforge</h2>
+              <h3 style={{fontSize: 20}}>Five years at the craft and adding skills along the path <br /> <br /> Exploring the world and scaling projects</h3>
           </div>
         </div>
 
