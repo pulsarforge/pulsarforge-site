@@ -15,7 +15,7 @@ const allBlogs = [
   },
   {
     id: 2,
-    title: "Cryptoracle analytics dAPP",
+    title: "Cryptoracle analytics Dapp",
     image: "images/blog/cryptoracle.png",
     filesource: "../../blogs/cryptoracle-analytics-dapp.md",
     date: "25 April, 2022",

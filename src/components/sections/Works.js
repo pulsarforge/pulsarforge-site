@@ -45,9 +45,9 @@ const allData = [
   },
   {
     id: 5,
-    title: "Civilizations Voxelverse",
+    title: "Hand Made Art",
     category: "Crafting Art",
-    description: "Hand Made Art",
+    description: "Civilizations Voxelverse",
     image: "images/works/the-gathering-v2.png",
     link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
   },
