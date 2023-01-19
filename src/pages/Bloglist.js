@@ -44,7 +44,7 @@ const allBlogs = [
   },
   {
     id: 5,
-    title: "Dumb Ideas with Potential V1",
+    title: "Dumb ideas with potential V1",
     image: "images/blog/dumb-ideas-with-potential-v1.jpg",
     filesource: "../../blogs/dumb-ideas-with-potential-v1.md",
     date: "19 January, 2023",
