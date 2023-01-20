@@ -6,7 +6,7 @@ function Herosection(props) {
     <section id="home" className={   props.light     ? "home d-flex align-items-center light"     : "home d-flex align-items-center" }>
       <div style={{ background: "url('/images/hero-background-v3.png')", backgroundRepeat: "no-repeat", height: "100%", width: "100%", minHeight: "100%", backgroundSize: "100%"}} >
         <div className="intro">
-          <img src="images/logo.png" alt="Pulsarforge" className="mb-4" style={{width: "82%"}}/>
+          <img src="images/logo.png" alt="Pulsarforge" className="mb-4" style={{width: "75%"}}/>
           <h1 style={{fontSize: 65, paddingTop: 80, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Web3 Labs</h1>
 
           <div className="mt-4">
