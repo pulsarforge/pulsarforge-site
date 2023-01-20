@@ -18,7 +18,7 @@ const priceboxData = [
   },
   {
     id: 2,
-    title: "React Web Development",
+    title: "Reactjs Web Development",
     icon: "images/reactjs.png",
     content: [
       {
