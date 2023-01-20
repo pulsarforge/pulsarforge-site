@@ -1,7 +1,7 @@
 # Dumb ideas with potential V1
 
 ### The Macro Picture
-**Works Garden:** 
+**Code Garden:** 
 
 A landscape of projects to flex my code muscles, and business skills.
 

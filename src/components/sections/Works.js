@@ -208,7 +208,7 @@ function Works() {
   return (
     <section id="works" >
       <div className="container">
-        <Pagetitle title="Works Garden" />
+        <Pagetitle title="Code Garden" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
