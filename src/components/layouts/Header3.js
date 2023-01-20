@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../elements/Logo";
+import Player from "../elements/Player";
 
 function Header3({ light, logoSource, bootstrapNav }) {
   const [toggleNavbar, setToggleNavbar] = useState(false);
@@ -81,6 +82,9 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 <a className="nav-link" href="mailto:pulsarforgelabs@gmail.com">
                   Contact 👋
                 </a> 
+              </li>
+              <li>
+                <Player url="/music/jungle-ambient-birds-and-drums.mp3" />
               </li>
             </ul>
           </div>
