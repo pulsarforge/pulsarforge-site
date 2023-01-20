@@ -11,7 +11,7 @@ function Herosection(props) {
 
           <div className="mt-4">
               <h2 style={{fontSize: 40, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Playground by Pulsarforge</h2>
-              <h3 style={{fontSize: 20, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Five years at the craft and adding skills along the path <br /> <br /> Exploring the world and scaling projects</h3>
+              <h3 style={{fontSize: 20, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Five years at the code craft & adding skills along the path <br /> <br /> Exploring the world and scaling projects</h3>
           </div> 
           <div className="text-center mt-4" style={{marginBottom: 170, paddingTop: 10}}>
             <a href="https://discord.com/invite/4mXg6QSyY8" target="_blank" rel="noreferrer"> 
