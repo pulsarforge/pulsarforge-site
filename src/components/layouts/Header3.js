@@ -75,7 +75,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/blogs"
                 >
-                  Blog ✍
+                  Path Registry ✍
                 </a>
               </li>
               <li className="nav-item">
