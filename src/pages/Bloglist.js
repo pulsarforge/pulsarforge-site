@@ -9,6 +9,7 @@ const allBlogs = [
   {
     id: 1,
     title: "Civilizations Voxelverse",
+    description: "Explore Exoplanets and Homes. Guide your Party Animals at the Voxelverse.",
     image: "images/blog/The_Gathering_V1.jpg",
     filesource: "../../blogs/civilizations-voxelverse.md",
     date: "18 February, 2022",
@@ -18,6 +19,7 @@ const allBlogs = [
   {
     id: 2,
     title: "Cryptoracle analytics Dapp",
+    description: "Cryptoracle, discovering patterns at web3.",
     image: "images/blog/cryptoracle.png",
     filesource: "../../blogs/cryptoracle-analytics-dapp.md",
     date: "25 April, 2022",
@@ -27,6 +29,7 @@ const allBlogs = [
   {
     id: 3,
     title: "Estonia dream travel",
+    description: "Cities, towns and forests I want to explore in Estonia.",
     image: "images/blog/Estonia.jpg",
     filesource: "../../blogs/estonia-dream-travel.md",
     date: "03 May, 2022",
@@ -36,6 +39,7 @@ const allBlogs = [
   {
     id: 4,
     title: "DAO onboarding process, guide, smooth as silk",
+    description: "On boarding process, pre joining, joining, and integrate the newcomer.",
     image: "images/blog/dao-onboarding.jpg",
     filesource: "../../blogs/dao-onboarding-process-guide-smooth-as-silk.md",
     date: "08 September, 2022",
@@ -45,6 +49,7 @@ const allBlogs = [
   {
     id: 5,
     title: "Dumb ideas with potential V1",
+    description: "Flexing my code muscles, and business skills. Stages: Traditional, Innovation, Flow State.",
     image: "images/blog/dumb-ideas-with-potential-v1.jpg",
     filesource: "../../blogs/dumb-ideas-with-potential-v1.md",
     date: "19 January, 2023",
@@ -90,8 +95,8 @@ function Bloglist() {
   return (
     <>
       <Helmet>
-        <title>Blog of Software Engineering, Web3, UX, and Beyond</title>
-        <meta name="description" content="Writing for fun about, dev, web3, projects, user experience and more" />
+        <title>Blog Software Engineering, Web3, UX, and Beyond</title>
+        <meta name="description" content="Writing for fun about, dev, web3, projects, user experience and beyond" />
       </Helmet>
       <Header3
         logoSource="/images/PulsarForge-1.png"

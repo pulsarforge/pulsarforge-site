@@ -17,7 +17,7 @@ function App() {
           <CivilizationsVoxelverse />
         </Route>
         <Route path="/blogs" component={Bloglist} exact />
-        <Route path="/blogs/:title" component={Articles} />
+        <Route path="/blogs/:id/:title" component={Articles} />
       </Switch>
     </BrowserRouter>
   );

@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Link } from "react-router-dom";
 
 function Blog({ blogData }) {
-  const { id, category, title, date, author, image, filesource } = blogData;
+  const { id, category, title, description, date, author, image, filesource } = blogData;
   const getNospaceTitle = (filesource) => {
     let tempArr = filesource.split("/");
     let fileName = tempArr[tempArr.length - 1];
@@ -21,18 +21,19 @@ function Blog({ blogData }) {
           <a href="!#">
             <span className="category">{category}</span>
           </a>
-          <Link to={`blogs/${getNospaceTitle(filesource)}`}>
+          <Link to={`blogs/${id}/${getNospaceTitle(filesource)}`}>
             <img src={image} alt="blog-title" />
           </Link>
         </div>
         <div className="details">
           <h4 className="my-0 title">
             <Link
-              to={`blogs/${getNospaceTitle(filesource)}`}
+              to={`blogs/${id}${getNospaceTitle(filesource)}`}
             >
               {title}
             </Link>
           </h4>
+          <p>{description}</p>
           <ul className="list-inline meta mb-0 mt-2">
             <li className="list-inline-item">{date}</li>
             <li className="list-inline-item">{author}</li>
