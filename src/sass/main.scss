@@ -38,7 +38,38 @@ section.home {
 
   .intro {
     margin: auto;
-    max-width: 590px;
+    max-width: 700px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    @media (min-width: 720px) {
+      margin-top: 150px;
+    }
+    h1 {
+      color: #fff;
+      font-size: 36px;
+    }
+
+    p {
+      color: #fff;
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+
+    span {
+      display: inline-block;
+
+      label {
+        margin-bottom: 0;
+
+        &::after {
+          content: attr(value);
+        }
+      }
+    }
+  }
+  .intro-logo {
+    margin: auto;
     text-align: center;
     position: relative;
     z-index: 1;
@@ -1173,5 +1204,26 @@ footer.footer {
 
   .icons-social-footer{
     margin-right: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .logo-back-energy {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 38%;
+    margin:-575px 0 0 -360px;
+    z-index: -1;
+  }
+}
+@media (max-width: 500px) {
+  .logo-back-energy {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 75%;
+    margin:-210px 0 0 -140px;
+    z-index: -1;
   }
 }
