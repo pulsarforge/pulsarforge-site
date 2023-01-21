@@ -160,7 +160,7 @@ const allData = [
 function Works() {
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(8);
-  const [dataIncrement] = useState(8);
+  const [dataIncrement] = useState(12);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
   const [noMorePost, setNoMorePost] = useState(false);
