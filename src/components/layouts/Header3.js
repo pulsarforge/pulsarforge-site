@@ -80,8 +80,8 @@ function Header3({ light, logoSource, bootstrapNav }) {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="mailto:pulsarforgelabs@gmail.com">
-                  Contact 👋
-                </a> 
+                  Good Vibes 📬
+                </a>
               </li>
               <li>
                 <Player url="/music/jungle-ambient-birds-and-drums.mp3" />

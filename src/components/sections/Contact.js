@@ -25,8 +25,7 @@ function Contact() {
                 animateOnce={true}
               >
                 <h2>
-                  
-                  <a href="mailto:pulsarforgelabs@gmail.com">Let your message travel 👋</a> 
+                  <a href="mailto:pulsarforgelabs@gmail.com">Let your message travel 📬</a>
                 </h2>
               </ScrollAnimation>
             </div>
