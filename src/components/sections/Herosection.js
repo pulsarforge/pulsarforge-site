@@ -14,7 +14,7 @@ function Herosection(props) {
             <button onClick={toggle} style={{ background: "transparent", border: "none", fontSize: 0}} >
               <img src="images/logo.png" alt="Pulsarforge" style={{width: "40%"}}/>
             </button>
-            { isOpened ? <img src="/images/energy-loop-v1.gif" alt="Energy" className="logo-back-energy"/> : <></>}
+            { isOpened ? <img src="/images/energy-loop-v2.gif" alt="Energy" className="logo-back-energy"/> : <></>}
         </div>
         <div className="intro">
           <h1 style={{fontSize: 65, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Web3 Labs</h1>
