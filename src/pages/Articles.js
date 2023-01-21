@@ -31,7 +31,7 @@ const metadataAllBlogs = [
   },
   {
     id: 4,
-    title: "DAO onboarding process, guide, smooth as silk",
+    title: "Guide to DAO onboarding",
     description: "DAOs and on boarding process, composed of all the elements in the pre joining, joining, integrating in the workflow the newcomer, and experience review phase.",
     image: "https://pulsarforge.io/images/blog/dao-onboarding.jpg",
     author: "Pulsarforge",
