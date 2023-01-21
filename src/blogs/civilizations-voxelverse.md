@@ -1,19 +1,18 @@
 # Civilizations Voxelverse
 
-It is a celebrations of voxel art, exploring sci-fi shapes that together form exoplanets, that's the first phase.
+It is a celebrations of art, exploring sci-fi shapes that together form exoplanets, that's the first phase.
 
 Travel into the voxelverse exoplanets:
 [Explore the Voxelverse](https://pulsarforge.io/civilizations-voxelverse-nfts)
 
-On NEAR Protocol, ParasId:
-[Collection at ParasId](https://paras.id/es/collection/voxelverse-exoplanets-by-pulsarforgenear)
 
-Discover More:
-[Artstation Portfolio](https://www.artstation.com/pulsarforge)
 
-Two main topics I will explore through the eons of time:
+Main topics:
+
 Shapes combined with storytelling.
+
 There aren't dates set on stone but there is will to create and delight with art, that requires skills, time, energy, and tell an story of evolution.
+
 
 Topics & Explorations:
 
