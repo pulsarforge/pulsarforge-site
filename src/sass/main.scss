@@ -1217,7 +1217,17 @@ footer.footer {
     z-index: -1;
   }
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: 1590px) {
+  .logo-back-energy {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 75%;
+    margin:-590px 0 0 -370px;
+    z-index: -1;
+  }
+}
+@media (max-width: 540px) {
   .logo-back-energy {
     position: absolute;
     top: 100%;
