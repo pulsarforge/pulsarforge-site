@@ -49,7 +49,7 @@ const allBlogs = [
   {
     id: 5,
     title: "Dumb ideas with potential V1",
-    description: "Flexing my code muscles, and business skills. Stages: Traditional, Innovation, Flow State.",
+    description: "Flexing code & business skills. Stages: Traditional, Innovation, Flow State.",
     image: "images/blog/dumb-ideas-with-potential-v1.jpg",
     filesource: "../../blogs/dumb-ideas-with-potential-v1.md",
     date: "19 January, 2023",

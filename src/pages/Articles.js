@@ -40,7 +40,7 @@ const metadataAllBlogs = [
   {
     id: 5,
     title: "Dumb ideas with potential V1",
-    descrition: "Flexing my code muscles, and business skills. Stages: Traditional, Innovation, Flow State.",
+    description: "Flexing my code muscles, and business skills. Stages: Traditional, Innovation, Flow State.",
     image: "https://pulsarforge.io/images/blog/dumb-ideas-with-potential-v1.jpg",
     author: "Pulsarforge",
     category: "Code Labs - 💻",
