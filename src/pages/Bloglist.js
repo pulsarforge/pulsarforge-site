@@ -38,7 +38,7 @@ const allBlogs = [
   },
   {
     id: 4,
-    title: "Guide to DAO onboarding ",
+    title: "Guide to DAO onboarding",
     description: "On boarding process, pre joining, joining, and integrate the newcomer.",
     image: "images/blog/dao-onboarding.jpg",
     filesource: "../../blogs/dao-onboarding-process-guide-smooth-as-silk.md",
