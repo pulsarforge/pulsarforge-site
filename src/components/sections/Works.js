@@ -251,7 +251,7 @@ function Works() {
             disabled={noMorePost ? "disabled" : null}
           >
             {noMorePost ? (
-              "No more items"
+              "Coding in progress, wait for it"
             ) : (
               <span>
                 <i className="fas fa-spinner"></i> Load more

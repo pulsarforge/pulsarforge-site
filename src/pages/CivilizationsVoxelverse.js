@@ -193,7 +193,7 @@ const filters = [
 function CivilizationsVoxelverse() {
     const [getAllItems] = useState(allData);
     const [dataVisibleCount, setDataVisibleCount] = useState(8);
-    const [dataIncrement] = useState(12);
+    const [dataIncrement] = useState(16);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
     const [noMorePost, setNoMorePost] = useState(false);
@@ -292,7 +292,7 @@ function CivilizationsVoxelverse() {
                 disabled={noMorePost ? "disabled" : null}
               >
                 {noMorePost ? (
-                  "No more items"
+                  "Crafting artworks, return in a few days"
                 ) : (
                   <span>
                     <i className="fas fa-spinner"></i> Load more
