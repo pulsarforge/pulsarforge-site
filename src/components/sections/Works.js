@@ -38,7 +38,7 @@ const allData = [
   {
     id: 4,
     title: "Strategic and Action",
-    category: "Incoming ???",
+    category: "Incoming ⌛?",
     description: "Playing on the Field",
     image: "images/works/strategic-and-action.png",
     link: ["https://pulsarforge.io/"],
