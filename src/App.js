@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Homepage3Dark from "./pages/Homepage3Dark";
 import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
 import Bloglist from "./pages/Bloglist";
-import BlogDetails from "./pages/BlogDetails";
+import Articles from "./pages/Articles";
 import "./App.scss";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <CivilizationsVoxelverse />
         </Route>
         <Route path="/blogs" component={Bloglist} exact />
-        <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
+        <Route path="/blogs/:title" component={Articles} />
       </Switch>
     </BrowserRouter>
   );

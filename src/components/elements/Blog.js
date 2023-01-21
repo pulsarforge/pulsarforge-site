@@ -21,14 +21,14 @@ function Blog({ blogData }) {
           <a href="!#">
             <span className="category">{category}</span>
           </a>
-          <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
+          <Link to={`blogs/${getNospaceTitle(filesource)}`}>
             <img src={image} alt="blog-title" />
           </Link>
         </div>
         <div className="details">
           <h4 className="my-0 title">
             <Link
-              to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}
+              to={`blogs/${getNospaceTitle(filesource)}`}
             >
               {title}
             </Link>

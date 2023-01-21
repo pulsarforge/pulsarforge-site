@@ -4,7 +4,7 @@ import Header3 from "../components/layouts/Header3";
 import { Helmet } from "react-helmet";
 import Footer from "../components/layouts/Footer";
 
-function BlogDetails(props) {
+function Articles(props) {
   const [content, setContent] = useState("");
   const blogFile = props.match.params.title;
 
@@ -65,4 +65,4 @@ function BlogDetails(props) {
   );
 }
 
-export default BlogDetails;
+export default Articles;

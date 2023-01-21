@@ -57,17 +57,10 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 </a>
               </li>
               <li className="nav-item">
-              <a
-                  className="nav-link"
-                  href="/">
-                  Strategic & Action ⌛ 
-                </a>
-              </li>
-              <li className="nav-item">
                 <a
                   className="nav-link"
                   href="/civilizations-voxelverse-nfts">
-                  Voxelverse ✨
+                  Explore ✨
                 </a>
               </li>
               <li className="nav-item">
@@ -75,7 +68,14 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/blogs"
                 >
-                  Path Registry ✍
+                  Blog ✍
+                </a>
+              </li>
+              <li className="nav-item">
+              <a
+                  className="nav-link"
+                  href="/">
+                  Field ⌛ 
                 </a>
               </li>
               <li className="nav-item">
