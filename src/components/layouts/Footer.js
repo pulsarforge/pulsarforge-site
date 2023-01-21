@@ -4,7 +4,7 @@ function Footer({ light }) {
   return (
     <footer className={light ? "footer light" : "footer"}>
       <div className="container">
-        <span className="copyright" style={{fontSize: 20}}>
+        <span className="copyright" style={{fontSize: 22}}>
           &copy; {new Date().getFullYear()} Pulsarforge all rights reserved
         </span>
       </div>
