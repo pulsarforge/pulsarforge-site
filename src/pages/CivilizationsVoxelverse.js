@@ -295,7 +295,7 @@ function CivilizationsVoxelverse() {
                   "Crafting artworks, return in a few days"
                 ) : (
                   <span>
-                    <i className="fas fa-spinner"></i> Load more
+                    <i className="fas fa-spinner"></i> Explore more
                   </span>
                 )}
               </button>
