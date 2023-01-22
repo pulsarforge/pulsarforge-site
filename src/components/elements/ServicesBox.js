@@ -1,7 +1,7 @@
 import React from "react";
 
 function ServicesBox({ priceboxItem }) {
-  const { icon, title, content, badge, best } = priceboxItem;
+  const { icon, title, content, badge, best, cta } = priceboxItem;
   return (
     <div
       className={
@@ -19,6 +19,10 @@ function ServicesBox({ priceboxItem }) {
       {content.map((singleContent) => (
         <p key={singleContent.id} style={{fontSize: 19}}>{singleContent.text}</p>
       ))}
+        <div className="mt-4"></div>
+        <h2 className="btn btn-default">
+          <a href="mailto:pulsarforgelabs@gmail.com" style={{color:"white", textDecoration: "none"}}>{cta}</a>
+        </h2>
     </div>
   );
 }

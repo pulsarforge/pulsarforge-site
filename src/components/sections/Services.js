@@ -12,7 +12,7 @@ const priceboxData = [
         text: "I will craft a guide, a set of steps, to enhance your existing project and make it user friendly, engaging, an enjoyable experience",
       },
     ],
-    price: "Contact",
+    cta: "Level up your game",
     best: false,
     badge: false,
   },
@@ -26,9 +26,9 @@ const priceboxData = [
         text: "Reliable and outstanding websites, connecting with the users while reflecting the essence of your project and its culture",
       },
     ],
-    price: "Contact",
+    cta: "Get ahead your brand",
     best: true,
-    badge: "Recommended",
+    badge: "Getting into action",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const priceboxData = [
     content: [
       { id: 1, text: "Deployments CI/CD, APIs REST, GraphQL, Databases PostgreSQL, MongoDB, Payments, Wallets, Smart Contracts at EVM" },
     ],
-    price: "Contact",
+    cta: "Scale your project",
     best: false,
     badge: false,
   },
@@ -46,7 +46,7 @@ function Services() {
   return (
     <section id="section-services" >
       <div className="container">
-        <Pagetitle title="Main Services" />
+        <Pagetitle title="Making the difference" />
         <div className="row align-items-center">
           {priceboxData.map((pricebox) => (
             <div key={pricebox.id} className="col-md-4">
