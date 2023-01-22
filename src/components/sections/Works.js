@@ -6,7 +6,7 @@ import Portfolio from "../elements/Portfolio";
 const filters = [
   {
     id: 1,
-    text: "Enjoy the Journey",
+    text: "Journey Highlights",
   }
 ];
 
@@ -208,7 +208,7 @@ function Works() {
   return (
     <section id="works" >
       <div className="container">
-        <Pagetitle title="Code Garden" />
+        <Pagetitle title="Open code garden" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
@@ -254,7 +254,7 @@ function Works() {
               "Coding in progress, wait for it"
             ) : (
               <span>
-                <i className="fas fa-spinner"></i> Load more
+                <i className="fas fa-spinner"></i> Discover more
               </span>
             )}
           </button>
