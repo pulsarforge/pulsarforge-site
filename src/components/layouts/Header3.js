@@ -64,18 +64,18 @@ function Header3({ light, logoSource, bootstrapNav }) {
                 </a>
               </li>
               <li className="nav-item">
+              <a
+                  className="nav-link"
+                  href="/">
+                  On the Field ⌛
+                </a>
+              </li>
+              <li className="nav-item">
                 <a
                   className="nav-link"
                   href="/blogs"
                 >
                   Blog ✍
-                </a>
-              </li>
-              <li className="nav-item">
-              <a
-                  className="nav-link"
-                  href="/">
-                  Field ⌛ 
                 </a>
               </li>
               <li className="nav-item">
