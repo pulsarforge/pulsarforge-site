@@ -4,6 +4,7 @@ import Blog from "../components/elements/Blog";
 import Pagination from "../components/elements/Pagination";
 import { Helmet } from "react-helmet";
 import Footer from "../components/layouts/Footer";
+import Pagetitle from "../components/elements/Pagetitle";
 
 const allBlogs = [
   {
@@ -107,7 +108,10 @@ function Bloglist() {
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section" style={{backgroundColor: "rgb(24, 24, 24)"}}>
           <div className="container">
-            <div className="row blog-wrapper fix-spacing" style={{paddingTop: 170}}>
+            <div className="row blog-wrapper fix-spacing" style={{paddingTop: 35}}>
+              <div style={{marginTop: 40, textAlign: "center"}}>
+                <Pagetitle title="Free Style" />
+              </div>
               {currentPosts.map((blogItem) => (
                 <div className="col-md-3" key={blogItem.id}>
                   <Blog blogData={blogItem} />
