@@ -18,7 +18,7 @@ function Blog({ blogData }) {
     >
       <div className="blog-item rounded bg-white shadow-dark">
         <div className="thumb">
-          <a href="!#">
+          <a href={`blogs/${id}/${getNospaceTitle(filesource)}`}>
             <span className="category">{category}</span>
           </a>
           <Link to={`blogs/${id}/${getNospaceTitle(filesource)}`}>
