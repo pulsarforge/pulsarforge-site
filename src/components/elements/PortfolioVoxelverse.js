@@ -4,7 +4,7 @@ import FsLightbox from "fslightbox-react";
 //TODO: Add Description, Text, the nine traits boxes, and audio.
 
 function Portfolio({ portfolio }) {
-  const { category, title, image, popupLink, link, description, text } = portfolio;
+  const { id, category, title, image, popupLink, link, description, text } = portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -48,7 +48,8 @@ function Portfolio({ portfolio }) {
           </div>
           <div className="thumb">
             <img src={image} style={{width: '100%'}} alt=""/>
-            <h2 style={{color: 'white', margin: '50px', textAlign: 'center'}}>{description}</h2>
+            <h2 style={{color: 'white', margin: '50px', textAlign: 'center'}}>#{id - 1}</h2>
+            <p style={{color: 'white', margin: '20px', textAlign: 'center'}}>{description}</p>
             <p style={{color: 'white', margin: '20px', textAlign: 'center'}}>{text}</p>
             <div className="mask"></div>
           </div>

@@ -9,46 +9,77 @@ import { Helmet } from "react-helmet";
 const filters = [
     {
       id: 1,
-      text: "Exoplanets",
-      rarity: "All",
-      status: "Level:"
+      text: "All Exoplanets"
     },
     {
       id: 2,
-      text: "common",
-      rarity: "Level I",
-      status: "Common",
+      text: "common"
     },
     {
       id: 3,
-      text: "Uncommon",
-      rarity: "Level II",
-      status: "Uncommon",
+      text: "Uncommon"
     },
     {
       id: 4,
-      text: "Rare",
-      rarity: "Level III",
-      status: "Rare",
+      text: "Rare"
     },
     {
       id: 5,
-      text: "Epic",
-      rarity: "Level IV",
-      status: "Epic",
+      text: "Epic"
     },
     {
       id: 6,
-      text: "Legendary",
-      rarity: "Dimensional",
-      status: "Legendary",
+      text: "Legendary"
+    }
+  ];
+
+  const traits = [
+    {
+      id: 1,
+      text: "Background Light"
+    },
+    {
+      id: 2,
+      text: "Civilization Level"
+    },
+    {
+      id: 3,
+      text: "Exoplanet Size"
+    },
+    {
+      id: 4,
+      text: "Resource"
+    },
+    {
+      id: 5,
+      text: "Lands"
+    },
+    {
+      id: 6,
+      text: "Longevity Phase"
+    },
+    {
+      id: 7,
+      text: "Droid Squad"
+    },
+    {
+      id: 8,
+      text: "Population"
+    },
+    {
+      id: 9,
+      text: "Exoplanet type"
+    },
+    {
+      id: 10,
+      text: "Rarity"
     }
   ];
 
   const allData = [
     {
       id: 1,
-      title: "Blocks Labs",
+      title: "Cloud Gum",
       category: "epic",
       image: "images/works/block-labs-9.jpg",
       popupLink: ["images/works/block-labs-9.jpg"],
@@ -246,75 +277,87 @@ function CivilizationsVoxelverse() {
         </Helmet>
         <Header3 logoSource="/images/PulsarForge-1.png" />
         <section id="Voxelverse" style={{backgroundColor: "rgb(24, 24, 24)"}}>
-          
           <div style={{marginTop: 40, textAlign: "center"}}>
               <Pagetitle title="Voxelverse Exoplanets" />
-            </div>{/* Start Portfolio Filters */}
-            <ScrollAnimation
-              animateIn="fadeInUp"
-              animateOut="fadeInOut"
-              animateOnce={true}
-            >
-              
-              <ul className="portfolio-filter list-inline" style={{textAlign: "center"}}>
-                {filters.map((filter) => (
-                  <li className="list-inline-item" key={filter.id}>
-                    <button
-                      onClick={handleChange}
-                      className={
-                        filter.text.toLowerCase() === activeFilter
-                          ? "text-capitalize current"
-                          : "text-capitalize"
-                      }
-                    >
-                      {filter.text}
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </ScrollAnimation>
-            {/* End Portfolio Filters */}
-    
-            {/* Start Portfolio Items */}
-            <div className="row portfolio-wrapper">
-              {visibleItems.map((item) => (
-                <div className="col-md-3 col-sm-6 grid-item" key={item.id}>
-                  <PortfolioVoxelverse portfolio={item} />
-                </div>
+          </div>
+          {/* Start Portfolio Filters */}
+          <ScrollAnimation
+            animateIn="fadeInUp"
+            animateOut="fadeInOut"
+            animateOnce={true}
+          >
+            <ul className="portfolio-filter list-inline" style={{textAlign: "center"}}>
+              {filters.map((filter) => (
+                <li className="list-inline-item" key={filter.id}>
+                  <button
+                    onClick={handleChange}
+                    className={
+                      filter.text.toLowerCase() === activeFilter
+                        ? "text-capitalize current"
+                        : "text-capitalize"
+                    }
+                    style={{fontSize: 25}}
+                  >
+                    {filter.text}
+                  </button>
+                </li>
               ))}
-            </div>
-            {/* End Portfolio Items */}
-
-            <div className="load-more text-center mt-4">
-              <button
-                className="btn btn-default"
-                onClick={handleLoadmore}
-                disabled={noMorePost ? "disabled" : null}
-              >
-                {noMorePost ? (
-                  "Crafting artworks, return in a few days"
-                ) : (
-                  <span>
-                    <i className="fas fa-spinner"></i> Explore more
-                  </span>
-                )}
-              </button>
-            </div>
-            <div className="container" style={{textAlign: "center"}}>
-              <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
-               Civilizations Voxelverse for You<br />Discover, Explore, Build
-              </h2>
-              <br />
-              <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}>Each dimension was living in their own space and time<br /><br />Until the portals open new destinies and possibilities</h4>
-              <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}>Breaking the Voxelverse peace, and starting the party</h4>
-              <br />
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>Discover the local celebrations<br /><br /> Explore exoplanets<br /><br />Build your home quarters<br />Incoming</h4>
-              <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>Break the dance floor<br /><br />Next to your party animals<br />Incoming</h4>
-              <div style={{paddingTop: 20}}></div>
+            </ul>
+          </ScrollAnimation>
+          <ul className="portfolio-filter list-inline" style={{textAlign: "center"}}>
+            <li className="list-inline-item">
+              <p style={{color: "white", textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>
+                <strong>Traits Categories:</strong>
+              </p>
+            </li>
+            {traits.map((trait) => (
+              <li className="list-inline-item" key={trait.id}>
+                <p style={{color: "white", textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>
+                  <strong>{trait.text}</strong>
+                </p>
+              </li>
+            ))}
+          </ul>
+          {/* End Portfolio Filters */}
+          {/* Start Portfolio Items */}
+          <div className="row portfolio-wrapper">
+            {visibleItems.map((item) => (
+              <div className="col-md-3 col-sm-6 grid-item" key={item.id}>
+                <PortfolioVoxelverse portfolio={item} />
+              </div>
+            ))}
+          </div>
+          {/* End Portfolio Items */}
+          <div className="load-more text-center mt-4">
+            <button
+              className="btn btn-default"
+              onClick={handleLoadmore}
+              disabled={noMorePost ? "disabled" : null}
+            >
+              {noMorePost ? (
+                "Crafting artworks, return in a few days"
+              ) : (
+                <span>
+                  <i className="fas fa-spinner"></i> Explore more
+                </span>
+              )}
+            </button>
+          </div>
+          <div className="container" style={{textAlign: "center"}}>
+            <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
+             Civilizations Voxelverse for You<br />Discover, Explore, Build
+            </h2>
+            <br />
+            <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}>Each dimension was living in their own space and time<br /><br />Until the portals open new destinies and possibilities</h4>
+            <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}>Breaking the Voxelverse peace, and starting the party</h4>
+            <br />
+            <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>Discover the local celebrations<br /><br /> Explore exoplanets<br /><br />Build your home quarters<br />Incoming</h4>
+            <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>Break the dance floor<br /><br />Next to your party animals<br />Incoming</h4>
+            <div style={{paddingTop: 20}}></div>
             <div className="row">
-            <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 100}}>
-              Story Mode<br /><br /><br />Guide your party animals<br /><br />Through the Voxelverse<br /><br />Their fates are in your hands
-            </h3>
+              <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 100}}>
+                Story Mode<br /><br /><br />Guide your party animals<br /><br />Through the Voxelverse<br /><br />Their fates are in your hands
+              </h3>
             </div>
           </div>
         </section>
