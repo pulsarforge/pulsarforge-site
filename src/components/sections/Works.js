@@ -225,6 +225,7 @@ function Works() {
                       ? "text-capitalize current"
                       : "text-capitalize"
                   }
+                  style={{fontSize: 25}}
                 >
                   {filter.text}
                 </button>
