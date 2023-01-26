@@ -1,11 +1,23 @@
 {
   "name": "pulsarforge",
-  "version": "1.0.2",
+  "version": "2.0.0",
+  "author": {
+    "name": "pulsarforge",
+    "email": "pulsarforgelabs@gmail.com",
+    "url": "https://pulsarforge.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pulsarforge/pulsarforge-site.git"
+  },
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
+    "prettier": "2.7.1"   
+  },
+  "dependencies": {
     "animate.css": "4.1.1",
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
@@ -13,18 +25,14 @@
     "markdown-to-jsx": "^7.1.3",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
-    "react-countup": "^4.3.3",
     "react-cursor-position": "^3.0.3",
     "react-dom": "^17.0.2",
     "react-github-calendar": "^3.4.0",
     "react-helmet": "^6.1.0",
-    "react-on-screen": "^2.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.2",
-    "react-slick": "^0.28.1",
     "react-tooltip": "^4.2.21",
-    "react-visibility-sensor": "^5.1.1",
     "sass": "^1.35.1"
   },
   "scripts": {
