@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import Pagetitle from "../elements/Pagetitle";
 import Portfolio from "../elements/Portfolio";
 
 const filters = [
@@ -208,7 +207,6 @@ function Works() {
   return (
     <section id="works" >
       <div className="container">
-        <Pagetitle title="Open code garden" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"

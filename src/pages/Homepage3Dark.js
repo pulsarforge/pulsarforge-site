@@ -8,6 +8,7 @@ import Herosection from "../components/sections/Herosection";
 import Services from "../components/sections/Services";
 import Works from "../components/sections/Works";
 import { Helmet } from "react-helmet";
+import CodeGarden from "../components/sections/CodeGarden";
 
 function Homepage3() {
   document.body.classList.add("dark");
@@ -26,6 +27,9 @@ function Homepage3() {
           <ReactCursorPosition>
             <Herosection />
           </ReactCursorPosition>
+        </Element>
+        <Element name="section-code-garden">
+          <CodeGarden />
         </Element>
         <Element name="section-works">
           <Works />
