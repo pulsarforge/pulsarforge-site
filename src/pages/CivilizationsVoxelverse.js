@@ -276,7 +276,7 @@ function CivilizationsVoxelverse() {
           <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party" />
         </Helmet>
         <Header3 logoSource="/images/PulsarForge-1.png" />
-        <section id="Voxelverse" style={{backgroundColor: "rgb(24, 24, 24)"}}>
+        <main style={{backgroundColor: "rgb(24, 24, 24)"}}>
           <div style={{marginTop: 40, textAlign: "center"}}>
               <Pagetitle title="Voxelverse Exoplanets" />
           </div>
@@ -360,7 +360,7 @@ function CivilizationsVoxelverse() {
               </h3>
             </div>
           </div>
-        </section>
+        </main>
         <Footer />
       </>
     );
