@@ -3,49 +3,9 @@ import Markdown from "markdown-to-jsx";
 import Header3 from "../components/layouts/Header3";
 import Footer from "../components/layouts/Footer";
 import { Helmet } from "react-helmet";
+import ArticlesJson from "../data/articles.json";
 
-const metadataAllBlogs = [
-  {
-    id: 1,
-    title: "Civilizations Voxelverse",
-    description: "Explore Exoplanets and Homes. Guide your Party Animals at the Voxelverse.",
-    image: "https://pulsarforge.io/images/blog/The_Gathering_V1.jpg",
-    author: "Pulsarforge",
-    category: "Metaverse - 😎",
-  },
-  {
-    id: 2,
-    title: "Cryptoracle analytics Dapp",
-    description: "Cryptoracle, discovering patterns at web3.",
-    image: "https://pulsarforge.io/images/blog/cryptoracle.png",
-    author: "Pulsarforge",
-    category: "Cryptoracle - 📈",
-  },
-  {
-    id: 3,
-    title: "Estonia dream travel",
-    description: "Cities, towns and forests I want to explore in Estonia.",
-    image: "https://pulsarforge.io/images/blog/Estonia.jpg",
-    author: "Pulsarforge",
-    category: "Estonia - 🦄",
-  },
-  {
-    id: 4,
-    title: "Guide to DAO onboarding",
-    description: "DAOs and on boarding process, composed of all the elements in the pre joining, joining, integrating in the workflow the newcomer, and experience review phase.",
-    image: "https://pulsarforge.io/images/blog/dao-onboarding.jpg",
-    author: "Pulsarforge",
-    category: "DAOs - 🔮",
-  },
-  {
-    id: 5,
-    title: "Dumb ideas with potential V1",
-    description: "Flexing my code muscles, and business skills. Stages: Traditional, Innovation, Flow State.",
-    image: "https://pulsarforge.io/images/blog/dumb-ideas-with-potential-v1.jpg",
-    author: "Pulsarforge",
-    category: "Code Labs - 💻",
-  },
-];
+const metadataAllBlogs = ArticlesJson;
 
 function Articles(props) {
   const [content, setContent] = useState("");
