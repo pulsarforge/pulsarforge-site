@@ -1,5 +1,5 @@
 
-name: Create diagram
+name: Diagram
 on:
   workflow_dispatch: {}
   push:
