@@ -16,7 +16,7 @@ function CodeGarden() {
             <div className="container">
                 <Pagetitle title="Open code garden" />
                 <p>@pulsarforge on GitHub</p>
-                <GitHubCalendar username="pulsarforge" blockMargin={7} blockSize={20} fontSize={18} theme={colorTheme}>
+                <GitHubCalendar username="pulsarforge" blockMargin={7} blockSize={22} fontSize={20} theme={colorTheme}>
                     <ReactTooltip delayShow={40} html />
                 </GitHubCalendar>
             </div>
