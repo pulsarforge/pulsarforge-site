@@ -8,9 +8,14 @@ jobs:
   get_data:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - id: checkout-code
+        name: Checkout code
         uses: actions/checkout@v3.3.0
-      - name: Update diagram
+        run: echo "KEY=VALUE" >> $GITHUB_OUTPUT
+      - id: update-diagram
+        name: Update diagram
         uses: githubocto/repo-visualizer@0.8.2
+        run: echo "KEY=VALUE" >> $GITHUB_OUTPUT
         with:
+          node-version: 16
           excluded_paths: "ignore,.github"
