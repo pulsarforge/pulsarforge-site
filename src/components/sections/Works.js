@@ -14,7 +14,7 @@ const allData = [
   {
     id: 1,
     title: "Pulsarforge",
-    category: "Coding / GitHub",
+    category: "GitHub",
     description: "Shaping Environments",
     image: "images/works/pulsar-forge-v3.png",
     link: ["https://github.com/pulsarforge"],
@@ -30,7 +30,7 @@ const allData = [
   {
     id: 3,
     title: "Cryptoracle",
-    category: "Data Dapp, Dev.",
+    category: "Data",
     description: "Analytics Dapp",
     image: "images/works/cryptoracle.png",
     link: ["https://app.cryptoracle.io/"],
@@ -38,7 +38,7 @@ const allData = [
   {
     id: 4,
     title: "Hand Made Art",
-    category: "Crafting pieces",
+    category: "Crafting",
     description: "Civilizations Voxelverse",
     image: "images/works/voxelverse-exoplanets.png",
     link: ["https://pulsarforge.io/civilizations-voxelverse-nfts"],
@@ -54,7 +54,7 @@ const allData = [
   {
     id: 6,
     title: "Knowledge Base",
-    category: "Product & Service",
+    category: "Service",
     description: "Digital Garden",
     image: "images/works/digital-garden.png",
     link: ["https://hqnotes.pulsarforge.io/"],
@@ -62,7 +62,7 @@ const allData = [
   {
     id: 7,
     title: "Trends Web3 Radar",
-    category: "Product & Service",
+    category: "Data",
     description: "Web3 Radar",
     image: "images/works/trends-web3-radar.png",
     link: ["https://trends-web3-radar.pages.dev/"],
@@ -70,7 +70,7 @@ const allData = [
   {
     id: 8,
     title: "Hackatons Board",
-    category: "Product",
+    category: "Learn & Earn",
     description: "Board Hacks",
     image: "images/works/board-hacks.png",
     link: ["https://board-hacks.pages.dev/"],
@@ -94,7 +94,7 @@ const allData = [
   {
     id: 11,
     title: "DAOs Board",
-    category: "Product",
+    category: "Community",
     description: "DAO It Board",
     image: "images/works/dao-it-board.png",
     link: ["https://dao-it-board.pages.dev"],
@@ -110,7 +110,7 @@ const allData = [
   {
     id: 13,
     title: "Trends Substack Radar",
-    category: "Incoming Product & Service",
+    category: "Incoming Interface",
     description: "Substack Radar",
     image: "images/works/trends-substack-radar.png",
     link: ["https://pulsarforge.io/"],
@@ -118,7 +118,7 @@ const allData = [
   {
     id: 14,
     title: "Startups Database Table",
-    category: "Incoming Product",
+    category: "Incoming Interface",
     description: "Startup Stage",
     image: "images/works/startup-stage.png",
     link: ["https://pulsarforge.io/"],
@@ -134,7 +134,7 @@ const allData = [
   {
     id: 16,
     title: "Web3 Connected Notifications",
-    category: "Incoming Product",
+    category: "Incoming Coordination",
     description: "Notify Rules",
     image: "images/works/notify-rules.png",
     link: ["https://pulsarforge.io/"],
