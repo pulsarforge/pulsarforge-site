@@ -11,11 +11,9 @@ jobs:
       - id: checkout-code
         name: Checkout code
         uses: actions/checkout@v3.3.0
-        run: echo "KEY=VALUE" >> $GITHUB_OUTPUT
       - id: update-diagram
         name: Update diagram
         uses: githubocto/repo-visualizer@0.8.2
-        run: echo "KEY=VALUE" >> $GITHUB_OUTPUT
         with:
           node-version: 16
           excluded_paths: "ignore,.github"
