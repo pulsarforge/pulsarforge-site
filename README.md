@@ -8,7 +8,7 @@
 
 ## Sneak Peek:
 
-![Web3 Labs - Code Garden](./public/images/readme-v1.png)
+![Web3 Labs - Code Garden](./public/images/readme-sneak-peek.png)
 
 
 ## Repository visualization:
