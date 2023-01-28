@@ -9,7 +9,7 @@ body.dark {
     color: #fff;
 
     &:before {
-      background: url("/images/dots-bg-light.svg");
+      background: url("../../public/images/dots-bg-light.svg");
     }
   }
 
@@ -55,7 +55,7 @@ body.dark {
   }
 
   .contact-info {
-    background-image: url("/images/map-light.png");
+    background-image: url("../../public/images/map-light.png");
   }
 
   .white-popup {
