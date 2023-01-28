@@ -54,7 +54,7 @@ const allBlogs = [
 function Blogs() {
   return (
     <section id="blog">
-      <div className="container" style={{marginTop: "200px"}}>
+      <div className="container blog-container">
         <Pagetitle title="Latest posts" />
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
@@ -63,7 +63,7 @@ function Blogs() {
             </div>
           ))}
         </div>
-        <div className="text-center" style={{marginBottom: "100px"}}>
+        <div className="text-center">
           <div className="spacer" data-height="30"></div>
           <Link to="/blogs" className="btn btn-default">
             Show all blogs
