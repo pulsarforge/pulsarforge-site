@@ -38,9 +38,6 @@ function Articles(props) {
     }
   });
 
-  // document.body.classList.add("dark");
-  //Uncomment the above line if you use dark version
-
   return (
     <>
       <Helmet>
