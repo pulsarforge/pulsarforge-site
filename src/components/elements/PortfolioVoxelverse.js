@@ -47,10 +47,10 @@ function Portfolio({ portfolio }) {
             <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb">
-            <img src={image} style={{width: '100%'}} alt=""/>
-            <h2 style={{color: 'white', margin: '50px', textAlign: 'center'}}>#{id - 1}</h2>
-            <p style={{color: 'white', margin: '20px', textAlign: 'center'}}>{description}</p>
-            <p style={{color: 'white', margin: '20px', textAlign: 'center'}}>{text}</p>
+            <img src={image} alt=""/>
+            <h2>#{id - 1}</h2>
+            <p>{description}</p>
+            <p>{text}</p>
             <div className="mask"></div>
           </div>
         </div>
