@@ -155,6 +155,7 @@ section.home {
   margin: 0;
   margin-left: 14px;
   position: relative;
+  color: #fff;
 
   &:before {
     content: "";
@@ -662,7 +663,7 @@ select.portfolio-filter-mobile {
 }
 
 .blog-page-section {
-  background-color: black;
+  background-color: rgb(24, 24, 24);
   padding-top: 0;
 
   .blog-img-text {
