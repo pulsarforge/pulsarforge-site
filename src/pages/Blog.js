@@ -3,6 +3,7 @@ import Header from "../components/layouts/Header";
 import BlogElement from "../components/elements/Blog";
 import Pagination from "../components/elements/Pagination";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Pagetitle from "../components/elements/Pagetitle";
 import Footer from "../components/layouts/Footer";
 import BlogJson from "../data/blog.json";
 
@@ -56,13 +57,10 @@ function Blog() {
         <div className="blog-page-section">
           <div className="container">
             <div className="row blog-wrapper fix-spacing">
-              <div>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+              <div className="page-title-center">
+                <img  src="/images/dog-gg.jpg" style={{ height: "350px", width: "350px", borderRadius: "80px", marginBottom: "30px"}} alt="dog-gg"/>
+                <Pagetitle title="Pick your spot and grab some tasty smoothies" />
+                <Pagetitle title="Time to travel to gather sun energy" />
               </div>
               {currentPosts.map((blogItem) => (
                 <div className="col-md-3" key={blogItem.id}>
