@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import ArticlesJson from "../data/articles.json";
 
 function Articles(props) {
@@ -40,15 +40,17 @@ function Articles(props) {
 
   return (
     <>
-      <Helmet>
-        <title>{`${articleTitle}`}</title>
-        <meta property="og:type" content="article" />
-        <meta name="description" content={articleDescription}/>
-        <meta property="og:image" content={articleImage} />
-        <meta property="og:author" content="Pulsarforge" />
-        <meta property="og:image:width" content="512" />
-        <meta property="og:image:height" content="512" />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>{`${articleTitle}`}</title>
+          <meta property="og:type" content="article" />
+          <meta name="description" content={articleDescription}/>
+          <meta property="og:image" content={articleImage} />
+          <meta property="og:author" content="Pulsarforge" />
+          <meta property="og:image:width" content="512" />
+          <meta property="og:image:height" content="512" />
+        </Helmet>
+      </HelmetProvider>
       <Header
         logoSource="/images/PulsarForge-1.png"
         toggleMenu={toggleMenu}

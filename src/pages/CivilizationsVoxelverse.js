@@ -3,10 +3,10 @@ import ScrollAnimation from "react-animate-on-scroll";
 import PortfolioVoxelverse from "../components/elements/PortfolioVoxelverse";
 import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
-import CivilizationsTraitsJson from "../data/civilizations-traits.json"
-import CivilizationsJson from "../data/civilizations.json"
+import CivilizationsTraitsJson from "../data/civilizations-traits.json";
+import CivilizationsJson from "../data/civilizations.json";
   
 function CivilizationsVoxelverse() {
     const filters = CivilizationsFiltersJson;
@@ -61,10 +61,12 @@ function CivilizationsVoxelverse() {
 
     return (
       <>
-        <Helmet>
-          <title>Explore the Voxelverse</title>
-          <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party" />
-        </Helmet>
+        <HelmetProvider>
+          <Helmet>
+            <title>Explore the Voxelverse</title>
+            <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party" />
+          </Helmet>
+        </HelmetProvider>
         <Header logoSource="/images/PulsarForge-1.png" />
         <main>
           {/* Start Portfolio Filters */}

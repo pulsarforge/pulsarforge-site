@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/layouts/Header";
 import BlogElement from "../components/elements/Blog";
 import Pagination from "../components/elements/Pagination";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Footer from "../components/layouts/Footer";
 import BlogJson from "../data/blog.json";
 
@@ -40,10 +40,12 @@ function Blog() {
 
   return (
     <>
-      <Helmet>
-        <title>Blog Software Engineering, Web3, UX, and Beyond</title>
-        <meta name="description" content="Writing for fun about, dev, web3, projects, user experience and beyond" />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Blog Software Engineering, Web3, UX, and Beyond</title>
+          <meta name="description" content="Writing for fun about, dev, web3, projects, user experience and beyond" />
+        </Helmet>
+      </HelmetProvider>
       <Header
         logoSource="/images/PulsarForge-1.png"
         toggleMenu={toggleMenu}
