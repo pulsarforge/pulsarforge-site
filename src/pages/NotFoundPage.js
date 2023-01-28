@@ -1,12 +1,12 @@
 import React from "react";
-import Header3 from "../components/layouts/Header3";
+import Header from "../components/layouts/Header";
 
 function NotFoundPage(props) {
 
 
   return (
     <>
-      <Header3 logoSource="/images/PulsarForge-1.png" />
+      <Header logoSource="/images/PulsarForge-1.png" />
       <section className={   props.light     ? "home d-flex align-items-center light"     : "home d-flex align-items-center" }>
         <div style={{ background: "url('/images/hero-background-v3.png')", backgroundRepeat: "no-repeat", height: "100%", width: "100%", minHeight: "100%", backgroundSize: "100%"}} >
           <div className="intro">

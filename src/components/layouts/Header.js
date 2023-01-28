@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "../elements/Logo";
 import Player from "../elements/Player";
 
-function Header3({ light, logoSource, bootstrapNav }) {
+function Header({ light, logoSource, bootstrapNav }) {
   const [toggleNavbar, setToggleNavbar] = useState(false);
 
   const handleMobilenav = (e) => {
@@ -94,4 +94,4 @@ function Header3({ light, logoSource, bootstrapNav }) {
   );
 }
 
-export default Header3;
+export default Header;

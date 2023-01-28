@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Header3 from "../components/layouts/Header3";
+import Header from "../components/layouts/Header";
 import BlogElement from "../components/elements/Blog";
 import Pagination from "../components/elements/Pagination";
 import { Helmet } from "react-helmet";
@@ -45,7 +45,7 @@ function Blog() {
         <title>Blog Software Engineering, Web3, UX, and Beyond</title>
         <meta name="description" content="Writing for fun about, dev, web3, projects, user experience and beyond" />
       </Helmet>
-      <Header3
+      <Header
         logoSource="/images/PulsarForge-1.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}

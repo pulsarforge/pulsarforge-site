@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
-import Header3 from "../components/layouts/Header3";
+import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
 import { Helmet } from "react-helmet";
 import ArticlesJson from "../data/articles.json";
@@ -52,7 +52,7 @@ function Articles(props) {
         <meta property="og:image:width" content="512" />
         <meta property="og:image:height" content="512" />
       </Helmet>
-      <Header3
+      <Header
         logoSource="/images/PulsarForge-1.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}

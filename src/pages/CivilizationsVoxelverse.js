@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../components/elements/Pagetitle";
 import PortfolioVoxelverse from "../components/elements/PortfolioVoxelverse";
-import Header3 from "../components/layouts/Header3";
+import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
 import { Helmet } from "react-helmet";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
@@ -66,7 +66,7 @@ function CivilizationsVoxelverse() {
           <title>Explore the Voxelverse</title>
           <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party" />
         </Helmet>
-        <Header3 logoSource="/images/PulsarForge-1.png" />
+        <Header logoSource="/images/PulsarForge-1.png" />
         <main style={{backgroundColor: "rgb(24, 24, 24)"}}>
           <div style={{marginTop: 40, textAlign: "center"}}>
               <Pagetitle title="Voxelverse Exoplanets" />
