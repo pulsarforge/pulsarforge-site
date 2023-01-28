@@ -60,7 +60,7 @@ function Blog() {
               <div className="page-title-center">
                 <img  src="/images/dog-gg.jpg" style={{ height: "350px", width: "350px", borderRadius: "80px", marginBottom: "30px"}} alt="dog-gg"/>
                 <Pagetitle title="Pick your spot and grab some tasty smoothies" />
-                <Pagetitle title="Time to travel to gather sun energy" />
+                <Pagetitle title="Time to travel and gather sun energy" />
               </div>
               {currentPosts.map((blogItem) => (
                 <div className="col-md-3" key={blogItem.id}>

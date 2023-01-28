@@ -77,7 +77,7 @@ function CivilizationsVoxelverse() {
             animateOnce={true}
           >
             <div className="page-title-center-maring-top">
-              <Pagetitle title="Space adventure happening on daily basis" />
+              <Pagetitle title="Space adventure happening on quantum basics" />
             </div>
 
             <ul className="portfolio-filter list-inline filters-voxelverse-postion">
