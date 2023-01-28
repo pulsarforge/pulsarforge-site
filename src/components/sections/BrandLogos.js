@@ -1,40 +1,20 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
-
-const brandlogoData = [
-  {
-    id: 1,
-    image: "images/reactjs.png",
-  },
-  {
-    id: 2,
-    image: "images/thegraph.png",
-  },
-  {
-    id: 3,
-    image: "images/graphql.png",
-  },
-  {
-    id: 4,
-    image: "images/timescale.png",
-  },
-  {
-    id: 5,
-    image: "images/ethereum.png",
-  },
-];
+import BrandLogosJson from "../../data/brandlogos.json";
 
 function BrandlogosDark() {
+  const brandlogoData = BrandLogosJson;
+
   return (
     <div id="branglogos">
       <div className="container">
         <Pagetitle title="Main Techs" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
-            <div className="col-md-2 col-6" key={brandlogo.id} style={{width: "20%"}}>
+            <div className="col-md-2 col-6" key={brandlogo.id}>
               <div className="client-item">
                 <div className="inner">
-                  <img src={brandlogo.image} alt="Techs" style={{height: "100%"}}/>
+                  <img src={brandlogo.image} alt="Techs" />
                 </div>
               </div>
             </div>
