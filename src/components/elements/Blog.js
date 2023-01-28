@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import { Link } from "react-router-dom";
 
 function Blog({ blogData }) {
@@ -11,11 +10,7 @@ function Blog({ blogData }) {
     return getName;
   };
   return (
-    <ScrollAnimation
-      animateIn="fadeInUp"
-      animateOut="fadeInOut"
-      animateOnce={true}
-    >
+    <>
       <div className="blog-item rounded bg-white shadow-dark">
         <div className="thumb">
           <a href={`blogs/${id}/${getNospaceTitle(filesource)}`}>
@@ -40,7 +35,7 @@ function Blog({ blogData }) {
           </ul>
         </div>
       </div>
-    </ScrollAnimation>
+    </>
   );
 }
 

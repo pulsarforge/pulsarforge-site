@@ -15,20 +15,6 @@ main.content {
   }
 }
 
-main.content-2 {
-  margin-left: 110px;
-  @include transition(0.3s);
-
-  &.open {
-    opacity: 0.8;
-    -webkit-transform: translateX(110px);
-    -moz-transform: translateX(110px);
-    -ms-transform: translateX(110px);
-    -o-transform: translateX(110px);
-    transform: translateX(110px);
-  }
-}
-
 section {
   padding-top: 100px;
   position: relative;
@@ -96,24 +82,6 @@ section.home {
         &::after {
           content: attr(value);
         }
-      }
-    }
-  }
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  .social-icons {
-    li {
-      a {
-        color: #fff;
       }
     }
   }
@@ -240,21 +208,6 @@ section.home {
   }
 }
 
-/*=================================================================*/
-/*                      SKILLS                              
-/*=================================================================*/
-.skill-item {
-  .skill-info {
-    h4 {
-      font-size: 16px;
-      font-weight: 500;
-    }
-
-    span {
-      font-size: 14px;
-    }
-  }
-}
 
 /*=================================================================*/
 /*                      SERVICE                              
@@ -450,43 +403,16 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      FACTS                              
+/*                       SERVICE                           
 /*=================================================================*/
-.fact-item {
-  .details {
-    margin-left: 60px;
-  }
-
-  .icon {
-    font-size: 36px;
-    color: #dedeea;
-    float: left;
-  }
-
-  .number {
-    font-size: 30px;
-
-    em {
-      font-style: normal;
-    }
-  }
-
-  p {
-    font-size: 16px;
-  }
-}
-
-/*=================================================================*/
-/*                      PRICES                              
-/*=================================================================*/
-.price-item {
+.service-item {
   padding: 30px 40px;
 
   h2.plan {
     font-size: 24px;
   }
 
-  .price {
+  .service {
     font-size: 36px;
     font-weight: 700;
     margin: 0;
@@ -837,137 +763,6 @@ select.portfolio-filter-mobile {
       width: 100%;
     }
   }
-
-  .comment-respond {
-    margin-top: 2.5rem;
-    border-top: solid 1px #eee;
-    clear: both;
-  }
-
-  .comment-respond .comment-notes {
-    font-style: italic;
-  }
-
-  .comment-respond label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-
-  .comment-respond textarea,
-  .comment-respond input[type="text"],
-  .comment-respond input[type="email"],
-  .comment-respond input[type="url"] {
-    border-radius: 30px;
-    border: 0;
-    background: #f3f3f3;
-    padding: 6px 20px;
-    outline: 0;
-    max-width: 100%;
-  }
-
-  .comment-respond textarea {
-    height: 10rem;
-  }
-
-  .comment-form-cookies-consent {
-    align-items: baseline;
-    display: flex;
-  }
-
-  .comment-respond input[type="checkbox"] + label {
-    font-size: 14px;
-    margin-left: 10px;
-  }
-
-  .comment-respond input[type="submit"] {
-    border-radius: 60px;
-    font-family: "Rubik", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    overflow: hidden;
-    line-height: 1;
-    padding: 12px 32px;
-    color: #fff;
-    background: #ff4c60;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    border: none;
-    cursor: pointer;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-
-    &:focus {
-      outline: none;
-    }
-
-    &:hover {
-      color: #fff;
-      -webkit-animation-name: button-push;
-      animation-name: button-push;
-      -webkit-animation-duration: 0.3s;
-      animation-duration: 0.3s;
-      -webkit-animation-timing-function: linear;
-      animation-timing-function: linear;
-      -webkit-animation-iteration-count: 1;
-      animation-iteration-count: 1;
-    }
-  }
-
-  .comment-area-section {
-    padding-bottom: 10px;
-
-    h3 {
-      margin: 0;
-      padding-bottom: 30px;
-    }
-
-    .comment-inner-box {
-      margin-bottom: 40px;
-
-      &.reply-comment {
-        margin-left: 50px;
-      }
-
-      .comment-author-img {
-        width: 90px;
-        height: 90px;
-        overflow: hidden;
-        border-radius: 100%;
-        margin-right: 20px;
-      }
-
-      .comment-author-text {
-        overflow: hidden;
-
-        h4 {
-          margin: 0;
-          padding-bottom: 5px;
-        }
-
-        span {
-          font-size: 14px;
-          color: #6d6d6d;
-        }
-
-        p {
-          margin-bottom: 0;
-          padding-bottom: 10px;
-        }
-
-        .reply-btn {
-          a {
-            color: #fff;
-            border-radius: 20px;
-            padding: 0px 10px;
-            display: inline-block;
-            background-color: #ff4c60;
-          }
-        }
-      }
-    }
-  }
 }
 
 /*=================================================================*/
@@ -1012,15 +807,6 @@ select.portfolio-filter-mobile {
 /*=================================================================*/
 /*                      HELPER                              
 /*=================================================================*/
-.help-block.with-errors {
-  color: red;
-  font-size: 12px;
-  padding-left: 30px;
-
-  ul {
-    margin-bottom: 0;
-  }
-}
 
 .spacer {
   clear: both;

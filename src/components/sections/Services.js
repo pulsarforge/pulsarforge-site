@@ -11,9 +11,9 @@ function Services() {
       <div className="container">
         <Pagetitle title="Making the difference" />
         <div className="row align-items-center">
-          {servicesData.map((pricebox) => (
-            <div key={pricebox.id} className="col-md-4">
-              <ServicesBox priceboxItem={pricebox} />
+          {servicesData.map((servicebox) => (
+            <div key={servicebox.id} className="col-md-4">
+              <ServicesBox serviceboxItem={servicebox} />
             </div>
           ))}
         </div>

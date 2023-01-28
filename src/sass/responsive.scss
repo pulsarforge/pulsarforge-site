@@ -15,50 +15,10 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 }
 
-@media (min-width: 1200px) {
-
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.price-item {
+	.service-item {
 		padding: 40px 30px;
 	}
-}
-
-@media only screen and (max-width: 991px) {
-	header.desktop-header-1 {
-		-webkit-transform: translateX(-290px);
-		-moz-transform: translateX(-290px);
-		-ms-transform: translateX(-290px);
-		-o-transform: translateX(-290px);
-		transform: translateX(-290px);
-	}
-	header.mobile-header-1 {
-		display: block;
-	}
-	main.content {
-		margin-left: 0;
-	}
-	header.desktop-header-2 {
-		-webkit-transform: translateX(-110px);
-		-moz-transform: translateX(-110px);
-		-ms-transform: translateX(-110px);
-		-o-transform: translateX(-110px);
-		transform: translateX(-110px);
-	}
-	header.mobile-header-2 {
-		display: block;
-	}
-	main.content-2 {
-		margin-left: 0;
-	}
-	.desktop-header-3 .nav-link {
-		padding: 7px 0;
-	}
-}
-
-@media only screen and  (min-width: 991px) {
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -192,10 +152,6 @@ only screen and (min-device-pixel-ratio: 1.5){
 	}
 }
 
-@media only screen and (max-width: 360px) {
-
-}
-
 @media only screen and (max-width: 380px) {
 	.blog-page-section .blog-pagination ul li {
 		height: 40px;
@@ -236,7 +192,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 @media only screen and (max-height: 667px) {
-	header.desktop-header-2 .footer {
+	header.footer {
 		margin-top: 100px;
 	}
 }

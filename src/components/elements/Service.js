@@ -1,13 +1,13 @@
 import React from "react";
 
-function Service({ priceboxItem }) {
-  const { icon, title, content, badge, best, cta } = priceboxItem;
+function Service({ serviceboxItem }) {
+  const { icon, title, content, badge, best, cta } = serviceboxItem;
   return (
     <div
       className={
         best
-          ? "price-item bg-white rounded shadow-dark text-center best"
-          : "price-item bg-white rounded shadow-dark text-center"
+          ? "service-item bg-white rounded shadow-dark text-center best"
+          : "service-item bg-white rounded shadow-dark text-center"
       }
     >
       {badge && <span className="badge">{badge}</span>}
