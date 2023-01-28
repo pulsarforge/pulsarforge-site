@@ -22,9 +22,9 @@ function Header({ light, logoSource, bootstrapNav }) {
         light
           ? "desktop-header-3 fixed-top light"
           : "desktop-header-3 fixed-top"
-      } style={{height: 100}}
+      }
     >
-      <div className="container" style={{width: "80%"}}>
+      <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
           <Logo logoSource={logoSource} bootstrapNav={bootstrapNav} />
           <button
