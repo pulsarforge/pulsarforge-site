@@ -34,7 +34,7 @@ function Home() {
         <Element name="section-works">
           <Works />
         </Element>
-        <Element name="section-services" style={{marginBottom: '50px'}}>
+        <Element name="section-services">
           <Services />
         </Element>
         <Element name="section-contact">
