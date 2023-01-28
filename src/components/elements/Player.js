@@ -27,7 +27,7 @@ const Player = ({ url }) => {
 
   return (
     <>
-      <button className="btn btn-default" style={{background: "none"}} onClick={toggle}>{playing ? <i className="icon-control-pause"></i> : <i className="icon-control-play"></i>}</button>
+      <button className="btn btn-default player-button" onClick={toggle}>{playing ? <i className="icon-control-pause"></i> : <i className="icon-control-play"></i>}</button>
     </>
   );
 };
