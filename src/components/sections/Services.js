@@ -1,6 +1,6 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
-import ServicesBox from "../elements/ServicesBox";
+import ServicesBox from "../elements/Service";
 import ServicesJson from "../../data/services.json";
 
 const servicesData = ServicesJson;

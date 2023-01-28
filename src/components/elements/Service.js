@@ -1,35 +1,28 @@
 import React from "react";
 
-function Service({ service }) {
-  const { title, content, icon, color, contentColor } = service;
-  const hexToRgb = (hex) => {
-    const temp = hex
-      .replace(
-        /^#?([a-f\d])([a-f\d])([a-f\d])$/i,
-        (m, r, g, b) => "#" + r + r + g + g + b + b
-      )
-      .substring(1)
-      .match(/.{2}/g)
-      .map((x) => parseInt(x, 16));
-    return temp.join(",");
-  };
-
+function Service({ priceboxItem }) {
+  const { icon, title, content, badge, best, cta } = priceboxItem;
   return (
     <div
       className={
-        contentColor === "light"
-          ? "service-box rounded data-background padding-30 text-center text-light shadow-blue"
-          : "service-box rounded data-background padding-30 text-center shadow-blue"
+        best
+          ? "price-item bg-white rounded shadow-dark text-center best"
+          : "price-item bg-white rounded shadow-dark text-center"
       }
-      data-color="#6C6CE5"
-      style={{
-        background: color,
-        boxShadow: `0px 5px 20px 0px rgba(${hexToRgb(color)}, 0.5)`,
-      }}
     >
-      <img src={icon} alt={title} />
-      <h3 className="mb-3 mt-0">{title}</h3>
-      <p className="mb-0">{content}</p>
+      {badge && <span className="badge">{badge}</span>}
+      { icon ? 
+        <img src={icon} alt="Regular"/> :
+        <></>
+      }
+      <h2 className="plan">{title}</h2>
+      {content.map((singleContent) => (
+        <p className="service-p" key={singleContent.id} >{singleContent.text}</p>
+      ))}
+        <div className="mt-4"></div>
+        <h2 className="btn btn-default">
+          <a className="service-cta" href="mailto:pulsarforgelabs@gmail.com">{cta}</a>
+        </h2>
     </div>
   );
 }
