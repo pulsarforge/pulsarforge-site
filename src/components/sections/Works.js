@@ -3,6 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Portfolio from "../elements/Portfolio";
 import WorksJson from "../../data/works.json";
 import WorksFiltersJson from "../../data/works-filters.json";
+import Pagetitle from "../elements/Pagetitle";
 
 function Works() {
   const filters = WorksFiltersJson;
@@ -63,6 +64,7 @@ function Works() {
           animateOut="fadeInOut"
           animateOnce={true}
         >
+          <Pagetitle title="Be a shipper" />
           <ul className="portfolio-filter list-inline">
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>
@@ -100,7 +102,7 @@ function Works() {
             disabled={noMorePost ? "disabled" : null}
           >
             {noMorePost ? (
-              "Coding in progress, wait for it"
+              "Shipping code in progress, 🥞🥞🥞🥞, wait for it"
             ) : (
               <span>
                 <i className="fas fa-spinner"></i> Discover more
