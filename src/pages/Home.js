@@ -10,7 +10,7 @@ import Works from "../components/sections/Works";
 import { Helmet } from "react-helmet";
 import CodeGarden from "../components/sections/CodeGarden";
 
-function Homepage3() {
+function Home() {
   document.body.classList.add("dark");
   return (
     <>
@@ -47,4 +47,4 @@ function Homepage3() {
   );
 }
 
-export default Homepage3;
+export default Home;

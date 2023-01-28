@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Homepage3Dark from "./pages/Homepage3Dark";
+import Home from "./pages/Home";
 import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
 import Bloglist from "./pages/Bloglist";
 import Articles from "./pages/Articles";
@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={Homepage3Dark} exact />
+        <Route path="/" component={Home} exact />
         <Route path="/civilizations-voxelverse-nfts" component={CivilizationsVoxelverse} exact />
         <Route path="/blogs" component={Bloglist} exact />
         <Route path="/blogs/:id/:title" component={Articles} />
