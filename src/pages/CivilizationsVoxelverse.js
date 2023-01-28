@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import PortfolioVoxelverse from "../components/elements/PortfolioVoxelverse";
 import Header from "../components/layouts/Header";
+import Pagetitle from "../components/elements/Pagetitle";
 import Footer from "../components/layouts/Footer";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
@@ -75,13 +76,8 @@ function CivilizationsVoxelverse() {
             animateOut="fadeInOut"
             animateOnce={true}
           >
-            <div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
+            <div className="page-title-center-maring-top">
+              <Pagetitle title="Space adventure happening on daily basis" />
             </div>
 
             <ul className="portfolio-filter list-inline filters-voxelverse-postion">
@@ -133,7 +129,7 @@ function CivilizationsVoxelverse() {
               disabled={noMorePost ? "disabled" : null}
             >
               {noMorePost ? (
-                "Crafting artworks, return in a few days"
+                "Crafting artworks, 🎉🎉🎉🎉, return in a few days"
               ) : (
                 <span>
                   <i className="fas fa-spinner"></i> Explore more
@@ -141,6 +137,10 @@ function CivilizationsVoxelverse() {
               )}
             </button>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="container civilizations-position">
             <h2 className="civilizations-h2">
              Civilizations Voxelverse for You<br />Discover, Explore, Build
