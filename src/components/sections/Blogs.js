@@ -2,56 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Blog from "../elements/Blog";
 import Pagetitle from "../elements/Pagetitle";
+import BlogJson from "../../data/blog.json";
 
-const allBlogs = [
-  {
-    id: 1,
-    title: "Civilizations Voxelverse",
-    image: "images/blog/The_Gathering_V1.png",
-    filesource: "../../blogs/civilizations-voxelverse.md",
-    date: "30 April, 2022",
-    author: "Pulsarforge",
-    category: "Metaverse",
-  },
-  {
-    id: 2,
-    title: "Cryptoracle analytics Dapp",
-    image: "images/blog/cryptoracle.png",
-    filesource: "../../blogs/cryptoracle-analytics-dapp.md",
-    date: "25 April, 2022",
-    author: "Pulsarforge",
-    category: "Cryptoracle",
-  },
-  {
-    id: 3,
-    title: "Estonia dream travel",
-    image: "images/blog/Estonia.png",
-    filesource: "../../blogs/estonia-dream-travel.md",
-    date: "03 May, 2022",
-    author: "Pulsarforge",
-    category: "Estonia",
-  },
-  {
-    id: 4,
-    title: "DAO onboarding process, guide, smooth as silk",
-    image: "images/blog/dao-onboarding.jpg",
-    filesource: "../../blogs/dao-onboarding-process-guide-smooth-as-silk.md",
-    date: "08 September, 2022",
-    author: "Pulsarforge",
-    category: "DAOs",
-  },
-  {
-    id: 5,
-    title: "Dumb Ideas with Potential",
-    image: "images/blog/dumb-ideas-with-potential-v1.jpg",
-    filesource: "../../blogs/dumb-ideas-with-potential-v1.md",
-    date: "19 January, 2023",
-    author: "Pulsarforge",
-    category: "Experiments - 👏👏👏",
-  },
-];
 
 function Blogs() {
+
+  const allBlogs = BlogJson;
+
   return (
     <section id="blog">
       <div className="container blog-container">
