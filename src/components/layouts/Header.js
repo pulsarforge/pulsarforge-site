@@ -84,7 +84,7 @@ function Header({ light, logoSource, bootstrapNav }) {
                 </a>
               </li>
               <li>
-                <Player url="/music/birds.mp3" />
+                <Player url="/music/jungle.mp3" />
               </li>
             </ul>
           </div>
