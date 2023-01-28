@@ -42,14 +42,14 @@ function OpenSource({ portfolio }) {
             <h4 className="title">{title}</h4>
             <span className="more-button">{handleIcon()}</span>
           </div>
-          <div className="thumb" style={{textAlign:"center"}}>
+          <div className="thumb">
             <img src={image} alt="Portfolio-title"/>
             <div className="mask"></div>
           </div>
           <div>
-            <h4 className="title" style={{textAlign:"center"}}>{title}</h4>
-            <h6 className="title" style={{textAlign:"center"}}>{description}</h6>
-            <h6 className="title" style={{textAlign:"center"}}>{stars} {forks} {contributors}</h6>
+            <h4 className="title">{title}</h4>
+            <h6 className="title">{description}</h6>
+            <h6 className="title">{stars} {forks} {contributors}</h6>
           </div>
         </div>
       </a>
