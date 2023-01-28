@@ -7,19 +7,15 @@ import Footer from "../components/layouts/Footer";
 import Pagetitle from "../components/elements/Pagetitle";
 import BlogJson from "../data/blog.json";
 
-const allBlogs = BlogJson;
-
 function Blog() {
-  // document.body.classList.add("dark");
-  //Uncomment the above line if you use dark version
-
+  const allBlogs = BlogJson;
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(16);
 
   useEffect(() => {
     setPosts(allBlogs);
-  }, []);
+  }, [allBlogs]);
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;

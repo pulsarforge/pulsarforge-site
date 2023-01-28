@@ -5,9 +5,8 @@ import Footer from "../components/layouts/Footer";
 import { Helmet } from "react-helmet";
 import ArticlesJson from "../data/articles.json";
 
-const metadataAllBlogs = ArticlesJson;
-
 function Articles(props) {
+  const metadataAllBlogs = ArticlesJson;
   const [content, setContent] = useState("");
   const blogFile = props.match.params.title;
   const blogId = props.match.params.id - 1;

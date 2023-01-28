@@ -8,16 +8,11 @@ import { Helmet } from "react-helmet";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
 import CivilizationsTraitsJson from "../data/civilizations-traits.json"
 import CivilizationsJson from "../data/civilizations.json"
-
-const filters = CivilizationsFiltersJson;
-
-const traits = CivilizationsTraitsJson;
-
-const allData = CivilizationsJson;
-  
-  
   
 function CivilizationsVoxelverse() {
+    const filters = CivilizationsFiltersJson;
+    const traits = CivilizationsTraitsJson;
+    const allData = CivilizationsJson;
     const [getAllItems] = useState(allData);
     const [dataVisibleCount, setDataVisibleCount] = useState(8);
     const [dataIncrement] = useState(16);
@@ -28,7 +23,7 @@ function CivilizationsVoxelverse() {
     useEffect(() => {
       setActiveFilter(filters[0].text.toLowerCase());
       setVisibleItems(getAllItems.filter((item) => item.id <= 8));
-    }, [getAllItems]);
+    }, [filters, getAllItems]);
 
     const handleChange = (e) => {
       e.preventDefault();

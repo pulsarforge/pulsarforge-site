@@ -4,11 +4,9 @@ import Portfolio from "../elements/Portfolio";
 import WorksJson from "../../data/works.json";
 import WorksFiltersJson from "../../data/works-filters.json";
 
-const filters = WorksFiltersJson;
-
-const allData = WorksJson;
-
 function Works() {
+  const filters = WorksFiltersJson;
+  const allData = WorksJson;
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(8);
   const [dataIncrement] = useState(12);
@@ -19,7 +17,7 @@ function Works() {
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
     setVisibleItems(getAllItems.filter((item) => item.id <= 8));
-  }, [getAllItems]);
+  }, [getAllItems, filters]);
 
   const handleChange = (e) => {
     e.preventDefault();

@@ -3,9 +3,9 @@ import Pagetitle from "../elements/Pagetitle";
 import ServicesBox from "../elements/Service";
 import ServicesJson from "../../data/services.json";
 
-const servicesData = ServicesJson;
-
 function Services() {
+  const servicesData = ServicesJson;
+
   return (
     <section id="section-services" >
       <div className="container">
