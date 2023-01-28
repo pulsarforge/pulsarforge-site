@@ -8,7 +8,7 @@ function BrandlogosDark() {
   return (
     <div id="branglogos">
       <div className="container">
-        <Pagetitle title="Main Techs" />
+        <Pagetitle title="Main techs" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
             <div className="col-md-2 col-6" key={brandlogo.id}>
