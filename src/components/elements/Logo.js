@@ -13,7 +13,7 @@ function Logo({ logoSource, bootstrapNav }) {
   return (
     <div className="site-logo">
       <Link to="/">
-        <img src={logoSource} alt="Pulsarforge" style={{width: "80%"}} />
+        <img className="site-logo-image" src={logoSource} alt="Pulsarforge"/>
       </Link>
     </div>
   );
