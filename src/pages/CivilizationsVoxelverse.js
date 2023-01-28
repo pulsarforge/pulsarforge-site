@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import Pagetitle from "../components/elements/Pagetitle";
 import PortfolioVoxelverse from "../components/elements/PortfolioVoxelverse";
 import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
@@ -67,17 +66,23 @@ function CivilizationsVoxelverse() {
           <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party" />
         </Helmet>
         <Header logoSource="/images/PulsarForge-1.png" />
-        <main style={{backgroundColor: "rgb(24, 24, 24)"}}>
-          <div style={{marginTop: 40, textAlign: "center"}}>
-              <Pagetitle title="Voxelverse Exoplanets" />
-          </div>
+        <main>
           {/* Start Portfolio Filters */}
           <ScrollAnimation
             animateIn="fadeInUp"
             animateOut="fadeInOut"
             animateOnce={true}
           >
-            <ul className="portfolio-filter list-inline" style={{textAlign: "center"}}>
+            <div>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+
+            <ul className="portfolio-filter list-inline filters-voxelverse-postion">
               {filters.map((filter) => (
                 <li className="list-inline-item" key={filter.id}>
                   <button
@@ -95,15 +100,15 @@ function CivilizationsVoxelverse() {
               ))}
             </ul>
           </ScrollAnimation>
-          <ul className="portfolio-filter list-inline" style={{textAlign: "center"}}>
+          <ul className="portfolio-filter list-inline filters-voxelverse-postion">
             <li className="list-inline-item">
-              <p style={{color: "white", textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>
+              <p className="traits-categories-p">
                 <strong>Traits Categories:</strong>
               </p>
             </li>
             {traits.map((trait) => (
               <li className="list-inline-item" key={trait.id}>
-                <p style={{color: "white", textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>
+                <p className="traits-categories-p">
                   <strong>{trait.text}</strong>
                 </p>
               </li>
@@ -134,19 +139,18 @@ function CivilizationsVoxelverse() {
               )}
             </button>
           </div>
-          <div className="container" style={{textAlign: "center"}}>
-            <h2 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 10}}>
+          <div className="container civilizations-position">
+            <h2 className="civilizations-h2">
              Civilizations Voxelverse for You<br />Discover, Explore, Build
             </h2>
             <br />
-            <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}>Each dimension was living in their own space and time<br /><br />Until the portals open new destinies and possibilities</h4>
-            <h4 style={{color: "white", width: "100%", marginTop: 20, marginBottom: 15}}>Breaking the Voxelverse peace, and starting the party</h4>
+            <h4 className="civilizations-h4">Each dimension was living in their own space and time<br /><br />Until the portals open new destinies and possibilities</h4>
+            <h4 className="civilizations-h4">Breaking the Voxelverse peace, and starting the party</h4>
             <br />
-            <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>Discover the local celebrations<br /><br /> Explore exoplanets<br /><br />Build your home quarters<br />Incoming</h4>
-            <h4 style={{color: "white", width: "100%", marginTop: 10, marginBottom: 15}}>Break the dance floor<br /><br />Next to your party animals<br />Incoming</h4>
-            <div style={{paddingTop: 20}}></div>
+            <h4 className="civilizations-h4">Discover the local celebrations<br /><br /> Explore exoplanets<br /><br />Build your home quarters<br />Incoming</h4>
+            <h4 className="civilizations-h4">Break the dance floor<br /><br />Next to your party animals<br />Incoming</h4>
             <div className="row">
-              <h3 style={{color: "white", width: "100%", marginTop: 40, marginBottom: 100}}>
+              <h3 className="civilizations-h3">
                 Story Mode<br /><br /><br />Guide your party animals<br /><br />Through the Voxelverse<br /><br />Their fates are in your hands
               </h3>
             </div>
