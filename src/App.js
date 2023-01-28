@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
-import Bloglist from "./pages/Bloglist";
+import Blog from "./pages/Blog";
 import Articles from "./pages/Articles";
 import NotFoundPage from "./pages/NotFoundPage";
 import "./App.scss";
@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/civilizations-voxelverse-nfts" component={CivilizationsVoxelverse} exact />
-        <Route path="/blogs" component={Bloglist} exact />
+        <Route path="/blogs" component={Blog} exact />
         <Route path="/blogs/:id/:title" component={Articles} />
         <Route component={NotFoundPage} />
       </Switch>

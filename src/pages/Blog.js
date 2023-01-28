@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Header3 from "../components/layouts/Header3";
-import Blog from "../components/elements/Blog";
+import BlogElement from "../components/elements/Blog";
 import Pagination from "../components/elements/Pagination";
 import { Helmet } from "react-helmet";
 import Footer from "../components/layouts/Footer";
 import Pagetitle from "../components/elements/Pagetitle";
-import BlogListJson from "../data/blog-list.json";
+import BlogJson from "../data/blog.json";
 
-const allBlogs = BlogListJson;
+const allBlogs = BlogJson;
 
-function Bloglist() {
+function Blog() {
   // document.body.classList.add("dark");
   //Uncomment the above line if you use dark version
 
@@ -64,7 +64,7 @@ function Bloglist() {
               </div>
               {currentPosts.map((blogItem) => (
                 <div className="col-md-3" key={blogItem.id}>
-                  <Blog blogData={blogItem} />
+                  <BlogElement blogData={blogItem} />
                 </div>
               ))}
             </div>
@@ -86,4 +86,4 @@ function Bloglist() {
   );
 }
 
-export default Bloglist;
+export default Blog;
