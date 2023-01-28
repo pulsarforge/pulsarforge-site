@@ -57,7 +57,7 @@ function Articles(props) {
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
-      <p style={{color: "white"}}>{articleId}</p>
+      <p>{articleId}</p>
       <br/>
       <br/>
       <br/>
