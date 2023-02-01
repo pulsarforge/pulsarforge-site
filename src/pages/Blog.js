@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "../components/layouts/Header";
 import BlogElement from "../components/elements/Blog";
-import Pagination from "../components/elements/Pagination";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 import Pagetitle from "../components/elements/Pagetitle";
-import Footer from "../components/layouts/Footer";
+import Pagination from "../components/elements/Pagination";
 import BlogJson from "../data/blog.json";
+import Footer from "../components/layouts/Footer";
 
 function Blog() {
   const allBlogs = BlogJson;

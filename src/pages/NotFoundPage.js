@@ -3,8 +3,7 @@ import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
 
 function NotFoundPage(props) {
-
-
+  
   return (
     <>
       <Header logoSource="/images/PulsarForge-1.png" />

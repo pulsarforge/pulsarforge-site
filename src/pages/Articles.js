@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Markdown from "markdown-to-jsx";
-import Header from "../components/layouts/Header";
-import Footer from "../components/layouts/Footer";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Header from "../components/layouts/Header";
+import Markdown from "markdown-to-jsx";
 import ArticlesJson from "../data/articles.json";
+import Footer from "../components/layouts/Footer";
 
 function Articles(props) {
   const metadataAllBlogs = ArticlesJson;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Blog from "../elements/Blog";
 import Pagetitle from "../elements/Pagetitle";
+import Blog from "../elements/Blog";
 import BlogJson from "../../data/blog.json";
 
 

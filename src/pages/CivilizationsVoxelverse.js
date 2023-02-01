@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import PortfolioVoxelverse from "../components/elements/PortfolioVoxelverse";
-import Header from "../components/layouts/Header";
-import Pagetitle from "../components/elements/Pagetitle";
-import Footer from "../components/layouts/Footer";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Header from "../components/layouts/Header";
+import ScrollAnimation from "react-animate-on-scroll";
+import Pagetitle from "../components/elements/Pagetitle";
+import PortfolioVoxelverse from "../components/elements/PortfolioVoxelverse";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
 import CivilizationsTraitsJson from "../data/civilizations-traits.json";
 import CivilizationsJson from "../data/civilizations.json";
-  
+import Footer from "../components/layouts/Footer";
+
 function CivilizationsVoxelverse() {
     const filters = CivilizationsFiltersJson;
     const traits = CivilizationsTraitsJson;

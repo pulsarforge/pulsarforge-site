@@ -1,6 +1,6 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
-import ServicesBox from "../elements/Service";
+import Service from "../elements/Service";
 import ServicesJson from "../../data/services.json";
 
 function Services() {
@@ -13,7 +13,7 @@ function Services() {
         <div className="row align-items-center">
           {servicesData.map((servicebox) => (
             <div key={servicebox.id} className="col-md-4">
-              <ServicesBox serviceboxItem={servicebox} />
+              <Service serviceboxItem={servicebox} />
             </div>
           ))}
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function Contact() {
 

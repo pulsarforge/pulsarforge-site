@@ -1,16 +1,17 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Element } from "react-scroll";
 import Header from "../components/layouts/Header";
-import Footer from "../components/layouts/Footer";
-import Contact from "../components/sections/Contact";
 import Herosection from "../components/sections/Herosection";
-import Services from "../components/sections/Services";
-import Works from "../components/sections/Works";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 import CodeGarden from "../components/sections/CodeGarden";
+import Works from "../components/sections/Works";
+import Services from "../components/sections/Services";
+import Contact from "../components/sections/Contact";
+import Footer from "../components/layouts/Footer";
 
 function Home() {
   document.body.classList.add("dark");
+  
   return (
     <>
       <HelmetProvider>
