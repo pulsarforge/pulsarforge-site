@@ -23,6 +23,7 @@ At the blog I like the simplicity of markdown so that's something to keep, easy 
 However at Path Registry there will be some extra formats, blog article mixed with experiments. Run, tests, iterate and laugh along the road.
 
 
+
 ### Code box
 
 - Collect Gists. Python scripts to automate tasks.
@@ -32,7 +33,9 @@ However at Path Registry there will be some extra formats, blog article mixed wi
 - Smart contract. To do: deploy.
 - Deploy dockers in a platform. Potentially saving a good chunk of money.
 - Upgrade site to find the right paths at main page.
-  
+
+
+
 ### Dog tasks
 
 ...
