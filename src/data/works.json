@@ -41,11 +41,11 @@
     },
     {
       "id": 6,
-      "title": "Knowledge Base",
-      "category": "Service",
-      "description": "Digital Garden",
-      "image": "images/works/digital-garden.png",
-      "link": ["https://hqnotes.pulsarforge.io/"]
+      "title": "Digital Garden",
+      "category": "Technical Writing",
+      "description": "Dog Brain",
+      "image": "images/works/dog-s-brain.png",
+      "link": ["https://dogbrain.pulsarforge.io/"]
     },
     {
       "id": 7,
@@ -137,6 +137,14 @@
     },
     {
       "id": 18,
+      "title": "Knowledge Base",
+      "category": "Template",
+      "description": "Digital Garden",
+      "image": "images/works/digital-garden.png",
+      "link": ["https://hqnotes.pulsarforge.io/"]
+    },
+    {
+      "id": 19,
       "title": "Curated Assets Creation",
       "category": "Service",
       "description": "AI Consistent Art",
