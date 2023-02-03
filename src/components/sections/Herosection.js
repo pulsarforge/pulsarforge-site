@@ -17,7 +17,7 @@ function Herosection(props) {
             { isOpened ? <img src="/images/energy-loop.gif" alt="Energy" className="logo-back-energy"/> : <></>}
         </div>
         <div className="intro">
-          <h1 style={{fontSize: 70, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Web3 Labs</h1>
+          <h1 style={{fontSize: 70, color: "#fff", textShadow: "3px 3px 2px rgb(37, 37, 37)", fontFamily: "DogBrain"}}>Web3 Labs</h1>
           <div>
               <h2 style={{fontSize: 54, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Playground by Pulsarforge GG</h2>
               <h3 style={{fontSize: 25, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Five years at code crafting & adding skills along the roads<br /><br />Areas: Interfaces, Coordination, Communities</h3>

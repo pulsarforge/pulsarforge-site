@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "DogBrain";
+    src: local("DogBrain"),
+      url("../../public/fonts/dog-brain.otf") format("opentype");
+};
 html {
     margin: 0 !important;
     overflow: auto !important;
@@ -50,12 +55,15 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
     color: #454360;
     font-family: $fonthead;
     font-weight: 700;
     margin: 20px 0;
+}
+
+h5 {
+    font-family: $fontdog;
 }
 
 h1 {

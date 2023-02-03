@@ -53,21 +53,21 @@ function Header({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/"
                 >
-                  Web3 Labs 🤠
+                  <h5>Web3 Labs 🤠</h5>
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
                   href="/civilizations-voxelverse-nfts">
-                  Explore ✨
+                  <h5>Explore ✨</h5>
                 </a>
               </li>
               <li className="nav-item">
               <a
                   className="nav-link"
                   href="/">
-                  On the Field ⌛
+                  <h5>On the Field ⌛</h5>
                 </a>
               </li>
               <li className="nav-item">
@@ -75,12 +75,12 @@ function Header({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/blogs"
                 >
-                  Blog ✍
+                  <h5>Blog ✍</h5>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="mailto:pulsarforgelabs@gmail.com">
-                  Good Vibes 📬
+                  <h5>Good Vibes 📬</h5>
                 </a>
               </li>
               <li>

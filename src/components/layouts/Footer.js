@@ -4,9 +4,9 @@ function Footer({ light }) {
   return (
     <footer className={light ? "footer light" : "footer"}>
       <div className="container">
-        <span className="copyright">
+        <h5 className="copyright">
           &copy; {new Date().getFullYear()} Pulsarforge all rights reserved
-        </span>
+        </h5>
       </div>
       <ul className="social-icons light list-inline mb-0 mt-4 icons-social-footer" >
         <li className="list-inline-item">
