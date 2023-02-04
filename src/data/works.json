@@ -9,19 +9,19 @@
     },
     {
       "id": 2,
-      "title": "Inursites",
-      "category": "Services",
-      "description": "Web Devs Team",
-      "image": "images/works/inursites-logo.png",
-      "link": ["https://inursites.io"]
+      "title": "Digital Garden",
+      "category": "Technical Writing",
+      "description": "Dog Brain",
+      "image": "images/works/dog-s-brain.png",
+      "link": ["https://dogbrain.pulsarforge.io/"]
     },
     {
       "id": 3,
-      "title": "Cryptoracle",
+      "title": "Trends Web3 Radar",
       "category": "Data",
-      "description": "Analytics Dapp",
-      "image": "images/works/cryptoracle.png",
-      "link": ["https://app.cryptoracle.io/"]
+      "description": "Web3 Radar",
+      "image": "images/works/trends-web3-radar.png",
+      "link": ["https://trends-web3-radar.pages.dev/"]
     },
     {
       "id": 4,
@@ -41,19 +41,19 @@
     },
     {
       "id": 6,
-      "title": "Digital Garden",
-      "category": "Technical Writing",
-      "description": "Dog Brain",
-      "image": "images/works/dog-s-brain.png",
-      "link": ["https://dogbrain.pulsarforge.io/"]
+      "title": "Inursites",
+      "category": "Services",
+      "description": "Web Devs Team",
+      "image": "images/works/inursites-logo.png",
+      "link": ["https://inursites.io"]
     },
     {
       "id": 7,
-      "title": "Trends Web3 Radar",
+      "title": "Cryptoracle",
       "category": "Data",
-      "description": "Web3 Radar",
-      "image": "images/works/trends-web3-radar.png",
-      "link": ["https://trends-web3-radar.pages.dev/"]
+      "description": "Analytics Dapp",
+      "image": "images/works/cryptoracle.png",
+      "link": ["https://app.cryptoracle.io/"]
     },
     {
       "id": 8,
