@@ -6,8 +6,8 @@ function Service({ serviceboxItem }) {
     <div
       className={
         best
-          ? "service-item bg-white rounded shadow-dark text-center best"
-          : "service-item bg-white rounded shadow-dark text-center"
+          ? "service-item bg-white rounded shadow-dark text-center best service-light"
+          : "service-item bg-white rounded shadow-dark text-center service-light"
       }
     >
       {badge && <span className="badge">{badge}</span>}
