@@ -1,7 +1,7 @@
 # Web3 Labs. 
 
 
-## Code Garden. Playground. Community. Shipping Projects.
+## Playground.
 
 [pulsarforge.io](https://pulsarforge.io/)
 
