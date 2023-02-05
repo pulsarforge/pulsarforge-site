@@ -2,10 +2,11 @@
     {
       "id": 1,
       "title": "User Experience Consulting",
+      "icon": "images/ux.png",
       "content": [
         {
           "id": 1,
-          "text": "I will craft a guide, a set of steps, to enhance your existing project and make it user friendly, engaging, an enjoyable experience"
+          "text": "Enhance your existing project to make it user friendly, engaging, shareable"
         }
       ],
       "cta": "Level up your game",
@@ -19,7 +20,7 @@
       "content": [
         {
           "id": 0,
-          "text": "Reliable and outstanding websites, connecting with the users while reflecting the essence of your project and its culture"
+          "text": "Reliable outstanding websites, connecting with the users while reflecting the essence of the project, culture, team, field"
         }
       ],
       "cta": "Get ahead your brand",
@@ -29,10 +30,11 @@
     {
       "id": 3,
       "title": "Extensibility and Integrations",
+      "icon": "images/units.png",
       "content": [
         { 
             "id": 1, 
-            "text": "Deployments CI/CD, APIs REST, GraphQL, Databases PostgreSQL, MongoDB, Payments, Wallets, Smart Contracts at EVM" 
+            "text": "CI/CD, APIs, DBs PostgreSQL MongoDB, Web3 Techs, Docs" 
         }
       ],
       "cta": "Scale your project",
