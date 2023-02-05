@@ -6,7 +6,7 @@ function NotFoundPage(props) {
   
   return (
     <>
-      <Header logoSource="/images/PulsarForge-1.png" />
+      <Header logoSource="/images/pulsarforge-1.png" />
       <section className={   props.light     ? "home d-flex align-items-center light"     : "home d-flex align-items-center" }>
         <div style={{ background: "url('/images/hero-background.png')", backgroundRepeat: "no-repeat", height: "100%", width: "100%", minHeight: "100%", backgroundSize: "100%"}} >
           <div className="intro">

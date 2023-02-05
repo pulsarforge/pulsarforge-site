@@ -68,7 +68,7 @@ function CivilizationsVoxelverse() {
             <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party" />
           </Helmet>
         </HelmetProvider>
-        <Header logoSource="/images/PulsarForge-1.png" />
+        <Header logoSource="/images/pulsarforge-1.png" />
         <main>
           {/* Start Portfolio Filters */}
           <ScrollAnimation
