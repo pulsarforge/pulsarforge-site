@@ -23,7 +23,7 @@ function Home() {
           <meta property="og:image" content="https://pulsarforge.io/logo.png" />
         </Helmet>
       </HelmetProvider>
-      <Header logoSource="/images/pulsarforge-1.png" />
+      <Header logoSource="/images/pulsarforge-logo-font.png" />
       <main className="content-3">
         <Element name="section-home">
           <Herosection />

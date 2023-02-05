@@ -52,7 +52,7 @@ function Articles(props) {
         </Helmet>
       </HelmetProvider>
       <Header
-        logoSource="/images/pulsarforge-1.png"
+        logoSource="/images/pulsarforge-logo-font.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
