@@ -23,9 +23,7 @@ function Herosection(props) {
               <h3 style={{fontSize: 25, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}><br/>Areas: Interfaces, Coordination, Communities<br/><br/></h3>
           </div> 
           <div className="text-center mt-4" style={{marginBottom: 220, paddingTop: 25}}>
-            <a href="https://discord.com/invite/4mXg6QSyY8" target="_blank" rel="noreferrer"> 
-              <button className="btn btn-default" style={{fontSize: 22, textShadow: "3px 3px 2px rgb(37, 37, 37)"}}>Join us at discord</button>
-            </a>
+          
           </div>
         </div> 
       </div>
