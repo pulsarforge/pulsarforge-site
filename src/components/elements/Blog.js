@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Blog({ blogData }) {
-  const { id, category, title, description, date, author, image, filesource } = blogData;
+  const { id, category, title, description, author, image, filesource } = blogData;
   const getNospaceTitle = (filesource) => {
     let tempArr = filesource.split("/");
     let fileName = tempArr[tempArr.length - 1];
@@ -30,8 +30,7 @@ function Blog({ blogData }) {
           </h4>
           <p>{description}</p>
           <ul className="list-inline meta mb-0 mt-2">
-            <li className="list-inline-item">{date}</li>
-            <li className="list-inline-item">{author}</li>
+            <li className="list-inline-item">By: {author}</li>
           </ul>
         </div>
       </div>
