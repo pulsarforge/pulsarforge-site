@@ -53,7 +53,7 @@ function Header({ light, logoSource, bootstrapNav }) {
                   className="nav-link"
                   href="/"
                 >
-                  <h5>Web3 Labs 🤠</h5>
+                  <h5>Labs 🤠</h5>
                 </a>
               </li>
               <li className="nav-item">
@@ -79,8 +79,8 @@ function Header({ light, logoSource, bootstrapNav }) {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="mailto:pulsarforgelabs@gmail.com">
-                  <h5>Good Vibes 📬</h5>
+                <a className="nav-link" href="https://discord.com/invite/4mXg6QSyY8" target="_blank" rel="noreferrer">
+                  <h5>Vibes 🦦</h5>
                 </a>
               </li>
               <li>
