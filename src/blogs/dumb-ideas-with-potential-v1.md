@@ -45,5 +45,3 @@ However at Path Registry there will be some extra formats, blog article mixed wi
 ...
 
 When done. I will write a few lines here.
-
-Work in progress... More Soon.
