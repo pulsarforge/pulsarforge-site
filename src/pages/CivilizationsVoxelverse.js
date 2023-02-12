@@ -148,12 +148,9 @@ function CivilizationsVoxelverse() {
             <br />
             <h4 className="civilizations-h4">Each dimension was living in their own space and time<br /><br />Until the portals open new destinies and possibilities</h4>
             <h4 className="civilizations-h4">Breaking the Voxelverse peace, and starting the party</h4>
-            <br />
-            <h4 className="civilizations-h4">Discover the local celebrations<br /><br /> Explore exoplanets<br /><br />Build your home quarters<br />Incoming</h4>
-            <h4 className="civilizations-h4">Break the dance floor<br /><br />Next to your party animals<br />Incoming</h4>
             <div className="row">
               <h3 className="civilizations-h3">
-                Story Mode<br /><br /><br />Guide your party animals<br /><br />Through the Voxelverse<br /><br />Their fates are in your hands
+                Guide your party animals<br /><br />Through the Voxelverse<br /><br />Their fates are in your hands
               </h3>
             </div>
           </div>
