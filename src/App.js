@@ -6,6 +6,8 @@ import Blog from "./pages/Blog";
 import Articles from "./pages/Articles";
 import NotFoundPage from "./pages/NotFoundPage";
 import "./App.scss";
+import DevBlog from "./pages/DevBlog";
+import DevBlogArticles from "./pages/DevBlogArticles";
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/civilizations-voxelverse-nfts" component={CivilizationsVoxelverse} exact />
-        <Route path="/blogs" component={Blog} exact />
-        <Route path="/blogs/:id/:title" component={Articles} />
+        <Route path="/dev-blog" component={DevBlog} exact />
+        <Route path="/dev-blog/:id/:title" component={DevBlogArticles} />
+        <Route path="/blog" component={Blog} exact />
+        <Route path="/blog/:id/:title" component={Articles} />
         <Route component={NotFoundPage} />
       </Switch>
     </BrowserRouter>
