@@ -16,22 +16,11 @@ Run a set of websites dev & design implementations:
 
 
 
-### From Blog to path registry 
-
-At the blog I like the simplicity of markdown so that's something to keep, easy format, without sparkly sparks.
-
-However at Path Registry there will be some extra formats, blog article mixed with experiments. Run, tests, iterate and laugh along the road.
-
-
-
 ### Code box
 
 - Collect Gists. Python scripts to automate tasks.
-- Bots. No comments... 😎
 - Deploy buttons. Research. 
-- Head quarters notes. Upload your local content.
-- Smart contract. To do: deploy.
-- Deploy dockers in a platform. Potentially saving a good chunk of money.
+- Deploy dockers in a platform.
 - Upgrade site to find the right paths at main page.
 
 
