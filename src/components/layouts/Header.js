@@ -66,14 +66,14 @@ function Header({ light, logoSource, bootstrapNav }) {
               <li className="nav-item">
               <a
                   className="nav-link"
-                  href="/">
-                  <h5>On the Field ⌛</h5>
+                  href="/dev-blog">
+                  <h5>Dev Blog ⌛</h5>
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/blogs"
+                  href="/blog"
                 >
                   <h5>Blog ✍</h5>
                 </a>
