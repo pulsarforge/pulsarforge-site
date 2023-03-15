@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Blog({ blogData }) {
-  const { id, category, title, description, author, image, filesource } = blogData;
+  const { id, category, title, description, image, author, filesource } = blogData;
   const getNospaceTitle = (filesource) => {
     let tempArr = filesource.split("/");
     let fileName = tempArr[tempArr.length - 1];
@@ -13,17 +13,17 @@ function Blog({ blogData }) {
     <>
       <div className="blog-item rounded bg-white shadow-dark">
         <div className="thumb">
-          <a href={`blogs/${id}/${getNospaceTitle(filesource)}`}>
+          <a href={`blog/${id}/${getNospaceTitle(filesource)}`}>
             <span className="category">{category}</span>
           </a>
-          <Link to={`blogs/${id}/${getNospaceTitle(filesource)}`}>
+          <Link to={`blog/${id}/${getNospaceTitle(filesource)}`}>
             <img src={image} alt="blog-title" />
           </Link>
         </div>
         <div className="details">
           <h4 className="my-0 title">
             <Link
-              to={`blogs/${id}/${getNospaceTitle(filesource)}`}
+              to={`blog/${id}/${getNospaceTitle(filesource)}`}
             >
               {title}
             </Link>

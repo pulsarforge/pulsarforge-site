@@ -9,14 +9,6 @@
     },
     {
       "id": 2,
-      "title": "Digital Garden",
-      "category": "Technical Writing",
-      "description": "Dog Brain",
-      "image": "images/works/dog-s-brain.png",
-      "link": ["https://dogbrain.pulsarforge.io/"]
-    },
-    {
-      "id": 3,
       "title": "Trends Web3",
       "category": "Data",
       "description": "Web3 Radar",
@@ -24,7 +16,7 @@
       "link": ["https://trends-web3-radar.pages.dev/"]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Hand Made Art",
       "category": "Crafting",
       "description": "Civilizations Voxelverse",
@@ -32,7 +24,7 @@
       "link": ["https://pulsarforge.io/civilizations-voxelverse-nfts"]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Newsletter and Podcast",
       "category": "Writing & Speaking",
       "description": "Blocks Labs",
@@ -40,7 +32,7 @@
       "link": ["https://pulsarforge.substack.com/"]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Inursites",
       "category": "Services",
       "description": "Web Devs Team",
@@ -48,7 +40,7 @@
       "link": ["https://inursites.io"]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Cryptoracle",
       "category": "Data",
       "description": "Analytics Dapp",
@@ -56,7 +48,7 @@
       "link": ["https://app.cryptoracle.io/"]
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Hackatons Board",
       "category": "Learn & Earn",
       "description": "Board Hacks",
@@ -64,15 +56,7 @@
       "link": ["https://board-hacks.pages.dev/"]
     },
     {
-      "id": 9,
-      "title": "Strategic and Action",
-      "category": "Incoming ⌛?",
-      "description": "On the Field",
-      "image": "images/works/on-the-field.png",
-      "link": ["https://pulsarforge.io/"]
-    },
-    {
-      "id": 10,
+      "id": 8,
       "title": "Smoothies House",
       "category": "Tasty & Healthy",
       "description": "Tasty Smoothies",
@@ -80,7 +64,7 @@
       "link": ["https://tasty-smoothies.pages.dev/"]
     },
     {
-      "id": 11,
+      "id": 9,
       "title": "DAOs Board",
       "category": "Community",
       "description": "DAO It Board",
@@ -88,7 +72,7 @@
       "link": ["https://dao-it-board.pages.dev"]
     },
     {
-      "id": 12,
+      "id": 10,
       "title": "Achievements on Chain",
       "category": "Showcase your Profile",
       "description": "Well Done Flow",
@@ -96,7 +80,7 @@
       "link": ["https://well-done-flow.pages.dev/"]
     },
     {
-      "id": 13,
+      "id": 11,
       "title": "Trends Substack Radar",
       "category": "Incoming Interface",
       "description": "Substack Radar",
@@ -104,15 +88,7 @@
       "link": ["https://pulsarforge.io/"]
     },
     {
-      "id": 14,
-      "title": "Startups Database Table",
-      "category": "Incoming Interface",
-      "description": "Startup Stage",
-      "image": "images/works/startup-stage.png",
-      "link": ["https://pulsarforge.io/"]
-    },
-    {
-      "id": 15,
+      "id": 12,
       "title": "NFTs Rarity Insider",
       "category": "Incoming Product",
       "description": "NFTs Rarity",
@@ -120,7 +96,7 @@
       "link": ["https://pulsarforge.io/"]
     },
     {
-      "id": 16,
+      "id": 13,
       "title": "Web3 Connected Notifications",
       "category": "Incoming Coordination",
       "description": "Notify Rules",
@@ -128,7 +104,7 @@
       "link": ["https://pulsarforge.io/"]
     },
     {
-      "id": 17,
+      "id": 14,
       "title": "Take Screenshots",
       "category": "Having Fun",
       "description": "Mapping Earnings",
@@ -136,7 +112,7 @@
       "link": ["https://mapping-earnings.pages.dev/"]
     },
     {
-      "id": 18,
+      "id": 15,
       "title": "Knowledge Base",
       "category": "Template",
       "description": "Digital Garden",
@@ -144,7 +120,7 @@
       "link": ["https://hqnotes.pulsarforge.io/"]
     },
     {
-      "id": 19,
+      "id": 16,
       "title": "Curated Assets Creation",
       "category": "Service",
       "description": "AI Consistent Art",

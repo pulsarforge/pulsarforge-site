@@ -4,8 +4,7 @@
       "title": "Civilizations Voxelverse",
       "description": "Explore Exoplanets and Homes. Guide your Party Animals at the Voxelverse.",
       "image": "images/blog/the-gathering.jpg",
-      "filesource": "../../blogs/civilizations-voxelverse.md",
-      "date": "18 February, 2022",
+      "filesource": "../../blog/civilizations-voxelverse.md",
       "author": "Pulsarforge",
       "category": "Metaverse - 😎"
     },
@@ -14,8 +13,7 @@
       "title": "Estonia dream travel",
       "description": "Cities, towns and forests I want to explore in Estonia.",
       "image": "images/blog/estonia-sphere.jpg",
-      "filesource": "../../blogs/estonia-dream-travel.md",
-      "date": "03 May, 2022",
+      "filesource": "../../blog/estonia-dream-travel.md",
       "author": "Pulsarforge",
       "category": "Estonia - 🦄"
     },
@@ -24,8 +22,7 @@
       "title": "Guide to DAO onboarding",
       "description": "On boarding process, pre joining, joining, and integrate the newcomer.",
       "image": "images/blog/dao-onboarding.jpg",
-      "filesource": "../../blogs/dao-onboarding-process-guide-smooth-as-silk.md",
-      "date": "08 September, 2022",
+      "filesource": "../../blog/dao-onboarding-process-guide-smooth-as-silk.md",
       "author": "Pulsarforge",
       "category": "DAOs - 🔮"
     },
@@ -34,8 +31,7 @@
       "title": "Dumb ideas with potential V1",
       "description": "Flexing code & business skills. Stages: Traditional, Innovation, Flow State.",
       "image": "images/blog/dumb-ideas-with-potential-v1.jpg",
-      "filesource": "../../blogs/dumb-ideas-with-potential-v1.md",
-      "date": "19 January, 2023",
+      "filesource": "../../blog/dumb-ideas-with-potential-v1.md",
       "author": "Pulsarforge",
       "category": "Code Labs - 💻"
     }

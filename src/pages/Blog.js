@@ -43,8 +43,8 @@ function Blog() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Blog Software Engineering, Web3, UX, and Beyond</title>
-          <meta name="description" content="Writing for fun about, dev, web3, projects, user experience and beyond" />
+          <title>Personal Blog</title>
+          <meta name="description" content="Writing for fun" />
         </Helmet>
       </HelmetProvider>
       <Header
@@ -58,8 +58,7 @@ function Blog() {
           <div className="container">
             <div className="row blog-wrapper fix-spacing">
               <div className="page-title-center">
-                <Pagetitle title="Pick your spot and grab some tasty smoothies" />
-                <Pagetitle title="Time to travel and gather sun energy" />
+                <Pagetitle title="Personal Blog" />
               </div>
               {currentPosts.map((blogItem) => (
                 <div className="col-md-3" key={blogItem.id}>

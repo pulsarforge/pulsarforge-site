@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "../components/layouts/Header";
 import Markdown from "markdown-to-jsx";
-import ArticlesJson from "../data/articles.json";
+import ArticlesJson from "../data/blog.json";
 import Footer from "../components/layouts/Footer";
 
 function Articles(props) {
@@ -16,7 +16,7 @@ function Articles(props) {
   const articleImage = metadataAllBlogs[blogId].image;
 
   useEffect(() => {
-    import(`../blogs/${blogFile}.md`)
+    import(`../blog/${blogFile}.md`)
       .then((res) => res.default)
       .then((res) => {
         fetch(res)
