@@ -19,7 +19,7 @@
       "id": 3,
       "title": "",
       "category": "front-end",
-      "description": "Reactjs, web development",
+      "description": "Reactjs",
       "image": "images/dev-docs/category/reactjs.png",
       "link": ["/docs/category/react"]
     },
