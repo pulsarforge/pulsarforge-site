@@ -13,8 +13,10 @@ function CodeGardens() {
     };
     return (
         <section id="code-gardens">
-            <div style={{paddingLeft: "30px", paddingRight: "30px"}}>
-            <Pagetitle title="Open code gardens" />
+            <div style={{paddingLeft: "30px", paddingRight: "30px", marginTop: "100px"}}>
+            <a class="navigate-link" href="#passion-projects">
+                <Pagetitle title="Open code gardens" />
+            </a>
             </div>
             <div style={{paddingLeft: "30px", paddingRight: "30px"}}>
                 <div className="row align-items-center">

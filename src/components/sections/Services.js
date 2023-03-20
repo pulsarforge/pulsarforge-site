@@ -8,8 +8,10 @@ function Services() {
 
   return (
     <section id="cool-services" >
-      <div style={{paddingLeft: "30px", paddingRight: "30px"}}>
-        <Pagetitle title="Making the difference" />
+      <div style={{paddingLeft: "30px", paddingRight: "30px", marginTop: "100px"}}>
+        <a class="navigate-link" href="#dev-docs">
+          <Pagetitle title="Making the difference" />
+        </a>
         <div className="row align-items-center">
           {servicesData.map((servicebox) => (
             <div key={servicebox.id} className="col-md-4">

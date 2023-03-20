@@ -58,14 +58,16 @@ function Works() {
 
   return (
     <section id="passion-projects" >
-      <div style={{paddingLeft: "30px", paddingRight: "30px"}}>
+      <div style={{paddingLeft: "30px", paddingRight: "30px", marginTop: "100px"}}>
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
           animateOut="fadeInOut"
           animateOnce={true}
         >
-          <Pagetitle title="Be a shipper" />
+          <a class="navigate-link" href="#cool-services">
+            <Pagetitle title="Be a shipper" />
+          </a>
           <ul className="portfolio-filter list-inline">
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>

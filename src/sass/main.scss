@@ -1081,3 +1081,11 @@ box-shadow:
   10px 0 80px #0ff;
  
 }
+
+.navigate-link {
+  margin-right: 1rem;   
+  &:focus {
+      position: static;
+      transform: translateX(0);
+  }
+}
