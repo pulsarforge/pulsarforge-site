@@ -3,11 +3,11 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Element } from "react-scroll";
 import Header from "../components/layouts/Header";
 import Herosection from "../components/sections/Herosection";
-import CodeGarden from "../components/sections/CodeGarden";
-import Works from "../components/sections/Works";
+import CodeGardens from "../components/sections/CodeGardens";
 import Services from "../components/sections/Services";
-import Contact from "../components/sections/Contact";
 import Footer from "../components/layouts/Footer";
+import Works from "../components/sections/Works";
+import DevDocs from "../components/sections/DevDocs";
 
 function Home() {
   document.body.classList.add("dark");
@@ -25,20 +25,20 @@ function Home() {
       </HelmetProvider>
       <Header logoSource="/images/pulsarforge-logo-font.png" />
       <main className="content-3">
-        <Element name="section-home">
+        <Element name="home">
           <Herosection />
         </Element>
-        <Element name="section-code-garden">
-          <CodeGarden />
+        <Element name="code-garden">
+          <CodeGardens />
         </Element>
-        <Element name="section-works">
+        <Element name="passion-projects">
           <Works />
         </Element>
-        <Element name="section-services">
+        <Element name="cool-services">
           <Services />
         </Element>
-        <Element name="section-contact">
-          <Contact />
+        <Element name="dev-blog">
+          <DevDocs />
         </Element>
         <div className="spacer" data-height="96"></div>
       </main>
