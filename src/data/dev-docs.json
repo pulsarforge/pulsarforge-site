@@ -36,7 +36,7 @@
       "title": "",
       "category": "back-end",
       "description": "Cloudflare",
-      "image": "",
+      "image": "images/dev-docs/category/cloudflare.jpg",
       "link": ["/docs/category/cloudflare"]
     },
     {
@@ -52,7 +52,7 @@
       "title": "",
       "category": "web3",
       "description": "Aurora",
-      "image": "",
+      "image": "images/dev-docs/category/aurora.jpg",
       "link": ["/docs/category/aurora"]
     },
     {
