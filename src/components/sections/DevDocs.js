@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 import Pagetitle from "../elements/Pagetitle";
 import ScrollAnimation from "react-animate-on-scroll";
 import Showcase from "../elements/Showcase";
-import WorksJson from "../../data/works.json";
-import WorksFiltersJson from "../../data/works-filters.json";
+import DevDocsJson from "../../data/dev-docs.json";
+import DevDocsFiltersJson from "../../data/dev-docs-filters.json";
 
 
-function Works() {
-  const allData = WorksJson;
-  const filters = WorksFiltersJson;
+function DevDocs() {
+  const allData = DevDocsJson;
+  const filters = DevDocsFiltersJson;
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(16); //NOTE! Important state for great visibility adjust to total number of items
+  const [dataVisibleCount, setDataVisibleCount] = useState(8); //NOTE! Important state for great visibility adjust to total number of items
   const [dataIncrement] = useState(12);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -57,7 +57,7 @@ function Works() {
   };
 
   return (
-    <section id="passion-projects" >
+    <section id="dev-docs" >
       <div style={{paddingLeft: "30px", paddingRight: "30px"}}>
         {/* Start Portfolio Filters */}
         <ScrollAnimation
@@ -65,7 +65,7 @@ function Works() {
           animateOut="fadeInOut"
           animateOnce={true}
         >
-          <Pagetitle title="Be a shipper" />
+          <Pagetitle title="Devs Docs" />
           <ul className="portfolio-filter list-inline">
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>
@@ -103,7 +103,7 @@ function Works() {
             disabled={noMorePost ? "disabled" : null}
           >
             {noMorePost ? (
-              "Shipping code in progress 🥞🥞🥞🥞 wait for it"
+              "Path registry 😎😎😎😎 long game"
             ) : (
               <span>
                 <i className="fas fa-spinner"></i> Discover more
@@ -116,4 +116,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default DevDocs;

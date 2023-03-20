@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "../components/layouts/Header";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../components/elements/Pagetitle";
-import PortfolioVoxelverse from "../components/elements/PortfolioVoxelverse";
+import Showcase from "../components/elements/Showcase";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
 import CivilizationsTraitsJson from "../data/civilizations-traits.json";
 import CivilizationsJson from "../data/civilizations.json";
@@ -14,7 +14,7 @@ function CivilizationsVoxelverse() {
     const traits = CivilizationsTraitsJson;
     const allData = CivilizationsJson;
     const [getAllItems] = useState(allData);
-    const [dataVisibleCount, setDataVisibleCount] = useState(8);
+    const [dataVisibleCount, setDataVisibleCount] = useState(20); //NOTE! Important state for great visibility adjust to total number of items
     const [dataIncrement] = useState(16);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
@@ -77,7 +77,7 @@ function CivilizationsVoxelverse() {
             animateOnce={true}
           >
             <div className="page-title-center-maring-top">
-              <Pagetitle title="Space adventure happening on quantum basics" />
+              <Pagetitle title="Space adventures happening on quantum basics" />
             </div>
 
             <ul className="portfolio-filter list-inline filters-voxelverse-postion">
@@ -114,10 +114,10 @@ function CivilizationsVoxelverse() {
           </ul>
           {/* End Portfolio Filters */}
           {/* Start Portfolio Items */}
-          <div className="row portfolio-wrapper">
+          <div className="row portfolio-wrapper" style={{paddingLeft: "15px", paddingRight: "15px"}}>
             {visibleItems.map((item) => (
               <div className="col-md-3 col-sm-6 grid-item" key={item.id}>
-                <PortfolioVoxelverse portfolio={item} />
+                <Showcase portfolio={item} />
               </div>
             ))}
           </div>
@@ -129,7 +129,7 @@ function CivilizationsVoxelverse() {
               disabled={noMorePost ? "disabled" : null}
             >
               {noMorePost ? (
-                "Crafting artworks, 🎉🎉🎉🎉, return in a few days"
+                "Crafting artworks 🎉🎉🎉🎉 return in a few days"
               ) : (
                 <span>
                   <i className="fas fa-spinner"></i> Explore more
