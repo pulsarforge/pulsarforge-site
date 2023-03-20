@@ -7,8 +7,8 @@ function Services() {
   const servicesData = ServicesJson;
 
   return (
-    <section id="section-services" >
-      <div className="container">
+    <section id="cool-services" >
+      <div style={{paddingLeft: "30px", paddingRight: "30px"}}>
         <Pagetitle title="Making the difference" />
         <div className="row align-items-center">
           {servicesData.map((servicebox) => (
