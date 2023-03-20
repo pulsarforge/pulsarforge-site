@@ -1,0 +1,26 @@
+[
+    {
+      "id": 0,
+      "text": "all"
+    },
+    {
+      "id": 1,
+      "text": "web3"
+    },
+    {
+      "id": 2,
+      "text": "ai"
+    },
+    {
+      "id": 3,
+      "text": "front-end"
+    },
+    {
+      "id": 4,
+      "text": "back-end"
+    },
+    {
+      "id": 5,
+      "text": "tools"
+    }
+]

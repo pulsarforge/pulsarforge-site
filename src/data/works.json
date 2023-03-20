@@ -1,56 +1,56 @@
 [
     {
       "id": 1,
-      "title": "Pulsarforge",
-      "category": "GitHub",
-      "description": "Shaping Environments",
+      "title": "GitHub",
+      "category": "code",
+      "description": "Pulsarforge",
       "image": "images/works/pulsar-forge.png",
       "link": ["https://github.com/pulsarforge"]
     },
     {
       "id": 2,
-      "title": "Trends Web3",
-      "category": "Data",
-      "description": "Web3 Radar",
-      "image": "images/works/trends-web3-radar.png",
-      "link": ["https://trends-web3-radar.pages.dev/"]
+      "title": "Hand Made Art",
+      "category": "community",
+      "description": "Civilizations Voxelverse",
+      "image": "images/works/light-travel-round.png",
+      "link": ["/civilizations-voxelverse-nfts"]
     },
     {
       "id": 3,
-      "title": "Hand Made Art",
-      "category": "Crafting",
-      "description": "Civilizations Voxelverse",
-      "image": "images/works/voxelverse-exoplanets.png",
-      "link": ["https://pulsarforge.io/civilizations-voxelverse-nfts"]
-    },
-    {
-      "id": 4,
       "title": "Newsletter and Podcast",
-      "category": "Writing & Speaking",
+      "category": "community",
       "description": "Blocks Labs",
       "image": "images/works/blocks-labs-v.png",
       "link": ["https://pulsarforge.substack.com/"]
     },
     {
+      "id": 4,
+      "title": "Trends Web3",
+      "category": "community",
+      "description": "Web3 Radar",
+      "image": "images/works/trends-web3-radar.png",
+      "link": ["https://trends-web3-radar.pages.dev/"]
+    },
+    {
       "id": 5,
-      "title": "Inursites",
-      "category": "Services",
-      "description": "Web Devs Team",
+      "title": "Web Devs Team",
+      "category": "devs",
+      "description": "Inursites",
       "image": "images/works/inursites-logo.png",
       "link": ["https://inursites.io"]
     },
     {
       "id": 6,
-      "title": "Cryptoracle",
-      "category": "Data",
-      "description": "Analytics Dapp",
+      "title": "Data Analytics",
+      "category": "web3",
+      "description": "Cryptoracle",
       "image": "images/works/cryptoracle.png",
       "link": ["https://app.cryptoracle.io/"]
     },
     {
       "id": 7,
       "title": "Hackatons Board",
-      "category": "Learn & Earn",
+      "category": "web3",
       "description": "Board Hacks",
       "image": "images/works/board-hacks.png",
       "link": ["https://board-hacks.pages.dev/"]
@@ -58,14 +58,14 @@
     {
       "id": 8,
       "title": "Smoothies House",
-      "category": "Tasty & Healthy",
+      "category": "front-end",
       "description": "Tasty Smoothies",
       "image": "images/works/tasty-smoothies.png",
       "link": ["https://tasty-smoothies.pages.dev/"]
     },
     {
       "id": 9,
-      "title": "DAOs Board",
+      "title": "web3",
       "category": "Community",
       "description": "DAO It Board",
       "image": "images/works/dao-it-board.png",
@@ -74,7 +74,7 @@
     {
       "id": 10,
       "title": "Achievements on Chain",
-      "category": "Showcase your Profile",
+      "category": "web3",
       "description": "Well Done Flow",
       "image": "images/works/well-done-flow.png",
       "link": ["https://well-done-flow.pages.dev/"]
@@ -82,7 +82,7 @@
     {
       "id": 11,
       "title": "Trends Substack Radar",
-      "category": "Incoming Interface",
+      "category": "incoming",
       "description": "Substack Radar",
       "image": "images/works/trends-substack-radar.png",
       "link": ["https://pulsarforge.io/"]
@@ -90,7 +90,7 @@
     {
       "id": 12,
       "title": "NFTs Rarity Insider",
-      "category": "Incoming Product",
+      "category": "incoming",
       "description": "NFTs Rarity",
       "image": "images/works/nfts-rarity-insider.png",
       "link": ["https://pulsarforge.io/"]
@@ -98,7 +98,7 @@
     {
       "id": 13,
       "title": "Web3 Connected Notifications",
-      "category": "Incoming Coordination",
+      "category": "incoming",
       "description": "Notify Rules",
       "image": "images/works/notify-rules.png",
       "link": ["https://pulsarforge.io/"]
@@ -106,7 +106,7 @@
     {
       "id": 14,
       "title": "Take Screenshots",
-      "category": "Having Fun",
+      "category": "funny",
       "description": "Mapping Earnings",
       "image": "images/works/mapping-earnings.png",
       "link": ["https://mapping-earnings.pages.dev/"]
@@ -114,7 +114,7 @@
     {
       "id": 15,
       "title": "Knowledge Base",
-      "category": "Template",
+      "category": "code",
       "description": "Digital Garden",
       "image": "images/works/digital-garden.png",
       "link": ["https://hqnotes.pulsarforge.io/"]
@@ -122,7 +122,7 @@
     {
       "id": 16,
       "title": "Curated Assets Creation",
-      "category": "Service",
+      "category": "UX",
       "description": "AI Consistent Art",
       "image": "images/works/ai-consistent-art.png",
       "link": ["https://www.figma.com/file/WGsXFnz9kVSadSUeLPxXwX/AI-Consistent-Art---Service?node-id=0%3A1&t=SUtFATmVScTkxrvP-1"]

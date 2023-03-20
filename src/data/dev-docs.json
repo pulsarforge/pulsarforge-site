@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "",
+      "category": "web3",
+      "description": "NEAR Protocol",
+      "image": "images/dev-docs/category/near.png",
+      "link": ["/docs/category/near"]
+    },
+    {
+      "id": 2,
+      "title": "",
+      "category": "ai",
+      "description": "AI, code completions",
+      "image": "images/dev-docs/ai-code-assistant-setup.jpg",
+      "link": ["/docs/ai-code-completions"]
+    },
+    {
+      "id": 3,
+      "title": "",
+      "category": "front-end",
+      "description": "Reactjs, web development",
+      "image": "images/dev-docs/category/reactjs.png",
+      "link": ["/docs/category/react"]
+    },
+    {
+      "id": 4,
+      "title": "",
+      "category": "tools",
+      "description": "Package Managers, Chocolatey",
+      "image": "images/dev-docs/chocolatey.jpg",
+      "link": ["/docs/chocolatey-package-manager"]
+    },
+    {
+      "id": 5,
+      "title": "",
+      "category": "tools",
+      "description": "Cloudflare",
+      "image": "",
+      "link": ["/docs/category/cloudflare"]
+    },
+    {
+      "id": 6,
+      "title": "",
+      "category": "web3",
+      "description": "Onflow",
+      "image": "images/dev-docs/category/flow.png",
+      "link": ["/docs/category/flow"]
+    },
+    {
+      "id": 7,
+      "title": "",
+      "category": "web3",
+      "description": "Aurora",
+      "image": "",
+      "link": ["/docs/category/aurora"]
+    },
+    {
+      "id": 8,
+      "title": "",
+      "category": "tools",
+      "description": "Source Graph research codebases",
+      "image": "images/dev-docs/research-large-codebases.jpg",
+      "link": ["/docs/sourcegraph"]
+    }
+]
