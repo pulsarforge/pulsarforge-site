@@ -1083,7 +1083,8 @@ box-shadow:
 }
 
 .navigate-link {
-  margin-right: 1rem;   
+  margin-right: 1rem;
+  text-decoration-line: none;  
   &:focus {
       position: static;
       transform: translateX(0);
