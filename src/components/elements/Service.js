@@ -21,7 +21,7 @@ function Service({ serviceboxItem }) {
       ))}
         <div className="mt-4"></div>
         <h2 className="btn btn-default">
-          <a className="service-cta" href="mailto:pulsarforgelabs@gmail.com">{cta}</a>
+          <a className="service-cta" href="https://discord.com/invite/4mXg6QSyY8" target="_blank" rel="noreferrer">{cta}</a>
         </h2>
     </div>
   );
