@@ -117,7 +117,7 @@
       "category": "code",
       "description": "Digital Garden",
       "image": "images/works/digital-garden.png",
-      "link": ["hq-notes.pulsarforge.workers.dev"]
+      "link": ["https://hq-notes.pulsarforge.workers.dev"]
     },
     {
       "id": 16,
