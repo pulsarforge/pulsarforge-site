@@ -65,7 +65,9 @@ function DevDocs() {
           animateOut="fadeInOut"
           animateOnce={true}
         >
-          <Pagetitle title="Devs Docs" />
+          <a class="navigate-link" href="#footer">
+            <Pagetitle title="Devs Docs" />
+          </a>
           <ul className="portfolio-filter list-inline">
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>
