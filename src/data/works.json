@@ -85,7 +85,7 @@
       "category": "incoming",
       "description": "Substack Radar",
       "image": "images/works/trends-substack-radar.png",
-      "link": ["https://pulsarforge.io/"]
+      "link": ["/"]
     },
     {
       "id": 12,
@@ -93,7 +93,7 @@
       "category": "incoming",
       "description": "NFTs Rarity",
       "image": "images/works/nfts-rarity-insider.png",
-      "link": ["https://pulsarforge.io/"]
+      "link": ["/"]
     },
     {
       "id": 13,
@@ -101,7 +101,7 @@
       "category": "incoming",
       "description": "Notify Rules",
       "image": "images/works/notify-rules.png",
-      "link": ["https://pulsarforge.io/"]
+      "link": ["/"]
     },
     {
       "id": 14,
@@ -117,7 +117,7 @@
       "category": "code",
       "description": "Digital Garden",
       "image": "images/works/digital-garden.png",
-      "link": ["https://hqnotes.pulsarforge.io/"]
+      "link": ["hq-notes.pulsarforge.workers.dev"]
     },
     {
       "id": 16,
