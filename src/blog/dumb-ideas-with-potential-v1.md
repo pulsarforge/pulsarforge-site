@@ -5,8 +5,6 @@
 
 A landscape of projects to flex my code muscles, and business skills.
 
-It is good for portfolio, and to earn some coins.
-
 
 Run a set of websites dev & design implementations:
 
@@ -18,19 +16,31 @@ Run a set of websites dev & design implementations:
 
 ### Code box
 
-- Collect Gists. Python scripts to automate tasks.
-- Deploy buttons. Research. 
-- Deploy dockers in a platform.
-- Upgrade site to find the right paths at main page.
-
+- Collect Gists. Python scripts to automate tasks. Update: It is a continuous search. Already done anyway.
+- Deploy buttons. Research.
+- Upgrade site to find the right paths at main page. Update: done.
 
 
 ### Dog tasks
 
+
+...
+Update: Set up dev docs. Done.
+...
+Update: Update Blogs. Done
+...
+Update: Set up keyboard navigation. At main page done.
+...
+NPM packages.
+...
+JS libs.
 ...
 
 ...
 
 ...
 
-When done. I will write a few lines here.
+...
+
+
+When done. I will write a few lines here and add more.
