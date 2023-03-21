@@ -5,7 +5,7 @@
       "category": "web3",
       "description": "NEAR Protocol",
       "image": "images/dev-docs/category/near.png",
-      "link": ["/docs/category/near"]
+      "link": ["https://main.pulsarforge.io/docs/category/near"]
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "category": "ai",
       "description": "AI, code completions",
       "image": "images/dev-docs/ai-code-assistant-setup.jpg",
-      "link": ["/docs/ai-code-completions"]
+      "link": ["https://main.pulsarforge.io/docs/ai/ai-code-completions"]
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "category": "front-end",
       "description": "Reactjs",
       "image": "images/dev-docs/category/reactjs.png",
-      "link": ["/docs/category/react"]
+      "link": ["https://main.pulsarforge.io/docs/category/react"]
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "category": "tools",
       "description": "Package Managers, Chocolatey",
       "image": "images/dev-docs/chocolatey.jpg",
-      "link": ["/docs/chocolatey-package-manager"]
+      "link": ["https://main.pulsarforge.io/docs/tools/chocolatey"]
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "category": "back-end",
       "description": "Cloudflare",
       "image": "images/dev-docs/category/cloudflare.jpg",
-      "link": ["/docs/category/cloudflare"]
+      "link": ["https://main.pulsarforge.io/docs/category/cloudflare"]
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "category": "web3",
       "description": "Onflow",
       "image": "images/dev-docs/category/flow.png",
-      "link": ["/docs/category/flow"]
+      "link": ["https://main.pulsarforge.io/docs/category/flow"]
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "category": "web3",
       "description": "Aurora",
       "image": "images/dev-docs/category/aurora.jpg",
-      "link": ["/docs/category/aurora"]
+      "link": ["https://main.pulsarforge.io/docs/category/aurora"]
     },
     {
       "id": 8,
@@ -61,6 +61,6 @@
       "category": "tools",
       "description": "Source Graph research codebases",
       "image": "images/dev-docs/research-large-codebases.jpg",
-      "link": ["/docs/sourcegraph"]
+      "link": ["https://main.pulsarforge.io/docs/tools/sourcegraph"]
     }
 ]
