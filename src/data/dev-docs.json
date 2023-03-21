@@ -20,7 +20,7 @@
       "title": "",
       "category": "front-end",
       "description": "Reactjs",
-      "image": "images/dev-docs/category/reactjs.png",
+      "image": "images/dev-docs/category/reactjs-reimagined.jpg",
       "link": ["https://main.pulsarforge.io/docs/category/react"]
     },
     {
@@ -59,7 +59,7 @@
       "id": 8,
       "title": "",
       "category": "tools",
-      "description": "Source Graph research codebases",
+      "description": "Understand and research codebases",
       "image": "images/dev-docs/research-large-codebases.jpg",
       "link": ["https://main.pulsarforge.io/docs/tools/sourcegraph"]
     }
