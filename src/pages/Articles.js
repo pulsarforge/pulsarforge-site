@@ -10,7 +10,7 @@ function Articles(props) {
   const [content, setContent] = useState("");
   const blogFile = props.match.params.title;
   const blogId = props.match.params.id - 1;
-  const articleId  = metadataAllBlogs[blogId].id;
+  const articleId = metadataAllBlogs[blogId].id;
   const articleTitle = metadataAllBlogs[blogId].title;
   const articleDescription = metadataAllBlogs[blogId].description;
   const articleImage = metadataAllBlogs[blogId].image;
@@ -44,7 +44,7 @@ function Articles(props) {
         <Helmet>
           <title>{`${articleTitle}`}</title>
           <meta property="og:type" content="article" />
-          <meta name="description" content={articleDescription}/>
+          <meta name="description" content={articleDescription} />
           <meta property="og:image" content={articleImage} />
           <meta property="og:author" content="Pulsarforge" />
           <meta property="og:image:width" content="512" />
@@ -57,9 +57,9 @@ function Articles(props) {
         headerToggler={headerToggler}
       />
       <p>{articleId}</p>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
       <main>
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section">
