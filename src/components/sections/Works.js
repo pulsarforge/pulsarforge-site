@@ -5,7 +5,6 @@ import Showcase from "../elements/Showcase";
 import WorksJson from "../../data/works.json";
 import WorksFiltersJson from "../../data/works-filters.json";
 
-
 function Works() {
   const allData = WorksJson;
   const filters = WorksFiltersJson;
@@ -57,8 +56,14 @@ function Works() {
   };
 
   return (
-    <section id="passion-projects" >
-      <div style={{paddingLeft: "30px", paddingRight: "30px", marginTop: "100px"}}>
+    <section id="passion-projects">
+      <div
+        style={{
+          paddingLeft: "30px",
+          paddingRight: "30px",
+          marginTop: "100px",
+        }}
+      >
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
@@ -78,7 +83,7 @@ function Works() {
                       ? "text-capitalize current"
                       : "text-capitalize"
                   }
-                  style={{fontSize: 25}}
+                  style={{ fontSize: 25 }}
                 >
                   {filter.text}
                 </button>

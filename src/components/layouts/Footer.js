@@ -5,9 +5,9 @@ function Footer({ light }) {
     <footer id="footer" className={light ? "footer light" : "footer"}>
       <div className="container">
         <a class="navigate-link" href="#home">
-        <h5 className="copyright">
-          &copy; {new Date().getFullYear()} Pulsarforge all rights reserved           
-        </h5>
+          <h5 className="copyright">
+            &copy; {new Date().getFullYear()} Pulsarforge all rights reserved
+          </h5>
         </a>
       </div>
     </footer>

@@ -22,9 +22,7 @@ function Blog({ blogData }) {
         </div>
         <div className="details">
           <h4 className="my-0 title">
-            <Link
-              to={`blog/${id}/${getNospaceTitle(filesource)}`}
-            >
+            <Link to={`blog/${id}/${getNospaceTitle(filesource)}`}>
               {title}
             </Link>
           </h4>

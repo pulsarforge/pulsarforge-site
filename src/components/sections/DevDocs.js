@@ -5,7 +5,6 @@ import Showcase from "../elements/Showcase";
 import DevDocsJson from "../../data/dev-docs.json";
 import DevDocsFiltersJson from "../../data/dev-docs-filters.json";
 
-
 function DevDocs() {
   const allData = DevDocsJson;
   const filters = DevDocsFiltersJson;
@@ -57,8 +56,15 @@ function DevDocs() {
   };
 
   return (
-    <section id="dev-docs" >
-      <div style={{paddingLeft: "30px", paddingRight: "30px", marginTop: "100px", marginBottom: "100px"}}>
+    <section id="dev-docs">
+      <div
+        style={{
+          paddingLeft: "30px",
+          paddingRight: "30px",
+          marginTop: "100px",
+          marginBottom: "100px",
+        }}
+      >
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
@@ -78,7 +84,7 @@ function DevDocs() {
                       ? "text-capitalize current"
                       : "text-capitalize"
                   }
-                  style={{fontSize: 25}}
+                  style={{ fontSize: 25 }}
                 >
                   {filter.text}
                 </button>

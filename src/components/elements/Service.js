@@ -11,18 +11,24 @@ function Service({ serviceboxItem }) {
       }
     >
       {badge && <span className="badge">{badge}</span>}
-      { icon ? 
-        <img src={icon} alt="Regular"/> :
-        <></>
-      }
+      {icon ? <img src={icon} alt="Regular" /> : <></>}
       <h2 className="plan">{title}</h2>
       {content.map((singleContent) => (
-        <p className="service-p" key={singleContent.id} >{singleContent.text}</p>
+        <p className="service-p" key={singleContent.id}>
+          {singleContent.text}
+        </p>
       ))}
-        <div className="mt-4"></div>
-        <h2 className="btn btn-default">
-          <a className="service-cta" href="https://discord.com/invite/4mXg6QSyY8" target="_blank" rel="noreferrer">{cta}</a>
-        </h2>
+      <div className="mt-4"></div>
+      <h2 className="btn btn-default">
+        <a
+          className="service-cta"
+          href="https://discord.com/invite/4mXg6QSyY8"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {cta}
+        </a>
+      </h2>
     </div>
   );
 }

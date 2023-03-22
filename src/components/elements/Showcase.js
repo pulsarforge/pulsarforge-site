@@ -45,8 +45,8 @@ function Showcase({ portfolio }) {
             <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb">
-            <img src={image} alt=""/>
-            { popupLink && <h2>#{id - 1}</h2> }
+            <img src={image} alt="" />
+            {popupLink && <h2>#{id - 1}</h2>}
             <h2>{description}</h2>
             <p>{text}</p>
             <div className="mask"></div>

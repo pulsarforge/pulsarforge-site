@@ -7,8 +7,14 @@ function Services() {
   const servicesData = ServicesJson;
 
   return (
-    <section id="cool-services" >
-      <div style={{paddingLeft: "30px", paddingRight: "30px", marginTop: "100px"}}>
+    <section id="cool-services">
+      <div
+        style={{
+          paddingLeft: "30px",
+          paddingRight: "30px",
+          marginTop: "100px",
+        }}
+      >
         <a class="navigate-link" href="#dev-docs">
           <Pagetitle title="Making the difference" />
         </a>

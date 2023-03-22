@@ -4,9 +4,7 @@ import Pagetitle from "../elements/Pagetitle";
 import Blog from "../elements/Blog";
 import BlogJson from "../../data/blog.json";
 
-
 function Blogs() {
-
   const allBlogs = BlogJson;
 
   return (
