@@ -1,15 +1,15 @@
-$fonthead: 'Rubik', sans-serif;
-$fontstack: 'Rubik', sans-serif;
-$fontdog: 'DogBrain', sans-serif;
+$fonthead: "Rubik", sans-serif;
+$fontstack: "Rubik", sans-serif;
+$fontdog: "DogBrain", sans-serif;
 $colordark: rgb(37, 37, 37);
-$coloryellow: #FFD15C;
-$colorpink: #FF4C60;
+$coloryellow: #ffd15c;
+$colorpink: #ff4c60;
 $colorblue: #6c6ce527;
 $colordefault: #454360;
 $colordarkback: rgb(24, 24, 24);
 
 @mixin transition($second) {
   -webkit-transition: all $second ease-in-out;
-    -moz-transition: all $second ease-in-out;
-        transition: all $second ease-in-out;
+  -moz-transition: all $second ease-in-out;
+  transition: all $second ease-in-out;
 }

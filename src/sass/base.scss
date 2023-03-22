@@ -2,51 +2,51 @@
 /*                      BASE                              
 /*=================================================================*/
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
-    font-family: "DogBrain";
-    src: local("DogBrain"),
-      url("../../public/fonts/dog-brain.otf") format("opentype");
-};
+  font-family: "DogBrain";
+  src: local("DogBrain"),
+    url("../../public/fonts/dog-brain.otf") format("opentype");
+}
 html {
-    margin: 0 !important;
-    overflow: auto !important;
-    color-scheme: dark;
+  margin: 0 !important;
+  overflow: auto !important;
+  color-scheme: dark;
 }
 
 body {
-    color: black;
-    background-color: rgb(24, 24, 24);
-    font-family: $fontstack;
-    font-size: 16px;
-    line-height: 1.7;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  color: black;
+  background-color: rgb(24, 24, 24);
+  font-family: $fontstack;
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .relative {
-    position: relative;
+  position: relative;
 }
 
 /*=================================================================*/
@@ -57,100 +57,100 @@ h2,
 h3,
 h4,
 h6 {
-    color: #454360;
-    font-family: $fonthead;
-    font-weight: 700;
-    margin: 20px 0;
+  color: #454360;
+  font-family: $fonthead;
+  font-weight: 700;
+  margin: 20px 0;
 }
 
 h5 {
-    font-family: $fontdog;
+  font-family: $fontdog;
 }
 
 h1 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h2 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 h4 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 a {
-    color: $colorpink;
+  color: $colorpink;
+  outline: 0;
+  @include transition(0.3s);
+
+  &:hover {
+    color: $colordark;
+    text-decoration: none;
+  }
+
+  &:focus {
     outline: 0;
-    @include transition(.3s);
-
-    &:hover {
-        color: $colordark;
-        text-decoration: none;
-    }
-
-    &:focus {
-        outline: 0;
-    }
+  }
 }
 
 blockquote {
-    padding: 20px 20px;
-    margin: 0 0 20px;
-    font-size: 16px;
-    background: #F7F7F7;
-    border-radius: 10px;
+  padding: 20px 20px;
+  margin: 0 0 20px;
+  font-size: 16px;
+  background: #f7f7f7;
+  border-radius: 10px;
 }
 
 blockquote p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 /* === Pre === */
 pre {
-    display: block;
-    padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 13px;
-    line-height: 1.42857143;
-    color: #333;
-    word-break: break-all;
-    word-wrap: break-word;
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
-    border-radius: 0;
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 0;
 }
 
 .goo-outer {
-    display: none;
+  display: none;
 }
 
 .fix-spacing {
-    margin-top: -30px;
+  margin-top: -30px;
 
-    &>[class^="col-"] {
-        margin-top: 30px;
-    }
+  & > [class^="col-"] {
+    margin-top: 30px;
+  }
 }
 
 .progress-wrapper {
-    &+.progress-wrapper {
-        margin-top: 20px;
-    }
+  & + .progress-wrapper {
+    margin-top: 20px;
+  }
 }
 
 .colorpink {
-    color: $colorpink;
+  color: $colorpink;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .p-30 {
-    padding: 30px;
+  padding: 30px;
 }
