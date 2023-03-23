@@ -9,6 +9,7 @@ function Footer({ light }) {
             &copy; {new Date().getFullYear()} Pulsarforge all rights reserved
           </h5>
         </a>
+        <a className="copyright" href="/blog"> </a>
       </div>
     </footer>
   );

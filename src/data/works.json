@@ -65,8 +65,8 @@
     },
     {
       "id": 9,
-      "title": "web3",
-      "category": "Community",
+      "title": "Community",
+      "category": "Web3",
       "description": "DAO It Board",
       "image": "images/works/dao-it-board.png",
       "link": ["https://dao-it-board.pages.dev"]
