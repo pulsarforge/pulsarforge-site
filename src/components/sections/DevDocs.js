@@ -9,7 +9,7 @@ function DevDocs() {
   const allData = DevDocsJson;
   const filters = DevDocsFiltersJson;
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(8); //NOTE! Important state for great visibility adjust to total number of items
+  const [dataVisibleCount, setDataVisibleCount] = useState(9); //NOTE! Important state for great visibility adjust to total number of items
   const [dataIncrement] = useState(12);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
