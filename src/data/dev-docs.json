@@ -10,37 +10,21 @@
     {
       "id": 2,
       "title": "",
-      "category": "ai",
-      "description": "AI, code completions",
-      "image": "images/dev-docs/ai-code-assistant-setup.jpg",
-      "link": ["https://main.pulsarforge.io/docs/ai/ai-code-completions"]
-    },
-    {
-      "id": 3,
-      "title": "",
-      "category": "front-end",
-      "description": "Reactjs",
-      "image": "images/dev-docs/category/reactjs-reimagined.jpg",
-      "link": ["https://main.pulsarforge.io/docs/category/react"]
-    },
-    {
-      "id": 4,
-      "title": "",
-      "category": "tools",
-      "description": "Package Managers, Chocolatey",
-      "image": "images/dev-docs/chocolatey.jpg",
-      "link": ["https://main.pulsarforge.io/docs/tools/chocolatey"]
-    },
-    {
-      "id": 5,
-      "title": "",
       "category": "back-end",
       "description": "Cloudflare",
       "image": "images/dev-docs/category/cloudflare.jpg",
       "link": ["https://main.pulsarforge.io/docs/category/cloudflare"]
     },
     {
-      "id": 6,
+      "id": 3,
+      "title": "",
+      "category": "web3",
+      "description": "Aurora",
+      "image": "images/dev-docs/category/aurora.jpg",
+      "link": ["https://main.pulsarforge.io/docs/category/aurora"]
+    },
+    {
+      "id": 4,
       "title": "",
       "category": "web3",
       "description": "Onflow",
@@ -48,12 +32,28 @@
       "link": ["https://main.pulsarforge.io/docs/category/flow"]
     },
     {
+      "id": 5,
+      "title": "",
+      "category": "front-end",
+      "description": "Reactjs",
+      "image": "images/dev-docs/category/reactjs-reimagined.jpg",
+      "link": ["https://main.pulsarforge.io/docs/category/react"]
+    },
+    {
+      "id": 6,
+      "title": "",
+      "category": "ai",
+      "description": "AI, code completions",
+      "image": "images/dev-docs/ai-code-assistant-setup.jpg",
+      "link": ["https://main.pulsarforge.io/docs/ai/ai-code-completions"]
+    },
+    {
       "id": 7,
       "title": "",
-      "category": "web3",
-      "description": "Aurora",
-      "image": "images/dev-docs/category/aurora.jpg",
-      "link": ["https://main.pulsarforge.io/docs/category/aurora"]
+      "category": "tools",
+      "description": "Package Managers, Chocolatey",
+      "image": "images/dev-docs/chocolatey.jpg",
+      "link": ["https://main.pulsarforge.io/docs/tools/chocolatey"]
     },
     {
       "id": 8,
