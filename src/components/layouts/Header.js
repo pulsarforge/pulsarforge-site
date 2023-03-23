@@ -60,12 +60,12 @@ function Header({ light, logoSource }) {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/#dev-docs">
-                  <h5>Devs Docs ✍</h5>
+                  <h5>Devs Docs 🦍</h5>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/civilizations-voxelverse-nfts">
-                  <h5>Space Adventures ✨</h5>
+                  <h5>Space Adventures 🌌</h5>
                 </a>
               </li>
               <li className="nav-item">

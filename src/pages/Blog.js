@@ -43,7 +43,7 @@ function Blog() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Personal Blog</title>
+          <title>Personal Blog ✍🏽</title>
           <meta name="description" content="Writing for fun" />
         </Helmet>
       </HelmetProvider>

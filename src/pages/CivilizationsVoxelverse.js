@@ -64,7 +64,7 @@ function CivilizationsVoxelverse() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Explore the Voxelverse</title>
+          <title>Explore the Voxelverse 🛸</title>
           <meta
             name="description"
             content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party"

@@ -17,7 +17,7 @@ function Home() {
       <HelmetProvider>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Pulsarforge Web3 Labs</title>
+          <title>Pulsarforge Web3 Labs 🌴</title>
           <meta
             name="description"
             content="Web3 Labs. Code Garden. Playground. Community. Shipping Projects"
