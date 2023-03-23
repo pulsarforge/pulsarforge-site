@@ -1,5 +1,5 @@
-const CracoSwcPlugin = require("craco-swc");
+const CracoEsbuildPlugin = require('craco-esbuild');
 
 module.exports = {
-  plugins: [{ plugin: CracoSwcPlugin }],
+  plugins: [{ plugin: CracoEsbuildPlugin }],
 };
