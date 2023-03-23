@@ -17,7 +17,7 @@ function DevDocs() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 4));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 8));
   }, [getAllItems, filters]);
 
   const handleChange = (e) => {
