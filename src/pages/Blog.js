@@ -58,6 +58,7 @@ function Blog() {
           <div className="container">
             <div className="row blog-wrapper fix-spacing">
               <div className="page-title-center">
+                <img  src="/images/dog-blog-we-are-early.jpg" style={{ height: "auto", width: "auto", borderRadius: "80px", marginBottom: "30px"}} alt="dog-streaming"/>
                 <Pagetitle title="Personal Blog" />
               </div>
               {currentPosts.map((blogItem) => (
