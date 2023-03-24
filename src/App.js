@@ -6,6 +6,7 @@ import Blog from "./pages/Blog";
 import Articles from "./pages/Articles";
 import NotFoundPage from "./pages/NotFoundPage";
 import "./App.scss";
+import StrategicAction from "./pages/StrategicAction";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/civilizations-voxelverse-nfts" component={CivilizationsVoxelverse} exact />
+        <Route path="/strategic-action-live" component={StrategicAction} exact />
         <Route path="/blog" component={Blog} exact />
         <Route path="/blog/:id/:title" component={Articles} />
         <Route component={NotFoundPage} />
