@@ -1,22 +1,18 @@
 [
     {
       "id": 1,
-      "image": "images/reactjs.png"
+      "image": "images/logos/reactjs.png"
     },
     {
       "id": 2,
-      "image": "images/thegraph.png"
+      "image": "images/logos/thegraph.png"
     },
     {
       "id": 3,
-      "image": "images/graphql.png"
+      "image": "images/logos/graphql.png"
     },
     {
       "id": 4,
-      "image": "images/timescale.png"
-    },
-    {
-      "id": 5,
-      "image": "images/ethereum.png"
+      "image": "images/logos/ethereum.png"
     }
 ]
