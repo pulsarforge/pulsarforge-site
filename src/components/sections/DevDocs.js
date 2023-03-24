@@ -71,7 +71,7 @@ function DevDocs() {
           animateOut="fadeInOut"
           animateOnce={true}
         >
-          <a class="navigate-link" href="#footer">
+          <a className="navigate-link" href="#footer">
             <Pagetitle title="Devs Docs" />
           </a>
           <ul className="portfolio-filter list-inline">
