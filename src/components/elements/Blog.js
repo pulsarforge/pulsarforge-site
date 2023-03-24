@@ -12,25 +12,21 @@ function Blog({ blogData }) {
   return (
     <>
       <div className="blog-item rounded bg-white shadow-dark">
-        <div className="thumb">
-          <a href={`blog/${id}/${getNospaceTitle(filesource)}`}>
+        <Link to={`${id}/${getNospaceTitle(filesource)}`}>
+          <div className="thumb">
             <span className="category">{category}</span>
-          </a>
-          <Link to={`blog/${id}/${getNospaceTitle(filesource)}`}>
             <img src={image} alt="blog-title" />
-          </Link>
-        </div>
-        <div className="details">
-          <h4 className="my-0 title">
-            <Link to={`blog/${id}/${getNospaceTitle(filesource)}`}>
+          </div>
+          <div className="details">
+            <h4 className="my-0 title">
               {title}
-            </Link>
-          </h4>
-          <p>{description}</p>
-          <ul className="list-inline meta mb-0 mt-2">
-            <li className="list-inline-item">By: {author}</li>
-          </ul>
-        </div>
+            </h4>
+            <p>{description}</p>
+            <ul className="list-inline meta mb-0 mt-2">
+              <li className="list-inline-item">By: {author}</li>
+            </ul>
+          </div>
+        </Link>
       </div>
     </>
   );
