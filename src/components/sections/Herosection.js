@@ -48,10 +48,10 @@ function Herosection(props) {
           )}
         </div>
         <div className="intro">
-          <a class="navigate-link" href="#code-gardens">
+          <a className="navigate-link" href="#code-gardens">
             <h1
               style={{
-                fontSize: 70,
+                fontSize: 75,
                 color: "#fff",
                 textShadow: "3px 3px 2px rgb(37, 37, 37)",
                 fontFamily: "DogBrain",
@@ -63,7 +63,7 @@ function Herosection(props) {
           <div>
             <h2
               style={{
-                fontSize: 54,
+                fontSize: 50,
                 textShadow: "3px 3px 2px rgb(37, 37, 37)",
               }}
             >
@@ -73,9 +73,9 @@ function Herosection(props) {
               style={{
                 fontSize: 25,
                 textShadow: "3px 3px 2px rgb(37, 37, 37)",
+                marginTop: "25px"
               }}
             >
-              <br />
               Areas: Interfaces, Coordination, Communities
               <br />
               <br />
