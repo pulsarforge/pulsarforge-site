@@ -4,9 +4,10 @@ import Home from "./pages/Home";
 import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
 import Blog from "./pages/Blog";
 import Articles from "./pages/Articles";
+import Tv from "./pages/Tv";
 import NotFoundPage from "./pages/NotFoundPage";
 import "./App.scss";
-import StrategicActionLive from "./pages/StrategicActionLive";
+
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/civilizations-voxelverse-nfts" component={CivilizationsVoxelverse} exact />
-        <Route path="/strategic-action-live" component={StrategicActionLive} exact />
+        <Route path="/tv" component={Tv} exact />
         <Route path="/blog" component={Blog} exact />
-        <Route path="/blog/:id/:title" component={Articles} />
+        <Route path="/blog/:id/:title" component={Articles} exact/>
         <Route component={NotFoundPage} />
       </Switch>
     </BrowserRouter>
