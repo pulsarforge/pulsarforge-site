@@ -1,7 +1,7 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 import GitHubCalendar from "react-github-calendar";
-import ReactTooltip from "react-tooltip";
+import { Tooltip } from "react-tooltip";
 
 function CodeGardens() {
   const colorTheme = {
@@ -20,7 +20,7 @@ function CodeGardens() {
           marginTop: "100px",
         }}
       >
-        <a class="navigate-link" href="#passion-projects">
+        <a className="navigate-link" href="#passion-projects">
           <Pagetitle title="Open code gardens" />
         </a>
       </div>
@@ -34,7 +34,7 @@ function CodeGardens() {
             fontSize={25}
             theme={colorTheme}
           >
-            <ReactTooltip delayShow={40} html />
+            <Tooltip delayShow={40} html />
           </GitHubCalendar>
         </div>
       </div>
