@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
 import Blog from "./pages/Blog";
@@ -11,16 +11,16 @@ import "./App.scss";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/civilizations-voxelverse-nfts" component={CivilizationsVoxelverse} exact />
-        <Route path="/tv" component={Tv} exact />
-        <Route path="/blog" component={Blog} exact />
-        <Route path="/blog/:id/:title" component={Articles} exact/>
-        <Route component={NotFoundPage} />
-      </Switch>
-    </BrowserRouter>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="civilizations-voxelverse-nfts" element={<CivilizationsVoxelverse />} />
+        <Route path="tv" element={<Tv />}  />
+        <Route path="blog" element={<Blog />} />
+        <Route path="blog/:id/:title" element={<Articles />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </>
   );
 }
 
