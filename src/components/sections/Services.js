@@ -15,7 +15,7 @@ function Services() {
           marginTop: "100px",
         }}
       >
-        <a class="navigate-link" href="#dev-docs">
+        <a className="navigate-link" href="#dev-docs">
           <Pagetitle title="Making the difference" />
         </a>
         <div className="row align-items-center">
