@@ -70,7 +70,7 @@ function Works() {
           animateOut="fadeInOut"
           animateOnce={true}
         >
-          <a class="navigate-link" href="#cool-services">
+          <a className="navigate-link" href="#cool-services">
             <Pagetitle title="Be a shipper" />
           </a>
           <ul className="portfolio-filter list-inline">
