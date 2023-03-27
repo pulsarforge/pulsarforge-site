@@ -28,12 +28,15 @@
     "react-router-dom": "^6.9.0",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.2",
-    "react-tooltip": "^5.10.1",
     "sass": "^1.60.0"
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build"
+    "build": "craco build",
+    "dev": "wrangler dev --local",
+    "deploy": "wrangler publish",
+    "autodev": "yarn build & yarn dev",
+    "autodeploy": "yarn build & yarn deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
