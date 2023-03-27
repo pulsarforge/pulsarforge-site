@@ -6,7 +6,7 @@
       "content": [
         {
           "id": 1,
-          "text": "Enhance your existing project to make it user friendly, engaging, shareable"
+          "text": "Enhance your existing project to make it easy to use, engaging, shareable and tailored to your public"
         }
       ],
       "cta": "Level up your game",
@@ -29,12 +29,12 @@
     },
     {
       "id": 3,
-      "title": "Extensibility and Integrations",
+      "title": "Expansion and Integrations",
       "icon": "images/units.png",
       "content": [
         { 
             "id": 1, 
-            "text": "CI/CD, APIs Swagger Rest & GraphQL, DBs PostgreSQL & MongoDB, Web3 Techs, Docs" 
+            "text": "Docs, CI/CD, APIs Swagger Rest and GraphQL, DBs PostgreSQL and MongoDB, Web3 Techs" 
         }
       ],
       "cta": "Scale your project",
