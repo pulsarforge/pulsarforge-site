@@ -7,10 +7,6 @@ body.dark {
 
   .section-title {
     color: #fff;
-
-    &:before {
-      background: url("../../public/images/dots-bg-light.svg");
-    }
   }
 
   .bg-dark {
@@ -52,10 +48,6 @@ body.dark {
     &:hover {
       color: $colorpink;
     }
-  }
-
-  .contact-info {
-    background-image: url("../../public/images/map-light.png");
   }
 
   .white-popup {
