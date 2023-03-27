@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import Pagetitle from "../elements/Pagetitle";
 import ScrollAnimation from "react-animate-on-scroll";
 import Showcase from "../elements/Showcase";
-import WorksJson from "../../data/works.json";
-import WorksFiltersJson from "../../data/works-filters.json";
+import ShipperJson from "../../data/shippers.json";
+import ShipperFiltersJson from "../../data/shippers-filters.json";
 
-function Works() {
-  const allData = WorksJson;
-  const filters = WorksFiltersJson;
+function Shippers() {
+  const allData = ShipperJson;
+  const filters = ShipperFiltersJson;
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(16); //NOTE! Important state for great visibility adjust to total number of items
   const [dataIncrement] = useState(12);
@@ -123,4 +123,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default Shippers;
