@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
-import Blog from "./pages/Blog";
+import DogBlog from "./pages/DogBlog";
 import Articles from "./pages/Articles";
 import Tv from "./pages/Tv";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="civilizations-voxelverse-nfts" element={<CivilizationsVoxelverse />} />
         <Route path="tv" element={<Tv />}  />
-        <Route path="blog" element={<Blog />} />
+        <Route path="blog" element={<DogBlog />} />
         <Route path="blog/:id/:title" element={<Articles />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
