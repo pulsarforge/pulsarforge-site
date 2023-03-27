@@ -2,12 +2,12 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Element } from "react-scroll";
 import Header from "../components/layouts/Header";
-import Herosection from "../components/sections/Herosection";
+import Vibes from "../components/sections/Vibes";
 import CodeGardens from "../components/sections/CodeGardens";
-import Services from "../components/sections/Services";
-import Footer from "../components/layouts/Footer";
-import Works from "../components/sections/Works";
+import Shippers from "../components/sections/Shippers";
+import MakingTheDifferences from "../components/sections/MakingTheDifferences";
 import DevDocs from "../components/sections/DevDocs";
+import Footer from "../components/layouts/Footer";
 
 function Home() {
   document.body.classList.add("dark");
@@ -28,17 +28,17 @@ function Home() {
       </HelmetProvider>
       <Header logoSource="/images/pulsarforge-logo-font.png" />
       <main className="content-3">
-        <Element name="home">
-          <Herosection />
+        <Element name="vibes">
+          <Vibes />
         </Element>
         <Element name="code-garden">
           <CodeGardens />
         </Element>
         <Element name="passion-projects">
-          <Works />
+          <Shippers />
         </Element>
         <Element name="cool-services">
-          <Services />
+          <MakingTheDifferences />
         </Element>
         <Element name="dev-blog">
           <DevDocs />
