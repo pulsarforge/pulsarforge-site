@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../components/layouts/Header";
 import Markdown from "markdown-to-jsx";
-import ArticlesJson from "../data/blog.json";
+import ArticlesJson from "../data/dog-blogs.json";
 import Footer from "../components/layouts/Footer";
 
 function Articles(props) {

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "../components/layouts/Header";
-import BlogElement from "../components/elements/Blog";
+import BlogElement from "../components/elements/DogBlog";
 import Pagetitle from "../components/elements/Pagetitle";
 import Pagination from "../components/elements/Pagination";
-import BlogJson from "../data/blog.json";
+import DogBlogJson from "../data/dog-blogs.json";
 import Footer from "../components/layouts/Footer";
 
-function Blog() {
-  const allBlogs = BlogJson;
+function DogBlog() {
+  const allBlogs = DogBlogJson;
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(16);
@@ -43,7 +43,7 @@ function Blog() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Personal Blog ✍🏽</title>
+          <title>Personal Dog Blog ✍🏽</title>
           <meta name="description" content="Writing for fun" />
         </Helmet>
       </HelmetProvider>
@@ -85,4 +85,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default DogBlog;

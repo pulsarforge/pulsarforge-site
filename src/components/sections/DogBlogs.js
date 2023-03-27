@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Pagetitle from "../elements/Pagetitle";
-import Blog from "../elements/Blog";
-import BlogJson from "../../data/blog.json";
+import DogBlog from "../elements/DogBlog";
+import DogBlogJson from "../../data/dog-blog.json";
 
-function Blogs() {
-  const allBlogs = BlogJson;
+function DogBlogs() {
+  const allBlogs = DogBlogJson;
 
   return (
     <section id="blog">
@@ -14,7 +14,7 @@ function Blogs() {
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
             <div className="col-md-3" key={blogItem.id}>
-              <Blog blogData={blogItem} />
+              <DogBlog blogData={blogItem} />
             </div>
           ))}
         </div>
@@ -29,4 +29,4 @@ function Blogs() {
   );
 }
 
-export default Blogs;
+export default DogBlogs;
