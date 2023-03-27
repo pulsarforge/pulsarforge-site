@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Herosection(props) {
+function Vibes(props) {
   const [isOpened, setIsOpened] = useState(false);
 
   function toggle() {
@@ -9,7 +9,7 @@ function Herosection(props) {
 
   return (
     <section
-      id="home"
+      id="vibes"
       className={
         props.light
           ? "home d-flex align-items-center light"
@@ -91,4 +91,4 @@ function Herosection(props) {
   );
 }
 
-export default Herosection;
+export default Vibes;
