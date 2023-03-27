@@ -1,6 +1,6 @@
 import React from "react";
 
-function Service({ serviceboxItem }) {
+function MakingTheDifference({ serviceboxItem }) {
   const { icon, title, content, badge, best, cta } = serviceboxItem;
   return (
     <div
@@ -33,4 +33,4 @@ function Service({ serviceboxItem }) {
   );
 }
 
-export default Service;
+export default MakingTheDifference;

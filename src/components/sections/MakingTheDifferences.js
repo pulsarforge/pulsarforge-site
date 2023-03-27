@@ -1,10 +1,10 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
-import Service from "../elements/Service";
-import ServicesJson from "../../data/services.json";
+import MakingTheDifference from "../elements/MakingTheDifference";
+import MakingTheDifferenceJson from "../../data/making-the-differences.json";
 
-function Services() {
-  const servicesData = ServicesJson;
+function MakingTheDifferences() {
+  const servicesData = MakingTheDifferenceJson;
 
   return (
     <section id="cool-services">
@@ -21,7 +21,7 @@ function Services() {
         <div className="row align-items-center">
           {servicesData.map((servicebox) => (
             <div key={servicebox.id} className="col-md-4">
-              <Service serviceboxItem={servicebox} />
+              <MakingTheDifference serviceboxItem={servicebox} />
             </div>
           ))}
         </div>
@@ -30,4 +30,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default MakingTheDifferences;
