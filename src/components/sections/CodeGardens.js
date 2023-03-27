@@ -1,7 +1,6 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 import GitHubCalendar from "react-github-calendar";
-import { Tooltip } from "react-tooltip";
 
 function CodeGardens() {
   const colorTheme = {
@@ -26,16 +25,14 @@ function CodeGardens() {
       </div>
       <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
         <div className="row align-items-center">
-          <p>@pulsarforge on GitHub</p>
+          <p style={{ fontSize: 20 }}>@pulsarforge on GitHub</p>
           <GitHubCalendar
             username="pulsarforge"
             blockMargin={9}
             blockSize={35}
-            fontSize={25}
+            fontSize={20}
             theme={colorTheme}
-          >
-            <Tooltip delayShow={40} html />
-          </GitHubCalendar>
+          />
         </div>
       </div>
     </section>
