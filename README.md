@@ -1,7 +1,7 @@
-# Web3 Labs. 
+# Web3 Labs
 
 
-## Playground.
+## Playground
 
 [pulsarforge.io](https://pulsarforge.io/)
 
@@ -11,6 +11,6 @@
 ![Web3 Labs - Code Garden](./public/images/sneak-peek.png)
 
 
-## Repository visualization:
+## Repository visualization
 
 ![Visualization of the codebase](./diagram.svg)
