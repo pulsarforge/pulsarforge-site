@@ -2,16 +2,14 @@ import React from "react";
 import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
 
-function NotFoundPage(props) {
+function NotFoundPage() {
+  document.body.classList.add("dark");
+
   return (
     <>
       <Header logoSource="/images/pulsarforge-logo-font.png" />
       <section
-        className={
-          props.light
-            ? "home d-flex align-items-center light"
-            : "home d-flex align-items-center"
-        }
+        className="home d-flex align-items-center"
       >
         <div
           style={{
