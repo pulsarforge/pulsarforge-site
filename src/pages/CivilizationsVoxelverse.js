@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "../components/layouts/Header";
-import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../components/elements/Pagetitle";
 import Showcase from "../components/elements/Showcase";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
@@ -74,11 +73,6 @@ function CivilizationsVoxelverse() {
       <Header logoSource="/images/pulsarforge-logo-font.png" />
       <main>
         {/* Start Portfolio Filters */}
-        <ScrollAnimation
-          animateIn="fadeInUp"
-          animateOut="fadeInOut"
-          animateOnce={true}
-        >
           <div className="page-title-center-maring-top">
             <Pagetitle title="Space adventures happening on quantum basics" />
           </div>
@@ -100,7 +94,6 @@ function CivilizationsVoxelverse() {
               </li>
             ))}
           </ul>
-        </ScrollAnimation>
         <ul className="portfolio-filter list-inline filters-voxelverse-postion">
           <li className="list-inline-item">
             <p className="traits-categories-p">

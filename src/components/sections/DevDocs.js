@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Pagetitle from "../elements/Pagetitle";
-import ScrollAnimation from "react-animate-on-scroll";
 import Showcase from "../elements/Showcase";
 import DevDocsJson from "../../data/dev-docs.json";
 import DevDocsFiltersJson from "../../data/dev-docs-filters.json";
@@ -66,11 +65,6 @@ function DevDocs() {
         }}
       >
         {/* Start Portfolio Filters */}
-        <ScrollAnimation
-          animateIn="fadeInUp"
-          animateOut="fadeInOut"
-          animateOnce={true}
-        >
           <a className="navigate-link" href="#footer">
             <Pagetitle title="Devs Docs" />
           </a>
@@ -91,7 +85,6 @@ function DevDocs() {
               </li>
             ))}
           </ul>
-        </ScrollAnimation>
         {/* End Portfolio Filters */}
 
         {/* Start Portfolio Items */}

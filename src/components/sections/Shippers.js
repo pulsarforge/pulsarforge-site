@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Pagetitle from "../elements/Pagetitle";
-import ScrollAnimation from "react-animate-on-scroll";
 import Showcase from "../elements/Showcase";
 import ShipperJson from "../../data/shippers.json";
 import ShipperFiltersJson from "../../data/shippers-filters.json";
@@ -65,11 +64,6 @@ function Shippers() {
         }}
       >
         {/* Start Portfolio Filters */}
-        <ScrollAnimation
-          animateIn="fadeInUp"
-          animateOut="fadeInOut"
-          animateOnce={true}
-        >
           <a className="navigate-link" href="#cool-services">
             <Pagetitle title="Be a shipper" />
           </a>
@@ -90,7 +84,6 @@ function Shippers() {
               </li>
             ))}
           </ul>
-        </ScrollAnimation>
         {/* End Portfolio Filters */}
 
         {/* Start Portfolio Items */}
