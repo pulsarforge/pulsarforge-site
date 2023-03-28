@@ -5,7 +5,7 @@ import Markdown from "markdown-to-jsx";
 import ArticlesJson from "../data/dog-blogs.json";
 import Footer from "../components/layouts/Footer";
 
-function Articles(props) {
+function Articles() {
   const metadataAllBlogs = ArticlesJson;
   const [content, setContent] = useState("");
   const params = useParams();
