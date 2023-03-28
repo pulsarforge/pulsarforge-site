@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Player from "../elements/Player";
+import Sound from "../elements/Sound";
 
 function Header({ light, logoSource }) {
   const [toggleNavbar, setToggleNavbar] = useState(false);
@@ -54,34 +55,38 @@ function Header({ light, logoSource }) {
             </ul>
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  <h5>Devs Labs 🤠</h5>
+                <a className="nav-link side-by-side" href="/">
+                  <h5>Devs Labs</h5>
                 </a>
+                <span><Sound url="/sounds/cowboy.mp3" textInit="🤠" textAfter="🎯" /></span>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#dev-docs">
-                  <h5>Devs Docs 🦍</h5>
+                <a className="nav-link side-by-side" href="/#dev-docs">
+                  <h5>Devs Docs</h5>
                 </a>
+                <span><Sound url="/sounds/gorila.mp3" textInit="🦍" textAfter="💻" /></span>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/civilizations-voxelverse-nfts">
-                  <h5>Space Adventures 🌌</h5>
+                <a className="nav-link side-by-side" href="/civilizations-voxelverse-nfts">
+                  <h5>Space Adventures</h5>
                 </a>
+                <span><Sound url="/sounds/space.wav" textInit="🌌" textAfter="🪐" /></span>
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link"
+                  className="nav-link side-by-side"
                   href="https://discord.com/invite/4mXg6QSyY8"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h5>Community Vibes 🦦</h5>
+                  <h5>Community Vibes</h5>
                 </a>
+                <span><Sound url="/sounds/swimming.wav" textInit="🦦" textAfter="🐋" /></span>
               </li>
             </ul>
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
               <li className="nav-item">
-                <Player url="/music/jungle.mp3" />
+                <Player url="/music/jungle.mp3"/>
               </li>
             </ul>
           </div>
