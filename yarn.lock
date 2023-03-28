@@ -8098,7 +8098,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.5.9, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -8197,14 +8197,6 @@ react-activity-calendar@^1.7.0:
     "@types/tinycolor2" "^1.4.3"
     date-fns "^2.29.3"
     tinycolor2 "^1.4.0"
-
-react-animate-on-scroll@^2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/react-animate-on-scroll/-/react-animate-on-scroll-2.1.5.tgz#c35ff5b19452b23270c7a42329b8dc391f273020"
-  integrity sha512-HxQBwjsMK8fKrhFAPZoBMfEMh+n8EYh6czcqlf1uiy4RnGVe4f8YmSOZU0/YS7pODnYMRnPmF+wevsDjjVJXrw==
-  dependencies:
-    lodash.throttle "^4.1.1"
-    prop-types "^15.5.9"
 
 react-app-polyfill@^3.0.0:
   version "3.0.0"
