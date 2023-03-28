@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const useAudio = (url) => {
+function useAudio(url) {
   const [audio] = useState(new Audio(url));
   const [playing, setPlaying] = useState(false);
 
@@ -20,7 +20,7 @@ const useAudio = (url) => {
   return [playing, toggle];
 };
 
-const Player = ({ url }) => {
+function Player ({ url }){
   const [playing, toggle] = useAudio(url);
 
   return (
