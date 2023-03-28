@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Vibes(props) {
+function Vibes() {
   const [isOpened, setIsOpened] = useState(false);
 
   function toggle() {
@@ -10,11 +10,7 @@ function Vibes(props) {
   return (
     <section
       id="vibes"
-      className={
-        props.light
-          ? "home d-flex align-items-center light"
-          : "home d-flex align-items-center"
-      }
+      className="home d-flex align-items-center"
     >
       <div
         style={{
