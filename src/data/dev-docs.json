@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "",
+      "title": "Category",
       "category": "web3",
       "description": "NEAR Protocol",
       "image": "images/dev-docs/category/near.png",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "title": "",
+      "title": "Category",
       "category": "back-end",
       "description": "Cloudflare",
       "image": "images/dev-docs/category/cloudflare.jpg",
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "title": "",
+      "title": "Category",
       "category": "web3",
       "description": "Aurora",
       "image": "images/dev-docs/category/aurora.jpg",
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "title": "",
+      "title": "Category",
       "category": "web3",
       "description": "Onflow",
       "image": "images/dev-docs/category/flow.png",
@@ -33,7 +33,7 @@
     },
     {
       "id": 5,
-      "title": "",
+      "title": "Category",
       "category": "front-end",
       "description": "Reactjs",
       "image": "images/dev-docs/category/reactjs-reimagined.jpg",
@@ -41,7 +41,7 @@
     },
     {
       "id": 6,
-      "title": "",
+      "title": "Article",
       "category": "ai",
       "description": "AI, code completions",
       "image": "images/dev-docs/ai-code-assistant-setup.jpg",
@@ -49,7 +49,7 @@
     },
     {
       "id": 7,
-      "title": "",
+      "title": "Article",
       "category": "tools",
       "description": "Package Managers, Chocolatey",
       "image": "images/dev-docs/chocolatey.jpg",
@@ -57,7 +57,7 @@
     },
     {
       "id": 8,
-      "title": "",
+      "title": "Article",
       "category": "tools",
       "description": "Understand and research codebases",
       "image": "images/dev-docs/research-large-codebases.jpg",
@@ -65,7 +65,7 @@
     },
     {
       "id": 9,
-      "title": "",
+      "title": "Article",
       "category": "ai",
       "description": "AI, Leonardo image generation",
       "image": "images/dev-docs/ai-image-generation-leonardo.jpg",
