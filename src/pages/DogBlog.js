@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "../components/layouts/Header";
-import BlogElement from "../components/elements/DogBlog";
+import DogBlogElement from "../components/elements/DogBlog";
 import Pagetitle from "../components/elements/Pagetitle";
 import Pagination from "../components/elements/Pagination";
 import DogBlogJson from "../data/dog-blogs.json";
@@ -63,7 +63,7 @@ function DogBlog() {
               </div>
               {currentPosts.map((blogItem) => (
                 <div className="col-md-3" key={blogItem.id}>
-                  <BlogElement blogData={blogItem} />
+                  <DogBlogElement blogData={blogItem} />
                 </div>
               ))}
             </div>
