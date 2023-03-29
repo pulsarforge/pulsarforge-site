@@ -40,8 +40,7 @@ function Showcase({ portfolio }) {
       >
         <div className="portfolio-item rounded shadow-dark">
           <div className="details">
-            <span className="term text-capitalize">{category}</span>
-            <h4 className="title">{title}</h4>
+            <span className="term text-capitalize">{category} / {title}</span>
             <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb">
@@ -49,7 +48,6 @@ function Showcase({ portfolio }) {
             {popupLink && <h2>#{id - 1}</h2>}
             <h2>{description}</h2>
             <p>{text}</p>
-            <div className="mask"></div>
           </div>
         </div>
       </a>

@@ -245,10 +245,19 @@ section.home {
 }
 
 .portfolio-item {
-  position: relative;
   overflow: hidden;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  @include transition(0.8s);
 
+  &:hover {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(-20px);
+  }
   .thumb {
+    position: relative;
     overflow: hidden;
 
     h2 {
