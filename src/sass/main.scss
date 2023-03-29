@@ -487,12 +487,12 @@ select.portfolio-filter-mobile {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
-  @include transition(0.3s);
+  @include transition(2s);
 
   &:hover {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 
   .thumb {
@@ -503,14 +503,14 @@ select.portfolio-filter-mobile {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1);
-      @include transition(0.3s);
+      @include transition(2.5s);
     }
 
     &:hover {
       img {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
       }
     }
   }
