@@ -31,26 +31,26 @@ function Showcase({ portfolio }) {
   };
   return (
     <>
-      <a
-        href={link ? link : "!#"}
-        className="work-image"
-        onClick={handleLightbox}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <div className="portfolio-item rounded shadow-dark">
+      <div className="portfolio-item rounded shadow-dark">
+        <a
+          href={link ? link : "!#"}
+          className="work-image"
+          onClick={handleLightbox}
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="details">
             <span className="term text-capitalize">{category} / {title}</span>
             <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb">
-            <img src={image} alt="" />
+            <img className="zoom-image" src={image} alt="" />
             {popupLink && <h2>#{id - 1}</h2>}
             <h2>{description}</h2>
             <p>{text}</p>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
       {popupLink && <FsLightbox toggler={toggler} sources={popupLink} />}
     </>
   );
