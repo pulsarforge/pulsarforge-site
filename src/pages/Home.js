@@ -10,7 +10,6 @@ import DevDocs from "../components/sections/DevDocs";
 import Footer from "../components/layouts/Footer";
 
 function Home() {
-  document.body.classList.add("dark");
 
   return (
     <>
@@ -37,7 +36,7 @@ function Home() {
         <Element name="passion-projects">
           <Shippers />
         </Element>
-        <Element name="cool-services">
+        <Element name="making-the-difference">
           <MakingTheDifferences />
         </Element>
         <Element name="dev-blog">
