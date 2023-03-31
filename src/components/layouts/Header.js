@@ -49,7 +49,7 @@ function Header({ light, logoSource }) {
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <img src={logoSource} alt="Pulsarforge" />
+                  <img style={{width: "310px"}} src={logoSource} alt="Pulsarforge" />
                 </a>
               </li>
             </ul>
