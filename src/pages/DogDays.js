@@ -11,7 +11,7 @@ function DogDays() {
   const allBlogs = DogBlogJson;
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(16);
+  const [postsPerPage] = useState(4);
 
   useEffect(() => {
     setPosts(allBlogs);
