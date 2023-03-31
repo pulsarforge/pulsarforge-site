@@ -5,17 +5,25 @@ import DogDay from "../components/elements/DogDay";
 import Pagetitle from "../components/elements/Pagetitle";
 import Pagination from "../components/elements/Pagination";
 import DogBlogJson from "../data/dog-blogs.json";
+import DogQuotesJson from "../data/dog-quotes.json";
 import Footer from "../components/layouts/Footer";
 
 function DogDays() {
   const allBlogs = DogBlogJson;
+  const allQuotes = DogQuotesJson;
   const [posts, setPosts] = useState([]);
+  const [quotes, setQuotes] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const [postsPerPage] = useState(4);
 
   useEffect(() => {
     setPosts(allBlogs);
   }, [allBlogs]);
+  
+  useEffect(() => {
+    setQuotes(allQuotes);
+  }, [allQuotes]);
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -39,6 +47,10 @@ function DogDays() {
     }
   });
 
+  const handleQuoteClick = () => {
+    setCurrentQuoteIndex((currentIndex) => (currentIndex + 1) % quotes.length);
+  };
+
   return (
     <>
       <HelmetProvider>
@@ -58,7 +70,10 @@ function DogDays() {
           <div className="container">
             <div className="row blog-wrapper fix-spacing">
               <div className="page-title-center">
-                <img  src="/images/dog-blog-we-are-early.jpg" style={{ height: "auto", width: "auto", borderRadius: "80px", marginBottom: "30px"}} alt="dog-streaming"/>
+                <div onClick={handleQuoteClick}>
+                  <img  src="/images/dog-blog-we-are-early.jpg" style={{ height: "auto", width: "auto", borderRadius: "80px", marginBottom: "30px"}} alt="dog-streaming"/>
+                  <p style={{fontSize: "22px"}}>{quotes[currentQuoteIndex]}</p>
+                </div>
                 <Pagetitle title="Personal Dog Blog" />
               </div>
               {currentPosts.map((blogItem) => (
