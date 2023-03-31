@@ -10,9 +10,6 @@
     "url": "https://github.com/pulsarforge/pulsarforge-site.git"
   },
   "private": true,
-  "engines": { 
-    "yarn": "^1.22.19"
-  },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
     "craco-esbuild": "^0.5.2",
