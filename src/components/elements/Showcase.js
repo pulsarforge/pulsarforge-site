@@ -12,23 +12,6 @@ function Showcase({ portfolio }) {
     }
   };
 
-  const handleIcon = () => {
-    if (link) {
-      return <i className="icon-link"></i>;
-    } else if (popupLink) {
-      if (popupLink.length > 1) {
-        if (popupLink.toString().match(/youtube/g)) {
-          return <i className="icon-camrecorder"></i>;
-        }
-        return <i className="icon-picture"></i>;
-      } else if (popupLink.toString().match(/youtube/g)) {
-        return <i className="icon-camrecorder"></i>;
-      } else {
-        return <i className="icon-magnifier-add"></i>;
-      }
-    }
-    return <i className="icon-magnifier-add"></i>;
-  };
   return (
     <>
       <div className="portfolio-item rounded shadow-dark">
@@ -41,7 +24,6 @@ function Showcase({ portfolio }) {
         >
           <div className="details">
             <span className="term text-capitalize">{category} / {title}</span>
-            <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb">
             <img className="zoom-image" src={image} alt="" />
