@@ -3,7 +3,6 @@ import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
 
 function NotFoundPage() {
-  document.body.classList.add("dark");
 
   return (
     <>
