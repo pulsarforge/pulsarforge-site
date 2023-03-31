@@ -13,7 +13,7 @@ function Pagination({ itemsPerPage, totalItems, paginate, currentPage }) {
         {currentPage === 1 ? null : (
           <li>
             <a onClick={(e) => paginate(e, currentPage - 1)} href="!#">
-              <i className="icon-arrow-left"></i>
+              <i>⏮</i>
             </a>
           </li>
         )}
@@ -30,7 +30,7 @@ function Pagination({ itemsPerPage, totalItems, paginate, currentPage }) {
         {currentPage === pageNumbers[pageNumbers.length - 1] ? null : (
           <li>
             <a onClick={(e) => paginate(e, currentPage + 1)} href="!#">
-              <i className="icon-arrow-right"></i>
+              <i>⏭</i>
             </a>
           </li>
         )}
