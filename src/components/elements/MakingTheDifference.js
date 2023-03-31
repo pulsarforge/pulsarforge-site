@@ -9,10 +9,11 @@ function MakingTheDifference({ serviceboxItem }) {
           ? "service-item bg-white rounded shadow-dark text-center best service-light"
           : "service-item bg-white rounded shadow-dark text-center service-light"
       }
+      style={{color: "#fff"}}
     >
       {badge && <span className="badge">{badge}</span>}
       {icon ? <img src={icon} alt="Regular" /> : <></>}
-      <h2 className="plan">{title}</h2>
+      <h2 className="plan" style={{color: "#fff"}}>{title}</h2>
       {content.map((singleContent) => (
         <p className="service-p" key={singleContent.id}>
           {singleContent.text}
@@ -22,6 +23,7 @@ function MakingTheDifference({ serviceboxItem }) {
       <h2 className="btn btn-default">
         <a
           className="service-cta"
+          style={{color: "#fff"}}
           href="https://discord.com/invite/4mXg6QSyY8"
           target="_blank"
           rel="noreferrer"
