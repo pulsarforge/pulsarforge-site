@@ -24,7 +24,7 @@ function CodeGardens() {
         </a>
       </div>
       <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
-        <div className="row align-items-center">
+        <div className="row align-items-center" style={{color: "#fff"}}>
           <p style={{ fontSize: 20 }}>@pulsarforge on GitHub</p>
           <GitHubCalendar
             username="pulsarforge"
