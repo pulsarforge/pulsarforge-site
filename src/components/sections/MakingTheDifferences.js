@@ -7,7 +7,7 @@ function MakingTheDifferences() {
   const servicesData = MakingTheDifferenceJson;
 
   return (
-    <section id="cool-services">
+    <section id="making-the-difference">
       <div
         style={{
           paddingLeft: "30px",
