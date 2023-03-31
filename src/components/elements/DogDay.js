@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function DogBlog({ blogData }) {
+function DogDay({ blogData }) {
   const { id, category, title, description, image, author, filesource } = blogData;
   const getNospaceTitle = (filesource) => {
     let tempArr = filesource.split("/");
@@ -32,4 +32,4 @@ function DogBlog({ blogData }) {
   );
 }
 
-export default DogBlog;
+export default DogDay;

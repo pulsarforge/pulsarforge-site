@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "../components/layouts/Header";
-import DogBlogElement from "../components/elements/DogBlog";
+import DogDay from "../components/elements/DogDay";
 import Pagetitle from "../components/elements/Pagetitle";
 import Pagination from "../components/elements/Pagination";
 import DogBlogJson from "../data/dog-blogs.json";
 import Footer from "../components/layouts/Footer";
 
-function DogBlog() {
+function DogDays() {
   const allBlogs = DogBlogJson;
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -63,7 +63,7 @@ function DogBlog() {
               </div>
               {currentPosts.map((blogItem) => (
                 <div className="col-md-3" key={blogItem.id}>
-                  <DogBlogElement blogData={blogItem} />
+                  <DogDay blogData={blogItem} />
                 </div>
               ))}
             </div>
@@ -85,4 +85,4 @@ function DogBlog() {
   );
 }
 
-export default DogBlog;
+export default DogDays;
