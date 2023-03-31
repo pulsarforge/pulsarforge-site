@@ -25,14 +25,42 @@ function Player ({ url }){
 
   return (
     <>
-      <button className="btn btn-default player-button" onClick={toggle}>
-        {playing ? (
-          <i className="icon-control-pause"></i>
-        ) : (
-          <i className="icon-control-play"></i>
-        )}
+
+      <button style={{background: "none", border: "none", fontSize: "24px"}} onClick={toggle}>
+        {playing ? 
+          (  <>
+            <i>💃</i>
+            <a
+            className="nav-link side-by-side"
+            style={{paddingLeft: "35px"}}
+            href="https://soundcloud.com/pulsarforge/reposts"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h5>Stage</h5> 
+          </a>
+
+           
+            </>
+          ) 
+          : 
+          (
+            <i>🌴</i>
+          )
+        }
       </button>
-    </>
+      <span>
+        {playing ? 
+          (              
+            <></>
+          ) 
+          : 
+          (
+            <></>
+          ) 
+      }
+      </span>
+      </>
   );
 };
 
