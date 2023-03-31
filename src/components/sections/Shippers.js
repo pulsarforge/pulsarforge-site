@@ -64,7 +64,7 @@ function Shippers() {
         }}
       >
         {/* Start Portfolio Filters */}
-          <a className="navigate-link" href="#cool-services">
+          <a className="navigate-link" href="#making-the-difference">
             <Pagetitle title="Be a shipper" />
           </a>
           <ul className="portfolio-filter list-inline">
