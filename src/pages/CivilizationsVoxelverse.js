@@ -77,7 +77,7 @@ function CivilizationsVoxelverse() {
             <Pagetitle title="Space adventures happening on quantum basics" />
           </div>
 
-          <ul className="portfolio-filter list-inline filters-voxelverse-postion">
+          <ul className="portfolio-filter list-inline filters-voxelverse-position">
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>
                 <button
@@ -94,7 +94,7 @@ function CivilizationsVoxelverse() {
               </li>
             ))}
           </ul>
-        <ul className="portfolio-filter list-inline filters-voxelverse-postion">
+        <ul className="portfolio-filter list-inline filters-voxelverse-position">
           <li className="list-inline-item">
             <p className="traits-categories-p">
               <strong>Traits Categories:</strong>
