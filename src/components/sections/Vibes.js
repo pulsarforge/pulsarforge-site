@@ -61,6 +61,7 @@ function Vibes() {
               style={{
                 fontSize: 50,
                 textShadow: "3px 3px 2px rgb(37, 37, 37)",
+                color: "#fff",
               }}
             >
               Playground by Pulsarforge
@@ -69,7 +70,8 @@ function Vibes() {
               style={{
                 fontSize: 25,
                 textShadow: "3px 3px 2px rgb(37, 37, 37)",
-                marginTop: "25px"
+                marginTop: "25px",
+                color: "#fff",
               }}
             >
               Areas: Interfaces, Coordination, Communities
