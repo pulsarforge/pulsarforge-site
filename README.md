@@ -6,7 +6,7 @@
 [pulsarforge.io](https://pulsarforge.io/)
 
 
-## Sneak Peek:
+## Sneak Peek
 
 ![Web3 Labs - Code Garden](./public/images/sneak-peek.png)
 
