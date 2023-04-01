@@ -1,24 +1,22 @@
 # Civilizations Voxelverse
 
-It is a celebrations of art, exploring sci-fi shapes that together form exoplanets, that's the first phase.
+It is a celebrations of art, exploring sci-fi shapes that together form exoplanets
 
-Travel into the voxelverse exoplanets:
+
+## Travel into the Voxelverse exoplanets
 [Explore the Voxelverse](https://pulsarforge.io/civilizations-voxelverse-nfts)
 
 
+## Topics and Explorations
 
-Main topics:
+Exoplanets, Homes, Party Animals
 
-Shapes combined with storytelling.
-
-There aren't dates set on stone but there is will to create and delight with art, that requires skills, time, energy, and tell an story of evolution.
-
-
-Topics & Explorations:
-
-Voxelverse Exoplanets, Homes, Party Animals
-
-Enjoy this travel of discovering the connections and misteries of the local celebrations and parties at the Voxelverse.
+Enjoy this travel, discovering the connections and mysteries at the local celebrations and parties throughout the Voxelverse.
 
 
-"Their fate are in your hands".
+**World buidler creators your time is now**
+
+
+### "Their fates are in your hands"
+
+Write their history here ---- >>>>
