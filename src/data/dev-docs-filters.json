@@ -17,10 +17,14 @@
     },
     {
       "id": 4,
-      "text": "back-end"
+      "text": "rust"
     },
     {
       "id": 5,
+      "text": "back-end"
+    },
+    {
+      "id": 6,
       "text": "tools"
     }
 ]

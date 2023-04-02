@@ -2,13 +2,29 @@
     {
       "id": 1,
       "title": "Category",
+      "category": "front-end",
+      "description": "Reactjs",
+      "image": "images/dev-docs/category/reactjs-reimagined.jpg",
+      "link": ["https://main.pulsarforge.io/docs/category/react"]
+    },
+    {
+      "id": 2,
+      "title": "Category",
+      "category": "rust",
+      "description": "Rustaceans",
+      "image": "images/dev-docs/category/rustaceans.jpg",
+      "link": ["https://main.pulsarforge.io/docs/category/rust"]
+    },
+    {
+      "id": 3,
+      "title": "Category",
       "category": "web3",
       "description": "NEAR Protocol",
       "image": "images/dev-docs/category/near.png",
       "link": ["https://main.pulsarforge.io/docs/category/near"]
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Category",
       "category": "back-end",
       "description": "Cloudflare",
@@ -16,7 +32,7 @@
       "link": ["https://main.pulsarforge.io/docs/category/cloudflare"]
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Category",
       "category": "web3",
       "description": "Aurora",
@@ -24,7 +40,7 @@
       "link": ["https://main.pulsarforge.io/docs/category/aurora"]
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Category",
       "category": "web3",
       "description": "Onflow",
@@ -32,15 +48,7 @@
       "link": ["https://main.pulsarforge.io/docs/category/flow"]
     },
     {
-      "id": 5,
-      "title": "Category",
-      "category": "front-end",
-      "description": "Reactjs",
-      "image": "images/dev-docs/category/reactjs-reimagined.jpg",
-      "link": ["https://main.pulsarforge.io/docs/category/react"]
-    },
-    {
-      "id": 6,
+      "id": 7,
       "title": "Article",
       "category": "ai",
       "description": "AI, code completions",
@@ -48,7 +56,7 @@
       "link": ["https://main.pulsarforge.io/docs/ai/code-completions/self-hosted"]
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Article",
       "category": "tools",
       "description": "Package Managers, Chocolatey",
@@ -56,7 +64,7 @@
       "link": ["https://main.pulsarforge.io/docs/tools/chocolatey"]
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Article",
       "category": "tools",
       "description": "Understand and research codebases",
@@ -64,7 +72,7 @@
       "link": ["https://main.pulsarforge.io/docs/tools/sourcegraph"]
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Article",
       "category": "ai",
       "description": "AI, Leonardo image generation",
