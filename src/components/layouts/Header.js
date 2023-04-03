@@ -70,7 +70,7 @@ function Header({ light, logoSource }) {
                 <a className="nav-link side-by-side" href="/civilizations-voxelverse-nfts">
                   <h5>Space Adventures</h5>
                 </a>
-                <span><Sound url="/sounds/space.wav" textInit="🌌" textAfter="🪐" /></span>
+                <span><Sound url="/sounds/space.mp3" textInit="🌌" textAfter="🪐" /></span>
               </li>
               <li className="nav-item">
                 <a
@@ -81,7 +81,7 @@ function Header({ light, logoSource }) {
                 >
                   <h5>Community Vibes</h5>
                 </a>
-                <span><Sound url="/sounds/swimming.wav" textInit="🦦" textAfter="🐋" /></span>
+                <span><Sound url="/sounds/swimming.mp3" textInit="🦦" textAfter="🐋" /></span>
               </li>
             </ul>
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
