@@ -21,7 +21,7 @@
     "category": "gardening",
     "description": "Pulsarforge",
     "image": "images/works/pulsar-forge-exoplanet.png",
-    "link": ["https://github.com/pulsarforge"]
+    "link": ["https://github.com/pulsarforge/"]
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "category": "web3",
     "description": "DAO It Board",
     "image": "images/works/dao-it-board.png",
-    "link": ["https://dao-it-board.pages.dev"]
+    "link": ["https://dao-it-board.pages.dev/"]
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "category": "web3",
     "description": "Inursites",
     "image": "images/works/inursites-logo.png",
-    "link": ["https://inursites.io"]
+    "link": ["https://inursites.io/"]
   },
   {
     "id": 7,
@@ -69,7 +69,7 @@
     "category": "community",
     "description": "HQ Notes",
     "image": "images/works/digital-garden.png",
-    "link": ["https://hqnotes.pages.dev"]
+    "link": ["https://hqnotes.pages.dev/"]
   },
   {
     "id": 10,
@@ -81,11 +81,11 @@
   },
   {
     "id": 11,
-    "title": "NFTs Rarity Analyzer, incoming",
+    "title": "NFTs Rarity Analyzer",
     "category": "web3",
     "description": "Collectibles Rarity",
     "image": "images/works/nfts-rarity-insider.png",
-    "link": ["/"]
+    "link": ["https://collectiblesrarity.pulsarforge.workers.dev/"]
   },
   {
     "id": 12,
