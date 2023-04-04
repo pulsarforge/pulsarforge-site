@@ -1,42 +1,42 @@
 [
-    {
-      "id": 1,
-      "text": "Background Light"
-    },
-    {
-      "id": 2,
-      "text": "Civilization Level"
-    },
-    {
-      "id": 3,
-      "text": "Exoplanet Size"
-    },
-    {
-      "id": 4,
-      "text": "Resource"
-    },
-    {
-      "id": 5,
-      "text": "Lands"
-    },
-    {
-      "id": 6,
-      "text": "Longevity Phase"
-    },
-    {
-      "id": 7,
-      "text": "Droid Squad"
-    },
-    {
-      "id": 8,
-      "text": "Population"
-    },
-    {
-      "id": 9,
-      "text": "Exoplanet type"
-    },
-    {
-      "id": 10,
-      "text": "Rarity"
-    }
+  {
+    "id": 1,
+    "text": "Background Light"
+  },
+  {
+    "id": 2,
+    "text": "Civilization Level"
+  },
+  {
+    "id": 3,
+    "text": "Exoplanet Size"
+  },
+  {
+    "id": 4,
+    "text": "Resource"
+  },
+  {
+    "id": 5,
+    "text": "Lands"
+  },
+  {
+    "id": 6,
+    "text": "Longevity Phase"
+  },
+  {
+    "id": 7,
+    "text": "Droid Squad"
+  },
+  {
+    "id": 8,
+    "text": "Population"
+  },
+  {
+    "id": 9,
+    "text": "Exoplanet type"
+  },
+  {
+    "id": 10,
+    "text": "Rarity"
+  }
 ]

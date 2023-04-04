@@ -1,44 +1,44 @@
 [
-    {
-      "id": 1,
-      "title": "User Experience Consulting",
-      "icon": "images/ux.png",
-      "content": [
-        {
-          "id": 1,
-          "text": "Enhance your existing project to make it easy to use, engaging, shareable and tailored to your public"
-        }
-      ],
-      "cta": "Level up your game",
-      "best": false,
-      "badge": false
-    },
-    {
-      "id": 2,
-      "title": "Reactjs Web Development",
-      "icon": "images/reactjs.png",
-      "content": [
-        {
-          "id": 0,
-          "text": "Reliable outstanding websites, connecting with the users while reflecting the essence of the project, culture, team, field"
-        }
-      ],
-      "cta": "Get ahead your brand",
-      "best": true,
-      "badge": "Getting into action"
-    },
-    {
-      "id": 3,
-      "title": "Expansion and Integrations",
-      "icon": "images/units.png",
-      "content": [
-        { 
-            "id": 1, 
-            "text": "Docs, CI/CD, APIs Swagger Rest and GraphQL, DBs PostgreSQL and MongoDB, Web3 Techs" 
-        }
-      ],
-      "cta": "Scale your project",
-      "best": false,
-      "badge": false
-    }
+  {
+    "id": 1,
+    "title": "User Experience Consulting",
+    "icon": "images/ux.png",
+    "content": [
+      {
+        "id": 1,
+        "text": "Enhance your existing project to make it easy to use, engaging, shareable and tailored to your public"
+      }
+    ],
+    "cta": "Level up your game",
+    "best": false,
+    "badge": false
+  },
+  {
+    "id": 2,
+    "title": "Reactjs Web Development",
+    "icon": "images/reactjs.png",
+    "content": [
+      {
+        "id": 0,
+        "text": "Reliable outstanding websites, connecting with the users while reflecting the essence of the project, culture, team, field"
+      }
+    ],
+    "cta": "Get ahead your brand",
+    "best": true,
+    "badge": "Getting into action"
+  },
+  {
+    "id": 3,
+    "title": "Expansion and Integrations",
+    "icon": "images/units.png",
+    "content": [
+      { 
+          "id": 1, 
+          "text": "Docs, CI/CD, APIs Swagger Rest and GraphQL, DBs PostgreSQL and MongoDB, Web3 Techs" 
+      }
+    ],
+    "cta": "Scale your project",
+    "best": false,
+    "badge": false
+  }
 ]
