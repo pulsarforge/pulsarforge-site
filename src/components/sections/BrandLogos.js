@@ -8,13 +8,13 @@ function BrandlogosDark() {
   return (
     <div id="branglogos">
       <div className="container">
-        <Pagetitle title="Main techs" />
+        <Pagetitle title="Partners" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
             <div className="col-md-2 col-6" key={brandlogo.id}>
               <div className="client-item">
                 <div className="inner">
-                  <img src={brandlogo.image} alt="Techs" />
+                  <img src={brandlogo.image} alt="Partners" />
                 </div>
               </div>
             </div>
