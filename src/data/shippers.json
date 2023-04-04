@@ -98,7 +98,7 @@
   {
     "id": 13,
     "title": "Curated Assets Creation",
-    "category": "UX",
+    "category": "party",
     "description": "AI Consistent Art",
     "image": "images/works/ai-consistent-art.png",
     "link": ["https://www.figma.com/file/WGsXFnz9kVSadSUeLPxXwX/AI-Consistent-Art---Service?node-id=0%3A1&t=SUtFATmVScTkxrvP-1"]
@@ -106,14 +106,14 @@
   {
     "id": 14,
     "title": "Connected Notifications, incoming",
-    "category": "Web3",
+    "category": "web3",
     "description": "Notify Rules",
     "image": "images/works/notify-rules.png",
     "link": ["/"]
   },
   {
     "id": 15,
-    "title": "Trends Substack Radar",
+    "title": "Trends Substack Radar, incoming",
     "category": "community",
     "description": "Substack Radar, incoming",
     "image": "images/works/trends-substack-radar.png",
