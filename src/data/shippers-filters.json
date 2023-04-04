@@ -1,6 +1,22 @@
 [
-    {
-      "id": 1,
-      "text": "Journey Highlights"
-    }
+  {
+    "id": 1,
+    "text": "journey"
+  },
+  {
+    "id": 2,
+    "text": "web3"
+  },
+  {
+    "id": 3,
+    "text": "gardening"
+  },
+  {
+    "id": 4,
+    "text": "community"
+  },
+  {
+    "id": 5,
+    "text": "party"
+  }
 ]

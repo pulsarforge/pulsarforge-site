@@ -1,130 +1,130 @@
-[
-    {
-      "id": 1,
-      "title": "GitHub",
-      "category": "gardening",
-      "description": "Pulsarforge",
-      "image": "images/works/pulsar-forge.png",
-      "link": ["https://github.com/pulsarforge"]
-    },
-    {
-      "id": 2,
-      "title": "Hand Made Art",
-      "category": "community",
-      "description": "Civilizations Voxelverse",
-      "image": "images/works/light-travel-round.png",
-      "link": ["/civilizations-voxelverse-nfts"]
-    },
-    {
-      "id": 3,
-      "title": "Newsletter and Podcast",
-      "category": "community",
-      "description": "Blocks Labs",
-      "image": "images/works/blocks-labs-v.png",
-      "link": ["https://pulsarforge.substack.com/"]
-    },
-    {
-      "id": 4,
-      "title": "Trends Web3",
-      "category": "community",
-      "description": "Web3 Radar",
-      "image": "images/works/trends-web3-radar.png",
-      "link": ["https://trends-web3-radar.pages.dev/"]
-    },
-    {
-      "id": 5,
-      "title": "Developers",
-      "category": "web3",
-      "description": "Inursites",
-      "image": "images/works/inursites-logo.png",
-      "link": ["https://inursites.io"]
-    },
-    {
-      "id": 6,
-      "title": "Data Analytics",
-      "category": "web3",
-      "description": "Cryptoracle",
-      "image": "images/works/cryptoracle.png",
-      "link": ["https://app.cryptoracle.io/"]
-    },
-    {
-      "id": 7,
-      "title": "Hackatons Board",
-      "category": "web3",
-      "description": "Board Hacks",
-      "image": "images/works/board-hacks.png",
-      "link": ["https://board-hacks.pages.dev/"]
-    },
-    {
-      "id": 8,
-      "title": "Smoothies House",
-      "category": "funny",
-      "description": "Tasty Smoothies",
-      "image": "images/works/tasty-smoothies.png",
-      "link": ["https://tasty-smoothies.pages.dev/"]
-    },
-    {
-      "id": 9,
-      "title": "DAOs",
-      "category": "web3",
-      "description": "DAO It Board",
-      "image": "images/works/dao-it-board.png",
-      "link": ["https://dao-it-board.pages.dev"]
-    },
-    {
-      "id": 10,
-      "title": "Achievements on Chain",
-      "category": "web3",
-      "description": "Well Done Flow",
-      "image": "images/works/well-done-flow.png",
-      "link": ["https://well-done-flow.pages.dev/"]
-    },
-    {
-      "id": 11,
-      "title": "Trends Substack Radar",
-      "category": "incoming",
-      "description": "Substack Radar",
-      "image": "images/works/trends-substack-radar.png",
-      "link": ["/"]
-    },
-    {
-      "id": 12,
-      "title": "NFTs Rarity Insider",
-      "category": "incoming",
-      "description": "NFTs Rarity",
-      "image": "images/works/nfts-rarity-insider.png",
-      "link": ["/"]
-    },
-    {
-      "id": 13,
-      "title": "Web3 Connected Notifications",
-      "category": "incoming",
-      "description": "Notify Rules",
-      "image": "images/works/notify-rules.png",
-      "link": ["/"]
-    },
-    {
-      "id": 14,
-      "title": "Take Screenshots",
-      "category": "funny",
-      "description": "Mapping Earnings",
-      "image": "images/works/mapping-earnings.png",
-      "link": ["https://mapping-earnings.pages.dev/"]
-    },
-    {
-      "id": 15,
-      "title": "Knowledge Base Template",
-      "category": "code",
-      "description": "Digital Garden",
-      "image": "images/works/digital-garden.png",
-      "link": ["https://hqnotes.pages.dev"]
-    },
-    {
-      "id": 16,
-      "title": "Curated Assets Creation",
-      "category": "ux",
-      "description": "AI Consistent Art",
-      "image": "images/works/ai-consistent-art.png",
-      "link": ["https://www.figma.com/file/WGsXFnz9kVSadSUeLPxXwX/AI-Consistent-Art---Service?node-id=0%3A1&t=SUtFATmVScTkxrvP-1"]
-    }
+[    
+  {
+    "id": 1,
+    "title": "Smoothies House",
+    "category": "party",
+    "description": "Tasty Smoothies",
+    "image": "images/works/tasty-smoothies.png",
+    "link": ["https://tasty-smoothies.pages.dev/"]
+  },
+  {
+    "id": 2,
+    "title": "Hand Made Art and Community",
+    "category": "web3",
+    "description": "Civilizations Voxelverse",
+    "image": "images/works/light-travel-round.png",
+    "link": ["/civilizations-voxelverse-nfts"]
+  },
+  {
+    "id": 3,
+    "title": "GitHub",
+    "category": "gardening",
+    "description": "Pulsarforge",
+    "image": "images/works/pulsar-forge-exoplanet.png",
+    "link": ["https://github.com/pulsarforge"]
+  },
+  {
+    "id": 4,
+    "title": "Newsletter and Podcast",
+    "category": "community",
+    "description": "Blocks Labs",
+    "image": "images/works/blocks-labs-v.png",
+    "link": ["https://pulsarforge.substack.com/"]
+  },
+  {
+    "id": 5,
+    "title": "DAOs",
+    "category": "web3",
+    "description": "DAO It Board",
+    "image": "images/works/dao-it-board.png",
+    "link": ["https://dao-it-board.pages.dev"]
+  },
+  {
+    "id": 6,
+    "title": "Developers",
+    "category": "web3",
+    "description": "Inursites",
+    "image": "images/works/inursites-logo.png",
+    "link": ["https://inursites.io"]
+  },
+  {
+    "id": 7,
+    "title": "Data Analytics",
+    "category": "web3",
+    "description": "Cryptoracle",
+    "image": "images/works/cryptoracle.png",
+    "link": ["https://app.cryptoracle.io/"]
+  },
+  {
+    "id": 8,
+    "title": "Hackatons Board",
+    "category": "web3",
+    "description": "Board Hacks",
+    "image": "images/works/board-hacks.png",
+    "link": ["https://board-hacks.pages.dev/"]
+  },
+  {
+    "id": 9,
+    "title": "Knowledge Base Template",
+    "category": "community",
+    "description": "HQ Notes",
+    "image": "images/works/digital-garden.png",
+    "link": ["https://hqnotes.pages.dev"]
+  },
+  {
+    "id": 10,
+    "title": "Achievements On Chain",
+    "category": "web3",
+    "description": "Well Done Flow",
+    "image": "images/works/well-done-flow.png",
+    "link": ["https://well-done-flow.pages.dev/"]
+  },
+  {
+    "id": 11,
+    "title": "NFTs Rarity Analyzer, incoming",
+    "category": "web3",
+    "description": "Collectibles Rarity",
+    "image": "images/works/nfts-rarity-insider.png",
+    "link": ["/"]
+  },
+  {
+    "id": 12,
+    "title": "Trends Web3",
+    "category": "community",
+    "description": "Web3 Radar",
+    "image": "images/works/trends-web3-radar.png",
+    "link": ["https://trends-web3-radar.pages.dev/"]
+  },
+  {
+    "id": 13,
+    "title": "Curated Assets Creation",
+    "category": "UX",
+    "description": "AI Consistent Art",
+    "image": "images/works/ai-consistent-art.png",
+    "link": ["https://www.figma.com/file/WGsXFnz9kVSadSUeLPxXwX/AI-Consistent-Art---Service?node-id=0%3A1&t=SUtFATmVScTkxrvP-1"]
+  },
+  {
+    "id": 14,
+    "title": "Connected Notifications, incoming",
+    "category": "Web3",
+    "description": "Notify Rules",
+    "image": "images/works/notify-rules.png",
+    "link": ["/"]
+  },
+  {
+    "id": 15,
+    "title": "Trends Substack Radar",
+    "category": "community",
+    "description": "Substack Radar, incoming",
+    "image": "images/works/trends-substack-radar.png",
+    "link": ["/"]
+  },
+  {
+    "id": 16,
+    "title": "Click and Take Screenshots",
+    "category": "party",
+    "description": "Mapping Earnings",
+    "image": "images/works/mapping-earnings.png",
+    "link": ["https://mapping-earnings.pages.dev/"]
+  }
 ]
