@@ -36,7 +36,7 @@ function Header({ light, logoSource }) {
             type="button"
             onClick={handleMobilenav}
           >
-            <span className="navbar-toggler-icon"></span>
+            <span>🐶</span>
           </button>
           <div
             className={
