@@ -2,7 +2,7 @@ import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 import BrandLogosJson from "../../data/brandlogos.json";
 
-function BrandlogosDark() {
+function Partnerslogos() {
   const brandlogoData = BrandLogosJson;
 
   return (
@@ -12,7 +12,7 @@ function BrandlogosDark() {
         <div className="row">
           {brandlogoData.map((brandlogo) => (
             <div className="col-md-2 col-6" key={brandlogo.id}>
-              <div className="client-item">
+              <div className="partners-item">
                 <div className="inner">
                   <img src={brandlogo.image} alt="Partners" />
                 </div>
@@ -25,4 +25,4 @@ function BrandlogosDark() {
   );
 }
 
-export default BrandlogosDark;
+export default Partnerslogos;
