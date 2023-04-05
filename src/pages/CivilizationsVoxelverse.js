@@ -13,7 +13,7 @@ function CivilizationsVoxelverse() {
   const traits = CivilizationsTraitsJson;
   const allData = CivilizationsJson;
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(20); //NOTE! Important state for great visibility adjust to total number of items
+  const [dataVisibleCount, setDataVisibleCount] = useState(20);
   const [dataIncrement] = useState(16);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -72,7 +72,6 @@ function CivilizationsVoxelverse() {
       </HelmetProvider>
       <Header logoSource="/images/pulsarforge-logo-font.png" />
       <main>
-        {/* Start Portfolio Filters */}
           <div className="page-title-center-maring-top">
             <Pagetitle title="Space adventures happening on quantum basics" />
           </div>
@@ -108,8 +107,6 @@ function CivilizationsVoxelverse() {
             </li>
           ))}
         </ul>
-        {/* End Portfolio Filters */}
-        {/* Start Portfolio Items */}
         <div
           className="row portfolio-wrapper"
           style={{ paddingLeft: "15px", paddingRight: "15px" }}
@@ -120,7 +117,6 @@ function CivilizationsVoxelverse() {
             </div>
           ))}
         </div>
-        {/* End Portfolio Items */}
         <div className="load-more text-center mt-4">
           <button
             className="btn btn-default"

@@ -8,7 +8,7 @@ function Shippers() {
   const allData = ShipperJson;
   const filters = ShipperFiltersJson;
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(16); //NOTE! Important state for great visibility adjust to total number of items
+  const [dataVisibleCount, setDataVisibleCount] = useState(16);
   const [dataIncrement] = useState(12);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -63,7 +63,6 @@ function Shippers() {
           marginTop: "100px",
         }}
       >
-        {/* Start Portfolio Filters */}
           <a className="navigate-link" href="#making-the-difference">
             <Pagetitle title="Be a shipper" />
           </a>
@@ -84,9 +83,6 @@ function Shippers() {
               </li>
             ))}
           </ul>
-        {/* End Portfolio Filters */}
-
-        {/* Start Portfolio Items */}
         <div className="row portfolio-wrapper">
           {visibleItems.map((item) => (
             <div className="col-md-3 col-sm-6 grid-item" key={item.id}>
@@ -94,8 +90,6 @@ function Shippers() {
             </div>
           ))}
         </div>
-        {/* End Portfolio Items */}
-
         <div className="load-more text-center mt-4">
           <button
             className="btn btn-default"
