@@ -12,7 +12,9 @@
   "private": true,
   "devDependencies": {
     "@craco/craco": "^7.1.0",
-    "craco-esbuild": "^0.5.2"
+    "craco-esbuild": "^0.5.2",
+    "esbuild": "^0.17.15",
+    "esbuild-plugin-sass": "^1.0.1"
   },
   "dependencies": {
     "bootstrap": "^5.0.2",

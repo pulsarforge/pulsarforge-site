@@ -19,6 +19,8 @@ wrangler.toml
 
 # production
 /build
+/dist
+/esbuild
 
 # logs
 logs
