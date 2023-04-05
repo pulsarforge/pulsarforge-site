@@ -85,10 +85,6 @@ section.home {
     }
   }
 
-  .icons-social {
-    margin-right: 30px;
-  }
-
   &.light {
     background: #f9f9ff;
 
@@ -136,101 +132,6 @@ section.home {
 }
 
 /*=================================================================*/
-/*                      PARALLAX SHAPES                              
-/*=================================================================*/
-.parallax {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-
-  .layer {
-    position: absolute;
-  }
-
-  .p1 {
-    left: 10%;
-    top: 10%;
-  }
-
-  .p2 {
-    left: 25%;
-    top: 30%;
-  }
-
-  .p3 {
-    left: 15%;
-    bottom: 30%;
-  }
-
-  .p4 {
-    left: 10%;
-    bottom: 10%;
-  }
-
-  .p5 {
-    left: 45%;
-    top: 10%;
-  }
-
-  .p6 {
-    left: 40%;
-    bottom: 10%;
-  }
-
-  .p7 {
-    top: 20%;
-    right: 30%;
-  }
-
-  .p8 {
-    right: 30%;
-    bottom: 20%;
-  }
-
-  .p9 {
-    right: 10%;
-    top: 10%;
-  }
-
-  .p10 {
-    top: 45%;
-    right: 20%;
-  }
-
-  .p11 {
-    bottom: 10%;
-    right: 10%;
-  }
-}
-
-/*=================================================================*/
-/*                      SERVICE                              
-/*=================================================================*/
-.service-box {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  @include transition(0.3s);
-
-  h3 {
-    font-size: 20px;
-  }
-
-  img {
-    margin-bottom: 22px;
-  }
-
-  &:hover {
-    -webkit-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-}
-
-/*=================================================================*/
 /*                      PORTFOLIO                              
 /*=================================================================*/
 .portfolio-wrapper {
@@ -238,10 +139,6 @@ section.home {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-}
-
-.pf-filter-wrapper {
-  display: none;
 }
 
 .portfolio-item {
@@ -331,21 +228,7 @@ section.home {
     }
   }
 
-  .mask {
-    background: $colorblue;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    @include transition(0.3s);
-  }
-
   &:hover {
-    .mask {
-      opacity: 0.9;
-    }
 
     .details {
       h4,
@@ -398,19 +281,6 @@ select.portfolio-filter-mobile {
   margin-bottom: 30px;
   position: relative;
   width: 100%;
-}
-
-.pf-filter-wrapper {
-  position: relative;
-
-  &:after {
-    content: "\f0d7";
-    font-family: "FontAwesome";
-    position: absolute;
-    top: 0;
-    right: 20px;
-    color: #000;
-  }
 }
 
 /*=================================================================*/
@@ -635,120 +505,8 @@ select.portfolio-filter-mobile {
     }
   }
 
-  .blog-standard .meta {
-    font-size: 14px;
-    color: #8b88b1;
-  }
-
-  .blog-standard .meta li:after {
-    content: "";
-    background: #8b88b1;
-    border-radius: 50%;
-    display: inline-block;
-    height: 3px;
-    margin-left: 0.6rem;
-    vertical-align: middle;
-    width: 3px;
-  }
-
-  .blog-standard .meta li {
-    &:last-child {
-      &:after {
-        display: none;
-      }
-    }
-  }
-
-  .blog-standard .meta li:not(:last-child) {
-    margin-right: 0.6rem;
-  }
-
-  .blog-standard .meta li a {
-    color: #353353;
-
-    &:hover {
-      color: #ff4c60;
-    }
-  }
-
-  .br-more {
-    a {
-      border-radius: 60px;
-      font-family: "Rubik", sans-serif;
-      font-size: 16px;
-      font-weight: 700;
-      overflow: hidden;
-      line-height: 1;
-      padding: 12px 32px;
-      color: #fff;
-      background: #ff4c60;
-      display: inline-block;
-      vertical-align: middle;
-      position: relative;
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-
-      &:hover {
-        color: #fff;
-        -webkit-animation-name: button-push;
-        animation-name: button-push;
-        -webkit-animation-duration: 0.3s;
-        animation-duration: 0.3s;
-        -webkit-animation-timing-function: linear;
-        animation-timing-function: linear;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-      }
-    }
-  }
-
-  .widget {
-    margin-bottom: 30px;
-    padding: 20px;
-  }
-
-  .screen-reader-text {
-    border: 0;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute !important;
-    width: 1px;
-    word-wrap: normal !important;
-  }
-
-  .widget .searchform input[type="text"] {
-    border-radius: 30px;
-    border: 0;
-    background: #f3f3f3;
-    padding: 6px 20px;
-    max-width: 190px;
-  }
-
-  .widget .searchform input[type="submit"] {
-    color: #fff;
-    background: #ff4c60;
-    border-radius: 25px;
-    padding: 5px 20px;
-    border: 0;
-    cursor: pointer;
-  }
-
   .shadow-dark {
     box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
-  }
-
-  .widget-header {
-    margin-bottom: 15px;
-    margin-top: 0;
-  }
-
-  .widget ul {
-    padding-left: 1.1rem;
   }
 
   .blog-single {
@@ -763,9 +521,9 @@ select.portfolio-filter-mobile {
 }
 
 /*=================================================================*/
-/*                      CLIENTS                              
+/*                      Partners                              
 /*=================================================================*/
-.client-item {
+.partners-item {
   min-height: 50px;
   position: relative;
   text-align: center;
@@ -787,19 +545,6 @@ select.portfolio-filter-mobile {
   }
 }
 
-/*=================================================================*/
-/*                      CONTACT                              
-/*=================================================================*/
-.contact-info {
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: 200px;
-
-  h3 {
-    font-size: 23px;
-    margin: 0 0 10px;
-  }
-}
 
 /*=================================================================*/
 /*                      HELPER                              
@@ -996,10 +741,6 @@ footer.footer {
   &.light {
     background: #f9f9ff;
     border-top: solid 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .icons-social-footer {
-    margin-right: 30px;
   }
 }
 

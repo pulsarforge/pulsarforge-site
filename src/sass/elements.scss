@@ -54,22 +54,6 @@
   border-radius: 0;
 }
 
-/* === Alert === */
-.alert {
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-radius: 20px;
-}
-
-.alert-dismissable .close,
-.alert-dismissible .close {
-  position: relative;
-  top: 0;
-  right: 0;
-  color: inherit;
-}
-
 /* === Pagination === */
 .pagination {
   display: inline-block;
@@ -129,28 +113,6 @@
   color: #fff;
   background-color: $colordefault;
   border-color: transparent;
-}
-
-/* === Social Icons === */
-.social-icons {
-  li {
-    &:not(:last-child) {
-      margin-right: 1.5rem;
-    }
-    a {
-      font-size: 21px;
-    }
-    i {
-      font-size: 50px;
-    }
-  }
-  &.light {
-    li {
-      a:hover {
-        color: $coloryellow;
-      }
-    }
-  }
 }
 
 /* === Helper === */
@@ -366,10 +328,4 @@
   &:hover {
     opacity: 0.75;
   }
-}
-
-.adjust-social-icons {
-  font-size: 40px;
-  color: white;
-  margin-left: 30px;
 }
