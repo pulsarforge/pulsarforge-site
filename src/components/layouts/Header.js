@@ -56,21 +56,27 @@ function Header({ light, logoSource }) {
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
               <li className="nav-item">
                 <a className="nav-link side-by-side" href="/">
-                  <h5>Devs Labs</h5>
+                  <h5>Labs</h5>
                 </a>
                 <span><Sound url="/sounds/cowboy.mp3" textInit="🤠" textAfter="🎯" /></span>
               </li>
               <li className="nav-item">
                 <a className="nav-link side-by-side" href="/#dev-docs">
-                  <h5>Devs Docs</h5>
+                  <h5>Docs</h5>
                 </a>
                 <span><Sound url="/sounds/gorila.mp3" textInit="🦍" textAfter="💻" /></span>
               </li>
               <li className="nav-item">
                 <a className="nav-link side-by-side" href="/civilizations-voxelverse-nfts">
-                  <h5>Space Adventures</h5>
+                  <h5>Space</h5>
                 </a>
                 <span><Sound url="/sounds/space.mp3" textInit="🌌" textAfter="🪐" /></span>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link side-by-side" href="/tv">
+                  <h5>TV</h5>
+                </a>
+                <span><Sound url="/sounds/4x4.mp3" textInit="📺" textAfter="🚙" /></span>
               </li>
               <li className="nav-item">
                 <a
@@ -79,7 +85,7 @@ function Header({ light, logoSource }) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <h5>Community Vibes</h5>
+                  <h5>Community</h5>
                 </a>
                 <span><Sound url="/sounds/swimming.mp3" textInit="🦦" textAfter="🐋" /></span>
               </li>
