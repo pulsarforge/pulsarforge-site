@@ -24,10 +24,7 @@ function Tv() {
       <HelmetProvider>
         <Helmet>
           <title>Live Streaming 📺</title>
-          <meta
-            name="description"
-            content="Making pancakes 🥞🥞🥞🥞"
-          />
+          <meta name="description" content="Making pancakes 🥞🥞🥞🥞"/>
         </Helmet>
       </HelmetProvider>
       <Header
