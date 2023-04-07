@@ -5,9 +5,7 @@ import Pagetitle from "../components/elements/Pagetitle";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function Tv() {
-
   const [toggleMenu, setToggleMenu] = useState(false);
-
   const headerToggler = (e) => {
     e.preventDefault();
     setToggleMenu(!toggleMenu);
@@ -38,8 +36,24 @@ function Tv() {
             <div className="page-title-center">
               <img  src="/images/dog-streaming.jpg" style={{ height: "auto", width: "auto", borderRadius: "80px", marginBottom: "30px"}} alt="dog-streaming"/>
               <Pagetitle title="Live Streaming" />
-              <h4> Wen? </h4>
-              <h6> Soon </h6>
+              <h2 style={{color: "#fff"}}> Wen? 📺</h2> 
+              <h2 style={{color: "#fff"}}>Soon 🚙</h2>
+              <div style={{position: "relative", paddingTop: "56.25%"}}>
+                <iframe 
+                  title="pulsarforge tv"
+                  src={process.env.REACT_APP_VIDEO_TREASURE}
+                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
+                  allowfullscreen="true"
+                  loop="true"
+                >
+                </iframe>
+              </div>
+              <h3 style={{color: "#fff"}}>Tokenomics backed by cheese standard 🧀🧀🧀🧀</h3>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
             </div>
           </div>
         </div>
