@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Element } from "react-scroll";
 import Header from "../components/layouts/Header";
 import Vibes from "../components/sections/Vibes";
-import CodeGardens from "../components/sections/CodeGardens";
+import Gardens from "../components/sections/Gardens";
 import Shippers from "../components/sections/Shippers";
 import MakingTheDifferences from "../components/sections/MakingTheDifferences";
 import DevDocs from "../components/sections/DevDocs";
@@ -26,7 +26,7 @@ function Home() {
           <Vibes />
         </Element>
         <Element name="code-garden">
-          <CodeGardens />
+          <Gardens/>
         </Element>
         <Element name="passion-projects">
           <Shippers />
