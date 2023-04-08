@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
 import DogDays from "./pages/DogDays";
@@ -11,7 +11,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="civilizations-voxelverse-nfts" element={<CivilizationsVoxelverse />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="dog-days/:id/:title" element={<Articles />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
