@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Category",
     "category": "web3",
-    "description": "NEAR Protocol",
+    "description": "Near",
     "image": "images/dev-docs/category/near.png",
     "link": ["https://main.pulsarforge.io/docs/category/near"]
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "Category",
     "category": "web3",
-    "description": "Onflow",
+    "description": "Flow",
     "image": "images/dev-docs/category/flow.png",
     "link": ["https://main.pulsarforge.io/docs/category/flow"]
   },
