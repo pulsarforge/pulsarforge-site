@@ -44,8 +44,8 @@ function Tv() {
                   src={process.env.REACT_APP_VIDEO_TREASURE}
                   style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
                   allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
-                  allowfullscreen="true"
-                  loop="true"
+                  allowFullScreen={true}
+                  loop={true}
                 >
                 </iframe>
               </div>
