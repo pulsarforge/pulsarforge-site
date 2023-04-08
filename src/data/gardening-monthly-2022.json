@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "totalContributions": 33,
+      "name": "Jan",
+      "year": 2022,
+      "totalWeeks": 6
+    },
+    {
+      "id": 2,
+      "totalContributions": 29,
+      "name": "Feb",
+      "year": 2022,
+      "totalWeeks": 5
+    },
+    {
+      "id": 3,
+      "totalContributions": 63,
+      "name": "Mar",
+      "year": 2022,
+      "totalWeeks": 5
+    },
+    {
+      "id": 4,
+      "totalContributions": 51,
+      "name": "Apr",
+      "year": 2022,
+      "totalWeeks": 5
+    },
+    {
+      "id": 5,
+      "totalContributions": 55,
+      "name": "May",
+      "year": 2022,
+      "totalWeeks": 5
+    },
+    {
+      "id": 6,
+      "totalContributions": 34,
+      "name": "Jun",
+      "year": 2022,
+      "totalWeeks": 5
+    },
+    {
+      "id": 7,
+      "totalContributions": 35,
+      "name": "Jul",
+      "year": 2022,
+      "totalWeeks": 6
+    },
+    {
+      "id": 8,
+      "totalContributions": 37,
+      "name": "Aug",
+      "year": 2022,
+      "totalWeeks": 5
+    },
+    {
+      "id": 9,
+      "totalContributions": 207,
+      "name": "Sep",
+      "year": 2022,
+      "totalWeeks": 5
+    },
+    {
+      "id": 10,
+      "totalContributions": 71,
+      "name": "Oct",
+      "year": 2022,
+      "totalWeeks": 6
+    },
+    {
+      "id": 11,
+      "totalContributions": 81,
+      "name": "Nov",
+      "year": 2022,
+      "totalWeeks": 5
+    },
+    {
+      "id": 12,
+      "totalContributions": 31,
+      "name": "Dec",
+      "year": 2022,
+      "totalWeeks": 5
+    }
+]
