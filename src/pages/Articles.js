@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../components/layouts/Header";
 import Markdown from "markdown-to-jsx";
-import ArticlesJson from "../data/dog-blogs.json";
+import ArticlesJson from "../data/dog-days.json";
 import Footer from "../components/layouts/Footer";
 
 function Articles() {
@@ -14,7 +14,7 @@ function Articles() {
   let articleId = metadataAllBlogs[blogId].id;
 
   useEffect(() => {
-    import(`../blog/${blogFile}.md`)
+    import(`../dogdays/${blogFile}.md`)
       .then((res) => res.default)
       .then((res) => {
         fetch(res)

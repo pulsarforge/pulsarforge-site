@@ -4,12 +4,12 @@ import Header from "../components/layouts/Header";
 import DogDay from "../components/elements/DogDay";
 import Pagetitle from "../components/elements/Pagetitle";
 import Pagination from "../components/elements/Pagination";
-import DogBlogJson from "../data/dog-blogs.json";
+import DogDaysJson from "../data/dog-days.json";
 import DogQuotesJson from "../data/dog-quotes.json";
 import Footer from "../components/layouts/Footer";
 
 function DogDays() {
-  const allBlogs = DogBlogJson;
+  const allBlogs = DogDaysJson;
   const allQuotes = DogQuotesJson;
   const [posts, setPosts] = useState([]);
   const [quotes, setQuotes] = useState([]);
