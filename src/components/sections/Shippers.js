@@ -8,7 +8,7 @@ function Shippers() {
   const allData = ShipperJson;
   const filters = ShipperFiltersJson;
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(16);
+  const [dataVisibleCount, setDataVisibleCount] = useState(18);
   const [dataIncrement] = useState(12);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -16,7 +16,7 @@ function Shippers() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 8));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 12));
   }, [getAllItems, filters]);
 
   const handleChange = (e) => {
