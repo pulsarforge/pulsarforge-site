@@ -18,26 +18,26 @@
   {
     "id": 3,
     "title": "GitHub",
-    "category": "gardening",
+    "category": "gardeners",
     "description": "Pulsarforge",
     "image": "images/works/pulsar-forge-exoplanet.png",
     "link": ["https://github.com/pulsarforge/"]
   },
   {
     "id": 4,
-    "title": "Newsletter and Podcast",
-    "category": "community",
-    "description": "Blocks Labs",
-    "image": "images/works/blocks-labs-v.png",
-    "link": ["https://pulsarforge.substack.com/"]
+    "title": "Websites data analytics",
+    "category": "web3",
+    "description": "Spacehunt",
+    "image": "images/works/spacehunt.png",
+    "link": ["https://spacehunt.pages.dev/"]
   },
   {
     "id": 5,
-    "title": "DAOs",
-    "category": "web3",
-    "description": "DAO It Board",
-    "image": "images/works/dao-it-board.png",
-    "link": ["https://dao-it-board.pages.dev/"]
+    "title": "Path Registry",
+    "category": "community",
+    "description": "Devs Docs",
+    "image": "images/works/devs-docs.png",
+    "link": ["https://main.pulsarforge.io/"]
   },
   {
     "id": 6,
@@ -57,27 +57,27 @@
   },
   {
     "id": 8,
-    "title": "Hackatons Board",
-    "category": "web3",
-    "description": "Board Hacks",
-    "image": "images/works/board-hacks.png",
-    "link": ["https://board-hacks.pages.dev/"]
+    "title": "Newsletter and Podcast",
+    "category": "community",
+    "description": "Blocks Labs",
+    "image": "images/works/blocks-labs-v.png",
+    "link": ["https://pulsarforge.substack.com/"]
   },
   {
     "id": 9,
-    "title": "Knowledge Base Template",
-    "category": "community",
-    "description": "HQ Notes",
-    "image": "images/works/digital-garden.png",
-    "link": ["https://hqnotes.pages.dev/"]
-  },
-  {
-    "id": 10,
     "title": "Achievements On Chain",
     "category": "web3",
     "description": "Well Done Flow",
     "image": "images/works/well-done-flow.png",
     "link": ["https://well-done-flow.pages.dev/"]
+  },
+  {
+    "id": 10,
+    "title": "DAOs",
+    "category": "web3",
+    "description": "DAO It Board",
+    "image": "images/works/dao-it-board.png",
+    "link": ["https://dao-it-board.pages.dev/"]
   },
   {
     "id": 11,
@@ -89,14 +89,22 @@
   },
   {
     "id": 12,
-    "title": "Trends Web3",
-    "category": "community",
-    "description": "Web3 Radar",
-    "image": "images/works/trends-web3-radar.png",
-    "link": ["https://trends-web3-radar.pages.dev/"]
+    "title": "Hackatons Board",
+    "category": "web3",
+    "description": "Board Hacks",
+    "image": "images/works/board-hacks.png",
+    "link": ["https://board-hacks.pages.dev/"]
   },
   {
     "id": 13,
+    "title": "Knowledge Base Template",
+    "category": "community",
+    "description": "HQ Notes",
+    "image": "images/works/digital-garden.png",
+    "link": ["https://hqnotes.pages.dev/"]
+  },
+  {
+    "id": 14,
     "title": "Curated Assets Creation",
     "category": "party",
     "description": "AI Consistent Art",
@@ -104,7 +112,15 @@
     "link": ["https://www.figma.com/file/WGsXFnz9kVSadSUeLPxXwX/AI-Consistent-Art---Service?node-id=0%3A1&t=SUtFATmVScTkxrvP-1"]
   },
   {
-    "id": 14,
+    "id": 15,
+    "title": "Trends Web3",
+    "category": "community",
+    "description": "Web3 Radar",
+    "image": "images/works/trends-web3-radar.png",
+    "link": ["https://trends-web3-radar.pages.dev/"]
+  },
+  {
+    "id": 16,
     "title": "Connected Notifications, incoming",
     "category": "web3",
     "description": "Notify Rules",
@@ -112,7 +128,7 @@
     "link": ["/"]
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "Trends Substack Radar, incoming",
     "category": "community",
     "description": "Substack Radar",
@@ -120,7 +136,7 @@
     "link": ["/"]
   },
   {
-    "id": 16,
+    "id": 18,
     "title": "Click and Take Screenshots",
     "category": "party",
     "description": "Mapping Earnings",
