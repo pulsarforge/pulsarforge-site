@@ -98,7 +98,7 @@ function DevDocs() {
             disabled={noMorePost ? "disabled" : null}
           >
             {noMorePost ? (
-              "Path registry 😎😎😎😎 long game"
+              "Path registries 😎😎😎😎 long game"
             ) : (
               <span>
                 <i className="fas fa-spinner"></i> Discover more
