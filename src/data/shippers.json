@@ -1,27 +1,27 @@
 [    
   {
     "id": 1,
-    "title": "Smoothies House",
+    "title": "Pura Energia Concentrada",
     "category": "party",
-    "description": "Tasty Smoothies",
-    "image": "images/works/tasty-smoothies.png",
-    "link": ["https://tasty-smoothies.pages.dev/"]
+    "description": "Isla Smoothies",
+    "image": "images/works/isla-smoothies.png",
+    "link": ["https://isla-smoothies.pages.dev/"]
   },
   {
     "id": 2,
-    "title": "Hand Made Art and Community",
-    "category": "web3",
-    "description": "Civilizations Voxelverse",
-    "image": "images/works/light-travel-round.png",
-    "link": ["/civilizations-voxelverse-nfts"]
-  },
-  {
-    "id": 3,
     "title": "GitHub",
     "category": "gardeners",
     "description": "Pulsarforge",
     "image": "images/works/pulsar-forge-exoplanet.png",
     "link": ["https://github.com/pulsarforge/"]
+  },
+  {
+    "id": 3,
+    "title": "Hand Made Art",
+    "category": "web3",
+    "description": "Civilizations Voxelverse",
+    "image": "images/works/light-travel-round.png",
+    "link": ["/civilizations-voxelverse-nfts"]
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "title": "Path Registry",
+    "title": "Path Registries",
     "category": "community",
     "description": "Devs Docs",
     "image": "images/works/devs-docs.png",
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "title": "Hackatons Board",
+    "title": "Hackatons",
     "category": "web3",
     "description": "Board Hacks",
     "image": "images/works/board-hacks.png",
@@ -113,7 +113,7 @@
   },
   {
     "id": 15,
-    "title": "Trends Web3",
+    "title": "Trends",
     "category": "community",
     "description": "Web3 Radar",
     "image": "images/works/trends-web3-radar.png",
@@ -129,7 +129,7 @@
   },
   {
     "id": 17,
-    "title": "Trends Substack Radar, incoming",
+    "title": "Trends, incoming",
     "category": "community",
     "description": "Substack Radar",
     "image": "images/works/trends-substack-radar.png",
@@ -137,7 +137,7 @@
   },
   {
     "id": 18,
-    "title": "Click and Take Screenshots",
+    "title": "Select, Click and Take Screenshots",
     "category": "party",
     "description": "Mapping Earnings",
     "image": "images/works/mapping-earnings.png",
