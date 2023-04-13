@@ -40,6 +40,18 @@ function Tv() {
               <h2 style={{color: "#fff"}}>Soon 🚙</h2>
               <div style={{position: "relative", paddingTop: "56.25%"}}>
                 <iframe 
+                  title="pulsarforge dance tutorials"
+                  src={process.env.REACT_APP_VIDEO_GUNSLINGER}
+                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
+                  allowFullScreen={true}
+                  loop={true}
+                >
+                </iframe>
+              </div>
+              <h3 style={{color: "#fff"}}>Gunslinger by real pancakes dance studio ⚔⚔⚔⚔</h3>
+              <div style={{position: "relative", paddingTop: "56.25%"}}>
+                <iframe 
                   title="pulsarforge tv"
                   src={process.env.REACT_APP_VIDEO_TREASURE}
                   style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
