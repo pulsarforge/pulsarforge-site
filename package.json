@@ -14,7 +14,8 @@
     "@craco/craco": "^7.1.0",
     "craco-esbuild": "^0.5.2",
     "esbuild": "^0.17.15",
-    "esbuild-plugin-sass": "^1.0.1"
+    "esbuild-plugin-sass": "^1.0.1",
+    "javascript-obfuscator": "^4.0.2"
   },
   "dependencies": {
     "bootstrap": "^5.0.2",
@@ -31,10 +32,12 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "build:prod": "craco build && javascript-obfuscator ./build --debug-protection true --output ./build",
     "dev": "wrangler dev --local",
     "deploy": "wrangler publish",
     "autodev": "yarn build & yarn dev",
-    "autodeploy": "yarn build & yarn deploy"
+    "autodeploy": "yarn build & yarn deploy",
+    "autodeploy:prod": "yarn build:pro & yarn deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
