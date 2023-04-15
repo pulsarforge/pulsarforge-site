@@ -30,14 +30,15 @@
     "sass": "^1.60.0"
   },
   "scripts": {
-    "start": "craco start",
+    "afina-los-tambores": "craco start",
     "build": "craco build",
     "build:prod": "craco build && javascript-obfuscator ./build --debug-protection true --output ./build",
-    "dev": "wrangler dev --local",
+    "tambores-encendidos": "wrangler dev --local",
     "deploy": "wrangler publish",
-    "autodev": "yarn build & yarn dev",
+    "autodev": "yarn build & yarn tambores-encendidos",
+    "autodev:prod": "yarn build:prod & yarn tambores-encendidos",
     "autodeploy": "yarn build & yarn deploy",
-    "autodeploy:prod": "yarn build:pro & yarn deploy"
+    "autodeploy:prod": "yarn build:prod & yarn deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
