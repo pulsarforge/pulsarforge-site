@@ -41,6 +41,42 @@ function Tv() {
               <div style={{position: "relative", paddingTop: "56.25%"}}>
                 <iframe 
                   title="pulsarforge dance tutorials"
+                  src={process.env.REACT_APP_CODE_STREAM}
+                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
+                  allowFullScreen={true}
+                  loop={true}
+                >
+                </iframe>
+              </div>
+              <h3 style={{color: "#fff"}}>Rustacean 🦀 Streaming 18 April 2023 🤠</h3>
+              <div style={{position: "relative", paddingTop: "56.25%"}}>
+                <iframe 
+                  title="pulsarforge dance tutorials"
+                  src={process.env.REACT_APP_VIDEO_STORM_OBSERVER}
+                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
+                  allowFullScreen={true}
+                  loop={true}
+                >
+                </iframe>
+              </div>
+              <h3 style={{color: "#fff"}}>Storm Observer 🪐</h3>
+              <div style={{position: "relative", paddingTop: "56.25%"}}>
+                <iframe 
+                  title="pulsarforge dance tutorials"
+                  src={process.env.REACT_APP_VIDEO_BEARS_BALLET}
+                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
+                  allowFullScreen={true}
+                  loop={true}
+                >
+                </iframe>
+              </div>
+              <h3 style={{color: "#fff"}}>BEARS BALLET 🐻🐻</h3>
+              <div style={{position: "relative", paddingTop: "56.25%"}}>
+                <iframe 
+                  title="pulsarforge dance tutorials"
                   src={process.env.REACT_APP_VIDEO_GUNSLINGER}
                   style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
                   allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
