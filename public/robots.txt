@@ -119,7 +119,13 @@ Disallow: /civilizations-voxelverse-nfts
 Disallow: /tv
 
 User-agent: Twitterbot
-Allow. /
+Allow: /
+Disallow: /dog-days
+Disallow: /civilizations-voxelverse-nfts
+Disallow: /tv
+
+User-agent: Discordbot
+Allow: /
 Disallow: /dog-days
 Disallow: /civilizations-voxelverse-nfts
 Disallow: /tv
