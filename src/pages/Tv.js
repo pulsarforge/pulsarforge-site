@@ -51,7 +51,8 @@ function Tv() {
               </div>
               <h3 style={{color: "#fff"}}>Rustacean 🦀 Streaming 19 April 2023 🤠</h3>
 
-              <br/>              
+              <br/> 
+              <h3 style={{color: "#fff"}}>Streams</h3>             
               <div style={{position: "relative", paddingTop: "56.25%"}}>
                 <iframe 
                   title="pulsarforge dance tutorials"
@@ -66,6 +67,7 @@ function Tv() {
               <h3 style={{color: "#fff"}}>Rustacean Stream 18 April 2023</h3>
               <br/>
 
+              <h3 style={{color: "#fff"}}>Recorded</h3>   
               <div style={{position: "relative", paddingTop: "56.25%"}}>
                 <iframe 
                   title="pulsarforge dance tutorials"
