@@ -49,7 +49,23 @@ function Tv() {
                 >
                 </iframe>
               </div>
-              <h3 style={{color: "#fff"}}>Rustacean 🦀 Streaming 18 April 2023 🤠</h3>
+              <h3 style={{color: "#fff"}}>Rustacean 🦀 Streaming 19 April 2023 🤠</h3>
+
+              <br/>              
+              <div style={{position: "relative", paddingTop: "56.25%"}}>
+                <iframe 
+                  title="pulsarforge dance tutorials"
+                  src={process.env.REACT_APP_VIDEO_RUSTACEANS_V001}
+                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
+                  allowFullScreen={true}
+                  loop={true}
+                >
+                </iframe>
+              </div>
+              <h3 style={{color: "#fff"}}>Rustacean Stream 18 April 2023</h3>
+              <br/>
+
               <div style={{position: "relative", paddingTop: "56.25%"}}>
                 <iframe 
                   title="pulsarforge dance tutorials"
