@@ -41,14 +41,6 @@
   },
   {
     "id": 6,
-    "title": "Developers",
-    "category": "web3",
-    "description": "Inursites",
-    "image": "images/works/inursites-logo.png",
-    "link": ["https://inursites.io/"]
-  },
-  {
-    "id": 7,
     "title": "Data Analytics",
     "category": "web3",
     "description": "Cryptoracle",
@@ -56,7 +48,7 @@
     "link": ["https://app.cryptoracle.io/"]
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Newsletter and Podcast",
     "category": "gardeners",
     "description": "Blocks Labs",
@@ -64,7 +56,7 @@
     "link": ["https://pulsarforge.substack.com/"]
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Achievements On Chain",
     "category": "web3",
     "description": "Well Done Flow",
@@ -72,7 +64,7 @@
     "link": ["https://well-done-flow.pages.dev/"]
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "DAOs",
     "category": "web3",
     "description": "DAO It Board",
@@ -80,7 +72,7 @@
     "link": ["https://dao-it-board.pages.dev/"]
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "NFTs Rarity Analyzer",
     "category": "web3",
     "description": "Collectibles Rarity",
@@ -88,7 +80,7 @@
     "link": ["https://collectiblesrarity.pulsarforge.workers.dev/"]
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Hackatons",
     "category": "web3",
     "description": "Board Hacks",
