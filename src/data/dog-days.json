@@ -43,5 +43,23 @@
     "filesource": "../../dogdays/back-to-dynosaurs-simple-age.md",
     "author": "Pulsarforge",
     "category": "Docs - 🦖"
+  },
+  {
+    "id": 6,
+    "title": "The Other Minds",
+    "description": "We are surrounded by intelligent living beings, It is a matter of notice it",
+    "image": "images/dog-days/the-other-minds.jpg",
+    "filesource": "../../dogdays/the-other-minds.md",
+    "author": "Pulsarforge",
+    "category": "Minds - 🧠"
+  },  
+  {
+    "id": 7,
+    "title": "Thinking Classrooms",
+    "description": "How to enable thinking in classrooms appliable to other life areas",
+    "image": "images/dog-days/thinking.png",
+    "filesource": "../../dogdays/thinking-classrooms.md",
+    "author": "Pulsarforge",
+    "category": "Thinking - ❔"
   }
 ]

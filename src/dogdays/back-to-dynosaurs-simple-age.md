@@ -12,7 +12,7 @@ Dynos were dark by default eons pass and dark dynos live in peace
 Until light dynos arrive, frying eyes, and imposing their ways
 They have to constanly convince themselfs, they are civilized, and blablabla
 
-( Pause to emoji them 🤣🤣🤣🤣 )
+( Pause to emoji them 🤣 )
 
 
 ## Long story short
@@ -23,8 +23,7 @@ To restore dynos to its original form
 2. Study, do notes, find and erase, while continously building
 3. Check package json and note sketchy dependencies, search where it is used and erase, finally erase dependency
 4. Study docusarus config js, erase miscellanous stuff
-5. Navigate throught files at src folder, tra tra 🎵🎵🎵🎵, sketchy scripts erase
+5. Navigate throught files at src folder, sketchy scripts erase
 6. Check docs folder
 
-Now your work It is done 
-💪🏿👴🏿💪🏿👴🏿💪🏿👴🏿💪🏿👴🏿
+Now your work It is done

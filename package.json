@@ -5,10 +5,6 @@
     "name": "pulsarforge",
     "url": "https://pulsarforge.io/"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pulsarforge/pulsarforge-site.git"
-  },
   "private": true,
   "devDependencies": {
     "@craco/craco": "^7.1.0",
@@ -30,10 +26,10 @@
     "sass": "^1.60.0"
   },
   "scripts": {
-    "afina-los-tambores": "craco start",
+    "start": "craco start",
     "build": "craco build",
     "build:prod": "craco build && javascript-obfuscator ./build --debug-protection true --output ./build",
-    "tambores-encendidos": "wrangler dev --local",
+    "dev": "wrangler dev --local",
     "deploy": "wrangler publish",
     "autodev": "yarn build & yarn tambores-encendidos",
     "autodev:prod": "yarn build:prod & yarn tambores-encendidos",

@@ -51,7 +51,7 @@
     "id": 7,
     "title": "Article",
     "category": "ai",
-    "description": "AI, code completions",
+    "description": "Code completions",
     "image": "images/dev-docs/ai-code-assistant-setup.jpg",
     "link": ["https://main.pulsarforge.io/docs/ai/code-completions/self-hosted"]
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "title": "Article",
     "category": "tools",
-    "description": "Package Managers, Chocolatey",
+    "description": "Package managers, chocolatey",
     "image": "images/dev-docs/chocolatey.jpg",
     "link": ["https://main.pulsarforge.io/docs/tools/chocolatey"]
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "title": "Article",
     "category": "ai",
-    "description": "AI, Leonardo image generation",
+    "description": "Leonardo image generation",
     "image": "images/dev-docs/ai-image-generation-leonardo.jpg",
     "link": ["https://main.pulsarforge.io/docs/ai/image-generation/leonardo-ai"]
   }

@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
 
 User-agent: AccompanyBot
 Disallow: /
@@ -81,51 +81,3 @@ Disallow: /
 
 User-agent: webgains-bot
 Disallow: /
-
-User-agent: BraveBot
-Allow: /
-Disallow: /dog-days
-Disallow: /civilizations-voxelverse-nfts
-Disallow: /tv
-
-User-agent: Googlebot
-Allow: /
-Disallow: /dog-days
-Disallow: /civilizations-voxelverse-nfts
-Disallow: /tv
-
-User-agent: Googlebot-Image
-Allow: /
-Disallow: /dog-days
-Disallow: /civilizations-voxelverse-nfts
-Disallow: /tv
-
-User-agent: Bingbot
-Allow: /
-Disallow: /dog-days
-Disallow: /civilizations-voxelverse-nfts
-Disallow: /tv
-
-User-agent: Baiduspider
-Allow: /
-Disallow: /dog-days
-Disallow: /civilizations-voxelverse-nfts
-Disallow: /tv
-
-User-agent: DuckDuckBot
-Allow: /
-Disallow: /dog-days
-Disallow: /civilizations-voxelverse-nfts
-Disallow: /tv
-
-User-agent: Twitterbot
-Allow: /
-Disallow: /dog-days
-Disallow: /civilizations-voxelverse-nfts
-Disallow: /tv
-
-User-agent: Discordbot
-Allow: /
-Disallow: /dog-days
-Disallow: /civilizations-voxelverse-nfts
-Disallow: /tv

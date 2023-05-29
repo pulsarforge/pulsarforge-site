@@ -3,9 +3,11 @@ import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
 import Pagetitle from "../components/elements/Pagetitle";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import DeveloperVideos from "../components/sections/DeveloperVideos";
 
 function Tv() {
   const [toggleMenu, setToggleMenu] = useState(false);
+
   const headerToggler = (e) => {
     e.preventDefault();
     setToggleMenu(!toggleMenu);
@@ -34,10 +36,17 @@ function Tv() {
         <div className="container">
           <div className="row blog-wrapper fix-spacing">
             <div className="page-title-center">
-              <img  src="/images/dog-streaming.jpg" style={{ height: "auto", width: "auto", borderRadius: "80px", marginBottom: "30px"}} alt="dog-streaming"/>
+              <img  src="/images/dog-streaming.jpg" style={{ height: "450px", width: "450px", borderRadius: "80px", marginBottom: "30px"}} alt="dog-streaming"/>
               <Pagetitle title="Live Streaming" />
-              <h2 style={{color: "#fff"}}> Wen? 📺</h2> 
-              <h2 style={{color: "#fff"}}>Soon 🚙</h2>
+              <h2 style={{color: "#fff"}}>You will find developer streams & recorded videos</h2>
+              <br/>
+              <h2 style={{color: "#fff"}}>Areas</h2>
+              <br/>
+              <h2 style={{color: "#fff"}}>Interfaces, Coordination, Communities</h2>
+              <h2 style={{color: "#fff"}}>Web3, AI, Rust, Javascript</h2>
+              <br/>
+              <br/>
+              <h3 style={{color: "#fff"}}>Streaming</h3>    
               <div style={{position: "relative", paddingTop: "56.25%"}}>
                 <iframe 
                   title="pulsarforge dance tutorials"
@@ -49,75 +58,9 @@ function Tv() {
                 >
                 </iframe>
               </div>
-              <h3 style={{color: "#fff"}}>Rustacean 🦀 Streaming 19 April 2023 🤠</h3>
-
-              <br/> 
-              <h3 style={{color: "#fff"}}>Streams</h3>             
-              <div style={{position: "relative", paddingTop: "56.25%"}}>
-                <iframe 
-                  title="pulsarforge dance tutorials"
-                  src={process.env.REACT_APP_VIDEO_RUSTACEANS_V001}
-                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
-                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
-                  allowFullScreen={true}
-                  loop={true}
-                >
-                </iframe>
-              </div>
-              <h3 style={{color: "#fff"}}>Rustacean Stream 18 April 2023</h3>
-              <br/>
-
-              <h3 style={{color: "#fff"}}>Recorded</h3>   
-              <div style={{position: "relative", paddingTop: "56.25%"}}>
-                <iframe 
-                  title="pulsarforge dance tutorials"
-                  src={process.env.REACT_APP_VIDEO_STORM_OBSERVER}
-                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
-                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
-                  allowFullScreen={true}
-                  loop={true}
-                >
-                </iframe>
-              </div>
-              <h3 style={{color: "#fff"}}>Storm Observer 🪐</h3>
-              <div style={{position: "relative", paddingTop: "56.25%"}}>
-                <iframe 
-                  title="pulsarforge dance tutorials"
-                  src={process.env.REACT_APP_VIDEO_BEARS_BALLET}
-                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
-                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
-                  allowFullScreen={true}
-                  loop={true}
-                >
-                </iframe>
-              </div>
-              <h3 style={{color: "#fff"}}>BEARS BALLET 🐻🐻</h3>
-              <div style={{position: "relative", paddingTop: "56.25%"}}>
-                <iframe 
-                  title="pulsarforge dance tutorials"
-                  src={process.env.REACT_APP_VIDEO_GUNSLINGER}
-                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
-                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
-                  allowFullScreen={true}
-                  loop={true}
-                >
-                </iframe>
-              </div>
-              <h3 style={{color: "#fff"}}>Gunslinger by real pancakes dance studio ⚔⚔⚔⚔</h3>
-              <div style={{position: "relative", paddingTop: "56.25%"}}>
-                <iframe 
-                  title="pulsarforge tv"
-                  src={process.env.REACT_APP_VIDEO_TREASURE}
-                  style={{border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%"}} 
-                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" 
-                  allowFullScreen={true}
-                  loop={true}
-                >
-                </iframe>
-              </div>
-              <h3 style={{color: "#fff"}}>Tokenomics backed by cheese standard 🧀🧀🧀🧀</h3>
-              <br/>
-              <br/>
+              <br/>  
+              <br/>         
+                <DeveloperVideos/>
               <br/>
               <br/>
             </div>

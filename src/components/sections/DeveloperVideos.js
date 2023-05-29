@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Pagetitle from "../elements/Pagetitle";
 import Showcase from "../elements/Showcase";
-import ShipperJson from "../../data/shippers.json";
-import ShipperFiltersJson from "../../data/shippers-filters.json";
+import DevVideos from "../../data/dev-videos.json";
+import DevVideosFiltersJson from "../../data/dev-videos-filters.json";
 
-function Shippers() {
-  const allData = ShipperJson;
-  const filters = ShipperFiltersJson;
+function DeveloperVideos() {
+  const allData = DevVideos;
+  const filters = DevVideosFiltersJson;
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(12);
+  const [dataVisibleCount, setDataVisibleCount] = useState(20);
   const [dataIncrement] = useState(12);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
@@ -64,7 +64,7 @@ function Shippers() {
         }}
       >
           <a className="navigate-link" href="#making-the-difference">
-            <Pagetitle title="Be a shipper" />
+            <Pagetitle title="Knowledge" />
           </a>
           <ul className="portfolio-filter list-inline">
             {filters.map((filter) => (
@@ -110,4 +110,4 @@ function Shippers() {
   );
 }
 
-export default Shippers;
+export default DeveloperVideos;

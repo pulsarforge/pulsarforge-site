@@ -32,8 +32,8 @@ function Gardens() {
           ))}
           </ul>
           <p style={{ fontSize: 30 }}>2023</p>
-          <p style={{ color: "#39d353", fontSize: 30, fontWeight: "bold" }}>So far 592</p>
-          <p style={{ color: "#006d32", fontSize: 30, }}>Quote registry, turtle soon </p>
+          <p style={{ color: "#39d353", fontSize: 30, fontWeight: "bold" }}>So far 908</p>
+          <p style={{ color: "#006d32", fontSize: 30, }}>Quote registry, turtle soon</p>
         </div>
       </div>
     </section>

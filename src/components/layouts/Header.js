@@ -79,6 +79,12 @@ function Header({ light, logoSource }) {
                 <span><Sound url="/sounds/4x4.mp3" textInit="📺" textAfter="🚙" /></span>
               </li>
               <li className="nav-item">
+                <a className="nav-link side-by-side" href="/dog-days">
+                  <h5>Days</h5>
+                </a>
+                <span><Sound url="/sounds/parrots.mp3" textInit="🌞" textAfter="🌟" /></span>
+              </li>
+              <li className="nav-item">
                 <a
                   className="nav-link side-by-side"
                   href="https://discord.com/invite/4mXg6QSyY8"
