@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="civilizations-voxelverse-nfts" element={<CivilizationsVoxelverse />} />
+        <Route path="civilizations-voxelverse" element={<CivilizationsVoxelverse />} />
         <Route path="tv" element={<Tv />}  />
         <Route path="dog-days" element={<DogDays />} />
         <Route path="dog-days/:id/:title" element={<Articles />} />

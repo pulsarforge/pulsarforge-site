@@ -10,7 +10,7 @@ Exploring shapes
 
 
 ## Travel into the Voxelverse Exoplanets
-[Explore the Voxelverse](https://pulsarforge.io/civilizations-voxelverse-nfts)
+[Explore the Voxelverse](https://pulsarforge.io/civilizations-voxelverse)
 
 
 ## Topics and Explorations

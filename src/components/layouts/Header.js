@@ -67,7 +67,7 @@ function Header({ light, logoSource }) {
                 <span><Sound url="/sounds/gorila.mp3" textInit="🦍" textAfter="💻" /></span>
               </li>
               <li className="nav-item">
-                <a className="nav-link side-by-side" href="/civilizations-voxelverse-nfts">
+                <a className="nav-link side-by-side" href="/civilizations-voxelverse">
                   <h5>Space</h5>
                 </a>
                 <span><Sound url="/sounds/space.mp3" textInit="🌌" textAfter="🪐" /></span>
