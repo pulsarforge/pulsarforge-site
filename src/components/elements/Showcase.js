@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 
 function Showcase({ portfolio }) {
-  const { id, category, title, image, popupLink, link, description, text } = portfolio;
+  const { category, title, image, popupLink, link, description, text } = portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -27,7 +27,6 @@ function Showcase({ portfolio }) {
           </div>
           <div className="thumb">
             <img className="zoom-image" src={image} alt="" />
-            {popupLink && <h2>#{id - 1}</h2>}
             <h2>{description}</h2>
             <p>{text}</p>
           </div>

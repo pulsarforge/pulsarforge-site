@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Category",
+    "title": "Category Reactjs",
     "category": "front",
     "description": "Reactjs",
     "image": "images/dev-docs/category/reactjs-reimagined.jpg",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "title": "Category",
+    "title": "Category Rust",
     "category": "rust",
     "description": "Rustaceans",
     "image": "images/dev-docs/category/rustaceans-harvesting-v2.jpg",
@@ -17,38 +17,6 @@
   },
   {
     "id": 3,
-    "title": "Category",
-    "category": "web3",
-    "description": "Near",
-    "image": "images/dev-docs/category/near.png",
-    "link": ["https://main.pulsarforge.io/docs/category/near"]
-  },
-  {
-    "id": 4,
-    "title": "Category",
-    "category": "back",
-    "description": "Cloudflare",
-    "image": "images/dev-docs/category/cloudflare.jpg",
-    "link": ["https://main.pulsarforge.io/docs/category/cloudflare"]
-  },
-  {
-    "id": 5,
-    "title": "Category",
-    "category": "web3",
-    "description": "Aurora",
-    "image": "images/dev-docs/category/aurora.jpg",
-    "link": ["https://main.pulsarforge.io/docs/category/aurora"]
-  },
-  {
-    "id": 6,
-    "title": "Category",
-    "category": "web3",
-    "description": "Flow",
-    "image": "images/dev-docs/category/flow.png",
-    "link": ["https://main.pulsarforge.io/docs/category/flow"]
-  },
-  {
-    "id": 7,
     "title": "Article",
     "category": "ai",
     "description": "Code completions",
@@ -56,21 +24,55 @@
     "link": ["https://main.pulsarforge.io/docs/ai/code-completions/self-hosted"]
   },
   {
-    "id": 8,
-    "title": "Article",
-    "category": "tools",
-    "description": "Package managers, chocolatey",
-    "image": "images/dev-docs/chocolatey.jpg",
-    "link": ["https://main.pulsarforge.io/docs/tools/chocolatey"]
-  },
-  {
-    "id": 9,
+    "id": 4,
     "title": "Article",
     "category": "tools",
     "description": "Understand and research codebases",
     "image": "images/dev-docs/research-large-codebases.jpg",
     "link": ["https://main.pulsarforge.io/docs/tools/sourcegraph"]
   },
+  {
+    "id": 5,
+    "title": "Category NEAR Protocol",
+    "category": "web3",
+    "description": "Near",
+    "image": "images/dev-docs/category/near.png",
+    "link": ["https://main.pulsarforge.io/docs/category/near"]
+  },
+  {
+    "id": 6,
+    "title": "Category Cloudflare",
+    "category": "back",
+    "description": "Cloudflare",
+    "image": "images/dev-docs/category/cloudflare.jpg",
+    "link": ["https://main.pulsarforge.io/docs/category/cloudflare"]
+  },
+  {
+    "id": 7,
+    "title": "Category Aurora",
+    "category": "web3",
+    "description": "Aurora",
+    "image": "images/dev-docs/category/aurora.jpg",
+    "link": ["https://main.pulsarforge.io/docs/category/aurora"]
+  },
+  {
+    "id": 8,
+    "title": "Category OnFlow",
+    "category": "web3",
+    "description": "Flow",
+    "image": "images/dev-docs/category/flow.png",
+    "link": ["https://main.pulsarforge.io/docs/category/flow"]
+  },
+
+  {
+    "id": 9,
+    "title": "Article",
+    "category": "tools",
+    "description": "Package managers, chocolatey",
+    "image": "images/dev-docs/chocolatey.jpg",
+    "link": ["https://main.pulsarforge.io/docs/tools/chocolatey"]
+  },
+
   {
     "id": 10,
     "title": "Article",

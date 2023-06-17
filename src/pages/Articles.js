@@ -39,7 +39,7 @@ function Articles() {
   return (
     <>
       <Header
-        logoSource="/images/pulsarforge-logo-font.png"
+        logoSource="/images/logo.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />

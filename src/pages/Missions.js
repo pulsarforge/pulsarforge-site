@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
-import Pagetitle from "../elements/Pagetitle";
-import Showcase from "../elements/Showcase";
-import DevDocsJson from "../../data/dev-docs.json";
-import DevDocsFiltersJson from "../../data/dev-docs-filters.json";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import Header from "../components/layouts/Header";
+import Pagetitle from "../components/elements/Pagetitle";
+import Showcase from "../components/elements/Showcase";
+import CivilizationsFiltersJson from "../data/missions-filters.json";
+import CivilizationsJson from "../data/missions.json";
+import Footer from "../components/layouts/Footer";
 
-function DevDocs() {
-  const allData = DevDocsJson;
-  const filters = DevDocsFiltersJson;
-  const allDataLength = DevDocsJson.length;
+function Missions() {
+  const filters = CivilizationsFiltersJson;
+  const allData = CivilizationsJson;
+  const allDataLength = CivilizationsJson.length;
   const [getAllItems] = useState(allData);
   const [dataVisibleCount, setDataVisibleCount] = useState(allDataLength);
   const [dataIncrement] = useState(allDataLength);
@@ -18,7 +21,7 @@ function DevDocs() {
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
     setVisibleItems(getAllItems.filter((item) => item.id <= 8));
-  }, [getAllItems, filters]);
+  }, [filters, getAllItems]);
 
   const handleChange = (e) => {
     e.preventDefault();
@@ -56,19 +59,25 @@ function DevDocs() {
   };
 
   return (
-    <section id="dev-docs">
-      <div
-        style={{
-          paddingLeft: "30px",
-          paddingRight: "30px",
-          marginTop: "100px",
-          marginBottom: "100px",
-        }}
-      >
-          <a className="navigate-link" href="#footer">
-            <Pagetitle title="Dev Docs" />
-          </a>
-          <ul className="portfolio-filter list-inline">
+    <>
+      <HelmetProvider>
+        <Helmet>
+          <title>Life Events ✨</title>
+          <meta name="description" content="Complete a life event, join the community, proof and claim"/>
+        </Helmet>
+      </HelmetProvider>
+      <Header logoSource="/images/logo.png" />
+      <main>
+          <div className="page-title-center-maring-top">
+            <Pagetitle title="Missions, NFTs Memories, and Life Events" />
+            <Pagetitle title="Join the community, proof and claim your Life Events, on chain" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <ul className="portfolio-filter list-inline filters-voxelverse-position">
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>
                 <button
@@ -85,7 +94,10 @@ function DevDocs() {
               </li>
             ))}
           </ul>
-        <div className="row portfolio-wrapper">
+        <div
+          className="row portfolio-wrapper"
+          style={{ paddingLeft: "15px", paddingRight: "15px" }}
+        >
           {visibleItems.map((item) => (
             <div className="col-md-3 col-sm-6 grid-item" key={item.id}>
               <Showcase portfolio={item} />
@@ -99,17 +111,22 @@ function DevDocs() {
             disabled={noMorePost ? "disabled" : null}
           >
             {noMorePost ? (
-              "Path registries 😎😎😎😎 long game"
+              "That's how we do 🤠🤠🤠🤠"
             ) : (
               <span>
-                <i className="fas fa-spinner"></i> Enhance Knowledge
+                <i className="fas fa-spinner"></i> Complete them and Claim them on NEAR
               </span>
             )}
           </button>
         </div>
-      </div>
-    </section>
+        <br />
+        <br />
+        <br />
+        <br />
+      </main>
+      <Footer />
+    </>
   );
 }
 
-export default DevDocs;
+export default Missions;

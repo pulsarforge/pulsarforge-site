@@ -6,7 +6,8 @@ function Footer({ light }) {
       <div className="container">
         <a className="navigate-link" href="#vibes">
           <h5 className="copyright">
-          &copy; {new Date().getFullYear()} Pulsarforge all rights reserved
+            
+          &copy; {new Date().getFullYear()} and beyond <img src="/images/pulsarforge-logo-font.png" alt="Pulsarforge Letter Logo" /> all rights reserved
           </h5>
         </a>
       </div>

@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Estonia Dream Travel",
-    "description": "Cities, towns and forests I want to explore in Estonia",
+    "description": "Cities, towns, and forests I am going to explore near Tallinn in Estonia",
     "image": "images/dog-days/estonia-sphere.jpg",
     "filesource": "../../dogdays/estonia-dream-travel.md",
     "author": "Pulsarforge",
@@ -61,5 +61,14 @@
     "filesource": "../../dogdays/thinking-classrooms.md",
     "author": "Pulsarforge",
     "category": "Thinking - ❔"
+  }, 
+  {
+    "id": 8,
+    "title": "Resources to Teach Code",
+    "description": "Books, curriculums built by teachers, techs, abstractions, and extra notes",
+    "image": "images/dog-days/teaching-code.jpg",
+    "filesource": "../../dogdays/awesome-resources-to-teach-programming.md",
+    "author": "Pulsarforge",
+    "category": "Teaching Code - 💻"
   }
 ]

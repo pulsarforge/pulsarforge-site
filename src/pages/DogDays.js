@@ -15,7 +15,7 @@ function DogDays() {
   const [quotes, setQuotes] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
-  const [postsPerPage] = useState(4);
+  const [postsPerPage] = useState(12);
 
   useEffect(() => {
     setPosts(allBlogs);
@@ -60,7 +60,7 @@ function DogDays() {
         </Helmet>
       </HelmetProvider>
       <Header
-        logoSource="/images/pulsarforge-logo-font.png"
+        logoSource="/images/logo.png"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
@@ -74,8 +74,15 @@ function DogDays() {
                   <img  src="/images/dog-blog-we-are-early.jpg" style={{ height: "auto", width: "auto", borderRadius: "80px", marginBottom: "30px"}} alt="dog-streaming"/>
                   <p style={{fontSize: "22px"}}>{quotes[currentQuoteIndex]}</p>
                 </div>
+                <br />
+                <br />
                 <Pagetitle title="Personal Dog Blog" />
+                <br />
+                <br />
+                <br />
+                <br />
               </div>
+
               {currentPosts.map((blogItem) => (
                 <div className="col-md-3" key={blogItem.id}>
                   <DogDay blogData={blogItem} />

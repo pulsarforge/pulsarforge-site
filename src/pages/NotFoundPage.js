@@ -6,7 +6,7 @@ function NotFoundPage() {
 
   return (
     <>
-      <Header logoSource="/images/pulsarforge-logo-font.png" />
+      <Header logoSource="/images/logo.png" />
       <section
         className="home d-flex align-items-center"
       >

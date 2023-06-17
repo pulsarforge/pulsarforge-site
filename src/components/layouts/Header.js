@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Player from "../elements/Player";
-import Sound from "../elements/Sound";
 
 function Header({ light, logoSource }) {
   const [toggleNavbar, setToggleNavbar] = useState(false);
@@ -36,7 +35,7 @@ function Header({ light, logoSource }) {
             type="button"
             onClick={handleMobilenav}
           >
-            <span>🐶</span>
+            <span>🦦</span>
           </button>
           <div
             className={
@@ -49,7 +48,7 @@ function Header({ light, logoSource }) {
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <img style={{width: "310px"}} src={logoSource} alt="Pulsarforge" />
+                  <img style={{width: "77px"}} src={logoSource} alt="Pulsarforge" />
                 </a>
               </li>
             </ul>
@@ -58,31 +57,26 @@ function Header({ light, logoSource }) {
                 <a className="nav-link side-by-side" href="/">
                   <h5>Labs</h5>
                 </a>
-                <span><Sound url="/sounds/cowboy.mp3" textInit="🤠" textAfter="🎯" /></span>
               </li>
               <li className="nav-item">
-                <a className="nav-link side-by-side" href="/#dev-docs">
-                  <h5>Docs</h5>
+                <a className="nav-link side-by-side" href="/missions">
+                  <h5>Missions</h5>
                 </a>
-                <span><Sound url="/sounds/gorila.mp3" textInit="🦍" textAfter="💻" /></span>
               </li>
               <li className="nav-item">
                 <a className="nav-link side-by-side" href="/civilizations-voxelverse">
                   <h5>Space</h5>
                 </a>
-                <span><Sound url="/sounds/space.mp3" textInit="🌌" textAfter="🪐" /></span>
               </li>
               <li className="nav-item">
                 <a className="nav-link side-by-side" href="/tv">
                   <h5>TV</h5>
                 </a>
-                <span><Sound url="/sounds/4x4.mp3" textInit="📺" textAfter="🚙" /></span>
               </li>
               <li className="nav-item">
                 <a className="nav-link side-by-side" href="/dog-days">
                   <h5>Days</h5>
                 </a>
-                <span><Sound url="/sounds/parrots.mp3" textInit="🌞" textAfter="🌟" /></span>
               </li>
               <li className="nav-item">
                 <a
@@ -93,7 +87,6 @@ function Header({ light, logoSource }) {
                 >
                   <h5>Community</h5>
                 </a>
-                <span><Sound url="/sounds/swimming.mp3" textInit="🦦" textAfter="🐋" /></span>
               </li>
             </ul>
             <ul className="navbar-nav mx-auto ml-auto scrollspy">

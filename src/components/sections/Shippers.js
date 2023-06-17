@@ -7,9 +7,10 @@ import ShipperFiltersJson from "../../data/shippers-filters.json";
 function Shippers() {
   const allData = ShipperJson;
   const filters = ShipperFiltersJson;
+  const allDataLength = ShipperJson.length;
   const [getAllItems] = useState(allData);
-  const [dataVisibleCount, setDataVisibleCount] = useState(12);
-  const [dataIncrement] = useState(12);
+  const [dataVisibleCount, setDataVisibleCount] = useState(allDataLength);
+  const [dataIncrement] = useState(allDataLength);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
   const [noMorePost, setNoMorePost] = useState(false);
@@ -100,7 +101,7 @@ function Shippers() {
               "Shipping code in progress 🥞🥞🥞🥞 wait for it"
             ) : (
               <span>
-                <i className="fas fa-spinner"></i> Discover more
+                <i className="fas fa-spinner"></i> Planets Builder
               </span>
             )}
           </button>

@@ -1,17 +1,37 @@
 [
     {
-        "id": 0,
-        "year": "Previously",
-        "totalContributions": "Contributing at startups and companies"
-    },
-    {
         "id": 1,
-        "year": "2022",
-        "totalContributions": "706"
+        "year": "Previously",
+        "totalContributions": "Jobs plus enhance dev skills",
+        "soundUrl": "/sounds/parrots.mp3",
+        "afterText": "🦜"
     },
     {
         "id": 2,
+        "year": "2017-2020",
+        "totalContributions": "Works at multinationals",
+        "soundUrl": "/sounds/4x4.mp3",
+        "afterText": "🚙"
+    },
+    {
+        "id": 3,
+        "year": "2021",
+        "totalContributions": "Init self projects",
+        "soundUrl": "/sounds/gorila.mp3",
+        "afterText": "🦍"
+    },
+    {
+        "id": 4,
+        "year": "2022",
+        "totalContributions": "Works at web3",
+        "soundUrl": "/sounds/cowboy.mp3",
+        "afterText": "🤠"
+    },
+    {
+        "id": 5,
         "year": "2023",
-        "totalContributions": "592"
+        "totalContributions": "Scaling Platforms",
+        "soundUrl": "/sounds/space.mp3",
+        "afterText": "🌌"
     }
 ]

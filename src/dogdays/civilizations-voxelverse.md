@@ -2,11 +2,12 @@
 
 **World Building**
 
-Art
+Art - Hand Crafted Pieces - Each detail, colour, light, material type is selected, iterated and polished it. 
+Some of the pieces took days to finish, while others took hours.
 
-Storytelling
+Storytelling - Planet - Type of society - Main Character (Party animals) living his or her adventure.
 
-Exploring shapes
+Exploring shapes, pushing voxels to the limit.
 
 
 ## Travel into the Voxelverse Exoplanets
@@ -15,7 +16,7 @@ Exploring shapes
 
 ## Topics and Explorations
 
-Exoplanets, Homes, Party Animals
+Exoplanets, Homes, Party Animals.
 
 Enjoy this travel, discovering the connections and mysteries at the local celebrations and parties throughout the Voxelverse
 
@@ -23,6 +24,4 @@ Enjoy this travel, discovering the connections and mysteries at the local celebr
 **World buidlers creators your time is now**
 
 
-### "Their fates are in your hands"
-
-Write their history here ---- >>>>
+#### "The civilizations fates are in your hands"

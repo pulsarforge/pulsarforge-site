@@ -97,7 +97,7 @@ A buddy is assigned to each of them, the buddy will help in the integration and 
 Once is all going on, Phil and Claire has assisted to the weekly town hall and to the meetings with the team they were assigned to
 They start Contributing We have a set of repositories for practice but overall We encourage, get into the real flow with the actual ongoing projects They choose this second option
 
-So,Claire read about the past experiences in product management, We documented about and for the current project implement a set of guidelines based on the past experiences and having in mind the actual context, and for Phil We have some mockups ready for fill to transform into a website
+Claire read about the past experiences in product management, We documented about and for the current project implement a set of guidelines based on the past experiences and having in mind the actual context, and for Phil We have some mockups ready for fill to transform into a website
 
 Phil who has also good skills at copywriting and some extra time, decide to take on the task of resume with notes each town hall and sent a weekly or by weekly newsletter
 

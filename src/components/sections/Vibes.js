@@ -1,11 +1,6 @@
-import React, { useState } from "react";
-
+import React from "react";
 function Vibes() {
-  const [isOpened, setIsOpened] = useState(false);
 
-  function toggle() {
-    setIsOpened((wasOpened) => !wasOpened);
-  }
 
   return (
     <section
@@ -23,25 +18,11 @@ function Vibes() {
         }}
       >
         <div className="intro-logo">
-          <button
-            onClick={toggle}
-            style={{ background: "transparent", border: "none", fontSize: 0 }}
-          >
             <img
               src="images/logo.png"
               alt="Pulsarforge"
-              style={{ width: "40%" }}
+              style={{ width: "18%"}}
             />
-          </button>
-          {isOpened ? (
-            <img
-              src="/images/energy-loop.gif"
-              alt="Energy"
-              className="logo-back-energy"
-            />
-          ) : (
-            <></>
-          )}
         </div>
         <div className="intro">
           <a className="navigate-link" href="#code-gardens">

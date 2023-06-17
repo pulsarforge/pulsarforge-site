@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "GitHub",
-    "category": "gardeners",
+    "category": "gardening",
     "description": "Pulsarforge",
     "image": "images/works/pulsar-forge.png",
     "link": ["https://github.com/pulsarforge/"]
@@ -10,8 +10,8 @@
   {
     "id": 2,
     "title": "Path Registries",
-    "category": "gardeners",
-    "description": "Devs Docs",
+    "category": "gardening",
+    "description": "Dev Docs",
     "image": "images/works/devs-docs.png",
     "link": ["https://main.pulsarforge.io/"]
   },
@@ -30,14 +30,14 @@
     "description": "Civilizations Voxelverse",
     "image": "images/works/light-travel-round.png",
     "link": ["/civilizations-voxelverse"]
-  },
+  },  
   {
     "id": 5,
-    "title": "Pura Energia Concentrada",
-    "category": "gardeners",
-    "description": "Isla Smoothies",
-    "image": "images/works/isla-smoothies.png",
-    "link": ["https://isla-smoothies.pages.dev/"]
+    "title": "Newsletter and Podcast",
+    "category": "gardening",
+    "description": "Blocks Labs",
+    "image": "images/works/blocks-labs-v.png",
+    "link": ["https://pulsarforge.substack.com/"]
   },
   {
     "id": 6,
@@ -49,11 +49,11 @@
   },
   {
     "id": 7,
-    "title": "Newsletter and Podcast",
-    "category": "gardeners",
-    "description": "Blocks Labs",
-    "image": "images/works/blocks-labs-v.png",
-    "link": ["https://pulsarforge.substack.com/"]
+    "title": "Pura Energia Concentrada",
+    "category": "gardening",
+    "description": "Isla Smoothies",
+    "image": "images/works/isla-smoothies.png",
+    "link": ["https://isla-smoothies.pages.dev/"]
   },
   {
     "id": 8,

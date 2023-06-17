@@ -7,6 +7,7 @@ import Articles from "./pages/Articles";
 import Tv from "./pages/Tv";
 import NotFoundPage from "./pages/NotFoundPage";
 import "./App.scss";
+import Missions from "./pages/Missions";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="missions" element={<Missions />} />
         <Route path="civilizations-voxelverse" element={<CivilizationsVoxelverse />} />
         <Route path="tv" element={<Tv />}  />
         <Route path="dog-days" element={<DogDays />} />

@@ -20,7 +20,7 @@ function Home() {
           <meta name="description" content="Web3 Labs. Code Garden. Playground. Community. Shipping Projects"/>
         </Helmet>
       </HelmetProvider>
-      <Header logoSource="/images/pulsarforge-logo-font.png" />
+      <Header logoSource="/images/logo.png" />
       <main className="content-3">
         <Element name="vibes">
           <Vibes />
