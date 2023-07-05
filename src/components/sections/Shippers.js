@@ -58,14 +58,15 @@ function Shippers() {
   return (
     <section id="passion-projects">
       <div
+        className="page-title-center"
         style={{
           paddingLeft: "30px",
           paddingRight: "30px",
           marginTop: "100px",
         }}
       >
-          <a className="navigate-link" href="#making-the-difference">
-            <Pagetitle title="Be a shipper" />
+          <a className="navigate-link" href="#dog-days">
+            <Pagetitle title="Platforms & Products = Passion Projects" />
           </a>
           <ul className="portfolio-filter list-inline">
             {filters.map((filter) => (

@@ -12,7 +12,7 @@ function DogDay({ blogData }) {
   return (
     <>
       <div className="blog-item rounded shadow-dark" style={{backgroundColor: "#fff"}}>
-        <Link to={`${id}/${getNospaceTitle(filesource)}`}>
+        <Link to={`/dog-days/${id}/${getNospaceTitle(filesource)}`}>
           <div className="thumb">
             <span className="category">{category}</span>
             <img src={image} alt="blog-title" />

@@ -55,27 +55,22 @@ function Header({ light, logoSource }) {
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
               <li className="nav-item">
                 <a className="nav-link side-by-side" href="/">
-                  <h5>Labs</h5>
+                  <h5>HomeLabs</h5>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link side-by-side" href="/skills">
+                  <h5>LevelUp</h5>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link side-by-side" href="/civilizations-voxelverse">
+                  <h5>Voxelverse</h5>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link side-by-side" href="/missions">
                   <h5>Missions</h5>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link side-by-side" href="/civilizations-voxelverse">
-                  <h5>Space</h5>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link side-by-side" href="/tv">
-                  <h5>TV</h5>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link side-by-side" href="/dog-days">
-                  <h5>Days</h5>
                 </a>
               </li>
               <li className="nav-item">

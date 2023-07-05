@@ -4,17 +4,6 @@ Sometimes you want to read docs with dark mode, other times you want to read doc
 
 Let's travel to a time when dynos were dynos and not anything else, those simple times
 
-
-## At the beginning
-
-Dynos were dark by default eons pass and dark dynos live in peace
-
-Until light dynos arrive, frying eyes, and imposing their ways
-They have to constanly convince themselfs, they are civilized, and blablabla
-
-( Pause to emoji them 🤣 )
-
-
 ## Long story short
 
 To restore dynos to its original form

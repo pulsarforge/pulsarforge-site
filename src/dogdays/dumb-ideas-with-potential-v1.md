@@ -6,14 +6,10 @@
 A landscape of projects to flex my code muscles, and business skills
 
 
-Run a set of websites dev & design implementations
-
-1. Tradition
-2. Innovate
-3. Flowing
+Homes crafter - Land Experiences Creator.
 
 
-## Dog tasks
+## Dog Backlog
 
 
 ...
@@ -30,7 +26,7 @@ Done
 
 ...
 
-Set up keyboard navigation
+Keyboard navigation
 
 Done
 
@@ -38,13 +34,41 @@ Done
 
 Easter eggs
 
-Done
+Always in progress
 
 ...
 
 GitHub actions
 
-Done
+Nice automations
+
+...
+
+Developer video content
+
+Started Congrats!
+
+...
+
+Superset
+
+Playground set up
+
+...
+
+Voxelverse
+
+Enhanced
+
+...
+
+Rust
+
+Mastering it
+
+...
+
+Map Interactive
 
 ...
 
@@ -53,10 +77,6 @@ React components bookshelf
 ...
 
 NPM packages
-
-...
-
-JS libs
 
 ...
 
@@ -70,4 +90,4 @@ Dumb Ideas with Potential VNº
 
 On going
 
-V1, V2, V3, v4 They work independently and leveraging the strenghts of each others 
+V1, V2, V3, v4... They work independently and leveraging the strenghts of each others 

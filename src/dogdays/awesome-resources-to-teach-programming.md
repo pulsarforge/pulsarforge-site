@@ -2,7 +2,7 @@
 
 1. Books: 
     - Building Thinking Classrooms in Mathemathics by Peter Liljedahl
-        - Note: Appliable to physical spaces - classrooms, the research there can be expansed to other areas as code - programming.
+        - Note: Appliable to physical spaces - classrooms, the research there can be expansed to other areas as code - programming
 
 2. Techs: 
     - Replit. Multiplayer IDE, Runnable Code Snippets, It has also features for teachers, and at the pro plan there is an LLM AI. [Replit Youtube Channel](https://www.youtube.com/@replit)

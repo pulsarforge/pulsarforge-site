@@ -9,6 +9,7 @@ function Gardens() {
   return (
     <section id="code-gardens">
       <div
+        className="page-title-center"
         style={{
           paddingLeft: "30px",
           paddingRight: "30px",
@@ -16,12 +17,12 @@ function Gardens() {
         }}
       >
         <a className="navigate-link" href="#passion-projects">
-          <Pagetitle title="Open code gardens" />
+          <Pagetitle title="The Highlights & Open code garden" />
         </a>
       </div>
       <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
-        <div className="row align-items-center" style={{color: "#26a641"}}>
-          <p style={{ color: "#fff", fontSize: 30 }}>@pulsarforge timeline</p>
+        <div className="row align-items-center page-title-center" style={{color: "#26a641"}}>
+          <p style={{ color: "#fff", fontSize: 30, marginBottom: 100 }}>@pulsarforge at GitHub, Highlights, Open Source</p>
           <ul style={{ fontWeight: "bold" }}>
           {allData.map((data) => (
             <li className="list-inline-item" style={{ paddingLeft: "42px", paddingRight: "42px" }} key={data.id}>

@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import CivilizationsVoxelverse from "./pages/CivilizationsVoxelverse";
 import DogDays from "./pages/DogDays";
 import Articles from "./pages/Articles";
-import Tv from "./pages/Tv";
+import Skill from "./pages/Skills";
 import NotFoundPage from "./pages/NotFoundPage";
 import "./App.scss";
 import Missions from "./pages/Missions";
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="missions" element={<Missions />} />
         <Route path="civilizations-voxelverse" element={<CivilizationsVoxelverse />} />
-        <Route path="tv" element={<Tv />}  />
+        <Route path="skills" element={<Skill />}  />
         <Route path="dog-days" element={<DogDays />} />
         <Route path="dog-days/:id/:title" element={<Articles />} />
         <Route path="*" element={<NotFoundPage />} />

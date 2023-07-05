@@ -69,8 +69,15 @@ function Missions() {
       <Header logoSource="/images/logo.png" />
       <main>
           <div className="page-title-center-maring-top">
+            
             <Pagetitle title="Missions, NFTs Memories, and Life Events" />
-            <Pagetitle title="Join the community, proof and claim your Life Events, on chain" />
+            <Pagetitle title="Your Inmutable Proof of Achievements" />
+            <Pagetitle title="WOAPs" />
+            <ul>
+              <li className="list-inline-item" >
+                <img src="/images/summer-dog.jpg" alt="summer-dog" style={{ borderRadius: 60, width: 400}}/>
+              </li>
+            </ul>
           </div>
           <br />
           <br />

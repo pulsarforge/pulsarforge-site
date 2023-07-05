@@ -1,11 +1,17 @@
 # Estonia Dream Travel
 
 I started researching about Estonia a while ago, and visualize myself travelling there, and who knows maybe living there at least for some time
+[Visit Estonia your site of Reference](https://www.visitestonia.com/en)
 
 ## Business Ecosystem
 
 Pretty damn awesome, it is thriving and people from around the globe are creating a wide range of business from small ones to unicorns, while using secure, enjoyable and all digital infrastructure, and yes, remote
 
+## Cities
+Tallinn, Tartu and at least two towns
+
+## Music
+Depending on the season assist to a music festival or similar
 
 ## National Parks
 I like hiking so let the videos speak for themselves

@@ -6,7 +6,7 @@
     "content": [
       {
         "id": 1,
-        "text": "Enhance your existing project to make it easy to use, engaging, shareable and tailored to your public"
+        "text": "Enhancing your existing project to make it easy to use, engaging, shareable and tailored to your public, plus low and high fidelity figma mockups"
       }
     ],
     "cta": "Level up your game",
@@ -15,12 +15,12 @@
   },
   {
     "id": 2,
-    "title": "Reactjs Web Development",
+    "title": "Reactjs Home Crafter",
     "icon": "images/reactjs.png",
     "content": [
       {
         "id": 0,
-        "text": "Reliable outstanding websites, connecting with the users while reflecting the essence of the project, culture, team, field"
+        "text": "Outstanding websites, homes crafted to connect with your public and keep them coming regularly, while reflecting the essence of your culture and field a true experience"
       }
     ],
     "cta": "Get ahead your brand",
@@ -34,7 +34,7 @@
     "content": [
       { 
           "id": 1, 
-          "text": "Docs, CI/CD, APIs Swagger Rest and GraphQL, DBs PostgreSQL and MongoDB, Web3 Techs" 
+          "text": "Enabling Docs, Setup CI/CD, Integrating APIs and Databases as PostgreSQL and MongoDB, expanse with Ecommerce and Web3 features" 
       }
     ],
     "cta": "Scale your project",

@@ -9,14 +9,15 @@ function MakingTheDifferences() {
   return (
     <section id="making-the-difference">
       <div
+        className="page-title-center"
         style={{
           paddingLeft: "30px",
           paddingRight: "30px",
           marginTop: "100px",
         }}
       >
-        <a className="navigate-link" href="#dev-docs">
-          <Pagetitle title="Making the difference" />
+        <a className="navigate-link" href="#dog-days">
+          <Pagetitle title="Full Stack Making the Difference" />
         </a>
         <div className="row align-items-center">
           {servicesData.map((servicebox) => (
