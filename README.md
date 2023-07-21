@@ -1,7 +1,9 @@
 # Home developer labs by Pulsar Forge
 
 Home crafter & gardener.
+
 Otter: researching / exploring / implementing / scaling.
+
 Areas: Web development, ux, ui, ci/cd, web3, data, rust.
 
 
