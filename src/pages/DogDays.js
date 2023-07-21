@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import Header from "../components/layouts/Header";
-import DogDay from "../components/elements/DogDay";
+import { NextSeo } from 'next-seo';
+
 import Pagetitle from "../components/elements/Pagetitle";
 import Pagination from "../components/elements/Pagination";
 import DogDaysJson from "../data/dog-days.json";
 import DogQuotesJson from "../data/dog-quotes.json";
-import Footer from "../components/layouts/Footer";
+import DogDaysElement from "@/components/elements/DogDays";
+
 
 function DogDays() {
   const allBlogs = DogDaysJson;
@@ -34,61 +34,76 @@ function DogDays() {
     setCurrentPage(pageNumber);
   };
 
-  const [toggleMenu, setToggleMenu] = useState(false);
-
-  const headerToggler = (e) => {
-    e.preventDefault();
-    setToggleMenu(!toggleMenu);
-  };
-
-  document.addEventListener("click", function (e) {
-    if (e.target.closest(".content")) {
-      setToggleMenu(false);
-    }
-  });
-
   const handleQuoteClick = () => {
     setCurrentQuoteIndex((currentIndex) => (currentIndex + 1) % quotes.length);
   };
-
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>Personal Dog Blog ✍🏽</title>
-          <meta name="description" content="Writing for fun" />
-        </Helmet>
-      </HelmetProvider>
-      <Header
-        logoSource="/images/logo.png"
-        toggleMenu={toggleMenu}
-        headerToggler={headerToggler}
-      />
+        <NextSeo
+          title="Dog Days Blog ✍🏽"
+          description="Blog of a dog living tech adventures, gaining knowledge"
+          openGraph={{
+            type: 'website',
+            url: 'https://pulsarforge/DogDays',
+            title: 'Dog Days Blog ✍🏽',
+            description: 'Blog of a dog living tech adventures, gaining knowledge',
+            images: [
+              {
+                url: 'https://pulsarforge.io/images/dog-blog-we-are-early.jpg',
+                width: 1920,
+                height: 1080,
+                alt: 'Dog Days Blog Logo',
+              }
+            ],
+            siteName: 'Pulsarforge home labs',
+            tags: ['Personal', 'Blog', 'Dog', 'Tech', 'Programming', 'Life'],
+          }}
+          additionalLinkTags={[
+            {
+              rel: 'icon',
+              href: 'https://pulsarforge/images/logo.png',
+            },
+            {
+              rel: 'apple-touch-icon',
+              href: 'https://pulsarforge/images/logo.png',
+            }
+          ]}
+          twitter={{
+            handle: '@pulsarforge',
+            site: '@site',
+            cardType: 'summary_large_image',
+          }}
+        />
+      
       <main>
-        <div className="spacer" data-height="96"></div>
-        <div className="blog-page-section">
+      <div className="spacer" data-height="96"></div>
+        <br />
+        <br />
+        <br />
+        <div className="blog-page-section" id="dog-days">
           <div className="container">
             <div className="row blog-wrapper fix-spacing">
               <div className="page-title-center">
                 <div onClick={handleQuoteClick}>
-                  <img  src="/images/dog-blog-we-are-early.jpg" style={{ height: "auto", width: "auto", borderRadius: "80px", marginBottom: "30px"}} alt="dog-streaming"/>
+                  <img  src="/images/dog-blog-we-are-early.jpg" style={{ height: "auto", width: "auto", borderRadius: "100px", marginBottom: "30px"}} alt="dog-streaming"/>
                   <p style={{fontSize: "22px"}}>{quotes[currentQuoteIndex]}</p>
                 </div>
                 <br />
                 <br />
-                <Pagetitle title="Personal Dog Blog" />
+                <Pagetitle title="Personal Dog Days Blog" />
                 <br />
                 <br />
                 <br />
                 <br />
+                
               </div>
-
               {currentPosts.map((blogItem) => (
-                <div className="col-md-3" key={blogItem.id}>
-                  <DogDay blogData={blogItem} />
+                <div className="col-md-3 list-inline" key={blogItem.id}>
+                  <DogDaysElement blogData={blogItem} />
                 </div>
               ))}
             </div>
+
             <div className="spacer" data-height="50"></div>
             {!(posts.length > postsPerPage) ? null : (
               <Pagination
@@ -102,7 +117,7 @@ function DogDays() {
         </div>
         <div className="spacer" data-height="96"></div>
       </main>
-      <Footer />
+      
     </>
   );
 }

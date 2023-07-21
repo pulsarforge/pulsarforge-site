@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
 
 function Showcase({ portfolio }) {
-  const { category, title, image, popupLink, link, description, text } = portfolio;
+  const { category, title, image, link, description, text } = portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -15,12 +14,10 @@ function Showcase({ portfolio }) {
   return (
     <>
       <div className="portfolio-item rounded shadow-dark">
-        <a
+          <a
           href={link ? link : "!#"}
           className="work-image"
           onClick={handleLightbox}
-          target="_blank"
-          rel="noreferrer"
         >
           <div className="details">
             <span className="term text-capitalize">{category} / {title}</span>
@@ -32,7 +29,6 @@ function Showcase({ portfolio }) {
           </div>
         </a>
       </div>
-      {popupLink && <FsLightbox toggler={toggler} sources={popupLink} />}
     </>
   );
 }

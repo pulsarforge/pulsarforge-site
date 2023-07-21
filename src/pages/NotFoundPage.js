@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../components/layouts/Header";
-import Footer from "../components/layouts/Footer";
+
+
 
 function NotFoundPage() {
 
   return (
     <>
-      <Header logoSource="/images/logo.png" />
+      
       <section
         className="home d-flex align-items-center"
       >
@@ -40,7 +40,7 @@ function NotFoundPage() {
           </div>
         </div>
       </section>
-      <Footer />
+      
     </>
   );
 }

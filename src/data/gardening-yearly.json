@@ -2,21 +2,21 @@
     {
         "id": 1,
         "year": "Previously",
-        "totalContributions": "Jobs plus enhance dev skills",
-        "soundUrl": "/sounds/parrots.mp3",
-        "afterText": "🦜"
+        "totalContributions": "Jobs & Dev Skills",
+        "soundUrl": "/sounds/swimming.mp3",
+        "afterText": "🐋"
     },
     {
         "id": 2,
         "year": "2017-2020",
-        "totalContributions": "Works at multinationals",
+        "totalContributions": "Works at Multinationals",
         "soundUrl": "/sounds/4x4.mp3",
         "afterText": "🚙"
     },
     {
         "id": 3,
         "year": "2021",
-        "totalContributions": "Freelance and Open Source",
+        "totalContributions": "Freelance & Open Source",
         "soundUrl": "/sounds/gorila.mp3",
         "afterText": "🦍"
     },

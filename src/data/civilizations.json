@@ -153,14 +153,6 @@
   },
   {
     "id": 20,
-    "title": "Voxel Growth",
-    "description": "Voxel Growth",
-    "category": "epic",
-    "image": "images/works/voxel-growth.jpg",
-    "popupLink": ["images/works/voxel-growth.jpg"]
-  },  
-  {
-    "id": 21,
     "title": "Light Travel",
     "description": "Light Travel",
     "category": "legendary",

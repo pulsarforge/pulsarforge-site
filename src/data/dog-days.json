@@ -3,8 +3,8 @@
     "id": 1,
     "title": "Principles",
     "description": "Metacognition, Empathy, Creativity, Impossible is nothing",
-    "image": "images/dog-days/principles.jpg",
-    "filesource": "../../dogdays/principles.md",
+    "image": "images/DogDays/principles.jpg",
+    "filesource": "/DogDays/Principles",
     "author": "Pulsarforge",
     "category": "Core - 🎯"
   },
@@ -12,8 +12,8 @@
     "id": 2,
     "title": "Civilizations Voxelverse",
     "description": "Explore exoplanets and homes, guide your party animals at the Voxelverse",
-    "image": "images/dog-days/the-gathering.jpg",
-    "filesource": "../../dogdays/civilizations-voxelverse.md",
+    "image": "images/DogDays/the-gathering.jpg",
+    "filesource": "/DogDays/CivilizationsVoxelverseCrafter",
     "author": "Pulsarforge",
     "category": "Universe - 😎"
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "title": "The Other Minds",
     "description": "We are surrounded by intelligent living beings, It is a matter of notice it",
-    "image": "images/dog-days/the-other-minds.jpg",
-    "filesource": "../../dogdays/the-other-minds.md",
+    "image": "images/DogDays/the-other-minds.jpg",
+    "filesource": "/DogDays/TheOtherMinds",
     "author": "Pulsarforge",
     "category": "Minds - 🧠"
   },
@@ -30,8 +30,8 @@
     "id": 4,
     "title": "Resources to Teach Code",
     "description": "Books, curriculums built by teachers, techs, abstractions, and extra notes",
-    "image": "images/dog-days/teaching-code.png",
-    "filesource": "../../dogdays/awesome-resources-to-teach-programming.md",
+    "image": "images/DogDays/teaching-code.png",
+    "filesource": "/DogDays/AwesomeResourcesToTeachProgramming",
     "author": "Pulsarforge",
     "category": "Teaching Code - 💻"
   },
@@ -39,8 +39,8 @@
     "id": 5,
     "title": "Estonia Dream Travel",
     "description": "Cities, towns, and forests I am going to explore near Tallinn in Estonia",
-    "image": "images/dog-days/estonia-sphere.jpg",
-    "filesource": "../../dogdays/estonia-dream-travel.md",
+    "image": "images/DogDays/estonia-sphere.jpg",
+    "filesource": "/DogDays/EstoniaDreamTravel",
     "author": "Pulsarforge",
     "category": "Estonia - 🦄"
   },
@@ -48,8 +48,8 @@
     "id": 6,
     "title": "Thinking Classrooms",
     "description": "How to enable thinking in classrooms appliable to other life areas",
-    "image": "images/dog-days/thinking.png",
-    "filesource": "../../dogdays/thinking-classrooms.md",
+    "image": "images/DogDays/thinking.png",
+    "filesource": "/DogDays/ThinkingClassrooms",
     "author": "Pulsarforge",
     "category": "Thinking - ❔"
   },
@@ -57,17 +57,17 @@
     "id": 7,
     "title": "DAO Onboarding Guide",
     "description": "On boarding process, pre joining, joining, and integrate the newcomer",
-    "image": "images/dog-days/dao-onboarding.jpg",
-    "filesource": "../../dogdays/dao-onboarding-guide-smooth-as-silk.md",
+    "image": "images/DogDays/dao-onboarding.jpg",
+    "filesource": "/DogDays/DaoOnboardingGuideSmoothAsSilk",
     "author": "Pulsarforge",
     "category": "DAOs - 🔮"
   },
   {
     "id": 8,
-    "title": "Dumb Ideas with Potential V1",
+    "title": "Potential V1",
     "description": "Flexing code muscles and business skills, stages of traditional, innovation, flowing",
-    "image": "images/dog-days/dumb-ideas-with-potential-v1.jpg",
-    "filesource": "../../dogdays/dumb-ideas-with-potential-v1.md",
+    "image": "images/DogDays/potential-v1.jpg",
+    "filesource": "/DogDays/PotentialsFirstSet",
     "author": "Pulsarforge",
     "category": "Code Labs - 💻"
   },
@@ -75,8 +75,8 @@
     "id": 9,
     "title": "Docusauring Original Form",
     "description": "Time travel, when dynos were dynos, and not anything else, those simple times",
-    "image": "images/dog-days/docusauring-docs.jpg",
-    "filesource": "../../dogdays/back-to-dynosaurs-simple-age.md",
+    "image": "images/DogDays/docusauring-docs.jpg",
+    "filesource": "/DogDays/BackToDynosaursSimpleAge",
     "author": "Pulsarforge",
     "category": "Docs - 🦖"
   },
@@ -84,8 +84,8 @@
     "id": 10,
     "title": "Mental Models",
     "description": "Guide the best parts from other's people discoveries to your inner and outer land",
-    "image": "images/dog-days/mental-models.jpg",
-    "filesource": "../../dogdays/mental-models.md",
+    "image": "images/DogDays/mental-models.jpg",
+    "filesource": "/DogDays/MentalModels",
     "author": "Pulsarforge",
     "category": "Reality - 🎶"
   },
@@ -93,8 +93,8 @@
     "id": 11,
     "title": "Portugal Trip V1",
     "description": "At national day celebration, Lisbon, and Praias surroundings, plus Oporto",
-    "image": "images/dog-days/portugal.jpg",
-    "filesource": "../../dogdays/portugal.md",
+    "image": "images/DogDays/portugal.jpg",
+    "filesource": "/DogDays/Portugal",
     "author": "Pulsarforge",
     "category": "Portugal - 🎉"
   },
@@ -102,9 +102,81 @@
     "id": 12,
     "title": "Travels and Experiences",
     "description": "Spontaneous, improvisations, experiences and travels, across earth",
-    "image": "images/dog-days/travels-and-experiences.jpg",
-    "filesource": "../../dogdays/traveller-planet.md",
+    "image": "images/DogDays/travels-and-experiences.jpg",
+    "filesource": "/DogDays/TravellerPlanet",
     "author": "Pulsarforge",
     "category": "Travels - 📅"
+  },
+  {
+    "id": 13,
+    "title": "Python Gists",
+    "description": "Great collection of code snippets and gists",
+    "image": "images/DogDays/python-gists.jpg",
+    "filesource": "/DogDays/PythonGists",
+    "author": "Pulsarforge",
+    "category": "Python Gists - 🐍"
+  },
+  {
+    "id": 14,
+    "title": "Javascript Libraries",
+    "description": "Awesome Javascript libraries you will use one day or other",
+    "image": "images/DogDays/javascript-libraries.jpg",
+    "filesource": "/DogDays/JavascriptLibraries",
+    "author": "Pulsarforge",
+    "category": "Javascript Libraries - 📚"
+  },
+  {
+    "id": 15,
+    "title": "Rustaceans World",
+    "description": "Exploration, hands on of rust projects, crates, and great discoveries",
+    "image": "images/DogDays/rust-projects.jpg",
+    "filesource": "/DogDays/RustaceansWorld",
+    "author": "Pulsarforge",
+    "category": "Rustaceans World - 🦀"
+  },
+  {
+    "id": 16,
+    "title": "Python Datascience",
+    "description": "Set of resources about data science plus comments",
+    "image": "images/DogDays/python-datascience.jpg",
+    "filesource": "/DogDays/PythonDatascience",
+    "author": "Pulsarforge",
+    "category": "Python Datascience - 📊"
+  },
+  {
+    "id": 17,
+    "title": "Time Versioning Myself",
+    "description": "Using tech paradigms for your own development",
+    "image": "images/DogDays/time-version-myself.jpg",
+    "filesource": "/DogDays/TimeVersioning",
+    "author": "Pulsarforge",
+    "category": "Time Version - ⌚"
+  },
+  {
+    "id": 18,
+    "title": "Playing Field",
+    "description": "A set of LFG! activities to nail, intersection of otter business & fun",
+    "image": "images/DogDays/inner-metadata.jpg",
+    "filesource": "/DogDays/PlayingField",
+    "author": "Pulsarforge",
+    "category": "Playground - 🐴"
+  },
+  {
+    "id": 19,
+    "title": "Favourites Data Tools",
+    "description": "My favourite data tools, a story of love, and discoveries",
+    "image": "images/DogDays/data-tools.jpg",
+    "filesource": "/DogDays/DataTools",
+    "author": "Pulsarforge",
+    "category": "Toolset - 🥰"
+  },
+  {
+    "id": 20,
+    "title": "It is stats adventure time!",
+    "description": "One of the ways to track your advancements",
+    "image": "images/DogDays/stats-throught-time.jpg",
+    "filesource": "/DogDays/StatsThroughTime",
+    "author": "Pulsarforge",
+    "category": "Stats - 📈"
   }
 ]

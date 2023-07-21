@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Pagetitle from "../elements/Pagetitle";
 import MakingTheDifference from "../elements/MakingTheDifference";
 import MakingTheDifferenceJson from "../../data/making-the-differences.json";
@@ -16,9 +17,9 @@ function MakingTheDifferences() {
           marginTop: "100px",
         }}
       >
-        <a className="navigate-link" href="#dog-days">
-          <Pagetitle title="Full Stack Making the Difference" />
-        </a>
+        <Link className="navigate-link" href="#dev-docs">
+          <Pagetitle title="Making the Difference" />
+        </Link>
         <div className="row align-items-center">
           {servicesData.map((servicebox) => (
             <div key={servicebox.id} className="col-md-4">

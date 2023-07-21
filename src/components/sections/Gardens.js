@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Pagetitle from "../elements/Pagetitle";
 import Garden2022Json from "../../data/gardening-yearly.json";
 import Sound from "../elements/Sound";
@@ -8,6 +9,7 @@ function Gardens() {
   
   return (
     <section id="code-gardens">
+                
       <div
         className="page-title-center"
         style={{
@@ -16,9 +18,9 @@ function Gardens() {
           marginTop: "100px",
         }}
       >
-        <a className="navigate-link" href="#passion-projects">
+        <Link className="navigate-link" href="#passion-projects">
           <Pagetitle title="The Highlights & Open code garden" />
-        </a>
+        </Link>
       </div>
       <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
         <div className="row align-items-center page-title-center" style={{color: "#26a641"}}>
@@ -33,6 +35,34 @@ function Gardens() {
           ))}
           </ul>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className="page-title-center">
+            <h2
+              style={{
+                fontSize: 50,
+                textShadow: "3px 3px 2px rgb(37, 37, 37)",
+                color: "#fff",
+              }}
+            >
+              This is my playground
+            </h2>
+            <h3
+              style={{
+                fontSize: 25,
+                textShadow: "3px 3px 2px rgb(37, 37, 37)",
+                marginTop: "25px",
+                color: "#fff",
+              }}
+            >
+              Areas: Interfaces, Coordination, Communities
+            </h3>
+            <br/>
+            <br/>
+            <iframe src="https://pulsarforge.substack.com/embed" style={{width: "920px", height:"480px", border: "1px", borderRadius: "40px", solid: "#EEE", background: "white"}} frameBorder="0"></iframe>
+          </div>
       </div>
     </section>
   );

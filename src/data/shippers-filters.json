@@ -1,14 +1,4 @@
-[
-  {
-    "id": 1,
-    "text": "journey"
-  },
-  {
-    "id": 2,
-    "text": "web3"
-  },
-  {
-    "id": 3,
-    "text": "gardening"
-  }
-]
+{
+  "id": 1,
+  "text": "journey"
+}

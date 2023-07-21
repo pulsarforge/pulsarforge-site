@@ -1,0 +1,62 @@
+[    
+  {
+    "id": 1,
+    "title": "Hand Crafted Art",
+    "category": "web3",
+    "description": "Civilizations Voxelverse",
+    "text": "Universe, Stories, Art Party",
+    "image": "images/works/cloud-gum-voxelverse.png",
+    "link": "/CivilizationsVoxelverse",
+    "innerLink": true
+  },
+  {
+    "id": 2,
+    "title": "Hackatons",
+    "category": "web3",
+    "description": "Board Hacks",
+    "text": "Collection of Hackathons",
+    "image": "images/works/board-hacks.png",
+    "link": "/HackathonsBoard",
+    "innerLink": true
+  },
+  {
+    "id": 3,
+    "title": "Achievements On Chain",
+    "category": "web3",
+    "description": "Well Done Flow",
+    "text": "Life Events Inmutable Proof of Memories",
+    "image": "images/works/well-done-flow.png",
+    "link": "/Missions",
+    "innerLink": true
+  },
+  {
+    "id": 4,
+    "title": "Incoming - Readings",
+    "category": "gardening",
+    "description": "Substack Radar",
+    "text": "Readings on Substack",
+    "image": "images/works/trends-substack-radar-v1.png",
+    "link": "/SubstackRadar",
+    "innerLink": true
+  },
+  {
+    "id": 5,
+    "title": "Startups Board",
+    "category": "gardening",
+    "description": "Startup Stage",
+    "text": "Following News About Startups and Projects",
+    "image": "images/works/startup-stage.png",
+    "link": "/",
+    "innerLink": true
+  },
+  {
+    "id": 6,
+    "title": "Shows",
+    "category": "gardening",
+    "description": "Dancing Tech Movements",
+    "text": "Each show has at least one season, with start and end",
+    "image": "images/works/shows.png",
+    "link": "/",
+    "innerLink": true
+  }
+]

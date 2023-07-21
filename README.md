@@ -1,30 +1,33 @@
-# pulsarforge-playing-field
+# Home developer labs by Pulsar Forge
 
-  * Home crafter & gardener.
-  * Building and Scaling Platforms.
+Home crafter & gardener.
+Otter: researching / exploring / implementing / scaling.
+Areas: Web development, ux, ui, ci/cd, web3, data, rust.
 
 
-Extra day to day activities
+## Sneak peek
+
+![Home Developer Labs - Code Garden](./public/images/sneak-peek.png)
+
+**Day to day:**
   * Writing articles and creating video content.
   * Freelancing:
-    * User experience consulting.
+    * UX / UI consulting.
     * Web development.
     * Integrations & deployments.
   * Reading books on different topics.
 
- 
-## Web3 Labs links:
+
+**Useful links:**
 
 [Home & Garden](https://pulsarforge.io/)
 
 [Developer Docs](https://main.pulsarforge.io/)
 
 
-## Get a sneak peek
-
-![Web3 Labs - Code Garden](./public/images/sneak-peek.png)
-
 
 ## Repository visualization
 
 ![Visualization of the codebase](./diagram.svg)
+
+### Playing Fields

@@ -4,112 +4,90 @@
     "title": "GitHub",
     "category": "gardening",
     "description": "Pulsarforge",
+    "text": "Code Garden and Playground at GitHub",
     "image": "images/works/pulsar-forge.png",
-    "link": ["https://github.com/pulsarforge/"]
+    "link": ["https://github.com/pulsarforge/"],
+    "innerLink": false
   },
   {
     "id": 2,
-    "title": "Path Registries",
-    "category": "gardening",
-    "description": "Dev Docs",
-    "image": "images/works/devs-docs.png",
-    "link": ["https://main.pulsarforge.io/"]
-  },
-  {
-    "id": 3,
     "title": "Tree of Life Evolutions",
     "category": "web3",
     "description": "Ancestors",
+    "text": "World Builders, NFTs, AI, Marketplace",
     "image": "images/works/ancestors.png",
-    "link": ["https://ancestors.pulsarforge.io/"]
+    "link": ["https://ancestors.pulsarforge.io/"],
+    "innerLink": false
+  },
+  {
+    "id": 3,
+    "title": "Path Registries",
+    "category": "gardening",
+    "description": "Main Docs",
+    "text": "Developer Documentation with Docusaurus",
+    "image": "images/works/devs-docs.png",
+    "link": ["https://main.pulsarforge.io/"],
+    "innerLink": false
   },
   {
     "id": 4,
-    "title": "Hand Crafted Art",
+    "title": "Data Analytics",
     "category": "web3",
-    "description": "Civilizations Voxelverse",
-    "image": "images/works/light-travel-round.png",
-    "link": ["/civilizations-voxelverse"]
-  },  
+    "description": "Cryptoracle",
+    "text": "Descentralized Analytics App on NEAR Protocol and Beyond",
+    "image": "images/works/cryptoracle.png",
+    "link": ["https://app.cryptoracle.io/"],
+    "innerLink": false
+  }, 
   {
     "id": 5,
     "title": "Newsletter and Podcast",
     "category": "gardening",
     "description": "Blocks Labs",
+    "text": "Newsletter at the Intersection of Tech and Life Topics",
     "image": "images/works/blocks-labs-v.png",
-    "link": ["https://pulsarforge.substack.com/"]
+    "link": ["https://pulsarforge.substack.com/"],
+    "innerLink": false
   },
   {
     "id": 6,
-    "title": "Data Analytics",
-    "category": "web3",
-    "description": "Cryptoracle",
-    "image": "images/works/cryptoracle.png",
-    "link": ["https://app.cryptoracle.io/"]
-  },
-  {
-    "id": 7,
     "title": "Pura Energia Concentrada",
     "category": "gardening",
     "description": "Isla Smoothies",
+    "text": "A Crazy Long Term Dream",
     "image": "images/works/isla-smoothies.png",
-    "link": ["https://isla-smoothies.pages.dev/"]
+    "link": ["https://isla-smoothies.pages.dev/"],
+    "innerLink": false
+  },
+  {
+    "id": 7,
+    "title": "NFTs Rarity Analyzer",
+    "category": "web3",
+    "description": "Collectibles Rarity",
+    "text": "NFTs Rarity Analyzer",
+    "image": "images/works/nfts-rarity-insider.png",
+    "link": ["https://raritycollectors.pulsarforge.io/"],
+    "innerLink": false
   },
 
   {
     "id": 8,
-    "title": "Hackatons",
-    "category": "web3",
-    "description": "Board Hacks",
-    "image": "images/works/board-hacks.png",
-    "link": ["https://boardhacks.pulsarforge.io/"]
-  },
-  {
-    "id": 9,
-    "title": "NFTs Rarity Analyzer",
-    "category": "web3",
-    "description": "Collectibles Rarity",
-    "image": "images/works/nfts-rarity-insider.png",
-    "link": ["https://raritycollectors.pulsarforge.io/"]
-  },
-
-  {
-    "id": 10,
     "title": "DAOs",
     "category": "web3",
     "description": "DAO It Board",
+    "text": "DAOs Board Across Protocols",
     "image": "images/works/dao-it-board.png",
-    "link": ["https://daosboard.pulsarforge.io"]
+    "link": ["https://daosboard.pulsarforge.io"],
+    "innerLink": false
   },
   {
-    "id": 11,
-    "title": "Achievements On Chain",
-    "category": "web3",
-    "description": "Well Done Flow",
-    "image": "images/works/well-done-flow.png",
-    "link": ["https://well-done-flow.pages.dev/"]
-  },
-  {
-    "id": 12,
-    "title": "Incoming - Readings",
-    "category": "gardening",
-    "description": "Substack Radar",
-    "image": "images/works/trends-substack-radar.png"
-  },
-  {
-    "id": 13,
+    "id": 9,
     "title": "Websites data analytics",
     "category": "web3",
     "description": "Spacehunt",
+    "text": "Website Data Analytics Privacy First",
     "image": "images/works/spacehunt-v1.png",
-    "link": ["https://spacehunt.pages.dev/"]
-  },
-  {
-    "id": 13,
-    "title": "Startups Board",
-    "category": "gardening",
-    "description": "Startup Stage",
-    "image": "images/works/startup-stage.png",
-    "link": ["#"]
+    "link": ["https://spacehunt.pages.dev/"],
+    "innerLink": false
   }
 ]

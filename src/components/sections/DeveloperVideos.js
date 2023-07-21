@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import Pagetitle from "../elements/Pagetitle";
 import Showcase from "../elements/Showcase";
 import DevVideosJson from "../../data/dev-videos.json";
@@ -56,7 +57,7 @@ function DeveloperVideos() {
   };
 
   return (
-    <section id="passion-projects">
+    <section id="knowledge-videos">
       <div
         style={{
           paddingLeft: "30px",
@@ -64,9 +65,9 @@ function DeveloperVideos() {
           marginTop: "100px",
         }}
       >
-          <a className="navigate-link" href="#making-the-difference">
+          <Link className="navigate-link" href="#making-the-difference">
             <Pagetitle title="Knowledge" />
-          </a>
+          </Link>
           <ul className="portfolio-filter list-inline">
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>
@@ -86,7 +87,7 @@ function DeveloperVideos() {
           </ul>
         <div className="row portfolio-wrapper">
           {visibleItems.map((item) => (
-            <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
+            <div className="col-md-6 col-sm-6 grid-item" key={item.id}>
               <Showcase portfolio={item} />
             </div>
           ))}

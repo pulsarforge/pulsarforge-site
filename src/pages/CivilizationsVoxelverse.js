@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import Header from "../components/layouts/Header";
+import { NextSeo } from 'next-seo';
+
 import Pagetitle from "../components/elements/Pagetitle";
 import Showcase from "../components/elements/Showcase";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
 import CivilizationsJson from "../data/civilizations.json";
-import Footer from "../components/layouts/Footer";
+
 
 function CivilizationsVoxelverse() {
   const filters = CivilizationsFiltersJson;
@@ -20,7 +20,7 @@ function CivilizationsVoxelverse() {
 
   useEffect(() => {
     setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 9));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 10));
   }, [filters, getAllItems]);
 
   const handleChange = (e) => {
@@ -60,13 +60,41 @@ function CivilizationsVoxelverse() {
 
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>Explore the Voxelverse 🛸</title>
-          <meta name="description" content="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party"/>
-        </Helmet>
-      </HelmetProvider>
-      <Header logoSource="/images/logo.png" />
+        <NextSeo
+          title="Explore the Voxelverse 🛸"
+          description="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party"
+          openGraph={{
+            type: 'website',
+            url: 'https://pulsarforge.io/CivilizationsVoxelverse',
+            title: 'Explore the Voxelverse 🛸',
+            description: 'Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party',
+            images: [
+              {
+                url: 'https://pulsarforge.io/images/works/bear-time-party-head.jpg',
+                width: 800,
+                height: 800,
+                alt: 'Civilizations Voxelverse Logo',
+              }
+            ],
+            siteName: 'Explore the Voxelverse 🛸',
+            tags: ['Voxel Art', 'hand crafted', 'world building', 'Civilizations', 'Voxelverse', 'Collectibles'],
+          }}
+          additionalLinkTags={[
+            {
+              rel: 'icon',
+              href: 'https://pulsarforge/images/logo.png',
+            },
+            {
+              rel: 'apple-touch-icon',
+              href: 'https://pulsarforge/images/logo.png',
+            }
+          ]}
+          twitter={{
+            handle: '@pulsarforge',
+            site: '@site',
+            cardType: 'summary_large_image',
+          }}
+        />
       <main>
           <div className="page-title-center-maring-top">
             <Pagetitle title="Civilizations Voxelverse" />
@@ -97,10 +125,9 @@ function CivilizationsVoxelverse() {
           </ul>
         <div
           className="row portfolio-wrapper"
-          style={{ paddingLeft: "30px", paddingRight: "30px" }}
         >
           {visibleItems.map((item) => (
-            <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
+            <div className="col-md-6 col-sm-6 grid-item" key={item.id}>
               <Showcase portfolio={item} />
             </div>
           ))}
@@ -133,16 +160,7 @@ function CivilizationsVoxelverse() {
           </h2>
           <br />
           <br />
-          <iframe
-            src="https://ipfs-2.thirdwebcdn.com/ipfs/QmSmkcH3AzLPTcub173t7bCtTzQV3dRb4gwG3uU84J6YJq?contract=0xa284880Cbf48632a70E2f904e3E73364F8C01966&chain=%7B%22name%22%3A%22Polygon+Mainnet%22%2C%22chain%22%3A%22Polygon%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fpolygon.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22MATIC%22%2C%22symbol%22%3A%22MATIC%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22matic%22%2C%22chainId%22%3A137%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22polygon%22%7D&theme=light&primaryColor=red"
-            width="1080px"
-            height="700px"
-            style={{maxWidth:"100%", borderRadius:"20px"}}
-            frameborder="0"
-            title="Exoplanets Beings"
-          ></iframe>
-          <br />
-          <br />
+          <img src="/images/works/bear-time-party-head.jpg" style={{width: "400px", height: "400px", borderRadius: 100}} alt="party head"/>
           <br />
           <br />
           <h2 className="civilizations-h2" style={{fontSize: 45 }}>
@@ -163,7 +181,7 @@ function CivilizationsVoxelverse() {
         <br />
         <br />
       </main>
-      <Footer />
+      
     </>
   );
 }

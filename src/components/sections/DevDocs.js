@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import Pagetitle from "../elements/Pagetitle";
 import Showcase from "../elements/Showcase";
 import DevDocsJson from "../../data/dev-docs.json";
@@ -65,9 +66,9 @@ function DevDocs() {
           marginBottom: "100px",
         }}
       >
-          <a className="navigate-link" href="#footer">
-            <Pagetitle title="Dev Docs" />
-          </a>
+          <Link className="navigate-link" href="#knowledge-videos">
+            <Pagetitle title="Developer Docs" />
+          </Link>
           <ul className="portfolio-filter list-inline">
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>
