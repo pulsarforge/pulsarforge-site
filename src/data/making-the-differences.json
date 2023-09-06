@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "User Experience Consulting",
-    "icon": "images/ux.png",
+    "icon": "/images/ux.png",
     "content": [
       {
         "id": 1,
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "title": "Reactjs Home Crafter",
-    "icon": "images/reactjs.png",
+    "icon": "/images/reactjs.png",
     "content": [
       {
         "id": 0,
@@ -29,12 +29,12 @@
   },
   {
     "id": 3,
-    "title": "Expansion and Integrations",
-    "icon": "images/units.png",
+    "title": "Expansions and Integrations",
+    "icon": "/images/units.png",
     "content": [
       { 
           "id": 1, 
-          "text": "Enabling Docs, Setup CI/CD, Integrating APIs REST and Graphql, Databases as PostgreSQL and MongoDB, AI with useful and impactful use cases" 
+          "text": "Data Analytics, Setup CI/CD, Integrating APIs and DBs, Enable Docs, AIs LLMs and Image Generators with useful and impactful use cases" 
       }
     ],
     "cta": "Scale your project",

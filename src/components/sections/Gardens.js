@@ -40,29 +40,11 @@ function Gardens() {
         <br/>
         <br/>
         <div className="page-title-center">
-            <h2
-              style={{
-                fontSize: 50,
-                textShadow: "3px 3px 2px rgb(37, 37, 37)",
-                color: "#fff",
-              }}
-            >
-              This is my playground
-            </h2>
-            <h3
-              style={{
-                fontSize: 25,
-                textShadow: "3px 3px 2px rgb(37, 37, 37)",
-                marginTop: "25px",
-                color: "#fff",
-              }}
-            >
-              Areas: Interfaces, Coordination, Communities
-            </h3>
-            <br/>
-            <br/>
-            <iframe src="https://pulsarforge.substack.com/embed" style={{width: "920px", height:"480px", border: "1px", borderRadius: "40px", solid: "#EEE", background: "white"}} frameBorder="0"></iframe>
-          </div>
+          <Pagetitle title="Newsletter" />
+          <br/>
+          <br/>
+          <iframe src="https://pulsarforge.substack.com/embed" style={{width: "480px", height:"480px", border: "1px", borderRadius: "40px", solid: "#EEE", background: "white"}} title="Newsletter"></iframe>
+        </div>
       </div>
     </section>
   );

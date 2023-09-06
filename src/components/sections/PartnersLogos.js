@@ -14,7 +14,7 @@ function Partnerslogos() {
             <div className="col-md-2 col-6" key={brandlogo.id}>
               <div className="partners-item">
                 <div className="inner">
-                  <img src={brandlogo.image} alt="Partners" />
+                  <Image src={brandlogo.image} width={120} height={120} alt="Partners" />
                 </div>
               </div>
             </div>

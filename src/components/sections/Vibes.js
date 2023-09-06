@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Vibes() {
 
@@ -20,10 +21,11 @@ function Vibes() {
         }}
       >
         <div className="intro-logo">
-            <img
-              src="images/logo.png"
+            <Image
+              src="/images/logo.png"
               alt="Pulsarforge"
-              style={{ width: "18%"}}
+              width={420}
+              height={420}
             />
         </div>
         <div className="intro">

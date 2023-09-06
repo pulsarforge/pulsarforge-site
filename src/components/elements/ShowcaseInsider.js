@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function ShowcaseInsider({ portfolio }) {
   const { category, title, image, link, description, text } = portfolio;
@@ -16,7 +17,7 @@ function ShowcaseInsider({ portfolio }) {
             <span className="term text-capitalize">{category} / {title}</span>
           </div>
           <div className="thumb">
-            <img className="zoom-image" src={image} alt="" />
+            <Image className="zoom-image" src={image} alt="" width={360} height={360}/>
             <h2>{description}</h2>
             <p>{text}</p>
           </div>

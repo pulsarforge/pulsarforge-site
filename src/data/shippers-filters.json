@@ -1,4 +1,22 @@
-{
+[
+  {
   "id": 1,
   "text": "journey"
-}
+  },
+  {
+    "id": 2,
+    "text": "gardening"
+  },
+  {
+    "id": 3,
+    "text": "platforms"
+  },
+  {
+    "id": 4,
+    "text": "collectibles"
+  },
+  {
+    "id": 5,
+    "text": "bootcamp"
+  }
+]

@@ -5,18 +5,18 @@
     "category": "web3",
     "description": "Civilizations Voxelverse",
     "text": "Universe, Stories, Art Party",
-    "image": "images/works/cloud-gum-voxelverse.png",
+    "image": "/images/works/cloud-gum-voxelverse.png",
     "link": "/CivilizationsVoxelverse",
     "innerLink": true
   },
   {
     "id": 2,
-    "title": "Hackatons",
-    "category": "web3",
-    "description": "Board Hacks",
-    "text": "Collection of Hackathons",
-    "image": "images/works/board-hacks.png",
-    "link": "/HackathonsBoard",
+    "title": "Collectibles - Evolutions - Skins",
+    "category": "gardening",
+    "description": "Rustaceans Adaptative Mechas",
+    "text": "Rustaceans Planet Buidlers, Evolutions & Skins",
+    "image": "/images/rustaceans-buidlers/Rustaceans_Planet_Buidlers_Evolutions_Skins.jpg",
+    "link": "/",
     "innerLink": true
   },
   {
@@ -25,7 +25,7 @@
     "category": "web3",
     "description": "Well Done Flow",
     "text": "Life Events Inmutable Proof of Memories",
-    "image": "images/works/well-done-flow.png",
+    "image": "/images/works/well-done-flow.png",
     "link": "/Missions",
     "innerLink": true
   },
@@ -35,27 +35,27 @@
     "category": "gardening",
     "description": "Substack Radar",
     "text": "Readings on Substack",
-    "image": "images/works/trends-substack-radar-v1.png",
+    "image": "/images/works/trends-substack-radar-v1.png",
     "link": "/SubstackRadar",
     "innerLink": true
   },
-  {
+    {
     "id": 5,
-    "title": "Startups Board",
-    "category": "gardening",
-    "description": "Startup Stage",
-    "text": "Following News About Startups and Projects",
-    "image": "images/works/startup-stage.png",
-    "link": "/",
+    "title": "Hackatons",
+    "category": "web3",
+    "description": "Board Hacks",
+    "text": "Collection of Hackathons",
+    "image": "/images/works/board-hacks.png",
+    "link": "/HackathonsBoard",
     "innerLink": true
   },
   {
     "id": 6,
-    "title": "Shows",
-    "category": "gardening",
-    "description": "Dancing Tech Movements",
-    "text": "Each show has at least one season, with start and end",
-    "image": "images/works/shows.png",
+    "title": "Becomming a Total Programmer",
+    "category": "bootcamp",
+    "description": "Bootcamp Becomming a Total Programmer",
+    "text": "Bootcamp video content with fundamentals, progressive learning, real projects, best practices, highly engaging",
+    "image": "/images/works/shows.png",
     "link": "/",
     "innerLink": true
   }

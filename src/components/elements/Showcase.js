@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 function Showcase({ portfolio }) {
@@ -14,7 +16,7 @@ function Showcase({ portfolio }) {
   return (
     <>
       <div className="portfolio-item rounded shadow-dark">
-          <a
+          <Link
           href={link ? link : "!#"}
           className="work-image"
           onClick={handleLightbox}
@@ -23,11 +25,11 @@ function Showcase({ portfolio }) {
             <span className="term text-capitalize">{category} / {title}</span>
           </div>
           <div className="thumb">
-            <img className="zoom-image" src={image} alt="" />
+            <Image className="zoom-image" src={image} alt="" width={750} height={750} />
             <h2>{description}</h2>
             <p>{text}</p>
           </div>
-        </a>
+        </ Link>
       </div>
     </>
   );

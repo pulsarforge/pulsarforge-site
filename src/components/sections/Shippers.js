@@ -11,9 +11,53 @@ import ShowcaseInsider from "../elements/ShowcaseInsider";
 function Shippers() {
   const allData = ShipperJson;
   const filters = ShipperFiltersJson;
-  const allInsiderData = ShipperInsiderJson;
-  const insiderFilters = ShipperInsiderFiltersJson;
+  const allDataLength = ShipperJson.length;
+  const [getAllItems] = useState(allData);
+  const [dataVisibleCount, setDataVisibleCount] = useState(allDataLength);
+  const [dataIncrement] = useState(allDataLength);
+  const [activeFilter, setActiveFilter] = useState("");
+  const [visibleItems, setVisibleItems] = useState([]);
+  const [noMorePost, setNoMorePost] = useState(false);
 
+  useEffect(() => {
+    setActiveFilter(filters[0].text.toLowerCase());
+    setVisibleItems(getAllItems.filter((item) => item.id <= 6));
+  }, [filters, getAllItems]);
+
+  const handleChange = (e) => {
+    e.preventDefault();
+    setActiveFilter(e.target.textContent.toLowerCase());
+    let tempData;
+    if (e.target.textContent.toLowerCase() === filters[0].text.toLowerCase()) {
+      tempData = getAllItems.filter((data) => data.id <= dataVisibleCount);
+    } else {
+      tempData = getAllItems.filter(
+        (data) =>
+          data.category === e.target.textContent.toLowerCase() &&
+          data.id <= dataVisibleCount
+      );
+    }
+    setVisibleItems(tempData);
+  };
+
+  const handleLoadmore = (e) => {
+    e.preventDefault();
+    let tempCount = dataVisibleCount + dataIncrement;
+    if (dataVisibleCount > getAllItems.length) {
+      setNoMorePost(true);
+    } else {
+      setDataVisibleCount(tempCount);
+      if (activeFilter === filters[0].text.toLowerCase()) {
+        setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
+      } else {
+        setVisibleItems(
+          getAllItems.filter(
+            (data) => data.category === activeFilter && data.id <= tempCount
+          )
+        );
+      }
+    }
+  };
   return (
     <section id="passion-projects">
       <div
@@ -25,29 +69,27 @@ function Shippers() {
         }}
       >
           <Link className="navigate-link" href="#vibes">
-            <Pagetitle title="Platforms & Products = Passion Projects" />
+            <Pagetitle title="Platforms & Products" />
           </Link>
-                <h2
-                  className= "text-capitalize current"
+          <ul className="portfolio-filter list-inline filters-voxelverse-position">
+            {filters.map((filter) => (
+              <li className="list-inline-item" key={filter.id}>
+                <button
+                  onClick={handleChange}
+                  className={
+                    filter.text.toLowerCase() === activeFilter
+                      ? "text-capitalize current"
+                      : "text-capitalize"
+                  }
                   style={{ fontSize: 25 }}
                 >
-                  {insiderFilters.text}
-                </h2>
-                <div className="row portfolio-wrapper">
-                  {allInsiderData.map((item) => (
-                    <div className="col-md-4 col-sm-6 grid-item" key={item.id} style={{padding: 50}}>
-                      <ShowcaseInsider portfolio={item} />
-                    </div>
-                  ))}
-                </div>
-                <h2
-                  className= "text-capitalize current"
-                  style={{ fontSize: 25 }}
-                >
-                  {filters.text}
-                </h2>
+                  {filter.text}
+                </button>
+              </li>
+            ))}
+          </ul>
         <div className="row portfolio-wrapper">
-          {allData.map((item) => (
+          {visibleItems.map((item) => (
             <div className="col-md-4 col-sm-6 grid-item" key={item.id} style={{padding: 50}}>
               <Showcase portfolio={item} />
             </div>
@@ -56,8 +98,16 @@ function Shippers() {
         <div className="load-more text-center mt-4">
           <button
             className="btn btn-default"
+            onClick={handleLoadmore}
+            disabled={noMorePost ? "disabled" : null}
           >
-            Shipping code in progress 🥞🥞🥞🥞 wait for it
+            {noMorePost ? (
+              "Shipping code in progress 🥞🥞🥞🥞 wait for it"
+            ) : (
+              <span>
+                <i className="fas fa-spinner"></i> Curios about? Travel further
+              </span>
+            )}
           </button>
         </div>
       </div>

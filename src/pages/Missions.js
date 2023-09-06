@@ -5,6 +5,7 @@ import Pagetitle from "../components/elements/Pagetitle";
 import Showcase from "../components/elements/Showcase";
 import CivilizationsFiltersJson from "../data/missions-filters.json";
 import CivilizationsJson from "../data/missions.json";
+import Image from "next/image";
 
 
 function Missions() {
@@ -104,7 +105,7 @@ function Missions() {
             <Pagetitle title="WOAPs" />
             <ul>
               <li className="list-inline-item" >
-                <img src="/images/works/well-done-flow.png" alt="well done" style={{ borderRadius: 60, width: 400}}/>
+                <Image src="/images/works/well-done-flow.png" alt="well done" style={{ borderRadius: 60}} width={400} height={400}/>
               </li>
             </ul>
           </div>

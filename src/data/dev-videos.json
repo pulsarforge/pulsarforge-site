@@ -4,15 +4,15 @@
     "title": "V0001 Dioxuslabs, Building Front-Ends, V0001",
     "category": "rust",
     "description": "Building Front with Rust",
-    "image": "images/teaching/rust-0001-dioxuslabs.jpg",
-    "link": ["https://www.youtube.com/watch?v=7QVjhrJfchE&t"]
+    "image": "/images/teaching/rust-0001-dioxuslabs.jpg",
+    "link": "https://www.youtube.com/watch?v=7QVjhrJfchE&t"
   },
   {
     "id": 2,
     "title": "V0001 Reactjs, Reactjs overriding default config, V0001",
     "category": "reactjs",
     "description": "Override default React config with craco",
-    "image": "images/teaching/reactjs-0001-overriders.jpg",
-    "link": ["https://www.youtube.com/watch?v=-Nitvz_AUJo"]
+    "image": "/images/teaching/reactjs-0001-overriders.jpg",
+    "link": "https://www.youtube.com/watch?v=-Nitvz_AUJo"
   }
 ]

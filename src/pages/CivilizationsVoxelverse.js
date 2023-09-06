@@ -5,6 +5,7 @@ import Pagetitle from "../components/elements/Pagetitle";
 import Showcase from "../components/elements/Showcase";
 import CivilizationsFiltersJson from "../data/civilizations-filters.json";
 import CivilizationsJson from "../data/civilizations.json";
+import Image from "next/image";
 
 
 function CivilizationsVoxelverse() {
@@ -160,7 +161,7 @@ function CivilizationsVoxelverse() {
           </h2>
           <br />
           <br />
-          <img src="/images/works/bear-time-party-head.jpg" style={{width: "400px", height: "400px", borderRadius: 100}} alt="party head"/>
+          <Image src="/images/works/bear-time-party-head.jpg" style={{borderRadius: 100}} width={500} height={500} alt="party head"/>
           <br />
           <br />
           <h2 className="civilizations-h2" style={{fontSize: 45 }}>

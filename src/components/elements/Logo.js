@@ -1,11 +1,12 @@
 import React from "react";
 import  Link  from 'next/link';
+import Image from "next/image";
 
 function Logo({ logoSource, bootstrapNav }) {
   if (bootstrapNav) {
     return (
       <Link className="navbar-brand" to="/">
-        <img src={logoSource} alt="Pulsarforge" />
+        <Image src={logoSource} alt="Pulsarforge" width={120} height={120}/>
       </Link>
     );
   }
@@ -13,7 +14,7 @@ function Logo({ logoSource, bootstrapNav }) {
   return (
     <div className="site-logo">
       <Link to="/">
-        <img className="site-logo-image" src={logoSource} alt="Pulsarforge" />
+        <Image className="site-logo-image" src={logoSource} alt="Pulsarforge" width={120} height={120}/>
       </Link>
     </div>
   );

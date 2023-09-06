@@ -4,81 +4,63 @@
     "title": "Category Reactjs",
     "category": "front",
     "description": "Reactjs",
-    "image": "images/dev-docs/category/reactjs-reimagined.jpg",
-    "link": ["https://main.pulsarforge.io/docs/category/react"]
+    "image": "/images/dev-docs/category/reactjs-reimagined.jpg",
+    "link": "https://main.pulsarforge.io/docs/category/react"
   },
   {
     "id": 2,
     "title": "Category Rust",
     "category": "rust",
     "description": "Rustaceans",
-    "image": "images/dev-docs/category/rustaceans-harvesting-v2.jpg",
-    "link": ["https://main.pulsarforge.io/docs/category/rust"]
+    "image": "/images/dev-docs/category/rustaceans-harvesting-v2.jpg",
+    "link": "https://main.pulsarforge.io/docs/category/rust"
   },
   {
     "id": 3,
     "title": "Article",
     "category": "ai",
     "description": "Code completions",
-    "image": "images/dev-docs/ai-code-assistant-setup.jpg",
-    "link": ["https://main.pulsarforge.io/docs/ai/code-completions/self-hosted"]
+    "image": "/images/dev-docs/ai-code-assistant-setup.jpg",
+    "link": "https://main.pulsarforge.io/docs/ai/code-completions/self-hosted"
   },
   {
     "id": 4,
     "title": "Article",
     "category": "tools",
     "description": "Understand and research codebases",
-    "image": "images/dev-docs/research-large-codebases.jpg",
-    "link": ["https://main.pulsarforge.io/docs/tools/research-codebases"]
+    "image": "/images/dev-docs/research-large-codebases.jpg",
+    "link": "https://main.pulsarforge.io/docs/tools/research-codebases"
   },
   {
     "id": 5,
     "title": "Category NEAR Protocol",
     "category": "web3",
     "description": "Near",
-    "image": "images/dev-docs/category/near.png",
-    "link": ["https://main.pulsarforge.io/docs/category/near"]
+    "image": "/images/dev-docs/category/near.png",
+    "link": "https://main.pulsarforge.io/docs/category/near"
   },
   {
     "id": 6,
     "title": "Category Cloudflare",
     "category": "back",
     "description": "Cloudflare",
-    "image": "images/dev-docs/category/cloudflare.jpg",
-    "link": ["https://main.pulsarforge.io/docs/category/cloudflare"]
+    "image": "/images/dev-docs/category/cloudflare.jpg",
+    "link": "https://main.pulsarforge.io/docs/category/cloudflare"
   },
   {
     "id": 7,
     "title": "Category Aurora",
     "category": "web3",
     "description": "Aurora",
-    "image": "images/dev-docs/category/aurora.jpg",
-    "link": ["https://main.pulsarforge.io/docs/category/aurora"]
+    "image": "/images/dev-docs/category/aurora.jpg",
+    "link": "https://main.pulsarforge.io/docs/category/aurora"
   },
   {
     "id": 8,
     "title": "Category OnFlow",
     "category": "web3",
     "description": "Flow",
-    "image": "images/dev-docs/category/flow.png",
-    "link": ["https://main.pulsarforge.io/docs/category/flow"]
-  },
-
-  {
-    "id": 9,
-    "title": "Article",
-    "category": "tools",
-    "description": "Package managers, chocolatey",
-    "image": "images/dev-docs/chocolatey.jpg",
-    "link": ["https://main.pulsarforge.io/docs/tools/chocolatey"]
-  },
-
-  {
-    "id": 10,
-    "title": "Article",
-    "category": "ai",
-    "description": "Leonardo image generation",
-    "image": "images/dev-docs/ai-image-generation-leonardo.jpg",
-    "link": ["https://main.pulsarforge.io/docs/ai/image-generation/leonardo-ai"]
+    "image": "/images/dev-docs/category/flow.png",
+    "link": "https://main.pulsarforge.io/docs/category/flow"
   }
 ]

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function MakingTheDifference({ serviceboxItem }) {
@@ -12,7 +13,7 @@ function MakingTheDifference({ serviceboxItem }) {
       style={{color: "#fff"}}
     >
       {badge && <span className="badge">{badge}</span>}
-      {icon ? <img src={icon} alt="Regular" /> : <></>}
+      {icon ? <Image src={icon} alt="Regular" width={180} height={180} /> : <></>}
       <h2 className="plan" style={{color: "#fff"}}>{title}</h2>
       {content.map((singleContent) => (
         <p className="service-p" key={singleContent.id}>

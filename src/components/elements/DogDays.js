@@ -1,5 +1,6 @@
 import React from "react";
 import Link from 'next/link';
+import Image from "next/image";
 
 function DogDays({ blogData }) {
   const { category, title, description, image, author, filesource } = blogData;
@@ -9,7 +10,7 @@ function DogDays({ blogData }) {
         <Link href={filesource}>
           <div className="thumb">
             <span className="category">{category}</span>
-            <img src={image} alt="blog-title" />
+            <Image src={image} alt="blog-title" width={360} height={360}/>
           </div>
           <div className="details">
             <h4 className="my-0 title">
