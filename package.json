@@ -16,6 +16,7 @@
     "next": "13.4.9",
     "next-seo": "^6.1.0",
     "react": "^18.2.0",
+    "react-code-blocks": "^0.1.0",
     "react-dom": "^18.2.0",
     "sass": "^1.60.0"
   },
@@ -23,13 +24,11 @@
     "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "build:obf": "next build && javascript-obfuscator ./build --debug-protection true --output ./build",
     "devWrangler": "wrangler dev --local",
-    "preDeploy": "yarn build & yarn export",
     "deploy": "wrangler publish",
     "autodev": "yarn build & yarn start",
-    "autodeploy": "yarn build & yarn export & yarn deploy",
-    "autodeploy:obf": "yarn build:obf & yarn export & yarn deploy"
+    "autodeploy": "yarn build & yarn deploy",
+    "autodeploy:obf": "yarn build:obf & yarn deploy"
   }
 }
