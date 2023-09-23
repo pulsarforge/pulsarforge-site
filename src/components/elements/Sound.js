@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState, useEffect, useRef } from "react";
 
 function useAudio(url) {

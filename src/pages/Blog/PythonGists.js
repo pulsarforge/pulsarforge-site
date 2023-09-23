@@ -1,5 +1,4 @@
 import React from "react";
-import { NextSeo } from 'next-seo';
 import { CopyBlock,dracula } from "react-code-blocks";
 
 function PythonGists(){

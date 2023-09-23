@@ -3,13 +3,13 @@
         "id": 1,
         "year": "Previously",
         "totalContributions": "Jobs & Dev Skills",
-        "soundUrl": "/sounds/swimming.mp3",
-        "afterText": "🐋"
+        "soundUrl": "/sounds/parrots.mp3",
+        "afterText": "🦜"
     },
     {
         "id": 2,
         "year": "2017-2020",
-        "totalContributions": "Works at Multinationals",
+        "totalContributions": "Dev Jobs",
         "soundUrl": "/sounds/4x4.mp3",
         "afterText": "🚙"
     },

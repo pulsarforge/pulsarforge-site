@@ -15,7 +15,7 @@
     "category": "gardening",
     "description": "Pulsarforge",
     "text": "Code Garden and Playground at GitHub",
-    "image": "/images/works/pulsar-forge.png",
+    "image": "/images/works/light-travel-round.png",
     "link": "https://github.com/pulsarforge/",
     "innerLink": false
   },
@@ -31,6 +31,16 @@
   }, 
   {
     "id": 4,
+    "title": "Stand Up Comedy",
+    "category": "platforms",
+    "description": "Stand Up AI Comedy",
+    "text": "Shows across topics. Creators Platform",
+    "image": "/images/works/dao-it-board.png",
+    "link": "https://standup.pulsarforge.io",
+    "innerLink": false
+  },
+  {
+    "id": 5,
     "title": "Path Registries",
     "category": "platforms",
     "description": "Main Docs",
@@ -40,23 +50,13 @@
     "innerLink": false
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Newsletter and Podcast",
     "category": "gardening",
     "description": "Blocks Labs",
     "text": "Newsletter Techs and Life Topics",
     "image": "/images/works/blocks-labs-v.png",
     "link": "https://pulsarforge.substack.com/",
-    "innerLink": false
-  },
-  {
-    "id": 6,
-    "title": "Blog & Notes",
-    "category": "gardening",
-    "description": "Dog Days",
-    "text": "Personal Blog",
-    "image": "/images/works/spacehunt-v1.png",
-    "link": "/Blog",
     "innerLink": false
   },
   {
@@ -81,6 +81,16 @@
   },
   {
     "id": 9,
+    "title": "Blog & Notes",
+    "category": "gardening",
+    "description": "Dog Days",
+    "text": "Personal Blog",
+    "image": "/images/works/spacehunt-v1.png",
+    "link": "/Blog",
+    "innerLink": true
+  },
+  {
+    "id": 10,
     "title": "Achievements On Chain",
     "category": "collectibles",
     "description": "Well Done Flow",
@@ -88,16 +98,6 @@
     "image": "/images/works/well-done-flow.png",
     "link": "/Missions",
     "innerLink": true
-  },
-  {
-    "id": 10,
-    "title": "DAOs",
-    "category": "platforms",
-    "description": "DAO It Board",
-    "text": "DAOs Board Across Protocols",
-    "image": "/images/works/dao-it-board.png",
-    "link": "https://daosboard.pulsarforge.io",
-    "innerLink": false
   },
   {
     "id": 11,
@@ -113,11 +113,11 @@
     "id": 12,
     "title": "Readings",
     "category": "gardening",
-    "description": "Substack Radar",
-    "text": "Readings on Substack",
+    "description": "Readings Radar",
+    "text": "Get, Next, Progress, Finished",
     "image": "/images/works/trends-substack-radar-v1.png",
-    "link": "/SubstackRadar",
-    "innerLink": true
+    "link": "https://readings.pulsarforge.io/",
+    "innerLink": false
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "text": "Collection of Hackathons",
     "image": "/images/works/board-hacks.png",
     "link": "https://boardhacks.pulsarforge.io/",
-    "innerLink": true
+    "innerLink": false
   },
   {
     "id": 14,
@@ -137,10 +137,20 @@
     "text": "Having fun",
     "image": "/images/works/startup-stage.png",
     "link": "https://www.youtube.com/@pulsarforge",
-    "innerLink": true
+    "innerLink": false
   },
   {
     "id": 15,
+    "title": "Dev Labs Blog",
+    "category": "bootcamp",
+    "description": "Hash Node Blog",
+    "text": "An exploration of code topics and scaling platforms",
+    "image": "/images/works/on-the-board.png",
+    "link": "https://devlabs.pulsarforge.io/",
+    "innerLink": false
+  },
+  {
+    "id": 16,
     "title": "Becomming a Total Programmer",
     "category": "bootcamp",
     "description": "Bootcamp Becomming a Total Programmer",
@@ -148,5 +158,16 @@
     "image": "/images/works/shows.png",
     "link": "/",
     "innerLink": true
+  },
+  {
+    "id": 17,
+    "title": "Shop Badges",
+    "category": "collectibles",
+    "description": "Shop at the Voxelverse",
+    "text": "Redbubble Party",
+    "image": "/images/works/light-travel-circular.png",
+    "link": "https://www.redbubble.com/es/people/pulsarforge/shop",
+    "innerLink": false
   }
+  
 ]

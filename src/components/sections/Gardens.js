@@ -18,13 +18,13 @@ function Gardens() {
           marginTop: "100px",
         }}
       >
-        <Link className="navigate-link" href="#passion-projects">
-          <Pagetitle title="The Highlights & Open code garden" />
+        <Link className="navigate-link" href="#making-the-difference">
+          <Pagetitle title="The Highlights" />
         </Link>
       </div>
       <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
         <div className="row align-items-center page-title-center" style={{color: "#26a641"}}>
-          <p style={{ color: "#fff", fontSize: 30, marginBottom: 100 }}>@pulsarforge at GitHub, Highlights, Open Source</p>
+          <p style={{ color: "#fff", fontSize: 30, marginBottom: 100 }}> Work on my writings skills </p>
           <ul style={{ fontWeight: "bold" }}>
           {allData.map((data) => (
             <li className="list-inline-item" style={{ paddingLeft: "42px", paddingRight: "42px" }} key={data.id}>
@@ -39,12 +39,6 @@ function Gardens() {
         <br/>
         <br/>
         <br/>
-        <div className="page-title-center">
-          <Pagetitle title="Newsletter" />
-          <br/>
-          <br/>
-          <iframe src="https://pulsarforge.substack.com/embed" style={{width: "480px", height:"480px", border: "1px", borderRadius: "40px", solid: "#EEE", background: "white"}} title="Newsletter"></iframe>
-        </div>
       </div>
     </section>
   );

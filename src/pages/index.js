@@ -14,7 +14,7 @@ function Home() {
     <>
           <Head>
             <meta charset="utf-8" />
-            <link rel="icon" href="%PUBLIC_URL%/images/logo.png" sizes="256x256" />
+            <link rel="icon" href="./images/logo.png" sizes="256x256" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="theme-color" content="#000000" />
             <meta name="mobile-web-app-capable" content="yes" />
@@ -36,8 +36,8 @@ function Home() {
             <meta name="twitter:image" content="https://pulsarforge.io/images/logo.png" />
             <meta name="twitter:title" content="Pulsarforge Web3 Labs" />
             <meta name="twitter:description" content="Developer Labs. Code Garden. Playground. Community. Scaling Platforms."/>
-            <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/logo.png" />
-            <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+            <link rel="apple-touch-icon" href="./images/logo.png" />
+            <link rel="manifest" href="./manifest.json" />
           
           </Head>
       
@@ -51,10 +51,6 @@ function Home() {
         <br />
         <br />
         <MakingTheDifferences />
-        <br />
-        <br />
-        <br />
-        <Shippers />
         <br />
         <br />
         <br />

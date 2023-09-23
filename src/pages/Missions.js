@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { NextSeo } from 'next-seo';
 
 import Pagetitle from "../components/elements/Pagetitle";
 import Showcase from "../components/elements/Showcase";
@@ -61,41 +60,6 @@ function Missions() {
 
   return (
     <>
-        <NextSeo
-          title="WOAPs Life Events ✨"
-          description="Complete a life event, join the community, proof and claim, WOAPs"
-          openGraph={{
-            type: 'website',
-            url: 'https://pulsarforge/Missions',
-            title: 'WOAPs your inmutable proof of achievements',
-            description: 'Missions, NFTs Memories, and Life Events, Inmutable Proof of Achievements, WOAPs',
-            images: [
-              {
-                url: 'https://pulsarforge/images/works/well-done-flow.png',
-                width: 800,
-                height: 800,
-                alt: 'WOAPs Logo',
-              }
-            ],
-            siteName: 'Pulsarforge home labs',
-            tags: ['WOAPs', 'NFTs', 'Life Events', 'Certification'],
-          }}
-          additionalLinkTags={[
-            {
-              rel: 'icon',
-              href: 'https://pulsarforge/images/logo.png',
-            },
-            {
-              rel: 'apple-touch-icon',
-              href: 'https://pulsarforge/images/logo.png',
-            }
-          ]}
-          twitter={{
-            handle: '@pulsarforge',
-            site: '@site',
-            cardType: 'summary_large_image',
-          }}
-        />
       
       <main>
           <div className="page-title-center-maring-top">

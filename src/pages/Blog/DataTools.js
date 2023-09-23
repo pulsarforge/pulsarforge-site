@@ -1,5 +1,4 @@
 import React from "react";
-import { NextSeo } from 'next-seo';
 
 
 function DataTools(){
@@ -27,7 +26,7 @@ function DataTools(){
 -- Wen? 
 <br/>
 <br/>
--- Thoon.
+-- Shhhh...
 <br/>
 <br/>
 -- Working hard takes time.

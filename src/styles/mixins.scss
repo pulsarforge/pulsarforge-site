@@ -1,5 +1,10 @@
-$fonthead: "Rubik", sans-serif;
-$fontstack: "Rubik", sans-serif;
+@font-face {
+  font-family: "Maverick";
+  src: local("Maverick"),
+    url("../../public/fonts/maverick.otf") format("opentype");
+}
+$fonthead: 'Maverick', sans-serif;
+$fontstack: 'Maverick', sans-serif;
 $fontdog: "DogBrain", sans-serif;
 $colordark: rgb(37, 37, 37);
 $coloryellow: #ffd15c;

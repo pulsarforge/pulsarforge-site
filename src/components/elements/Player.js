@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import Image from "next/image";
+import React, { useState, useEffect, useRef } from "react";
 
 function useAudio(url) {
   const audio = useRef(
@@ -22,7 +23,7 @@ function useAudio(url) {
   return [playing, toggle];
 };
 
-function Player ({ url }){
+function Player ({ url, urlImage }){
   const [playing, toggle] = useAudio(url);
 
   return (
@@ -31,23 +32,27 @@ function Player ({ url }){
       <button style={{background: "none", border: "none", fontSize: "24px"}} onClick={toggle}>
         {playing ? 
           (  <>
-            <i>💃</i>
-            <a
-            className="nav-link side-by-side"
-            style={{paddingLeft: "35px"}}
-            href="https://soundcloud.com/pulsarforge/reposts"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h5>Stage</h5> 
-          </a>
 
-           
-            </>
+            <Image
+              src={urlImage}
+              alt="Pulsarforge"
+              width={420}
+              height={420}
+            /> 
+            <h5>Muscles Flexing</h5>
+           </>
           ) 
           : 
           (
-            <i>🌴</i>
+            <>
+            <Image
+              src={urlImage}
+              alt="Pulsarforge"
+              width={420}
+              height={420}
+            /> 
+            
+            </>
           )
         }
       </button>

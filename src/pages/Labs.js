@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Pagetitle from "../elements/Pagetitle";
-import Showcase from "../elements/Showcase";
-import ShipperJson from "../../data/shippers.json";
-import ShipperFiltersJson from "../../data/shippers-filters.json";
-import ShipperInsiderJson from "../../data/shippers-insider.json";
-import ShipperInsiderFiltersJson from "../../data/shippers-insider-filters.json";
-import ShowcaseInsider from "../elements/ShowcaseInsider";
+import Pagetitle from "../components/elements/Pagetitle";
+import Showcase from "../components/elements/Showcase";
+import ShipperJson from "../data/shippers.json";
+import ShipperFiltersJson from "../data/shippers-filters.json";
 
-function Shippers() {
+function Labs() {
   const allData = ShipperJson;
   const filters = ShipperFiltersJson;
   const allDataLength = ShipperJson.length;
@@ -111,8 +108,15 @@ function Shippers() {
           </button>
         </div>
       </div>
+        <br />
+        <br />
+        <br />
+        <div className="spacer" data-height="96"></div>
+        <br />
+        <br />
+        <br />
     </section>
   );
 }
 
-export default Shippers;
+export default Labs;

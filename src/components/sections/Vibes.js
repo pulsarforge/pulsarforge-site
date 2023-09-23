@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Sound from "../elements/Sound";
+import Player from "../elements/Player";
 
 function Vibes() {
 
@@ -20,13 +22,9 @@ function Vibes() {
           backgroundSize: "100%",
         }}
       >
+
         <div className="intro-logo">
-            <Image
-              src="/images/logo.png"
-              alt="Pulsarforge"
-              width={420}
-              height={420}
-            />
+            <Player url="/sounds/swimming.mp3" urlImage="/images/logo.png"/>
         </div>
         <div className="intro">
           <Link className="navigate-link" href="#code-gardens">

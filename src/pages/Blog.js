@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { NextSeo } from 'next-seo';
 
 import Pagetitle from "../components/elements/Pagetitle";
 import Pagination from "../components/elements/Pagination";
@@ -40,42 +39,6 @@ function DogDays() {
   };
   return (
     <>
-        <NextSeo
-          title="Dog Days Blog ✍🏽"
-          description="Blog of a dog living tech adventures, gaining knowledge"
-          openGraph={{
-            type: 'website',
-            url: 'https://pulsarforge/DogDays',
-            title: 'Dog Days Blog ✍🏽',
-            description: 'Blog of a dog living tech adventures, gaining knowledge',
-            images: [
-              {
-                url: 'https://pulsarforge.io/images/dog-blog-we-are-early.jpg',
-                width: 1920,
-                height: 1080,
-                alt: 'Dog Days Blog Logo',
-              }
-            ],
-            siteName: 'Pulsarforge home labs',
-            tags: ['Personal', 'Blog', 'Dog', 'Tech', 'Programming', 'Life'],
-          }}
-          additionalLinkTags={[
-            {
-              rel: 'icon',
-              href: 'https://pulsarforge/images/logo.png',
-            },
-            {
-              rel: 'apple-touch-icon',
-              href: 'https://pulsarforge/images/logo.png',
-            }
-          ]}
-          twitter={{
-            handle: '@pulsarforge',
-            site: '@site',
-            cardType: 'summary_large_image',
-          }}
-        />
-      
       <main>
       <div className="spacer" data-height="96"></div>
         <br />

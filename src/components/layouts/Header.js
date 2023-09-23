@@ -64,13 +64,13 @@ function Header({ light, logoSource }) {
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
               <li className="nav-item">
                 <Link className="nav-link side-by-side" href="/">
-                  <h5>Home Labs</h5>
+                  <h5>Home Dev Labs</h5>
                 </Link>
               </li>
             </ul>
             <ul className="navbar-nav mx-auto ml-auto scrollspy">
               <li className="nav-item">
-                <Sound url="/music/jungle.mp3" textInit="🌴" textAfter="🎶" />
+                <Sound url="/music/jungle.mp3" textInit="🎶" textAfter="🌴" />
               </li>
             </ul>
           </div>

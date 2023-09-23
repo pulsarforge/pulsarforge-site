@@ -17,7 +17,7 @@ function MakingTheDifferences() {
           marginTop: "100px",
         }}
       >
-        <Link className="navigate-link" href="#dev-docs">
+        <Link className="navigate-link" href="#passion-projects">
           <Pagetitle title="Making the Difference" />
         </Link>
         <div className="row align-items-center">

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { NextSeo } from 'next-seo';
 
 import Pagetitle from "../components/elements/Pagetitle";
 import Showcase from "../components/elements/Showcase";
@@ -61,41 +60,6 @@ function CivilizationsVoxelverse() {
 
   return (
     <>
-        <NextSeo
-          title="Explore the Voxelverse 🛸"
-          description="Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party"
-          openGraph={{
-            type: 'website',
-            url: 'https://pulsarforge.io/CivilizationsVoxelverse',
-            title: 'Explore the Voxelverse 🛸',
-            description: 'Each dimension was living in their own space and time, until the portals were opened, breaking the Voxelverse peace and, starting the party',
-            images: [
-              {
-                url: 'https://pulsarforge.io/images/works/bear-time-party-head.jpg',
-                width: 800,
-                height: 800,
-                alt: 'Civilizations Voxelverse Logo',
-              }
-            ],
-            siteName: 'Explore the Voxelverse 🛸',
-            tags: ['Voxel Art', 'hand crafted', 'world building', 'Civilizations', 'Voxelverse', 'Collectibles'],
-          }}
-          additionalLinkTags={[
-            {
-              rel: 'icon',
-              href: 'https://pulsarforge/images/logo.png',
-            },
-            {
-              rel: 'apple-touch-icon',
-              href: 'https://pulsarforge/images/logo.png',
-            }
-          ]}
-          twitter={{
-            handle: '@pulsarforge',
-            site: '@site',
-            cardType: 'summary_large_image',
-          }}
-        />
       <main>
           <div className="page-title-center-maring-top">
             <Pagetitle title="Civilizations Voxelverse" />

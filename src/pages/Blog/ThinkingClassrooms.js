@@ -1,5 +1,4 @@
 import React from "react";
-import { NextSeo } from 'next-seo';
 
 
 function ThinkingClassrooms(){
@@ -79,6 +78,30 @@ How to foster students autonomy?
 Key points:
  * Mobilize the knowledge already present in the room by the different student groups.
  * By realising the control of the teacher providing all the answers, greater advancements in the learning experience happens.
+<br/>
+<br/>
+
+Chapter 9:
+How to use hints and extensions?
+<br/>
+key points:
+ * When the frustration is high use hints and when the challenge is low use extensions to stay in the flow.
+ * Use sequences of task where only one element of the sequence change and It is a gradual change. 
+<br/>
+<br/>
+
+Chapter 10:
+How we consolidate a lesson in a thinking classroom?
+<br/>
+Consolidate the knowledge since the most simple form doing emphasis in the first phases to build up to the top
+
+Chapter 11
+How to take notes in a thinking classroom?
+<br/>
+
+Using templates that delimites space or topic, adding working examples, write collaboratively for your future self.
+<br/>
+<br/>
 </p> 
             </div>
           </div>
